@@ -1,0 +1,1948 @@
+{
+  "query_id": "d7-dev14",
+  "split": "dev",
+  "question": "Theo khung ra quyết định của Simon, một quyết định độc nhất, phức tạp, không có hướng dẫn hay tiền lệ sẵn có thuộc loại nào và đòi hỏi những năng lực gì?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:00:06.720337+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Simon decision-making framework unique complex decisions no guidelines precedents unstructured decision capabilities skills",
+      "filter": {},
+      "results": [
+        {
+          "id": "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "decision-making.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1870,
+            "language": "en",
+            "char_count": 16,
+            "start_char": 1854,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2672,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 2181,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 3
+          },
+          "rank": 2
+        },
+        {
+          "id": "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "preestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3132,
+            "language": "en",
+            "char_count": 459,
+            "start_char": 2673,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 2
+          },
+          "rank": 3
+        },
+        {
+          "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 54,
+          "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 50,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4179
+          },
+          "score": 0.031009615384615385,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 5
+          },
+          "rank": 4
+        },
+        {
+          "id": "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 54,
+          "text": "be internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1429,
+            "language": "en",
+            "char_count": 435,
+            "start_char": 994,
+            "printed_page": 50,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4179
+          },
+          "score": 0.02804284323271665,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 19
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86 | chapter1-2.pdf | page 72]\ndecision-making.\n\n[2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331 | chapter1-2.pdf | page 53]\nframework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on\n\n[dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b | chapter1-2.pdf | page 53]\npreestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):\n\n[08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be | chapter1-2.pdf | page 54]\nFigure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and\n\n[746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364 | chapter1-2.pdf | page 54]\nbe internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+      "context_ids": [
+        "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+        "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+        "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+        "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+        "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Theo khung ra quyết định của Simon, một quyết định độc nhất, phức tạp, không có hướng dẫn hay tiền lệ sẵn có thuộc loại nào và đòi hỏi những năng lực gì?",
+    "filter": {},
+    "results": [
+      {
+        "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 53,
+        "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2672,
+          "language": "en",
+          "char_count": 491,
+          "start_char": 2181,
+          "printed_page": 49,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3777
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 1
+        },
+        "rank": 1
+      },
+      {
+        "id": "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 72,
+        "text": "decision-making.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1870,
+          "language": "en",
+          "char_count": 16,
+          "start_char": 1854,
+          "printed_page": 68,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4031
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1
+        },
+        "rank": 2
+      },
+      {
+        "id": "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 54,
+        "text": "be internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1429,
+          "language": "en",
+          "char_count": 435,
+          "start_char": 994,
+          "printed_page": 50,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4179
+        },
+        "score": 0.015873015873015872,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 3
+        },
+        "rank": 3
+      },
+      {
+        "id": "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 53,
+        "text": "preestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3132,
+          "language": "en",
+          "char_count": 459,
+          "start_char": 2673,
+          "printed_page": 49,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3777
+        },
+        "score": 0.015625,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 4
+        },
+        "rank": 4
+      },
+      {
+        "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 54,
+        "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 492,
+          "language": "en",
+          "char_count": 492,
+          "start_char": 0,
+          "printed_page": 50,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4179
+        },
+        "score": 0.015384615384615385,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 5
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là **quyết định phi cấu trúc (nonprogrammed)**. Vì độc nhất, phức tạp và thiếu hướng dẫn hoặc tiền lệ định sẵn, quyết định này đòi hỏi **phán đoán, phân tích và sáng tạo**. [dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b]",
+  "elapsed_ms": 4461.432699998113,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 401,
+        "completion_tokens": 31,
+        "total_tokens": 432
+      },
+      "action": {
+        "action": "search",
+        "query": "Simon decision-making framework unique complex decisions no guidelines precedents unstructured decision capabilities skills"
+      },
+      "elapsed_ms": 1356.83649999919
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Simon decision-making framework unique complex decisions no guidelines precedents unstructured decision capabilities skills"
+          ],
+          "context": "[b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86 | chapter1-2.pdf | page 72]\ndecision-making.\n\n[2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331 | chapter1-2.pdf | page 53]\nframework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on\n\n[dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b | chapter1-2.pdf | page 53]\npreestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):\n\n[08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be | chapter1-2.pdf | page 54]\nFigure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and\n\n[746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364 | chapter1-2.pdf | page 54]\nbe internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+          "context_ids": [
+            "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+            "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+            "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+            "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+            "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1302,
+        "completion_tokens": 151,
+        "total_tokens": 1453
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là **quyết định phi cấu trúc (nonprogrammed)**. Vì độc nhất, phức tạp và thiếu hướng dẫn hoặc tiền lệ định sẵn, quyết định này đòi hỏi **phán đoán, phân tích và sáng tạo**. [dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b]",
+        "citations": [
+          "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b"
+        ]
+      },
+      "elapsed_ms": 2086.5368000013405
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Theo khung ra quyết định của Simon, một quyết định độc nhất, phức tạp, không có hướng dẫn hay tiền lệ sẵn có thuộc loại nào và đòi hỏi những năng lực gì?",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "decision-making.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1870,
+              "language": "en",
+              "char_count": 16,
+              "start_char": 1854,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.2824300773704449,
+            "strategy": "dense"
+          },
+          {
+            "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2672,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 2181,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.28055316068306957,
+            "strategy": "dense"
+          },
+          {
+            "id": "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "be internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1429,
+              "language": "en",
+              "char_count": 435,
+              "start_char": 994,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.24397572901818487,
+            "strategy": "dense"
+          },
+          {
+            "id": "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "preestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3132,
+              "language": "en",
+              "char_count": 459,
+              "start_char": 2673,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.2349919100770259,
+            "strategy": "dense"
+          },
+          {
+            "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.2222360609062507,
+            "strategy": "dense"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.2210620054403808,
+            "strategy": "dense"
+          },
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.21552890873647335,
+            "strategy": "dense"
+          },
+          {
+            "id": "1f948c3a3d5d37c9595b3c031a1ac544489fb6e197949a30e3d784ae30b3650f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 5, Ensure and Advise: At this level, employees receive broad direction, giving them more autonomy,\nincluding the ability to self-initiate work that they think should be performed. Their tasks tend to be\ncomplex and are an integral part of an organization’s strategic plans.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1801,
+              "language": "en",
+              "char_count": 281,
+              "start_char": 1520,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.20850257420892027,
+            "strategy": "dense"
+          },
+          {
+            "id": "7672b5d814968d274c1511d7806bd871180a237ebd9d4745ee9e74aa9df11021",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "4 Robert N. Anthony, “Framework for Analysis,” Management Services: A Magazine of Planning, Systems, and Controls 1, no. 1\n(1964): 6, https://egrove.olemiss.edu/mgmtservices/vol1/iss1/6",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3777,
+              "language": "en",
+              "char_count": 185,
+              "start_char": 3592,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.20029310591139615,
+            "strategy": "dense"
+          },
+          {
+            "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.18866144256057493,
+            "strategy": "dense"
+          },
+          {
+            "id": "f9a38364c42a2a521c431d9ee82ae15010e6886db94ac6f3561eea814c39c3a2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 65,
+            "text": "https://www.ibm.com/topics/ai-ethics",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4129,
+              "language": "en",
+              "char_count": 36,
+              "start_char": 4093,
+              "printed_page": 61,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4129
+            },
+            "score": 0.18519208976005108,
+            "strategy": "dense"
+          },
+          {
+            "id": "c6ee65cafa22e19d936f10ec8613fc65e38a4bfb0715fdf09b00f2f2ecda4e13",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 65,
+            "text": "• Opacity and lack of transparency: One of the most troubling aspects of algorithmic digital systems is their\nopacity. Proprietary algorithms protected by trade secrecy laws prevent external scrutiny, leaving users in\nthe dark about the factors influencing their reputation scores or how changes to algorithms may impact\ntheir job opportunities. In digital platforms such as Upwork, there is electronic monitoring of user actions\nthat affects their perceived autonomy.15\nETHICS IN IS",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2553,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 2070,
+              "printed_page": 61,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4129
+            },
+            "score": 0.18006474218624668,
+            "strategy": "dense"
+          },
+          {
+            "id": "a309b12b7ac5689d95bfac385ca7ce0ec422ff330b970b45ff746a5dc21048c1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "challenges for\nmaking sure data are handled well. Data governance is like a rulebook for how data are managed and making\nsure the right people are responsible for decisions about data.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4423,
+              "language": "en",
+              "char_count": 184,
+              "start_char": 4239,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.16630040270162005,
+            "strategy": "dense"
+          },
+          {
+            "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1767,
+              "language": "en",
+              "char_count": 451,
+              "start_char": 1316,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.16583906224409972,
+            "strategy": "dense"
+          },
+          {
+            "id": "05fe8b5545be13a473cd2fdb17ebc0a2863a84537296c21d8bb3605a666e4196",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 4, Enable: Employees at this level have much more complex work in a broader range of contexts.\nWhile they receive general direction, they have considerable autonomy, as well as personal responsibility\nfor work outcomes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1519,
+              "language": "en",
+              "char_count": 227,
+              "start_char": 1292,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.16507664815938827,
+            "strategy": "dense"
+          },
+          {
+            "id": "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1467,
+              "language": "en",
+              "char_count": 245,
+              "start_char": 1222,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.16336812467029527,
+            "strategy": "dense"
+          },
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.16153523783011492,
+            "strategy": "dense"
+          },
+          {
+            "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 857,
+              "language": "en",
+              "char_count": 477,
+              "start_char": 380,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.16071871853066333,
+            "strategy": "dense"
+          },
+          {
+            "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1949,
+              "language": "en",
+              "char_count": 481,
+              "start_char": 1468,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.1583915060507145,
+            "strategy": "dense"
+          },
+          {
+            "id": "1fc5e6e7e97b2728be15b851b82c39b75f99e9d1b4535dc9f423ca19662f1edf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 65,
+            "text": "IBM provides a notable example of IS ethics in AI decision-making. IBM has been actively working on ethical\nAI initiatives, emphasizing fairness, transparency, and accountability in algorithmic decision-making across\nvarious domains such as hiring, lending, and law enforcement. IBM’s approach involves developing AI\nsystems that mitigate biases, ensuring inclusivity, and safeguarding privacy through responsible data\npractices. Their efforts include implementing ethical AI frameworks, promoting",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3100,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 2603,
+              "printed_page": 61,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4129
+            },
+            "score": 0.15810474610460834,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2672,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 2181,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.1583486081239471,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2672,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 2181,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "decision-making.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1870,
+            "language": "en",
+            "char_count": 16,
+            "start_char": 1854,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.01639344262295082,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1
+          },
+          "rank": 2
+        },
+        {
+          "id": "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 54,
+          "text": "be internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1429,
+            "language": "en",
+            "char_count": 435,
+            "start_char": 994,
+            "printed_page": 50,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4179
+          },
+          "score": 0.015873015873015872,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "preestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3132,
+            "language": "en",
+            "char_count": 459,
+            "start_char": 2673,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.015625,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 54,
+          "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 50,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4179
+          },
+          "score": 0.015384615384615385,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 607.0189999991271
+    },
+    {
+      "query": "Simon decision-making framework unique complex decisions no guidelines precedents unstructured decision capabilities skills",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2672,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 2181,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.5577984441440745,
+            "strategy": "dense"
+          },
+          {
+            "id": "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "decision-making.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1870,
+              "language": "en",
+              "char_count": 16,
+              "start_char": 1854,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.5213688905191038,
+            "strategy": "dense"
+          },
+          {
+            "id": "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "preestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3132,
+              "language": "en",
+              "char_count": 459,
+              "start_char": 2673,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.510569377895438,
+            "strategy": "dense"
+          },
+          {
+            "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.47275572497076845,
+            "strategy": "dense"
+          },
+          {
+            "id": "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "be internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1429,
+              "language": "en",
+              "char_count": 435,
+              "start_char": 994,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.4374911399165402,
+            "strategy": "dense"
+          },
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.4244249021445917,
+            "strategy": "dense"
+          },
+          {
+            "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.40750553775287446,
+            "strategy": "dense"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.3960620859152828,
+            "strategy": "dense"
+          },
+          {
+            "id": "3027a0ae622e05fe179e48d10990319c36e4b94fe7d1952fd98ab766300ecbdc",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "It is important to be aware that the level of automation in these roles can vary. Some tasks are fully\nautomated, meaning the information system handles them entirely without human intervention. In contrast,\nother tasks require human input, where the information system relies on the judgment, expertise, and\nintuition of managers to make decisions based on the information provided.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3716,
+              "language": "en",
+              "char_count": 400,
+              "start_char": 3316,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.39557070944260153,
+            "strategy": "dense"
+          },
+          {
+            "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 874,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 394,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.3847242444688477,
+            "strategy": "dense"
+          },
+          {
+            "id": "6a514b177b2d2f07d5e02bf529f5d3194102e6cecc92f83777628aae321a5111",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "• A decision support system (DSS) assists in decision-making by providing interactive tools and access to\ndata analysis. Typically, senior managers use a DSS to obtain tactical information that helps them make\nroutine, short-term decisions about an organization’s operations. This helps ensure that organizations stay\non track to achieve long-term goals and objectives. Interactive tools available through a DSS enhance\nthese efforts by providing information and technology needed for activities such",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2107,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1607,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.3747172792478287,
+            "strategy": "dense"
+          },
+          {
+            "id": "60c8854150bac13a41d5a105f2de7ee6f8b256ab55141c4a1b658a562d1ef108",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "When applying the Gorry and Scott Morton framework to review existing systems or to propose new systems\nthat cater to user needs, an information systems designer or reviewer often investigates how available\ntechnology can support decision-making. This framework emphasizes both applications and decisions,\nnecessitating input from a diverse range of users to understand the benefits of existing systems or\nexpectations for new ones. It is important to gather user feedback through structured",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1921,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1430,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.3694417258828717,
+            "strategy": "dense"
+          },
+          {
+            "id": "7672b5d814968d274c1511d7806bd871180a237ebd9d4745ee9e74aa9df11021",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "4 Robert N. Anthony, “Framework for Analysis,” Management Services: A Magazine of Planning, Systems, and Controls 1, no. 1\n(1964): 6, https://egrove.olemiss.edu/mgmtservices/vol1/iss1/6",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3777,
+              "language": "en",
+              "char_count": 185,
+              "start_char": 3592,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.36814916527135744,
+            "strategy": "dense"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.3648310453685575,
+            "strategy": "dense"
+          },
+          {
+            "id": "788774d962f68b20f9652f61b28b99fc5ce20f51cee0a83a7425c644ea4cbd8d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Structure: how an organization is designed, including its hierarchy and chain of command\n• Strategy: the organization’s goals/objectives and the plans to achieve these\n• Skills: the skills, knowledge, and competencies held by the organization’s sta ff\n• Systems: the work flow processes used to achieve the organization’s goals and objectives\n• Style: the tone at the executive level established by the organization’s leaders and managers",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1315,
+              "language": "en",
+              "char_count": 440,
+              "start_char": 875,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.3626372750779441,
+            "strategy": "dense"
+          },
+          {
+            "id": "ef27a2dedd2e7455ca99817bcf67c619686abee0c996264a2d518da40d133cb9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "When developing an information system, frameworks provide guidance to help IS professionals apply critical\nthinking as they identify the goals of the system and problems that can be resolved by the system.\nFrameworks promote proactive communication and help IS professionals organize their ideas and provide a\nfoundation for strategic planning to develop and maintain a system that meets an organization’s specific\nneeds. As part of this process, frameworks also provide IS professionals with",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 556,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 64,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.36038630461033194,
+            "strategy": "dense"
+          },
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.3599646112742586,
+            "strategy": "dense"
+          },
+          {
+            "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1767,
+              "language": "en",
+              "char_count": 451,
+              "start_char": 1316,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.3591357276139382,
+            "strategy": "dense"
+          },
+          {
+            "id": "8b0c1571f5efa4b94e3bd42e7f1071842ca86f8451943bece1dbcb85bc519b25",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "1. Intelligence: Gather relevant information and assess the situation to understand the nature and\nrequirements of the activities.\n2. Design: Analyze the collected information to make informed judgments about whether an activity can be\neffectively automated or requires human intervention.\n3. Choice: Based on the decisions made, select the appropriate approach for each activity—either\nprogramming it for automation or handling it through human involvement.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3591,
+              "language": "en",
+              "char_count": 458,
+              "start_char": 3133,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.35498169780668076,
+            "strategy": "dense"
+          },
+          {
+            "id": "468691bc0fcc88ab9b0a1300170db35f333a5099df62ae1b5cb8b6adcb9e5a35",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "using data in mock situations to examine potential\nproblems or opportunities. The decision-making processes that have been improved by information systems\ninclude performance evaluations, risk assessment, budgeting, cost analysis, forecasting, resource allocation,\nstrategic planning, investment analysis, and competitive analysis.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3705,
+              "language": "en",
+              "char_count": 331,
+              "start_char": 3374,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.354924140228288,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "decision-making.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1870,
+              "language": "en",
+              "char_count": 16,
+              "start_char": 1854,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.4022176563359099,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "preestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3132,
+              "language": "en",
+              "char_count": 459,
+              "start_char": 2673,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.24814328091527893,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2672,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 2181,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.24473282301653462,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.21503187906257826,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.16327474644661666,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4269,
+              "language": "en",
+              "char_count": 112,
+              "start_char": 4157,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.1562196447366848,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "9aa847aaf8554c08589f14ac5467c8b9c0a3f0aba6f1250d5dcb58ee0cfc7d58",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "information management. They\nhighlighted the importance of aligning IT strategic planning with an organization’s decision-making needs and\nthe potential benefits that technology can bring to the decision-making process. Gorry and Scott Morton\nsuggest that for each business problem that involves information systems, data managers must first\ndetermine whether the problem is strategic, managerial, or operational in nature and then see whether the\ndecision-makers and the intelligence required should",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 993,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 493,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.1483712999305839,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f99295b1ecf8bf44520ed033490ac30d5a52b7e0e61e67751f3f9716cb61600c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "The other data type, unstructured data, do not reside in a traditional relational database; examples of\nunstructured data generated within organizations are emails, documents, media (videos, images, audio), slide\npresentations, social media activity (such as posts, images, ratings, and recommendations), and web pages.\nThere are several challenges associated with managing unstructured data. Their large volume can make them\ndifficult to store and manage. Unstructured data also come in a variety of",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3658,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 3158,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.12397413400424477,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.12061940735894677,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "67fcdc5d6bc69793ddcec288bd6940cb9ddc6b05ec7cdc7f68f3fa587aade63a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "resources such as continuing\neducation, best practices, and guidelines for systems operations.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 651,
+              "language": "en",
+              "char_count": 94,
+              "start_char": 557,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.1103017091989934,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5b3fda5587e8671364f58cad8c8bd8a6bc86dec0b0a2c95e32fb3162b0e88c23",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• Factors such as physical location and network capabilities that a ffect a system and help determine how it\noperates are referred to as its environment. This also involves the purpose and context of a system,\nincluding whether the majority of users are tech savvy or have limited skills in technology. To ensure that a\nsystem is set up appropriately, it must be implemented in an environment that will promote its capabilities\nand meet the goals and objectives. For example, if an information system",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1494,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 994,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.1097252946632142,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e5e56237201e33365437ad3c220a7d7848ca8ed40fe29f8f01d25275e9c58bd8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Focus on strengthening governance: Organizations should involve IT in strategic planning to ensure\ntechnology initiatives align with overall business goals. Engaging IT in executive committees enhances the\ndecision-making process. Implementing a structured reporting hierarchy establishes clear communication\nchannels, and defining authorization for decision-making roles ensures efficient execution. Coordinated\ngovernance can help set criteria whereby IT projects are prioritized based on their",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2664,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2166,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.10970995636699676,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "60c8854150bac13a41d5a105f2de7ee6f8b256ab55141c4a1b658a562d1ef108",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "When applying the Gorry and Scott Morton framework to review existing systems or to propose new systems\nthat cater to user needs, an information systems designer or reviewer often investigates how available\ntechnology can support decision-making. This framework emphasizes both applications and decisions,\nnecessitating input from a diverse range of users to understand the benefits of existing systems or\nexpectations for new ones. It is important to gather user feedback through structured",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1921,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1430,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.10893976281830203,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c3c15b214a06e345630d00a0ae45962297a9ab3f3c544a4f98b0013431b24467",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "Businesses that strive to ensure they follow these data management parameters can decide to follow any\nframework. A framework is a structured and organized approach that provides a set of guidelines, principles,\nor tools to address complex problems or tasks in a systematic manner . It serves as a foundation to build and\nmanage processes, systems, or projects, ensuring consistency, efficiency, and effectiveness. Following are\nsome common data management frameworks:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 468,
+              "language": "en",
+              "char_count": 468,
+              "start_char": 0,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.1082961823535595,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6a514b177b2d2f07d5e02bf529f5d3194102e6cecc92f83777628aae321a5111",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "• A decision support system (DSS) assists in decision-making by providing interactive tools and access to\ndata analysis. Typically, senior managers use a DSS to obtain tactical information that helps them make\nroutine, short-term decisions about an organization’s operations. This helps ensure that organizations stay\non track to achieve long-term goals and objectives. Interactive tools available through a DSS enhance\nthese efforts by providing information and technology needed for activities such",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2107,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1607,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.10124566297764175,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2399,
+              "language": "en",
+              "char_count": 155,
+              "start_char": 2244,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.09900182326125712,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.09464583128055487,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "37284ce360e6b740613297557cb261dcdd9fdd6335156e9176072754e7a0ec58",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "sales reports that may provide valuable data for\nboth managerial and strategic decision-making. Similarly, an online retail system primarily focused on\noperational control can generate reports, such as a sales analysis report. While intended for operational\npurposes, such reports can also provide valuable data for both managerial and strategic decision-making. For\ninstance, Zara has been able to use online retail system data for its supply chain management system to beat\ncompetitors in the time",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3567,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 3068,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.09401900172069777,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "be internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1429,
+              "language": "en",
+              "char_count": 435,
+              "start_char": 994,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.09380684293312838,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f0d2b5e3efce68cce5522d70aedc4b5b92860768d2a5fae453bcf3cbba376d9c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data analytics involves analyzing data to extract insights and support decision-making. It includes\nimplementing activities like data warehousing, mining, and visualization to achieve meaningful\ninformation extraction. These tools, techniques, and insights can be used in AI and machine learning\napplications. (George Firican, ”Data Management Framework 101”)\n3 George Firican, “Data Management Framework 101,” LightsOnData, https://www.lightsondata.com/data-management-\nframework/",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2143,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 1660,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.0934707609318669,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "decision-making.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1870,
+            "language": "en",
+            "char_count": 16,
+            "start_char": 1854,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2672,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 2181,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 3
+          },
+          "rank": 2
+        },
+        {
+          "id": "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "preestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3132,
+            "language": "en",
+            "char_count": 459,
+            "start_char": 2673,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 2
+          },
+          "rank": 3
+        },
+        {
+          "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 54,
+          "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 50,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4179
+          },
+          "score": 0.031009615384615385,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 5
+          },
+          "rank": 4
+        },
+        {
+          "id": "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 54,
+          "text": "be internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1429,
+            "language": "en",
+            "char_count": 435,
+            "start_char": 994,
+            "printed_page": 50,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4179
+          },
+          "score": 0.02804284323271665,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 19
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 342.06579999954556
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 78
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 16
+    }
+  ],
+  "cost_usd": null
+}

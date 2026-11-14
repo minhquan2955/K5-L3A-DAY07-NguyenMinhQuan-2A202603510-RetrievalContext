@@ -1,0 +1,409 @@
+{
+  "query_id": "d7-test03",
+  "split": "test",
+  "question": "Trong Chương 2, hoạt động quản lý nào bảo đảm dữ liệu chính xác, đầy đủ và nhất quán, thông qua xác thực, làm sạch, đối sánh và giám sát?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:05:03.633456+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 2 management activity ensures data accurate complete consistent validation cleansing matching monitoring data quality",
+      "filter": {
+        "chapter": 2
+      },
+      "results": [
+        {
+          "id": "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 887,
+            "language": "en",
+            "char_count": 400,
+            "start_char": 487,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.6149716505764161,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "a564081272a81fcb640d90bde03a0473683ea39bc983126479d9a9b3498a1ce7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 45,
+          "text": "avoid data inaccuracies,\nnoncompliance with legal requirements, lost opportunities, increased costs, and dissatisfied customers. How\norganizations develop and maintain robust data and which systems they utilize are important to\norganizational success.\n2.1 Practices and Frameworks for Data Management\nLearning Objectives\nBy the end of this section, you will be able to:\n• Identify practices and frameworks in the management of data",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1576,
+            "language": "en",
+            "char_count": 431,
+            "start_char": 1145,
+            "printed_page": 41,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1853
+          },
+          "score": 0.5514318281673034,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 486,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 0,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.5432375798042108,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d | chapter1-2.pdf | page 47]\n• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.\n\n[a564081272a81fcb640d90bde03a0473683ea39bc983126479d9a9b3498a1ce7 | chapter1-2.pdf | page 45]\navoid data inaccuracies,\nnoncompliance with legal requirements, lost opportunities, increased costs, and dissatisfied customers. How\norganizations develop and maintain robust data and which systems they utilize are important to\norganizational success.\n2.1 Practices and Frameworks for Data Management\nLearning Objectives\nBy the end of this section, you will be able to:\n• Identify practices and frameworks in the management of data",
+      "context_ids": [
+        "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+        "a564081272a81fcb640d90bde03a0473683ea39bc983126479d9a9b3498a1ce7"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 2, hoạt động quản lý nào bảo đảm dữ liệu chính xác, đầy đủ và nhất quán, thông qua xác thực, làm sạch, đối sánh và giám sát?",
+    "filter": {
+      "chapter": 2
+    },
+    "results": [
+      {
+        "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 47,
+        "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 486,
+          "language": "en",
+          "char_count": 486,
+          "start_char": 0,
+          "printed_page": 43,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2143
+        },
+        "score": 0.44427055312382613,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 47,
+        "text": "• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 887,
+          "language": "en",
+          "char_count": 400,
+          "start_char": 487,
+          "printed_page": 43,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2143
+        },
+        "score": 0.4330011199547208,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "9c6f29c315d9b5e88dcdcfb78d90b2170a2b127d4b0ebc2d3eb5e4139000a431",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 51,
+        "text": "• Rectifying known inaccuracies: Identifying and correcting any inaccuracies or errors in the data are crucial\nto maintaining data integrity, which means ensuring data remain accurate, consistent, and reliable over\ntheir entire life cycle.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1115,
+          "language": "en",
+          "char_count": 239,
+          "start_char": 876,
+          "printed_page": 47,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3878
+        },
+        "score": 0.4088767102623123,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là hoạt động **quản lý chất lượng dữ liệu** (data quality), bảo đảm dữ liệu chính xác, đầy đủ và nhất quán bằng các hoạt động như xác thực, làm sạch, đối sánh và giám sát qua chỉ số và báo cáo.[732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d]",
+  "elapsed_ms": 5696.037999998225,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 399,
+        "completion_tokens": 31,
+        "total_tokens": 430
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 2 management activity ensures data accurate complete consistent validation cleansing matching monitoring data quality"
+      },
+      "elapsed_ms": 1863.3589999990363
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 2 management activity ensures data accurate complete consistent validation cleansing matching monitoring data quality"
+          ],
+          "context": "[732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d | chapter1-2.pdf | page 47]\n• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.\n\n[a564081272a81fcb640d90bde03a0473683ea39bc983126479d9a9b3498a1ce7 | chapter1-2.pdf | page 45]\navoid data inaccuracies,\nnoncompliance with legal requirements, lost opportunities, increased costs, and dissatisfied customers. How\norganizations develop and maintain robust data and which systems they utilize are important to\norganizational success.\n2.1 Practices and Frameworks for Data Management\nLearning Objectives\nBy the end of this section, you will be able to:\n• Identify practices and frameworks in the management of data",
+          "context_ids": [
+            "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+            "a564081272a81fcb640d90bde03a0473683ea39bc983126479d9a9b3498a1ce7"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 804,
+        "completion_tokens": 145,
+        "total_tokens": 949
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là hoạt động **quản lý chất lượng dữ liệu** (data quality), bảo đảm dữ liệu chính xác, đầy đủ và nhất quán bằng các hoạt động như xác thực, làm sạch, đối sánh và giám sát qua chỉ số và báo cáo.[732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d]",
+        "citations": [
+          "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d"
+        ]
+      },
+      "elapsed_ms": 2148.170199998276
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 2, hoạt động quản lý nào bảo đảm dữ liệu chính xác, đầy đủ và nhất quán, thông qua xác thực, làm sạch, đối sánh và giám sát?",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 486,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 0,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.44427055312382613,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 887,
+            "language": "en",
+            "char_count": 400,
+            "start_char": 487,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.4330011199547208,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "9c6f29c315d9b5e88dcdcfb78d90b2170a2b127d4b0ebc2d3eb5e4139000a431",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "• Rectifying known inaccuracies: Identifying and correcting any inaccuracies or errors in the data are crucial\nto maintaining data integrity, which means ensuring data remain accurate, consistent, and reliable over\ntheir entire life cycle.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1115,
+            "language": "en",
+            "char_count": 239,
+            "start_char": 876,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.4088767102623123,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 887.9973000002792
+    },
+    {
+      "query": "Chapter 2 management activity ensures data accurate complete consistent validation cleansing matching monitoring data quality",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 887,
+            "language": "en",
+            "char_count": 400,
+            "start_char": 487,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.6149716505764161,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "a564081272a81fcb640d90bde03a0473683ea39bc983126479d9a9b3498a1ce7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 45,
+          "text": "avoid data inaccuracies,\nnoncompliance with legal requirements, lost opportunities, increased costs, and dissatisfied customers. How\norganizations develop and maintain robust data and which systems they utilize are important to\norganizational success.\n2.1 Practices and Frameworks for Data Management\nLearning Objectives\nBy the end of this section, you will be able to:\n• Identify practices and frameworks in the management of data",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1576,
+            "language": "en",
+            "char_count": 431,
+            "start_char": 1145,
+            "printed_page": 41,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1853
+          },
+          "score": 0.5514318281673034,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 486,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 0,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.5432375798042108,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 354.7694999979285
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 70
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 16
+    }
+  ],
+  "cost_usd": null
+}

@@ -1,0 +1,1924 @@
+{
+  "query_id": "d7-dev04",
+  "split": "dev",
+  "question": "Thao tác lấy dữ liệu từ nơi lưu trữ được gọi là gì?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:55.013152+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "operation of retrieving data from storage is called data retrieval read access database storage",
+      "filter": {},
+      "results": [
+        {
+          "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1257,
+            "language": "en",
+            "char_count": 432,
+            "start_char": 825,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "inputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 326,
+            "language": "en",
+            "char_count": 326,
+            "start_char": 0,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.030309988518943745,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 7
+          },
+          "rank": 2
+        },
+        {
+          "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.029631255487269532,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 7,
+            "tfidf": 8
+          },
+          "rank": 3
+        },
+        {
+          "id": "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 824,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 327,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.029386529386529386,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 14
+          },
+          "rank": 4
+        },
+        {
+          "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1853,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 1353,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.028125,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 20
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3 | chapter1-2.pdf | page 22]\ncomputer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.\n\n[e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984 | chapter1-2.pdf | page 22]\ninputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.\n\n[b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c | chapter1-2.pdf | page 51]\ninto customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,\n\n[cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c | chapter1-2.pdf | page 22]\n• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the\n\n[989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d | chapter1-2.pdf | page 72]\n• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+      "context_ids": [
+        "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+        "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+        "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+        "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+        "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Thao tác lấy dữ liệu từ nơi lưu trữ được gọi là gì?",
+    "filter": {},
+    "results": [
+      {
+        "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 72,
+        "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1853,
+          "language": "en",
+          "char_count": 500,
+          "start_char": 1353,
+          "printed_page": 68,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4031
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1
+        },
+        "rank": 1
+      },
+      {
+        "id": "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 22,
+        "text": "• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 824,
+          "language": "en",
+          "char_count": 497,
+          "start_char": 327,
+          "printed_page": 18,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4238
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2
+        },
+        "rank": 2
+      },
+      {
+        "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 22,
+        "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1257,
+          "language": "en",
+          "char_count": 432,
+          "start_char": 825,
+          "printed_page": 18,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4238
+        },
+        "score": 0.015873015873015872,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 3
+        },
+        "rank": 3
+      },
+      {
+        "id": "281153e8c48b6dda97c1e1fa7812db051f0264b16316044ea0c6e75e504add6b",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 50,
+        "text": "formats from multiple sources,\nincluding internal sources, personal sources, and external sources. Data can also come from the web in the\nform of blogs, podcasts, tweets, social media posts, online videos, texts, and radio-frequency identification\ntags and other wireless sensors. These technologies generate data that must be managed but are difficult to\nprocess and analyze. Unstructured data are often generated at high velocity. This can make it difficult to keep\nup with and make sense of the",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 4156,
+          "language": "en",
+          "char_count": 497,
+          "start_char": 3659,
+          "printed_page": 46,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4269
+        },
+        "score": 0.015625,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 4
+        },
+        "rank": 4
+      },
+      {
+        "id": "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 22,
+        "text": "inputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 326,
+          "language": "en",
+          "char_count": 326,
+          "start_char": 0,
+          "printed_page": 18,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4238
+        },
+        "score": 0.015384615384615385,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 5
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Thao tác lấy dữ liệu từ nơi lưu trữ được gọi là **truy xuất dữ liệu** (data retrieval). [7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3]",
+  "elapsed_ms": 3750.3127999989374,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 374,
+        "completion_tokens": 29,
+        "total_tokens": 403
+      },
+      "action": {
+        "action": "search",
+        "query": "operation of retrieving data from storage is called data retrieval read access database storage"
+      },
+      "elapsed_ms": 1505.6904000011855
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "operation of retrieving data from storage is called data retrieval read access database storage"
+          ],
+          "context": "[7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3 | chapter1-2.pdf | page 22]\ncomputer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.\n\n[e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984 | chapter1-2.pdf | page 22]\ninputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.\n\n[b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c | chapter1-2.pdf | page 51]\ninto customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,\n\n[cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c | chapter1-2.pdf | page 22]\n• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the\n\n[989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d | chapter1-2.pdf | page 72]\n• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+          "context_ids": [
+            "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+            "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+            "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+            "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+            "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1334,
+        "completion_tokens": 82,
+        "total_tokens": 1416
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Thao tác lấy dữ liệu từ nơi lưu trữ được gọi là **truy xuất dữ liệu** (data retrieval). [7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3]",
+        "citations": [
+          "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3"
+        ]
+      },
+      "elapsed_ms": 1588.2698999994318
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Thao tác lấy dữ liệu từ nơi lưu trữ được gọi là gì?",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1353,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.37304840690161756,
+            "strategy": "dense"
+          },
+          {
+            "id": "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 824,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 327,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.3702311503552619,
+            "strategy": "dense"
+          },
+          {
+            "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1257,
+              "language": "en",
+              "char_count": 432,
+              "start_char": 825,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.369024767077601,
+            "strategy": "dense"
+          },
+          {
+            "id": "281153e8c48b6dda97c1e1fa7812db051f0264b16316044ea0c6e75e504add6b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "formats from multiple sources,\nincluding internal sources, personal sources, and external sources. Data can also come from the web in the\nform of blogs, podcasts, tweets, social media posts, online videos, texts, and radio-frequency identification\ntags and other wireless sensors. These technologies generate data that must be managed but are difficult to\nprocess and analyze. Unstructured data are often generated at high velocity. This can make it difficult to keep\nup with and make sense of the",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4156,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 3659,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.3625661219215125,
+            "strategy": "dense"
+          },
+          {
+            "id": "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "inputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 326,
+              "language": "en",
+              "char_count": 326,
+              "start_char": 0,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.3529649404350488,
+            "strategy": "dense"
+          },
+          {
+            "id": "794db66cb28fddcd910b45ec7c7714728cba97a498aa501ba29045b2d45a9030",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "In Chapter 1 Fundamentals of Information Systems, you learned that the term data refers to raw facts and\nfigures that are processed and turned into meaningful information. Data represent discrete elements without\ncontext or meaning on their own, and data come in various forms—such as numbers, text, images, or audio.\nFor example, a list of numbers or a collection of customer names and addresses is considered data.\nInformation is the result of processing data through organization, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1270,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 773,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.3432604660449112,
+            "strategy": "dense"
+          },
+          {
+            "id": "07132ae2b18d8067d6c8799c9c2ad7c05fe6cc006edaea5ad67c11fc91943ff6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data retention involves storing data for a de fined period based on legal, regulatory, and business\nrequirements. It includes activities like archiving, purging, and the development of data retention\npolicies.\n• Data architecture focuses on designing data models and database structures that align with business\nneeds.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1659,
+              "language": "en",
+              "char_count": 320,
+              "start_char": 1339,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.3389784519393204,
+            "strategy": "dense"
+          },
+          {
+            "id": "9a447790b87ef61a393128e35eb911aebb9443d5456df5b3d5ad68808f4efe69",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The process of gathering data from various sources such as customers and financial records, and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4152,
+              "language": "en",
+              "char_count": 97,
+              "start_char": 4055,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.338595794678354,
+            "strategy": "dense"
+          },
+          {
+            "id": "df5b351443b624d7d0baa4dfa2c8ca36266bfd5a9d186303f465aefcd8918273",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "manages the availability, usability, integrity, and security of its data\nthroughout the data life cycle. You probably have noticed that every time you use the internet, an app on your\nphone, or buy something online, websites and apps track what you do, and may track your location and other\ndata. The world is full of sensors, electronic payments, tracking data, biometric information like fingerprints,\nand smart home devices that collect data. This kind of information is valuable, and this creates",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4238,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 3738,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.3385471056905369,
+            "strategy": "dense"
+          },
+          {
+            "id": "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2243,
+              "language": "en",
+              "char_count": 490,
+              "start_char": 1753,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.3380975904104122,
+            "strategy": "dense"
+          },
+          {
+            "id": "bc79496ff9a33877014bdae4aaa4f60de468f42e0182feb60abc6768f1b3a35d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 13,
+            "text": "• The raw facts and figures that are processed and turned into meaningful information are called data. The\nfacts that we use to learn and understand people, places, and things make up information. Information is\nraw data that have been processed and manipulated to give context and meaning. Once data are\nprocessed into information, we can use that information personally and professionally. We read or listen\nto books, watch videos on social media, stream a television show, follow road signs,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1300,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 806,
+              "printed_page": 9,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2399
+            },
+            "score": 0.3210811892468306,
+            "strategy": "dense"
+          },
+          {
+            "id": "610d5708a317368653e1af3eef2fa4f7949f294f72ac5e10b9fb8fece1f3e703",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "organizations billions of dollars each year . On\nthe other hand, data archives are often required for regulatory reasons to ensure compliance with laws\ngoverning data retention, privacy, and security. For instance, industries like health care and finance have strict\nregulations regarding the retention of patient records and financial transactions data.\nAnother important aspect of dealing with data is data governance, which involves the policies, procedures,\nand standards how an organization",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3737,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 3242,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.3202390411154171,
+            "strategy": "dense"
+          },
+          {
+            "id": "f2a8a91c5ec14b4b1417c7a97b96efa47a72373dfbd2c6c1b9f0424ae0c007a2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "analyze data without having\nto move it to a central repository. This can help to improve data security and privacy, and it can also make it\neasier to analyze data that reside in different locations. These three techniques address the growing\ncomplexity and scale of data management in modern organizations, especially as data becomes more\ndistributed, diverse, and decentralized. These technologies provide innovative ways to manage, integrate,\nand analyze data at scale, which is necessary in the",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1594,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1097,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.3125263080664663,
+            "strategy": "dense"
+          },
+          {
+            "id": "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "preserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2741,
+              "language": "en",
+              "char_count": 476,
+              "start_char": 2265,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.3116743292734139,
+            "strategy": "dense"
+          },
+          {
+            "id": "a97a43e1d30ba1098870f00e2511ad0d3180caf926f1275ae17b03a036bf39c4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "capture\npractices faithfully reflect what’s happening in the organization. Additionally, the CIO should consider how\nthese data can be processed and transformed into actionable information that supports the identified decision\nneeds. Finally, the CIO must assess how the different levels of planning and the different types of information\nfit together .\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3088,
+              "language": "en",
+              "char_count": 370,
+              "start_char": 2718,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.3040517465176463,
+            "strategy": "dense"
+          },
+          {
+            "id": "58ebcfd257a95c5cb6856ce0c41950d682b292429693aac3a6d1f0e0d328d951",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "• Associated with operational or real-time applications, operational data include transactional data\ngenerated by day-to-day business operations. Operational data often require high availability, real-time\nprocessing, and quick access for operational decision-making. When managing operational data, the focus\nis on ensuring data integrity, availability, and performance to support critical business processes.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2365,
+              "language": "en",
+              "char_count": 410,
+              "start_char": 1955,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.30088634145873605,
+            "strategy": "dense"
+          },
+          {
+            "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4269,
+              "language": "en",
+              "char_count": 112,
+              "start_char": 4157,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.2989653313540308,
+            "strategy": "dense"
+          },
+          {
+            "id": "4ee1fa9c4941976c11ad134e99a1ec4957ee6044bf7a5c03ba23a53d65ae1fe8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Figure 2.3 Data processing for particular purposes generates information, and when applied with business acumen, information\ncreates knowledge. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit Data: modification of work\n“Project 365 #195: 140709 Let’s Get Jiggy With It” by Pete/Flickr , Public Domain; credit Knowledge: modification of work “Thick arrow\nmade from jigsaw puzzle pieces” by Old Photo Profile/Flickr , CC BY 2.0)\nConsider an example within the energy",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2223,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1724,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.2982290593653112,
+            "strategy": "dense"
+          },
+          {
+            "id": "f99295b1ecf8bf44520ed033490ac30d5a52b7e0e61e67751f3f9716cb61600c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "The other data type, unstructured data, do not reside in a traditional relational database; examples of\nunstructured data generated within organizations are emails, documents, media (videos, images, audio), slide\npresentations, social media activity (such as posts, images, ratings, and recommendations), and web pages.\nThere are several challenges associated with managing unstructured data. Their large volume can make them\ndifficult to store and manage. Unstructured data also come in a variety of",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3658,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 3158,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.2971781040356555,
+            "strategy": "dense"
+          },
+          {
+            "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2264,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 1769,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.29610464318396024,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": []
+      },
+      "results": [
+        {
+          "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1853,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 1353,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.01639344262295082,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 824,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 327,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.016129032258064516,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1257,
+            "language": "en",
+            "char_count": 432,
+            "start_char": 825,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.015873015873015872,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "281153e8c48b6dda97c1e1fa7812db051f0264b16316044ea0c6e75e504add6b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "formats from multiple sources,\nincluding internal sources, personal sources, and external sources. Data can also come from the web in the\nform of blogs, podcasts, tweets, social media posts, online videos, texts, and radio-frequency identification\ntags and other wireless sensors. These technologies generate data that must be managed but are difficult to\nprocess and analyze. Unstructured data are often generated at high velocity. This can make it difficult to keep\nup with and make sense of the",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4156,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 3659,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.015625,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "inputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 326,
+            "language": "en",
+            "char_count": 326,
+            "start_char": 0,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.015384615384615385,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 333.8599999988219
+    },
+    {
+      "query": "operation of retrieving data from storage is called data retrieval read access database storage",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1257,
+              "language": "en",
+              "char_count": 432,
+              "start_char": 825,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.5636503150059996,
+            "strategy": "dense"
+          },
+          {
+            "id": "58ebcfd257a95c5cb6856ce0c41950d682b292429693aac3a6d1f0e0d328d951",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "• Associated with operational or real-time applications, operational data include transactional data\ngenerated by day-to-day business operations. Operational data often require high availability, real-time\nprocessing, and quick access for operational decision-making. When managing operational data, the focus\nis on ensuring data integrity, availability, and performance to support critical business processes.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2365,
+              "language": "en",
+              "char_count": 410,
+              "start_char": 1955,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.44476535480363066,
+            "strategy": "dense"
+          },
+          {
+            "id": "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 824,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 327,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.44470906013090405,
+            "strategy": "dense"
+          },
+          {
+            "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1353,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.42597925400042636,
+            "strategy": "dense"
+          },
+          {
+            "id": "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "inputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 326,
+              "language": "en",
+              "char_count": 326,
+              "start_char": 0,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.4178516028286339,
+            "strategy": "dense"
+          },
+          {
+            "id": "4f2b9bd3eb36c6294e591bbca724d2261191b874b263f1fac3e13d4ed16fb8ba",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 13,
+            "text": "browse online\nshopping sites, and interact with information we find on the internet or in the world around us. We use\ndatabases to organize and store this data efficiently.\n• A Set of instructions and rules that governs the use of the hardware, software, and data components is\nknown as a procedure. Standard operating procedures ensure consistency and reliability in the use of\ninformation systems.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1700,
+              "language": "en",
+              "char_count": 399,
+              "start_char": 1301,
+              "printed_page": 9,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2399
+            },
+            "score": 0.4059815460187619,
+            "strategy": "dense"
+          },
+          {
+            "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.40560300485581857,
+            "strategy": "dense"
+          },
+          {
+            "id": "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "preserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2741,
+              "language": "en",
+              "char_count": 476,
+              "start_char": 2265,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.4043101579854267,
+            "strategy": "dense"
+          },
+          {
+            "id": "07132ae2b18d8067d6c8799c9c2ad7c05fe6cc006edaea5ad67c11fc91943ff6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data retention involves storing data for a de fined period based on legal, regulatory, and business\nrequirements. It includes activities like archiving, purging, and the development of data retention\npolicies.\n• Data architecture focuses on designing data models and database structures that align with business\nneeds.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1659,
+              "language": "en",
+              "char_count": 320,
+              "start_char": 1339,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.40349467658133453,
+            "strategy": "dense"
+          },
+          {
+            "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2264,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 1769,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.3903978064188417,
+            "strategy": "dense"
+          },
+          {
+            "id": "610d5708a317368653e1af3eef2fa4f7949f294f72ac5e10b9fb8fece1f3e703",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "organizations billions of dollars each year . On\nthe other hand, data archives are often required for regulatory reasons to ensure compliance with laws\ngoverning data retention, privacy, and security. For instance, industries like health care and finance have strict\nregulations regarding the retention of patient records and financial transactions data.\nAnother important aspect of dealing with data is data governance, which involves the policies, procedures,\nand standards how an organization",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3737,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 3242,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.3829455470495451,
+            "strategy": "dense"
+          },
+          {
+            "id": "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2817,
+              "language": "en",
+              "char_count": 417,
+              "start_char": 2400,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.3753472741773245,
+            "strategy": "dense"
+          },
+          {
+            "id": "f0d2b5e3efce68cce5522d70aedc4b5b92860768d2a5fae453bcf3cbba376d9c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data analytics involves analyzing data to extract insights and support decision-making. It includes\nimplementing activities like data warehousing, mining, and visualization to achieve meaningful\ninformation extraction. These tools, techniques, and insights can be used in AI and machine learning\napplications. (George Firican, ”Data Management Framework 101”)\n3 George Firican, “Data Management Framework 101,” LightsOnData, https://www.lightsondata.com/data-management-\nframework/",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2143,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 1660,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.3680980402047832,
+            "strategy": "dense"
+          },
+          {
+            "id": "a3f45b846f096ad0d5f3ba770beb0b6e8392302108ecda216f0d6b4dcbee090e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "The days when organizations relied on paper files and simple data processing programs to maintain records\nand conduct business are long past. Technological advancements have given organizations the capability to\nhandle massive amounts of data in a digital environment. Data provide organizations with vital information to\nimprove efficiency and support competition in the marketplace. Businesses and other organizations must\nmanage data and information effectively to promote their success and to",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1144,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 648,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.36789348105097797,
+            "strategy": "dense"
+          },
+          {
+            "id": "794db66cb28fddcd910b45ec7c7714728cba97a498aa501ba29045b2d45a9030",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "In Chapter 1 Fundamentals of Information Systems, you learned that the term data refers to raw facts and\nfigures that are processed and turned into meaningful information. Data represent discrete elements without\ncontext or meaning on their own, and data come in various forms—such as numbers, text, images, or audio.\nFor example, a list of numbers or a collection of customer names and addresses is considered data.\nInformation is the result of processing data through organization, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1270,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 773,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.3655914941050593,
+            "strategy": "dense"
+          },
+          {
+            "id": "9a447790b87ef61a393128e35eb911aebb9443d5456df5b3d5ad68808f4efe69",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The process of gathering data from various sources such as customers and financial records, and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4152,
+              "language": "en",
+              "char_count": 97,
+              "start_char": 4055,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.3645474172502168,
+            "strategy": "dense"
+          },
+          {
+            "id": "7569202127872f8423021ec105cf14df243afb51558b072f58e96d354cfc7d98",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "Implementing responsible data management requires an understanding of the legal and social\nresponsibilities associated with processing data across its life cycle.7 To learn more, read about the\nResponsible Data Maturity Model (https://openstax.org/r/109RespDataMod) as it recommends how data\nshould be managed to ensure privacy, transparency, sharing, and acquisition of data.\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\nLearning Objectives",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1208,
+              "language": "en",
+              "char_count": 479,
+              "start_char": 729,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.3631658999065752,
+            "strategy": "dense"
+          },
+          {
+            "id": "796084278fe04de7b315c4247548b8bd9abe107940c0102bd6b710f5002a0b2c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "contextualization to derive\nmeaning. If the data are a list of numbers, then the related information may be the trend of increasing sales of\na product. This information can be used to make decisions, understand relationships, and gain insights.\nFor any organization, information is an invaluable resource, hence data and data management have become\ncritical. Effective data management aligns with data analytics capabilities, facilitating the automated discovery\nof trends, patterns, and anomalies",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1768,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1271,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.35946669641742335,
+            "strategy": "dense"
+          },
+          {
+            "id": "df333f9ff102c78e43a3af399b89afc9ccf8a3ce44e74ad3d01dc5dbc2bc1a92",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "• Data information systems management manages the people, technology, and procedures needed to\nconvert data into information. This includes cleaning, extracting, integrating, categorizing, labeling, and\norganizing data.\n• Database management develops procedures to organize, manipulate, and retrieve data that are stored on\ncomputer databases.\n• Systems analysis, design, and development examines an organization’s system needs, and designs and\ndevelops a system to meet those needs.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3295,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 2812,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.3576773678492595,
+            "strategy": "dense"
+          },
+          {
+            "id": "df5b351443b624d7d0baa4dfa2c8ca36266bfd5a9d186303f465aefcd8918273",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "manages the availability, usability, integrity, and security of its data\nthroughout the data life cycle. You probably have noticed that every time you use the internet, an app on your\nphone, or buy something online, websites and apps track what you do, and may track your location and other\ndata. The world is full of sensors, electronic payments, tracking data, biometric information like fingerprints,\nand smart home devices that collect data. This kind of information is valuable, and this creates",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4238,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 3738,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.35281393673831596,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1257,
+              "language": "en",
+              "char_count": 432,
+              "start_char": 825,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.28015948172216504,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "dabd6847a477b00914fd904920552cf53bca291a24ebc81819c5f2b4cafc7ce4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Information systems play an important role in data management by transforming raw data into a strategic\nasset. Information system planning and management involve selecting and implementing the right\ntechnology infrastructure for data storage, processing, analysis, and governance. Information technologies\nand systems play a vital role in facilitating data management within organizations, as they encompass\nactivities such as data acquisition, organization, storage, access, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 532,
+              "language": "en",
+              "char_count": 489,
+              "start_char": 43,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.2467279332149905,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e4242d9c9aba4bd615a093f2394927f64e074aeeae6a59d98d0e18186339da81",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 13,
+            "text": "• The physical devices, such as computers, servers, networks, and storage devices, that are used to collect,\nprocess, and store data are called hardware.\n• The programs and applications that run on the hardware, enabling users to perform speci fic tasks, are\ncalled software. Software can range from operating systems and database management systems to\nspecialized business applications.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 805,
+              "language": "en",
+              "char_count": 387,
+              "start_char": 418,
+              "printed_page": 9,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2399
+            },
+            "score": 0.21168238212389773,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4693fc76fabc9ef755322e3d71bd201eca3899506e627d7647b6c9369caf93cb",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 35,
+            "text": "• The distributed computing framework that allows data storage closer to the source of data, rather than a\ncentralized cloud or server , is called edge computing. It is continually advancing, giving IS greater options\nfor storing and processing data.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2904,
+              "language": "en",
+              "char_count": 250,
+              "start_char": 2654,
+              "printed_page": 31,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3973
+            },
+            "score": 0.2081758552549466,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "63d9d58b43dc448bceb0dfe4930a762de3cc032f80ad3ebf5c3fc7b825600149",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "specific needs and\nrequirements. However , all five frameworks can be valuable tools for improving data management and\ninformation quality. The optimal framework for managing data is one that is continuously developing to\naddress advancements in data storage and changes in organizational policy.\nCAREERS IN IS\nData Architect",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1840,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.19224607389714035,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e3affe0301357860e378fe3a08e6a586a6f424dd08decebe20dc17e309873f4a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• Information that users provide to managers about an information system’s functionality is called\nfeedback. When users report problems with the system or note a procedure that can be improved, this\nfeedback is used to modify and improve the functionality of the information system.\nOperations of Information Systems\nInformation systems operations refer to how the system is used. This includes data capture, processing,\nstorage, retrieval, and dissemination.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4054,
+              "language": "en",
+              "char_count": 459,
+              "start_char": 3595,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.19046515250656068,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "inputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 326,
+              "language": "en",
+              "char_count": 326,
+              "start_char": 0,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.17710419876665034,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.1715121170672119,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data security protects data from unauthorized access, use, disclosure, disruption, modi fication, or\ndestruction. It is achieved through measures like encryption, access controls, and adherence to\nsecurity best practices.\n• Data privacy, like data security, safeguards personal data from unauthorized access, use, disclosure,\ndisruption, modification, or destruction. It relies on the use of encryption, access controls, and privacy\nbest practices.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1338,
+              "language": "en",
+              "char_count": 450,
+              "start_char": 888,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.16563944640299486,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "61ddbe1364962f822d904b1c29c542d7fd7fbdff54118d5e64f776c9f748fb9b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "• cloud computing: on-demand access to computing resources like storage and processing power\n• big data infrastructure: systems and technologies needed to manage and analyze massive datasets\n• AI: empowering machines to learn and make intelligent decisions",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 256,
+              "language": "en",
+              "char_count": 256,
+              "start_char": 0,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.15337869917846858,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d587558db46169c0d2d76c928ea829fd29c612b07f176264fdb6179e4ad72eac",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "A new approach to data management, called a data mesh, is based on the principle of domain-driven\ndesign. In a data mesh, data are owned by the domain experts who create the data, and the data are made\navailable to other users through a self-service model.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 602,
+              "language": "en",
+              "char_count": 256,
+              "start_char": 346,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.14597422683550362,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "aa3e34d9fb4f4e3d1cee4bba17822b7642f672508cb16326db721388291cade6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "Organizations typically use digital technology to analyze data to get the information they need to run their\nbusinesses. With the exponential increase in computing capacity and the development of artificial intelligence\n(AI) and large-language models, businesses today rely heavily on efficient managers using sophisticated data\nstorage and data analytics technologies. How can you align your organization’s data management and\ninformation strategies to deliver optimal results for the greatest",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 494,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 0,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.13581398190782146,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7569202127872f8423021ec105cf14df243afb51558b072f58e96d354cfc7d98",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "Implementing responsible data management requires an understanding of the legal and social\nresponsibilities associated with processing data across its life cycle.7 To learn more, read about the\nResponsible Data Maturity Model (https://openstax.org/r/109RespDataMod) as it recommends how data\nshould be managed to ensure privacy, transparency, sharing, and acquisition of data.\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\nLearning Objectives",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1208,
+              "language": "en",
+              "char_count": 479,
+              "start_char": 729,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.13373878774144862,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 824,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 327,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.1327009726521844,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "07132ae2b18d8067d6c8799c9c2ad7c05fe6cc006edaea5ad67c11fc91943ff6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data retention involves storing data for a de fined period based on legal, regulatory, and business\nrequirements. It includes activities like archiving, purging, and the development of data retention\npolicies.\n• Data architecture focuses on designing data models and database structures that align with business\nneeds.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1659,
+              "language": "en",
+              "char_count": 320,
+              "start_char": 1339,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.1319586008759372,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4468de0f550df982b68c80867d2bbdb1f880ec163c87a22326d47320e74f6e6c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "Analysts report that by 2025 the global volume of data is expected to reach 200 zettabytes.1 A zettabyte is a\nmeasure of digital storage capacity equal to a thousand exabytes, a billion terabytes, or a trillion gigabytes.\nNotably, most of these data are underutilized. For most enterprises, only about one-third of data is used for\ndecision-making, while the remaining two-thirds is simply stored.2 When analysts are unable to find the\nappropriate and available data for decision-making, it can cost",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3241,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 2742,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.13193393595300842,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "bdbc6cc3f69baef99712feec045406e5bc50ec6a8ef17a710c9391f4fba5df84",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "Another powerful technique for data management is called data fabric. It involves a move toward data\ndemocratization, which means that data are made available to more people in the organization, not just\nthose in information technology (IT) or data science roles. Through this approach, data can be accessed and\nconsumed by anyone as long as they have proper security credentials for the level of data they desire.\nAnother technology is federated analytics. Federated analytics allows users to",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1096,
+              "language": "en",
+              "char_count": 493,
+              "start_char": 603,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.1300033024711852,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b92c47287a337e7636c16287d53e6455024137bd8050e3cadabbe0acf33cfc7a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 12,
+            "text": "An information system is a set of interconnected components that integrate the collection, processing,\nstorage, and distribution of data, information, and digital products in order to support decision-making,\ncoordination, control, analysis, and visualization in an organization. These systems play an important role in\nmanaging and facilitating various business processes and can also be used in individuals’ personal lives.\nThe field of information systems (IS) is a dynamic industry, evolving and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1896,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1397,
+              "printed_page": 8,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2754
+            },
+            "score": 0.12587705844745872,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a85fb9ebd8c732daff082085b2edd3c9f0549a11c72fbefd6bee5858d4b3e42f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "responsibilities. A data architect needs\nstrong knowledge of database technologies, data modeling, cloud platforms, and big data tools. They must\nalso understand data governance practices, security protocols, and compliance regulations and be familiar\nwith data pipelines, integration tools, and extract, transform, and tools. Having strong problem-solving\nskills will allow a data architect to design complex systems and solve integration challenges, ensuring data\nflows smoothly across different",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3149,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 2652,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.12329306103154465,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1353,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.1205341676505019,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1257,
+            "language": "en",
+            "char_count": 432,
+            "start_char": 825,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "inputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 326,
+            "language": "en",
+            "char_count": 326,
+            "start_char": 0,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.030309988518943745,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 7
+          },
+          "rank": 2
+        },
+        {
+          "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.029631255487269532,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 7,
+            "tfidf": 8
+          },
+          "rank": 3
+        },
+        {
+          "id": "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 824,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 327,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.029386529386529386,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 14
+          },
+          "rank": 4
+        },
+        {
+          "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1853,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 1353,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.028125,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 20
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 269.59250000072643
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 26
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 14
+    }
+  ],
+  "cost_usd": null
+}

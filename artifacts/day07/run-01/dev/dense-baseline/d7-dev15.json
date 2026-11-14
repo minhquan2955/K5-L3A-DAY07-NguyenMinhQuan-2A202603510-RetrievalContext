@@ -1,0 +1,401 @@
+{
+  "query_id": "d7-dev15",
+  "split": "dev",
+  "question": "Thiếu giao tiếp giữa lãnh đạo kinh doanh và IT cản trở sự liên kết business–IT như thế nào?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:35.444380+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "lack of communication between business leaders and IT hinders business IT alignment how communication strategic alignment",
+      "filter": {},
+      "results": [
+        {
+          "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1855,
+            "language": "en",
+            "char_count": 437,
+            "start_char": 1418,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.7190605944749026,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1417,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 925,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.6696938113634096,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "Understanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1578,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 1079,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.6261397696400487,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1 | chapter1-2.pdf | page 60]\nBusiness and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11\n\n[7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73 | chapter1-2.pdf | page 60]\n• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+      "context_ids": [
+        "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+        "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Thiếu giao tiếp giữa lãnh đạo kinh doanh và IT cản trở sự liên kết business–IT như thế nào?",
+    "filter": {},
+    "results": [
+      {
+        "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 60,
+        "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1855,
+          "language": "en",
+          "char_count": 437,
+          "start_char": 1418,
+          "printed_page": 56,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4634
+        },
+        "score": 0.5250590342753124,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 60,
+        "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1417,
+          "language": "en",
+          "char_count": 492,
+          "start_char": 925,
+          "printed_page": 56,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4634
+        },
+        "score": 0.5113337983387042,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "3cfb1fe72617bebbc72ab3d9bc2efb90ef4be15957eff2edb21df9ca9358ffaa",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 59,
+        "text": "• Business and IT professionals are cross-trained and move across di fferent departments and job roles.\n• Clear overarching goals are established and understood by both IT and business employees.\n• Information technology employees are informed about the company’s revenue generation and cost-\nsaving mechanisms.\n• The organization fosters a vibrant and inclusive company culture.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2375,
+          "language": "en",
+          "char_count": 379,
+          "start_char": 1996,
+          "printed_page": 55,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2630
+        },
+        "score": 0.5029527960787251,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Thiếu giao tiếp khiến lãnh đạo kinh doanh và IT không trao đổi được những hiểu biết, yêu cầu quan trọng; điều này dễ dẫn đến hiểu lầm và làm lệch hướng giữa ưu tiên kinh doanh với hoạt động IT. [7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73]",
+  "elapsed_ms": 4354.775100000552,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 383,
+        "completion_tokens": 32,
+        "total_tokens": 415
+      },
+      "action": {
+        "action": "search",
+        "query": "lack of communication between business leaders and IT hinders business IT alignment how communication strategic alignment"
+      },
+      "elapsed_ms": 1351.6991000033158
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "lack of communication between business leaders and IT hinders business IT alignment how communication strategic alignment"
+          ],
+          "context": "[f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1 | chapter1-2.pdf | page 60]\nBusiness and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11\n\n[7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73 | chapter1-2.pdf | page 60]\n• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+          "context_ids": [
+            "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+            "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 807,
+        "completion_tokens": 142,
+        "total_tokens": 949
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Thiếu giao tiếp khiến lãnh đạo kinh doanh và IT không trao đổi được những hiểu biết, yêu cầu quan trọng; điều này dễ dẫn đến hiểu lầm và làm lệch hướng giữa ưu tiên kinh doanh với hoạt động IT. [7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73]",
+        "citations": [
+          "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73"
+        ]
+      },
+      "elapsed_ms": 2102.7829999984533
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Thiếu giao tiếp giữa lãnh đạo kinh doanh và IT cản trở sự liên kết business–IT như thế nào?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1855,
+            "language": "en",
+            "char_count": 437,
+            "start_char": 1418,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.5250590342753124,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1417,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 925,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.5113337983387042,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "3cfb1fe72617bebbc72ab3d9bc2efb90ef4be15957eff2edb21df9ca9358ffaa",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "• Business and IT professionals are cross-trained and move across di fferent departments and job roles.\n• Clear overarching goals are established and understood by both IT and business employees.\n• Information technology employees are informed about the company’s revenue generation and cost-\nsaving mechanisms.\n• The organization fosters a vibrant and inclusive company culture.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2375,
+            "language": "en",
+            "char_count": 379,
+            "start_char": 1996,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.5029527960787251,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 459.78720000130124
+    },
+    {
+      "query": "lack of communication between business leaders and IT hinders business IT alignment how communication strategic alignment",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1855,
+            "language": "en",
+            "char_count": 437,
+            "start_char": 1418,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.7190605944749026,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1417,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 925,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.6696938113634096,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "Understanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1578,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 1079,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.6261397696400487,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 381.79049999962444
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 43
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 18
+    }
+  ],
+  "cost_usd": null
+}

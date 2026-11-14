@@ -1,0 +1,2357 @@
+{
+  "query_id": "d7-dev15",
+  "split": "dev",
+  "question": "Thiếu giao tiếp giữa lãnh đạo kinh doanh và IT cản trở sự liên kết business–IT như thế nào?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:00:07.602171+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "lack of communication business leaders IT alignment business-IT alignment barriers communication executives information systems",
+      "filter": {},
+      "results": [
+        {
+          "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1417,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 925,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1855,
+            "language": "en",
+            "char_count": 437,
+            "start_char": 1418,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "Understanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1578,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 1079,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "ab9c9c93e58ace73a14b986a4801924b79955d44bc69f0b106218ab84b1d6a16",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "objectives. This simply means that IT directly\nsupports the business goals of the organization. Successful alignment exhibits six key characteristics (Figure\n2.6):\n• Organizations consider IT to be a driver of innovation that continuously transforms the business, leading\nto new revenue opportunities.\n• Internal and external customers, as well as customer service, hold paramount importance for these\norganizations.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1995,
+            "language": "en",
+            "char_count": 416,
+            "start_char": 1579,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.029236022193768675,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 6,
+            "tfidf": 11
+          },
+          "rank": 4
+        },
+        {
+          "id": "fe6ffbf3c9d97a6e6b9c148bff2e8166d5735ef114822e79085272e0057b6ee5",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "Functional\nArea\nStrategic\nInformation\nSystems\nManagerial\nInformation\nSystems\nOperational\nInformation\nSystems\nOverall Value\nIndicators for\nInformation\nTechnology Investment\nInformation\ntechnology\nand\ntechnology\nmanagement\nAlignment of\ninformation\ntechnology\ninvestments with\nbusiness goals and\nstrategy\nInformation\ntechnology\nproject progress\nmonitoring and\nresource\noptimization\nEfficient",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 388,
+            "language": "en",
+            "char_count": 388,
+            "start_char": 0,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.028790389395194696,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 11,
+            "tfidf": 8
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73 | chapter1-2.pdf | page 60]\n• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.\n\n[f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1 | chapter1-2.pdf | page 60]\nBusiness and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11\n\n[f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671 | chapter1-2.pdf | page 59]\nUnderstanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and\n\n[ab9c9c93e58ace73a14b986a4801924b79955d44bc69f0b106218ab84b1d6a16 | chapter1-2.pdf | page 59]\nobjectives. This simply means that IT directly\nsupports the business goals of the organization. Successful alignment exhibits six key characteristics (Figure\n2.6):\n• Organizations consider IT to be a driver of innovation that continuously transforms the business, leading\nto new revenue opportunities.\n• Internal and external customers, as well as customer service, hold paramount importance for these\norganizations.\n\n[fe6ffbf3c9d97a6e6b9c148bff2e8166d5735ef114822e79085272e0057b6ee5 | chapter1-2.pdf | page 59]\nFunctional\nArea\nStrategic\nInformation\nSystems\nManagerial\nInformation\nSystems\nOperational\nInformation\nSystems\nOverall Value\nIndicators for\nInformation\nTechnology Investment\nInformation\ntechnology\nand\ntechnology\nmanagement\nAlignment of\ninformation\ntechnology\ninvestments with\nbusiness goals and\nstrategy\nInformation\ntechnology\nproject progress\nmonitoring and\nresource\noptimization\nEfficient",
+      "context_ids": [
+        "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+        "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+        "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+        "ab9c9c93e58ace73a14b986a4801924b79955d44bc69f0b106218ab84b1d6a16",
+        "fe6ffbf3c9d97a6e6b9c148bff2e8166d5735ef114822e79085272e0057b6ee5"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+    "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Thiếu giao tiếp giữa lãnh đạo kinh doanh và IT cản trở sự liên kết business–IT như thế nào?",
+    "filter": {},
+    "results": [
+      {
+        "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 60,
+        "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1855,
+          "language": "en",
+          "char_count": 437,
+          "start_char": 1418,
+          "printed_page": 56,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4634
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        },
+        "rank": 1
+      },
+      {
+        "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 60,
+        "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1417,
+          "language": "en",
+          "char_count": 492,
+          "start_char": 925,
+          "printed_page": 56,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4634
+        },
+        "score": 0.031754032258064516,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 4
+        },
+        "rank": 2
+      },
+      {
+        "id": "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 59,
+        "text": "Understanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1578,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 1079,
+          "printed_page": 55,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2630
+        },
+        "score": 0.03128054740957967,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 6,
+          "tfidf": 2
+        },
+        "rank": 3
+      },
+      {
+        "id": "086597f89e63ed16b7faa0f488cc18a5baeb8c5dc3f8c0e80957dffa484304ec",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 55,
+        "text": "In today’s ever-evolving business landscape, organizations have come to recognize the immense potential of\nIT to enhance the value of their products and services. Leveraging IT has become a key factor in staying\ncompetitive and relevant in the digital age. However , as businesses delve deeper into the realm of IT, they face\nan essential question: How can they effectively assess the value IT adds to their organization?\nDefining the Value of Information Technology Within Organizations",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2900,
+          "language": "en",
+          "char_count": 487,
+          "start_char": 2413,
+          "printed_page": 51,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4016
+        },
+        "score": 0.030309988518943745,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 7,
+          "tfidf": 5
+        },
+        "rank": 4
+      },
+      {
+        "id": "04c3f4a581deda0d2eaea0f048d16175d03fe852cf7981768df1e153a860b04d",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 60,
+        "text": "alignment with\nbusiness objectives.\n• Align scope and IT architecture: Evaluating IT solutions for their e ffectiveness and customizing them to\nsuit specific scope and business needs can lead to better outcomes.\n• Emphasize the development of human skills: Cultivating readiness to embrace technological changes,\nadapting management styles to support successful IT implementation, and learning from previous\nexperiences contribute to continuous improvement.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3122,
+          "language": "en",
+          "char_count": 457,
+          "start_char": 2665,
+          "printed_page": 56,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4634
+        },
+        "score": 0.029211087420042643,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 10,
+          "tfidf": 7
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Thiếu giao tiếp làm cản trở việc trao đổi những hiểu biết và yêu cầu quan trọng giữa lãnh đạo kinh doanh và IT. Hậu quả là hai bên dễ hiểu sai nhu cầu, khiến giải pháp công nghệ khó gắn với mục tiêu kinh doanh và làm suy yếu sự liên kết business–IT. [7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73][f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1]",
+  "elapsed_ms": 4841.506599997956,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 383,
+        "completion_tokens": 31,
+        "total_tokens": 414
+      },
+      "action": {
+        "action": "search",
+        "query": "lack of communication business leaders IT alignment business-IT alignment barriers communication executives information systems"
+      },
+      "elapsed_ms": 1442.5660999986576
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "lack of communication business leaders IT alignment business-IT alignment barriers communication executives information systems"
+          ],
+          "context": "[7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73 | chapter1-2.pdf | page 60]\n• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.\n\n[f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1 | chapter1-2.pdf | page 60]\nBusiness and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11\n\n[f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671 | chapter1-2.pdf | page 59]\nUnderstanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and\n\n[ab9c9c93e58ace73a14b986a4801924b79955d44bc69f0b106218ab84b1d6a16 | chapter1-2.pdf | page 59]\nobjectives. This simply means that IT directly\nsupports the business goals of the organization. Successful alignment exhibits six key characteristics (Figure\n2.6):\n• Organizations consider IT to be a driver of innovation that continuously transforms the business, leading\nto new revenue opportunities.\n• Internal and external customers, as well as customer service, hold paramount importance for these\norganizations.\n\n[fe6ffbf3c9d97a6e6b9c148bff2e8166d5735ef114822e79085272e0057b6ee5 | chapter1-2.pdf | page 59]\nFunctional\nArea\nStrategic\nInformation\nSystems\nManagerial\nInformation\nSystems\nOperational\nInformation\nSystems\nOverall Value\nIndicators for\nInformation\nTechnology Investment\nInformation\ntechnology\nand\ntechnology\nmanagement\nAlignment of\ninformation\ntechnology\ninvestments with\nbusiness goals and\nstrategy\nInformation\ntechnology\nproject progress\nmonitoring and\nresource\noptimization\nEfficient",
+          "context_ids": [
+            "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+            "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+            "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+            "ab9c9c93e58ace73a14b986a4801924b79955d44bc69f0b106218ab84b1d6a16",
+            "fe6ffbf3c9d97a6e6b9c148bff2e8166d5735ef114822e79085272e0057b6ee5"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1329,
+        "completion_tokens": 238,
+        "total_tokens": 1567
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Thiếu giao tiếp làm cản trở việc trao đổi những hiểu biết và yêu cầu quan trọng giữa lãnh đạo kinh doanh và IT. Hậu quả là hai bên dễ hiểu sai nhu cầu, khiến giải pháp công nghệ khó gắn với mục tiêu kinh doanh và làm suy yếu sự liên kết business–IT. [7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73][f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1]",
+        "citations": [
+          "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+          "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1"
+        ]
+      },
+      "elapsed_ms": 2612.1459000023606
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Thiếu giao tiếp giữa lãnh đạo kinh doanh và IT cản trở sự liên kết business–IT như thế nào?",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1855,
+              "language": "en",
+              "char_count": 437,
+              "start_char": 1418,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.5250590342753124,
+            "strategy": "dense"
+          },
+          {
+            "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1417,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 925,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.5113337983387042,
+            "strategy": "dense"
+          },
+          {
+            "id": "3cfb1fe72617bebbc72ab3d9bc2efb90ef4be15957eff2edb21df9ca9358ffaa",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "• Business and IT professionals are cross-trained and move across di fferent departments and job roles.\n• Clear overarching goals are established and understood by both IT and business employees.\n• Information technology employees are informed about the company’s revenue generation and cost-\nsaving mechanisms.\n• The organization fosters a vibrant and inclusive company culture.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2375,
+              "language": "en",
+              "char_count": 379,
+              "start_char": 1996,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.5029527960787251,
+            "strategy": "dense"
+          },
+          {
+            "id": "0806430faad4eb1115d84685b3af1387022bf66d6c623e0491523c955a4ed075",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Prioritize organizational communication: Encouraging e ffective dialogue between different departments,\nfostering interdepartmental partnerships, and promoting mutual understanding between business and IT\nteams ensures sufficient knowledge sharing, well-informed decision-making, and seamless collaboration.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 309,
+              "start_char": 1856,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.44050253091468294,
+            "strategy": "dense"
+          },
+          {
+            "id": "b9039b2bc7bb40f598ccdfe190f77505dee534e3fb8a2c73828d0ff2f69cd4cb",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 61,
+            "text": "and understanding between IT and\nstakeholders to develop practical and effective solutions for many different business scenarios.\nStrategies to Generate Value Using Information Technology\nIn today’s business landscape, there are five key strategies usually pursued by organizations when seeking to\ngenerate value using IT: cost leadership, differentiation, focus/innovation, operational effectiveness, and\ncustomer orientation.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 927,
+              "language": "en",
+              "char_count": 427,
+              "start_char": 500,
+              "printed_page": 57,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4465
+            },
+            "score": 0.4383448743811058,
+            "strategy": "dense"
+          },
+          {
+            "id": "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Understanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1578,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1079,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.43699739669933724,
+            "strategy": "dense"
+          },
+          {
+            "id": "086597f89e63ed16b7faa0f488cc18a5baeb8c5dc3f8c0e80957dffa484304ec",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "In today’s ever-evolving business landscape, organizations have come to recognize the immense potential of\nIT to enhance the value of their products and services. Leveraging IT has become a key factor in staying\ncompetitive and relevant in the digital age. However , as businesses delve deeper into the realm of IT, they face\nan essential question: How can they effectively assess the value IT adds to their organization?\nDefining the Value of Information Technology Within Organizations",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2900,
+              "language": "en",
+              "char_count": 487,
+              "start_char": 2413,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.4352820690483147,
+            "strategy": "dense"
+          },
+          {
+            "id": "e5e56237201e33365437ad3c220a7d7848ca8ed40fe29f8f01d25275e9c58bd8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Focus on strengthening governance: Organizations should involve IT in strategic planning to ensure\ntechnology initiatives align with overall business goals. Engaging IT in executive committees enhances the\ndecision-making process. Implementing a structured reporting hierarchy establishes clear communication\nchannels, and defining authorization for decision-making roles ensures efficient execution. Coordinated\ngovernance can help set criteria whereby IT projects are prioritized based on their",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2664,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2166,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.4293145543315324,
+            "strategy": "dense"
+          },
+          {
+            "id": "f7616189ad6af978a0dd92762ae8c454d01665c2f351b077e48207a29f9371bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "relationships between the strategic\nvalue of IT systems and the performance of organizations.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 850,
+              "language": "en",
+              "char_count": 93,
+              "start_char": 757,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.42784725682645197,
+            "strategy": "dense"
+          },
+          {
+            "id": "04c3f4a581deda0d2eaea0f048d16175d03fe852cf7981768df1e153a860b04d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "alignment with\nbusiness objectives.\n• Align scope and IT architecture: Evaluating IT solutions for their e ffectiveness and customizing them to\nsuit specific scope and business needs can lead to better outcomes.\n• Emphasize the development of human skills: Cultivating readiness to embrace technological changes,\nadapting management styles to support successful IT implementation, and learning from previous\nexperiences contribute to continuous improvement.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3122,
+              "language": "en",
+              "char_count": 457,
+              "start_char": 2665,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.42646603768225644,
+            "strategy": "dense"
+          },
+          {
+            "id": "a9d53c4d4220d71a4bd2256647c2789b6cd2ced5c7774930f5e62c1909e66698",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "Uber or Lyft. This type of business model\ninnovation leverages IT to create entirely new business models, not just enhance existing ones.\nManagers should consider which of the following three primary methods of value IT brings to their\norganization (Figure 2.5):\n• automation of operation\n• information generation for managing people and resources",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1699,
+              "language": "en",
+              "char_count": 347,
+              "start_char": 1352,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.4159306472593478,
+            "strategy": "dense"
+          },
+          {
+            "id": "e4d0f8a6a9d5d7c047d544b4de776fb1b9e03c7cd2667321be968bb69db6db90",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 62,
+            "text": "business models, each of which has\nspecific information technology strategies.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2475,
+              "language": "en",
+              "char_count": 78,
+              "start_char": 2397,
+              "printed_page": 58,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3849
+            },
+            "score": 0.4159179566061989,
+            "strategy": "dense"
+          },
+          {
+            "id": "ab9c9c93e58ace73a14b986a4801924b79955d44bc69f0b106218ab84b1d6a16",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "objectives. This simply means that IT directly\nsupports the business goals of the organization. Successful alignment exhibits six key characteristics (Figure\n2.6):\n• Organizations consider IT to be a driver of innovation that continuously transforms the business, leading\nto new revenue opportunities.\n• Internal and external customers, as well as customer service, hold paramount importance for these\norganizations.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1995,
+              "language": "en",
+              "char_count": 416,
+              "start_char": 1579,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.4123155764955979,
+            "strategy": "dense"
+          },
+          {
+            "id": "302b65ba8acd7383bdc34bea9fcd0bfcfce5de4d6c1eada50fc873225fc5982b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "relationship between IS and IT, as these two disciplines work in tandem to support\norganizational objectives and foster innovation. Further , many of the training and education requirements for\nprofessionals in the IS field use the Information Technology Competency Model to prepare individuals to\nnavigate the complexities of this dynamic and rapidly changing industry.\nCompetencies in IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2343,
+              "language": "en",
+              "char_count": 389,
+              "start_char": 1954,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.40945708975001405,
+            "strategy": "dense"
+          },
+          {
+            "id": "9aa847aaf8554c08589f14ac5467c8b9c0a3f0aba6f1250d5dcb58ee0cfc7d58",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "information management. They\nhighlighted the importance of aligning IT strategic planning with an organization’s decision-making needs and\nthe potential benefits that technology can bring to the decision-making process. Gorry and Scott Morton\nsuggest that for each business problem that involves information systems, data managers must first\ndetermine whether the problem is strategic, managerial, or operational in nature and then see whether the\ndecision-makers and the intelligence required should",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 993,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 493,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.40559884812063984,
+            "strategy": "dense"
+          },
+          {
+            "id": "9047383c15729a777ba196cf4a69931252554b54aaaf5a561e482a3834d08545",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 33,
+            "text": "As an IS professional, you likely will work closely with professionals in IT. Although the terms IS and IT are\nsometimes used interchangeably and the fields are connected, they are not the same. While IS focuses on an\norganization’s goals and developing an information system to meet organizational needs, IT is concerned with\nthe technological operations. IT professionals design and build an organization’s technological infrastructure,\nincluding the computer hardware, software, and networks",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 827,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 333,
+              "printed_page": 29,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3132
+            },
+            "score": 0.402590529563813,
+            "strategy": "dense"
+          },
+          {
+            "id": "c87a1bd3bb326cf530013cbbe08ca3e697aa787ad36142a73fc8066aa0acd117",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "Over the past decades, businesses and managers have focused on understanding how to employ IT systems\nto achieve goals in diverse organizational, consumer , and societal contexts. Transformative opportunities have\nbeen ushered in with the emergence of a new generation of IT, including elements such as:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3204,
+              "language": "en",
+              "char_count": 303,
+              "start_char": 2901,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.39948235332233883,
+            "strategy": "dense"
+          },
+          {
+            "id": "ad9480ba5c9f63e7a1ee868fde8a0ab1713780df98e5b12de8cf7319b9ebc1bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Figure 2.6 Successful strategic alignment occurs when information technology directly supports the business goals of the\norganization, guided by these six characteristics. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2630,
+              "language": "en",
+              "char_count": 254,
+              "start_char": 2376,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.39721249441720996,
+            "strategy": "dense"
+          },
+          {
+            "id": "60dadcb33e902fcb3dca5373676cd401065c087ee7e35849d46b43fe0273ed22",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "be managed with an ethical\nmindset, understanding its importance and recognizing that IS professionals have an obligation to do\neverything they can to help safeguard data.\n1.3 Connections between Information Systems and Information Technology\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain competencies in IS and IT\n• Describe the connections between IS and IT",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1455,
+              "language": "en",
+              "char_count": 392,
+              "start_char": 1063,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.39051916274610243,
+            "strategy": "dense"
+          },
+          {
+            "id": "9403d071729863e593b17ed1678c12a1087b4da6de6f9ae26e35b477b8e4278d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 33,
+            "text": "required to support the information system. IT\nprofessionals also provide user support to maintain technology and ensure that it functions appropriately.\nIS and IT professionals typically work together to ensure that an organization’s technological needs are met.\nFor example, IT professionals use IS requirements to guide their work as they design and develop an\norganization’s technological infrastructure.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1253,
+              "language": "en",
+              "char_count": 425,
+              "start_char": 828,
+              "printed_page": 29,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3132
+            },
+            "score": 0.38480246630402626,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1855,
+              "language": "en",
+              "char_count": 437,
+              "start_char": 1418,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.4221506166935949,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Understanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1578,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1079,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.29308447637349866,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "9403d071729863e593b17ed1678c12a1087b4da6de6f9ae26e35b477b8e4278d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 33,
+            "text": "required to support the information system. IT\nprofessionals also provide user support to maintain technology and ensure that it functions appropriately.\nIS and IT professionals typically work together to ensure that an organization’s technological needs are met.\nFor example, IT professionals use IS requirements to guide their work as they design and develop an\norganization’s technological infrastructure.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1253,
+              "language": "en",
+              "char_count": 425,
+              "start_char": 828,
+              "printed_page": 29,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3132
+            },
+            "score": 0.2612145425157551,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1417,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 925,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.2574015258288648,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "086597f89e63ed16b7faa0f488cc18a5baeb8c5dc3f8c0e80957dffa484304ec",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "In today’s ever-evolving business landscape, organizations have come to recognize the immense potential of\nIT to enhance the value of their products and services. Leveraging IT has become a key factor in staying\ncompetitive and relevant in the digital age. However , as businesses delve deeper into the realm of IT, they face\nan essential question: How can they effectively assess the value IT adds to their organization?\nDefining the Value of Information Technology Within Organizations",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2900,
+              "language": "en",
+              "char_count": 487,
+              "start_char": 2413,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.24995798952797987,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b6beda4014bb3d4d8342b3893ced6fadd4af5372d3fdce7dca33845371d5487a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 62,
+            "text": "A successful digital business model provides a logical framework that unlocks the value of a technology,\nallowing businesses to benefit economically. The business model serves as a blueprint for how a company\ngenerates and captures value from new products, services, or innovations. It is not solely IT that determines\nsuccess, but the business model behind it that plays a key role in enabling high-tech companies to achieve\ntheir strategic goals and objectives. There are several common digital",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2396,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 1900,
+              "printed_page": 58,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3849
+            },
+            "score": 0.24962041003612787,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "04c3f4a581deda0d2eaea0f048d16175d03fe852cf7981768df1e153a860b04d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "alignment with\nbusiness objectives.\n• Align scope and IT architecture: Evaluating IT solutions for their e ffectiveness and customizing them to\nsuit specific scope and business needs can lead to better outcomes.\n• Emphasize the development of human skills: Cultivating readiness to embrace technological changes,\nadapting management styles to support successful IT implementation, and learning from previous\nexperiences contribute to continuous improvement.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3122,
+              "language": "en",
+              "char_count": 457,
+              "start_char": 2665,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.2425507633480456,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "9047383c15729a777ba196cf4a69931252554b54aaaf5a561e482a3834d08545",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 33,
+            "text": "As an IS professional, you likely will work closely with professionals in IT. Although the terms IS and IT are\nsometimes used interchangeably and the fields are connected, they are not the same. While IS focuses on an\norganization’s goals and developing an information system to meet organizational needs, IT is concerned with\nthe technological operations. IT professionals design and build an organization’s technological infrastructure,\nincluding the computer hardware, software, and networks",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 827,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 333,
+              "printed_page": 29,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3132
+            },
+            "score": 0.23419983661335875,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.22516320273764762,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a9d53c4d4220d71a4bd2256647c2789b6cd2ced5c7774930f5e62c1909e66698",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "Uber or Lyft. This type of business model\ninnovation leverages IT to create entirely new business models, not just enhance existing ones.\nManagers should consider which of the following three primary methods of value IT brings to their\norganization (Figure 2.5):\n• automation of operation\n• information generation for managing people and resources",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1699,
+              "language": "en",
+              "char_count": 347,
+              "start_char": 1352,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.21809929131975772,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ab9c9c93e58ace73a14b986a4801924b79955d44bc69f0b106218ab84b1d6a16",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "objectives. This simply means that IT directly\nsupports the business goals of the organization. Successful alignment exhibits six key characteristics (Figure\n2.6):\n• Organizations consider IT to be a driver of innovation that continuously transforms the business, leading\nto new revenue opportunities.\n• Internal and external customers, as well as customer service, hold paramount importance for these\norganizations.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1995,
+              "language": "en",
+              "char_count": 416,
+              "start_char": 1579,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.21089359954477915,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "592cfdcd44ac2cdf48c8b913126125b0c102dd6b280907e6ce64e0ab6d81fb8f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "The most common means of understanding the value of information systems in a business is to measure the\nrelationship between IT investments and output measures of revenue and human productivity. This evaluation\ncan be conducted at both the industry level and organizational level. However , the business value of IT goes\nbeyond direct output or revenue measures because IT often supports organizational redesign efforts, such as\nthe traditional taxi services being disrupted by new ride services like",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1351,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 851,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.20972093142548268,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e5e56237201e33365437ad3c220a7d7848ca8ed40fe29f8f01d25275e9c58bd8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Focus on strengthening governance: Organizations should involve IT in strategic planning to ensure\ntechnology initiatives align with overall business goals. Engaging IT in executive committees enhances the\ndecision-making process. Implementing a structured reporting hierarchy establishes clear communication\nchannels, and defining authorization for decision-making roles ensures efficient execution. Coordinated\ngovernance can help set criteria whereby IT projects are prioritized based on their",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2664,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2166,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.20355289439550575,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6cf4b1603d383b4d314db130517a8ef9834af9b9efc9c6b1e884ed3c1bb8ac1c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 73,
+            "text": "In management information systems (MIS) scholars have identified two main perspectives on innovation and\nits relation to IS. These perspectives offer valuable insights into how organizations adopt and leverage digital\ntechnologies to drive progress. The first perspective, known as “IT innovation,” focuses on how organizations\nintegrate new IT-enabled business processes, products, and services. Simply put, this type of innovation refers\nto the adoption of an already-existing IT product or service",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3384,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2884,
+              "printed_page": 69,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4139
+            },
+            "score": 0.19980587607359424,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b9039b2bc7bb40f598ccdfe190f77505dee534e3fb8a2c73828d0ff2f69cd4cb",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 61,
+            "text": "and understanding between IT and\nstakeholders to develop practical and effective solutions for many different business scenarios.\nStrategies to Generate Value Using Information Technology\nIn today’s business landscape, there are five key strategies usually pursued by organizations when seeking to\ngenerate value using IT: cost leadership, differentiation, focus/innovation, operational effectiveness, and\ncustomer orientation.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 927,
+              "language": "en",
+              "char_count": 427,
+              "start_char": 500,
+              "printed_page": 57,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4465
+            },
+            "score": 0.19551438028553664,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2fae517b9f1bde2e0b712a209da3438449ac4a0ae0c1e1769d988a9a38679dc0",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "The fields of information systems (IS) and information technology (IT) overlap, and sometimes the terms are\nused interchangeably. However , the sole focus of the field of IT is technology, meaning the processes\nnecessary to establish and maintain computer systems, networks, and applications. Although the field of IS is\nconcerned with technology, the focus is broader to include the people who are part of system processes. It is a\nvital tool used by all types of organizations to conduct business",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1544,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 1046,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.19524306015220982,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "3cfb1fe72617bebbc72ab3d9bc2efb90ef4be15957eff2edb21df9ca9358ffaa",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "• Business and IT professionals are cross-trained and move across di fferent departments and job roles.\n• Clear overarching goals are established and understood by both IT and business employees.\n• Information technology employees are informed about the company’s revenue generation and cost-\nsaving mechanisms.\n• The organization fosters a vibrant and inclusive company culture.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2375,
+              "language": "en",
+              "char_count": 379,
+              "start_char": 1996,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.19303699972214747,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f7616189ad6af978a0dd92762ae8c454d01665c2f351b077e48207a29f9371bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "relationships between the strategic\nvalue of IT systems and the performance of organizations.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 850,
+              "language": "en",
+              "char_count": 93,
+              "start_char": 757,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.18489444055026946,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "676709e6ea53ae47d7d88080c7a4157696ca0fba79d582b00ddf2565ebd6b137",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "achieve optimization. This strategic approach strives to expand the productivity and profitability of an\norganization’s business processes. In essence, BPR requires organizations to scrutinize their business\nprocesses through an unprejudiced lens and subsequently determine the optimal means to reconstruct these\nprocesses to bolster their business functions. Business process reengineering originates from the capabilities\nIT offers, including process automation, standardization of several process",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 499,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 0,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.18172646992502547,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0714f8184b2fc438912064171cc5890dbc73f7924d91fce342855040bc8ebf82",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 33,
+            "text": "You will likely work with IT professionals at some point during your career , and it will be helpful to\nunderstand how IT roles differ from IS roles. This geeksforgeeks.org blog provides more details\n(https://openstax.org/r/109ITvsIS) about the differences, including a table that compares the two fields.\nCareer Focus: Training and Education Requirements for Information\nSystems Fields",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1640,
+              "language": "en",
+              "char_count": 386,
+              "start_char": 1254,
+              "printed_page": 29,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3132
+            },
+            "score": 0.17734162523584895,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1855,
+            "language": "en",
+            "char_count": 437,
+            "start_char": 1418,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1417,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 925,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.031754032258064516,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 4
+          },
+          "rank": 2
+        },
+        {
+          "id": "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "Understanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1578,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 1079,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.03128054740957967,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 6,
+            "tfidf": 2
+          },
+          "rank": 3
+        },
+        {
+          "id": "086597f89e63ed16b7faa0f488cc18a5baeb8c5dc3f8c0e80957dffa484304ec",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 55,
+          "text": "In today’s ever-evolving business landscape, organizations have come to recognize the immense potential of\nIT to enhance the value of their products and services. Leveraging IT has become a key factor in staying\ncompetitive and relevant in the digital age. However , as businesses delve deeper into the realm of IT, they face\nan essential question: How can they effectively assess the value IT adds to their organization?\nDefining the Value of Information Technology Within Organizations",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2900,
+            "language": "en",
+            "char_count": 487,
+            "start_char": 2413,
+            "printed_page": 51,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4016
+          },
+          "score": 0.030309988518943745,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 7,
+            "tfidf": 5
+          },
+          "rank": 4
+        },
+        {
+          "id": "04c3f4a581deda0d2eaea0f048d16175d03fe852cf7981768df1e153a860b04d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "alignment with\nbusiness objectives.\n• Align scope and IT architecture: Evaluating IT solutions for their e ffectiveness and customizing them to\nsuit specific scope and business needs can lead to better outcomes.\n• Emphasize the development of human skills: Cultivating readiness to embrace technological changes,\nadapting management styles to support successful IT implementation, and learning from previous\nexperiences contribute to continuous improvement.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3122,
+            "language": "en",
+            "char_count": 457,
+            "start_char": 2665,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.029211087420042643,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 10,
+            "tfidf": 7
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 397.44689999861293
+    },
+    {
+      "query": "lack of communication business leaders IT alignment business-IT alignment barriers communication executives information systems",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1417,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 925,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.6844259522955946,
+            "strategy": "dense"
+          },
+          {
+            "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1855,
+              "language": "en",
+              "char_count": 437,
+              "start_char": 1418,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.647506448864088,
+            "strategy": "dense"
+          },
+          {
+            "id": "0806430faad4eb1115d84685b3af1387022bf66d6c623e0491523c955a4ed075",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Prioritize organizational communication: Encouraging e ffective dialogue between different departments,\nfostering interdepartmental partnerships, and promoting mutual understanding between business and IT\nteams ensures sufficient knowledge sharing, well-informed decision-making, and seamless collaboration.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 309,
+              "start_char": 1856,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.564902836864617,
+            "strategy": "dense"
+          },
+          {
+            "id": "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Understanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1578,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1079,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.5614278694273618,
+            "strategy": "dense"
+          },
+          {
+            "id": "3cfb1fe72617bebbc72ab3d9bc2efb90ef4be15957eff2edb21df9ca9358ffaa",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "• Business and IT professionals are cross-trained and move across di fferent departments and job roles.\n• Clear overarching goals are established and understood by both IT and business employees.\n• Information technology employees are informed about the company’s revenue generation and cost-\nsaving mechanisms.\n• The organization fosters a vibrant and inclusive company culture.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2375,
+              "language": "en",
+              "char_count": 379,
+              "start_char": 1996,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.5507585683890697,
+            "strategy": "dense"
+          },
+          {
+            "id": "ab9c9c93e58ace73a14b986a4801924b79955d44bc69f0b106218ab84b1d6a16",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "objectives. This simply means that IT directly\nsupports the business goals of the organization. Successful alignment exhibits six key characteristics (Figure\n2.6):\n• Organizations consider IT to be a driver of innovation that continuously transforms the business, leading\nto new revenue opportunities.\n• Internal and external customers, as well as customer service, hold paramount importance for these\norganizations.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1995,
+              "language": "en",
+              "char_count": 416,
+              "start_char": 1579,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.5465078470933393,
+            "strategy": "dense"
+          },
+          {
+            "id": "e5e56237201e33365437ad3c220a7d7848ca8ed40fe29f8f01d25275e9c58bd8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Focus on strengthening governance: Organizations should involve IT in strategic planning to ensure\ntechnology initiatives align with overall business goals. Engaging IT in executive committees enhances the\ndecision-making process. Implementing a structured reporting hierarchy establishes clear communication\nchannels, and defining authorization for decision-making roles ensures efficient execution. Coordinated\ngovernance can help set criteria whereby IT projects are prioritized based on their",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2664,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2166,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.5369049926295806,
+            "strategy": "dense"
+          },
+          {
+            "id": "9aa847aaf8554c08589f14ac5467c8b9c0a3f0aba6f1250d5dcb58ee0cfc7d58",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "information management. They\nhighlighted the importance of aligning IT strategic planning with an organization’s decision-making needs and\nthe potential benefits that technology can bring to the decision-making process. Gorry and Scott Morton\nsuggest that for each business problem that involves information systems, data managers must first\ndetermine whether the problem is strategic, managerial, or operational in nature and then see whether the\ndecision-makers and the intelligence required should",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 993,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 493,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.5322844791434591,
+            "strategy": "dense"
+          },
+          {
+            "id": "04c3f4a581deda0d2eaea0f048d16175d03fe852cf7981768df1e153a860b04d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "alignment with\nbusiness objectives.\n• Align scope and IT architecture: Evaluating IT solutions for their e ffectiveness and customizing them to\nsuit specific scope and business needs can lead to better outcomes.\n• Emphasize the development of human skills: Cultivating readiness to embrace technological changes,\nadapting management styles to support successful IT implementation, and learning from previous\nexperiences contribute to continuous improvement.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3122,
+              "language": "en",
+              "char_count": 457,
+              "start_char": 2665,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.5248161952089937,
+            "strategy": "dense"
+          },
+          {
+            "id": "ad9480ba5c9f63e7a1ee868fde8a0ab1713780df98e5b12de8cf7319b9ebc1bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Figure 2.6 Successful strategic alignment occurs when information technology directly supports the business goals of the\norganization, guided by these six characteristics. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2630,
+              "language": "en",
+              "char_count": 254,
+              "start_char": 2376,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.5202336983317373,
+            "strategy": "dense"
+          },
+          {
+            "id": "fe6ffbf3c9d97a6e6b9c148bff2e8166d5735ef114822e79085272e0057b6ee5",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Functional\nArea\nStrategic\nInformation\nSystems\nManagerial\nInformation\nSystems\nOperational\nInformation\nSystems\nOverall Value\nIndicators for\nInformation\nTechnology Investment\nInformation\ntechnology\nand\ntechnology\nmanagement\nAlignment of\ninformation\ntechnology\ninvestments with\nbusiness goals and\nstrategy\nInformation\ntechnology\nproject progress\nmonitoring and\nresource\noptimization\nEfficient",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 388,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 0,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.5131576235512665,
+            "strategy": "dense"
+          },
+          {
+            "id": "b9039b2bc7bb40f598ccdfe190f77505dee534e3fb8a2c73828d0ff2f69cd4cb",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 61,
+            "text": "and understanding between IT and\nstakeholders to develop practical and effective solutions for many different business scenarios.\nStrategies to Generate Value Using Information Technology\nIn today’s business landscape, there are five key strategies usually pursued by organizations when seeking to\ngenerate value using IT: cost leadership, differentiation, focus/innovation, operational effectiveness, and\ncustomer orientation.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 927,
+              "language": "en",
+              "char_count": 427,
+              "start_char": 500,
+              "printed_page": 57,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4465
+            },
+            "score": 0.4855000548817665,
+            "strategy": "dense"
+          },
+          {
+            "id": "086597f89e63ed16b7faa0f488cc18a5baeb8c5dc3f8c0e80957dffa484304ec",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "In today’s ever-evolving business landscape, organizations have come to recognize the immense potential of\nIT to enhance the value of their products and services. Leveraging IT has become a key factor in staying\ncompetitive and relevant in the digital age. However , as businesses delve deeper into the realm of IT, they face\nan essential question: How can they effectively assess the value IT adds to their organization?\nDefining the Value of Information Technology Within Organizations",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2900,
+              "language": "en",
+              "char_count": 487,
+              "start_char": 2413,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.47846100066453023,
+            "strategy": "dense"
+          },
+          {
+            "id": "8399939ccc96fc47e91950baa948dc40a4d6de060950fbd16308d8735a1691a2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "“Analysis (1510724) - The Noun Project” by Anwer Hossain/Wikimedia Commons, CC0 1.0; credit Culture: modification of work “Ethics\nof Open Sharing icon - Organizational culture” by Julius Uusikylä, KRUT Collective/Wikimedia Commons, CC0 1.0)\nUnfortunately, many organizations struggle to achieve such close alignment. The primary reasons for the gap\nbetween business and IT departments can usually be attributed to the following:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 924,
+              "language": "en",
+              "char_count": 428,
+              "start_char": 496,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.4775912151500312,
+            "strategy": "dense"
+          },
+          {
+            "id": "84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Facilitating communication and coordination: Another important role of information systems is to\nfacilitate communication and coordination among different functional areas within the organization. As\nbusinesses grow, the complexity of operations increases, and different departments need to work\ntogether seamlessly. Information systems enable smooth information flow, allowing employees from\nvarious departments to collaborate effectively. For example, a company’s enterprise resource planning",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3142,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 2646,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.4752835097028829,
+            "strategy": "dense"
+          },
+          {
+            "id": "abf3f5586eb8726fa7f0fa3302086c01f09bfbb0120db1dc09fd213f84ded52e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 31,
+            "text": "• Management: leadership, direction setting, team oversight, con flict resolution, delegation\nTo be successful in the workplace, IS professionals need personal effectiveness, academic, and workplace\ncompetencies. In addition, they need competencies specific to technology and information systems. These\ninclude knowledge and skills in the principles of information technology, databases and applications,\ntechnological networks, telecom, wireless and mobility, software development and management,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1144,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 647,
+              "printed_page": 27,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1958
+            },
+            "score": 0.4746546931795239,
+            "strategy": "dense"
+          },
+          {
+            "id": "592cfdcd44ac2cdf48c8b913126125b0c102dd6b280907e6ce64e0ab6d81fb8f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "The most common means of understanding the value of information systems in a business is to measure the\nrelationship between IT investments and output measures of revenue and human productivity. This evaluation\ncan be conducted at both the industry level and organizational level. However , the business value of IT goes\nbeyond direct output or revenue measures because IT often supports organizational redesign efforts, such as\nthe traditional taxi services being disrupted by new ride services like",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1351,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 851,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.4703937741383335,
+            "strategy": "dense"
+          },
+          {
+            "id": "c22358affdae0e02258a72c16373f6bec2da725fed6a76b2a2fbfc4a74d88d80",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 58,
+            "text": "Functional\nArea\nStrategic\nInformation\nSystems\nManagerial\nInformation\nSystems\nOperational\nInformation\nSystems\nOverall Value\nIndicators for\nInformation\nTechnology Investment\nHuman\nresources\nWorkforce\noptimization\nData-driven\nhuman\nresources\ndecision-making\nand analytics\nEfficient\nemployee data\nmanagement\nand self-\nservice options\nImproved talent\nacquisition and\nretention, reduced\nhuman resources\noperational costs\nFinance and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 426,
+              "language": "en",
+              "char_count": 426,
+              "start_char": 0,
+              "printed_page": 54,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2239
+            },
+            "score": 0.46796863512604037,
+            "strategy": "dense"
+          },
+          {
+            "id": "f7616189ad6af978a0dd92762ae8c454d01665c2f351b077e48207a29f9371bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "relationships between the strategic\nvalue of IT systems and the performance of organizations.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 850,
+              "language": "en",
+              "char_count": 93,
+              "start_char": 757,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.4674598204046876,
+            "strategy": "dense"
+          },
+          {
+            "id": "b85a284d6922343e61fe5a5a43ac75548eaca9d7888bc9f52e0840dde10b742a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "information\ntechnology\nservice delivery\nand asset\nmanagement\nOptimized information\ntechnology spending,\nimproved project\noutcomes, and reduced\noperational disruptions\nBusiness\nintelligence\nand analytics\nUtilization of data for\nadvanced analytics\nData\nvisualization for\ninsights and\ndecision-making\nInteractive",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 698,
+              "language": "en",
+              "char_count": 309,
+              "start_char": 389,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.46412112090277724,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1417,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 925,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.37581743982316734,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1855,
+              "language": "en",
+              "char_count": 437,
+              "start_char": 1418,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.33399643230330756,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Understanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1578,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1079,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.25129764421158807,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cbc4441691bc7ce2cdcfe0a1164d064cbbf1b61c87f5fcb2e4823a551eb6f764",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 16,
+            "text": "Evolution of Communication and Information Sharing",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 567,
+              "language": "en",
+              "char_count": 50,
+              "start_char": 517,
+              "printed_page": 12,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4312
+            },
+            "score": 0.241251969196684,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f2ae9b4c9c7d01218d10b62214d74915cdd808c72a49b65d78279a95e7d5d4ab",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 71,
+            "text": "organization:17\n• Strategic alignment: Business process management must be closely aligned with the organization’s overall\nstrategy. This alignment ensures that processes are designed, executed, managed, and measured in\naccordance with strategic priorities, enabling continuous and effective actions to improve performances of\nspecific business processes. Business models act as the vital connector between the technology strategy\nand strategic goals of an organization.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1586,
+              "language": "en",
+              "char_count": 470,
+              "start_char": 1116,
+              "printed_page": 67,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3865
+            },
+            "score": 0.19758072407570224,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "35d62d80dbbe96789a247055b81c093827f0bda11f1f13bc246d033db80f295e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 19,
+            "text": "information systems, giving users\nmore options for communication and information sharing.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2083,
+              "language": "en",
+              "char_count": 89,
+              "start_char": 1994,
+              "printed_page": 15,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4005
+            },
+            "score": 0.1947511975036426,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7367d2e0be2ce0bf65a6fb4ebeeaf4901b448b637828c15b9d036ab51edce981",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "landscape.\nInformation Systems and Business Processes\nBy capturing and managing data, monitoring performance, and facilitating communication, information\nsystems contribute to improved efficiency, better decision-making, and overall business growth for any\nbusiness process. Following are the primary areas in which information systems play a vital role:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1352,
+              "language": "en",
+              "char_count": 354,
+              "start_char": 998,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.18740771031447284,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "fe6ffbf3c9d97a6e6b9c148bff2e8166d5735ef114822e79085272e0057b6ee5",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Functional\nArea\nStrategic\nInformation\nSystems\nManagerial\nInformation\nSystems\nOperational\nInformation\nSystems\nOverall Value\nIndicators for\nInformation\nTechnology Investment\nInformation\ntechnology\nand\ntechnology\nmanagement\nAlignment of\ninformation\ntechnology\ninvestments with\nbusiness goals and\nstrategy\nInformation\ntechnology\nproject progress\nmonitoring and\nresource\noptimization\nEfficient",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 388,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 0,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.1774310556823051,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "316502c79a7a2ccebac8476bee5b6cc19895e580c5d7748f58b115e053543a93",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 16,
+            "text": "communication, allowing real-time conversations for\nsharing information for both personal and business purposes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1632,
+              "language": "en",
+              "char_count": 112,
+              "start_char": 1520,
+              "printed_page": 12,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4312
+            },
+            "score": 0.1687812607997906,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "da26b0d71d68d07851a6d59468618e43d890a62c1d5e9a2e3b8c12f23a76dd99",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 19,
+            "text": "Digital Media and Its Impact on Human Communication",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 51,
+              "language": "en",
+              "char_count": 51,
+              "start_char": 0,
+              "printed_page": 15,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4005
+            },
+            "score": 0.16498260255955519,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ab9c9c93e58ace73a14b986a4801924b79955d44bc69f0b106218ab84b1d6a16",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "objectives. This simply means that IT directly\nsupports the business goals of the organization. Successful alignment exhibits six key characteristics (Figure\n2.6):\n• Organizations consider IT to be a driver of innovation that continuously transforms the business, leading\nto new revenue opportunities.\n• Internal and external customers, as well as customer service, hold paramount importance for these\norganizations.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1995,
+              "language": "en",
+              "char_count": 416,
+              "start_char": 1579,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.16416551297627704,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "04c3f4a581deda0d2eaea0f048d16175d03fe852cf7981768df1e153a860b04d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "alignment with\nbusiness objectives.\n• Align scope and IT architecture: Evaluating IT solutions for their e ffectiveness and customizing them to\nsuit specific scope and business needs can lead to better outcomes.\n• Emphasize the development of human skills: Cultivating readiness to embrace technological changes,\nadapting management styles to support successful IT implementation, and learning from previous\nexperiences contribute to continuous improvement.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3122,
+              "language": "en",
+              "char_count": 457,
+              "start_char": 2665,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.15617779526907358,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.1434328596333041,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "904cb8bcda6322de291550b08ac6763b16fc3c72e5f5fd2c8b8ff1a2850fda8d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Information systems improve organizational communication by making it easier for colleagues and teams to\nshare information and collaborate. This collaboration is enhanced because these systems enable organizations\nto work with better and more accurate data. Collaborative business processes positively impacted by\ninformation systems include group decision-making, conflict resolution, relationship management, and\nnegotiation.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4133,
+              "language": "en",
+              "char_count": 427,
+              "start_char": 3706,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.13833940695644262,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ad9480ba5c9f63e7a1ee868fde8a0ab1713780df98e5b12de8cf7319b9ebc1bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Figure 2.6 Successful strategic alignment occurs when information technology directly supports the business goals of the\norganization, guided by these six characteristics. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2630,
+              "language": "en",
+              "char_count": 254,
+              "start_char": 2376,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.1348304375650617,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Facilitating communication and coordination: Another important role of information systems is to\nfacilitate communication and coordination among different functional areas within the organization. As\nbusinesses grow, the complexity of operations increases, and different departments need to work\ntogether seamlessly. Information systems enable smooth information flow, allowing employees from\nvarious departments to collaborate effectively. For example, a company’s enterprise resource planning",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3142,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 2646,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.13167287473259928,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7c3a559c3b0a9bcd67966464efec0682663825884f5458b51f8274033851089b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "steps, and error mitigation through\nimproved interdepartmental communication.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 577,
+              "language": "en",
+              "char_count": 77,
+              "start_char": 500,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.11902997662786216,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e07a6a2837b98c96ad0e8b15f29c2eb96e31f0c70d1f109ce0ea7c9d99fd26cd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 66,
+            "text": "• Discuss ways in which information systems enable business processes\nTo promote success, businesses and other organizations need robust business processes that are well\nmanaged. Business processes help organizations be more efficient and effective—providing higher-quality\nproducts and services, and improving customer service and satisfaction. Business processes can be tailored to\nmeet an organization’s specific needs, and information systems can be important tools to enhance business\nprocesses.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 708,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 208,
+              "printed_page": 62,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2391
+            },
+            "score": 0.11685949217354089,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f213c9f260144bafee96c5070786c1f4dd86677e5755482b420340bc8b68190e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 12,
+            "text": "• Describe the components, elements, and operations of information systems\nIt’s helpful to understand the relationship between information systems and related fields. Computer science\nis the discipline that provides foundations for the theories and technology necessary for computing systems.\nInformation technology (IT) implements and maintains those computer systems. Information systems, our\narea of focus, uses those systems to process and manage information.\nKey Concepts in Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1396,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 897,
+              "printed_page": 8,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2754
+            },
+            "score": 0.11634900961031872,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5c15634081e6952255d6a4e1cabd4966f278712e6b28cf1f0d21269be7a355b7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 63,
+            "text": "features, and rating and review\nsystems to build trust among users. It is also important to prioritize user safety and enable efficient\ncommunication between providers and consumers.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4443,
+              "language": "en",
+              "char_count": 182,
+              "start_char": 4261,
+              "printed_page": 59,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4773
+            },
+            "score": 0.11620032933165353,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "• Di fferent objectives: Business managers focus on achieving business goals and generating revenue, while\nIT managers concentrate on technology implementation and maintenance.\n• Lack of expertise awareness: Business and IT departments often lack awareness of each other’s expertise\nand perspectives, leading to misunderstandings and misalignment.\n• Lack of communication: Inadequate communication between business and IT executives hinders the\nexchange of valuable insights and requirements.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1417,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 925,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "f80bf963f3edb34e062fcc3a3f1cdbf895012c9775862d650c8082e6a1cd6ec1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "Business and IT alignment as an integral unit, not separate entities, is vital. It is important that organizations\nview IT as a strategic partner , not just a support function. By fostering collaboration and communication\nbetween business and IT stakeholders, organizations can ensure that technology solutions directly address\nbusiness needs and objectives. To improve business-IT alignment, organizations can employ several\nmeasures:11",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1855,
+            "language": "en",
+            "char_count": 437,
+            "start_char": 1418,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "f8fb70fccc1cedd486332dcf2a6cdaeb62e7802ade6c7430354af841de15c671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "Understanding the role of business processes within an organization is vital to measuring the specific value\nthat IT can deliver and the mechanisms through which it achieves this. Information systems professionals\nknow that technology alone is not the sole determinant of digital success, and that strategy is an important\ncatalyst in the digital domain. Business-IT alignment, or strategic alignment, refers to the strong integration of\nthe IT function with an organization’s strategy, mission, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1578,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 1079,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "ab9c9c93e58ace73a14b986a4801924b79955d44bc69f0b106218ab84b1d6a16",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "objectives. This simply means that IT directly\nsupports the business goals of the organization. Successful alignment exhibits six key characteristics (Figure\n2.6):\n• Organizations consider IT to be a driver of innovation that continuously transforms the business, leading\nto new revenue opportunities.\n• Internal and external customers, as well as customer service, hold paramount importance for these\norganizations.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1995,
+            "language": "en",
+            "char_count": 416,
+            "start_char": 1579,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.029236022193768675,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 6,
+            "tfidf": 11
+          },
+          "rank": 4
+        },
+        {
+          "id": "fe6ffbf3c9d97a6e6b9c148bff2e8166d5735ef114822e79085272e0057b6ee5",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "Functional\nArea\nStrategic\nInformation\nSystems\nManagerial\nInformation\nSystems\nOperational\nInformation\nSystems\nOverall Value\nIndicators for\nInformation\nTechnology Investment\nInformation\ntechnology\nand\ntechnology\nmanagement\nAlignment of\ninformation\ntechnology\ninvestments with\nbusiness goals and\nstrategy\nInformation\ntechnology\nproject progress\nmonitoring and\nresource\noptimization\nEfficient",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 388,
+            "language": "en",
+            "char_count": 388,
+            "start_char": 0,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.028790389395194696,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 11,
+            "tfidf": 8
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 302.1318999999494
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 43
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 17
+    }
+  ],
+  "cost_usd": null
+}

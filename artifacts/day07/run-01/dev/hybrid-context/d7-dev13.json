@@ -1,0 +1,2355 @@
+{
+  "query_id": "d7-dev13",
+  "split": "dev",
+  "question": "Robert Anthony framework chia vấn đề và dữ liệu cần thiết để giải quyết vấn đề thành ba miền nào?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:00:04.359510+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Robert Anthony framework three domains classify problem and data needed to solve the problem strategic management control operational control",
+      "filter": {},
+      "results": [
+        {
+          "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 554,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 55,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "Operational Track and control day-to-day activities. Data are typically detailed and time sensitive.\nManagement Make decisions about how to allocate resources and achieve goals. Data are typically summarized and less time sensitive than operational data.\nStrategic Set long-term goals and make strategic decisions. Data are typically aggregated and less time sensitive than management data.\nTable 2.1 Three Domains of the Robert Anthony Framework The three domains of the Robert Anthony",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2180,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 1694,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 55,
+          "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 496,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 0,
+            "printed_page": 51,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4016
+          },
+          "score": 0.03125763125763126,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1693,
+            "language": "en",
+            "char_count": 319,
+            "start_char": 1374,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03125763125763126,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 5
+          },
+          "rank": 4
+        },
+        {
+          "id": "911ad8a3dfada57452b8070912f721643a7369d6cdc1c08594e49a78a1b0da7d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 54,
+          "text": "According to the Gorry and Scott Morton framework, management control primarily deals with overseeing and\nguiding people, while operational control focuses on the performance of designated activities or tasks, such as\nmanufacturing a particular part. Typically, operational control systems have a limited ability to provide\nmanagerial control reports or data that are helpful for strategic decision-making. For example, an online retail\nsystem primarily focused on operational control can generate",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3067,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 2570,
+            "printed_page": 50,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4179
+          },
+          "score": 0.03055037313432836,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 7,
+            "tfidf": 4
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4 | chapter1-2.pdf | page 53]\nIn the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and\n\n[2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964 | chapter1-2.pdf | page 53]\nOperational Track and control day-to-day activities. Data are typically detailed and time sensitive.\nManagement Make decisions about how to allocate resources and achieve goals. Data are typically summarized and less time sensitive than operational data.\nStrategic Set long-term goals and make strategic decisions. Data are typically aggregated and less time sensitive than management data.\nTable 2.1 Three Domains of the Robert Anthony Framework The three domains of the Robert Anthony\n\n[7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86 | chapter1-2.pdf | page 55]\nTo conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify\n\n[fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6 | chapter1-2.pdf | page 53]\nBy classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics\n\n[911ad8a3dfada57452b8070912f721643a7369d6cdc1c08594e49a78a1b0da7d | chapter1-2.pdf | page 54]\nAccording to the Gorry and Scott Morton framework, management control primarily deals with overseeing and\nguiding people, while operational control focuses on the performance of designated activities or tasks, such as\nmanufacturing a particular part. Typically, operational control systems have a limited ability to provide\nmanagerial control reports or data that are helpful for strategic decision-making. For example, an online retail\nsystem primarily focused on operational control can generate",
+      "context_ids": [
+        "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+        "2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964",
+        "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+        "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+        "911ad8a3dfada57452b8070912f721643a7369d6cdc1c08594e49a78a1b0da7d"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Robert Anthony framework chia vấn đề và dữ liệu cần thiết để giải quyết vấn đề thành ba miền nào?",
+    "filter": {},
+    "results": [
+      {
+        "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 53,
+        "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 554,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 55,
+          "printed_page": 49,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3777
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        },
+        "rank": 1
+      },
+      {
+        "id": "7672b5d814968d274c1511d7806bd871180a237ebd9d4745ee9e74aa9df11021",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 53,
+        "text": "4 Robert N. Anthony, “Framework for Analysis,” Management Services: A Magazine of Planning, Systems, and Controls 1, no. 1\n(1964): 6, https://egrove.olemiss.edu/mgmtservices/vol1/iss1/6",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3777,
+          "language": "en",
+          "char_count": 185,
+          "start_char": 3592,
+          "printed_page": 49,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3777
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 3
+        },
+        "rank": 2
+      },
+      {
+        "id": "2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 53,
+        "text": "Operational Track and control day-to-day activities. Data are typically detailed and time sensitive.\nManagement Make decisions about how to allocate resources and achieve goals. Data are typically summarized and less time sensitive than operational data.\nStrategic Set long-term goals and make strategic decisions. Data are typically aggregated and less time sensitive than management data.\nTable 2.1 Three Domains of the Robert Anthony Framework The three domains of the Robert Anthony",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2180,
+          "language": "en",
+          "char_count": 486,
+          "start_char": 1694,
+          "printed_page": 49,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3777
+        },
+        "score": 0.0315136476426799,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 5,
+          "tfidf": 2
+        },
+        "rank": 3
+      },
+      {
+        "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 53,
+        "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1693,
+          "language": "en",
+          "char_count": 319,
+          "start_char": 1374,
+          "printed_page": 49,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3777
+        },
+        "score": 0.031024531024531024,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 3,
+          "tfidf": 6
+        },
+        "rank": 4
+      },
+      {
+        "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 55,
+        "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 496,
+          "language": "en",
+          "char_count": 496,
+          "start_char": 0,
+          "printed_page": 51,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4016
+        },
+        "score": 0.031009615384615385,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 4,
+          "tfidf": 5
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Khung Robert Anthony chia thành ba miền: **kiểm soát tác nghiệp (operational control)**, **kiểm soát quản lý (management control)** và **chiến lược (strategic)**.[72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4]",
+  "elapsed_ms": 4586.432500000228,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 379,
+        "completion_tokens": 34,
+        "total_tokens": 413
+      },
+      "action": {
+        "action": "search",
+        "query": "Robert Anthony framework three domains classify problem and data needed to solve the problem strategic management control operational control"
+      },
+      "elapsed_ms": 1649.1681000006793
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Robert Anthony framework three domains classify problem and data needed to solve the problem strategic management control operational control"
+          ],
+          "context": "[72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4 | chapter1-2.pdf | page 53]\nIn the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and\n\n[2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964 | chapter1-2.pdf | page 53]\nOperational Track and control day-to-day activities. Data are typically detailed and time sensitive.\nManagement Make decisions about how to allocate resources and achieve goals. Data are typically summarized and less time sensitive than operational data.\nStrategic Set long-term goals and make strategic decisions. Data are typically aggregated and less time sensitive than management data.\nTable 2.1 Three Domains of the Robert Anthony Framework The three domains of the Robert Anthony\n\n[7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86 | chapter1-2.pdf | page 55]\nTo conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify\n\n[fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6 | chapter1-2.pdf | page 53]\nBy classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics\n\n[911ad8a3dfada57452b8070912f721643a7369d6cdc1c08594e49a78a1b0da7d | chapter1-2.pdf | page 54]\nAccording to the Gorry and Scott Morton framework, management control primarily deals with overseeing and\nguiding people, while operational control focuses on the performance of designated activities or tasks, such as\nmanufacturing a particular part. Typically, operational control systems have a limited ability to provide\nmanagerial control reports or data that are helpful for strategic decision-making. For example, an online retail\nsystem primarily focused on operational control can generate",
+          "context_ids": [
+            "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964",
+            "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+            "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+            "911ad8a3dfada57452b8070912f721643a7369d6cdc1c08594e49a78a1b0da7d"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1333,
+        "completion_tokens": 143,
+        "total_tokens": 1476
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Khung Robert Anthony chia thành ba miền: **kiểm soát tác nghiệp (operational control)**, **kiểm soát quản lý (management control)** và **chiến lược (strategic)**.[72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4]",
+        "citations": [
+          "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4"
+        ]
+      },
+      "elapsed_ms": 2106.0825000022305
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Robert Anthony framework chia vấn đề và dữ liệu cần thiết để giải quyết vấn đề thành ba miền nào?",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.609649056935727,
+            "strategy": "dense"
+          },
+          {
+            "id": "7672b5d814968d274c1511d7806bd871180a237ebd9d4745ee9e74aa9df11021",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "4 Robert N. Anthony, “Framework for Analysis,” Management Services: A Magazine of Planning, Systems, and Controls 1, no. 1\n(1964): 6, https://egrove.olemiss.edu/mgmtservices/vol1/iss1/6",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3777,
+              "language": "en",
+              "char_count": 185,
+              "start_char": 3592,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.5071388266608262,
+            "strategy": "dense"
+          },
+          {
+            "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1693,
+              "language": "en",
+              "char_count": 319,
+              "start_char": 1374,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.4949679557773291,
+            "strategy": "dense"
+          },
+          {
+            "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.4698885588840873,
+            "strategy": "dense"
+          },
+          {
+            "id": "2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "Operational Track and control day-to-day activities. Data are typically detailed and time sensitive.\nManagement Make decisions about how to allocate resources and achieve goals. Data are typically summarized and less time sensitive than operational data.\nStrategic Set long-term goals and make strategic decisions. Data are typically aggregated and less time sensitive than management data.\nTable 2.1 Three Domains of the Robert Anthony Framework The three domains of the Robert Anthony",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2180,
+              "language": "en",
+              "char_count": 486,
+              "start_char": 1694,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.42185552634108714,
+            "strategy": "dense"
+          },
+          {
+            "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2672,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 2181,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.40481328010410844,
+            "strategy": "dense"
+          },
+          {
+            "id": "c3c15b214a06e345630d00a0ae45962297a9ab3f3c544a4f98b0013431b24467",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "Businesses that strive to ensure they follow these data management parameters can decide to follow any\nframework. A framework is a structured and organized approach that provides a set of guidelines, principles,\nor tools to address complex problems or tasks in a systematic manner . It serves as a foundation to build and\nmanage processes, systems, or projects, ensuring consistency, efficiency, and effectiveness. Following are\nsome common data management frameworks:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 468,
+              "language": "en",
+              "char_count": 468,
+              "start_char": 0,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.3846571834745802,
+            "strategy": "dense"
+          },
+          {
+            "id": "63d9d58b43dc448bceb0dfe4930a762de3cc032f80ad3ebf5c3fc7b825600149",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "specific needs and\nrequirements. However , all five frameworks can be valuable tools for improving data management and\ninformation quality. The optimal framework for managing data is one that is continuously developing to\naddress advancements in data storage and changes in organizational policy.\nCAREERS IN IS\nData Architect",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1840,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.3829262264288277,
+            "strategy": "dense"
+          },
+          {
+            "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 857,
+              "language": "en",
+              "char_count": 477,
+              "start_char": 380,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.36957273667266755,
+            "strategy": "dense"
+          },
+          {
+            "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.3553074350443617,
+            "strategy": "dense"
+          },
+          {
+            "id": "ef27a2dedd2e7455ca99817bcf67c619686abee0c996264a2d518da40d133cb9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "When developing an information system, frameworks provide guidance to help IS professionals apply critical\nthinking as they identify the goals of the system and problems that can be resolved by the system.\nFrameworks promote proactive communication and help IS professionals organize their ideas and provide a\nfoundation for strategic planning to develop and maintain a system that meets an organization’s specific\nneeds. As part of this process, frameworks also provide IS professionals with",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 556,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 64,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.3542696290410685,
+            "strategy": "dense"
+          },
+          {
+            "id": "4169d6a55994c5307b84a83bc6dd2b87feb87ba38eb8b9811f8b385bb70d87bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "There are some differences in how each framework approaches data management. DAMA-DMBOK focuses on\nthe technical aspects of data management, while MIKE2.0 focuses on the business aspects of information\nmanagement. The IBM Data Governance Council Maturity Model and the EDM Council Data Management\nMaturity Model are both designed to help organizations assess their current data management practices and\nidentify areas for improvement. The best framework for an organization will depend on its",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1839,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 1347,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.3491769564842755,
+            "strategy": "dense"
+          },
+          {
+            "id": "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "preserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2741,
+              "language": "en",
+              "char_count": 476,
+              "start_char": 2265,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.3395626261669795,
+            "strategy": "dense"
+          },
+          {
+            "id": "e5d979140337332e3f9fd8d8a0be7dbec51345ffd2eb52cfd20f2b0b335cd031",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "• Interpret the dimensions and characteristics of data needed to make decisions\n• Identify information system planning strategies and frameworks that inform an organization’s data\nmanagement practices and processes\nData Management and Information Systems Business\nStrategies\n2",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 276,
+              "start_char": 1577,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.32610390047478466,
+            "strategy": "dense"
+          },
+          {
+            "id": "9780fb5d5fbb2851df3f673bd322406219a62ed53bdac7fbf6e4efa32862933c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "Frameworks for Data Management Practices and Processes",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 54,
+              "language": "en",
+              "char_count": 54,
+              "start_char": 0,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.3260461973992502,
+            "strategy": "dense"
+          },
+          {
+            "id": "f0d2b5e3efce68cce5522d70aedc4b5b92860768d2a5fae453bcf3cbba376d9c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data analytics involves analyzing data to extract insights and support decision-making. It includes\nimplementing activities like data warehousing, mining, and visualization to achieve meaningful\ninformation extraction. These tools, techniques, and insights can be used in AI and machine learning\napplications. (George Firican, ”Data Management Framework 101”)\n3 George Firican, “Data Management Framework 101,” LightsOnData, https://www.lightsondata.com/data-management-\nframework/",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2143,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 1660,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.3231177410208701,
+            "strategy": "dense"
+          },
+          {
+            "id": "db5f58d0bd544502fa234d234fc543743d3c12ef1a703a8fff3c0c0a3a64779b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "required for each level serves a distinct\npurpose; hence, the data required also differ . The data need to be in user-friendly formats, enabling managers\nand analysts to easily comprehend and utilize the information according to their specific requirements (Figure\n2.3). Managers, drawing on their expertise and experience while analyzing data, can effectively leverage these\ninsights to address complex business problems. This fosters a dynamic and adaptive approach of leveraging\ncollective data to",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1682,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1182,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.3183967072015408,
+            "strategy": "dense"
+          },
+          {
+            "id": "9aa847aaf8554c08589f14ac5467c8b9c0a3f0aba6f1250d5dcb58ee0cfc7d58",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "information management. They\nhighlighted the importance of aligning IT strategic planning with an organization’s decision-making needs and\nthe potential benefits that technology can bring to the decision-making process. Gorry and Scott Morton\nsuggest that for each business problem that involves information systems, data managers must first\ndetermine whether the problem is strategic, managerial, or operational in nature and then see whether the\ndecision-makers and the intelligence required should",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 993,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 493,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.3151927283622715,
+            "strategy": "dense"
+          },
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.31324461215250476,
+            "strategy": "dense"
+          },
+          {
+            "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1949,
+              "language": "en",
+              "char_count": 481,
+              "start_char": 1468,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.31257140576564346,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.44527248433372046,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "Operational Track and control day-to-day activities. Data are typically detailed and time sensitive.\nManagement Make decisions about how to allocate resources and achieve goals. Data are typically summarized and less time sensitive than operational data.\nStrategic Set long-term goals and make strategic decisions. Data are typically aggregated and less time sensitive than management data.\nTable 2.1 Three Domains of the Robert Anthony Framework The three domains of the Robert Anthony",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2180,
+              "language": "en",
+              "char_count": 486,
+              "start_char": 1694,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.31342756070481614,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7672b5d814968d274c1511d7806bd871180a237ebd9d4745ee9e74aa9df11021",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "4 Robert N. Anthony, “Framework for Analysis,” Management Services: A Magazine of Planning, Systems, and Controls 1, no. 1\n(1964): 6, https://egrove.olemiss.edu/mgmtservices/vol1/iss1/6",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3777,
+              "language": "en",
+              "char_count": 185,
+              "start_char": 3592,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.30624306514790633,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.2400906645087319,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.23695084414082224,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1693,
+              "language": "en",
+              "char_count": 319,
+              "start_char": 1374,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.18017629617860093,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8080da5f7ea0b6e38ec4107f9a194df34fb4aacc9a15ee9fba3b2baf95e60859",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 17,
+            "text": "During the 1970s, scientists Vinton Cerf and Robert Kahn developed the communications model for\nTransmission Control Protocol/Internet Protocol (TCP/IP). This established the standards for transmitting data\namong multiple networks of computers. In 1983, ARPANET adopted TCP/IP , providing the framework for\nresearchers to create the vast network that evolved into today’s internet.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1004,
+              "language": "en",
+              "char_count": 381,
+              "start_char": 623,
+              "printed_page": 13,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1794
+            },
+            "score": 0.12268532158303441,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.11466350469046646,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1767,
+              "language": "en",
+              "char_count": 451,
+              "start_char": 1316,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.10423484840711107,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2672,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 2181,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.10231956137036419,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f0d2b5e3efce68cce5522d70aedc4b5b92860768d2a5fae453bcf3cbba376d9c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data analytics involves analyzing data to extract insights and support decision-making. It includes\nimplementing activities like data warehousing, mining, and visualization to achieve meaningful\ninformation extraction. These tools, techniques, and insights can be used in AI and machine learning\napplications. (George Firican, ”Data Management Framework 101”)\n3 George Firican, “Data Management Framework 101,” LightsOnData, https://www.lightsondata.com/data-management-\nframework/",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2143,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 1660,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.1021656752663641,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.09121988683675299,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "806ac6c86721bf40be7ff5cf585940e9fa9960fcc6611dd0230c69458f11ce95",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "of work “Zachman Framework (9026775815)” by National Institute of Standards and Technology/Wikimedia Commons, Public\nDomain)\nThe industry standards that are applicable in IS include the American Society for Industrial Security (ASIS), the\nFederal Information Security Modernization Act (FISMA), IS2020, ISO/IEC 27001, and the Open Group\nArchitecture Framework (TOGAF).",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 368,
+              "language": "en",
+              "char_count": 368,
+              "start_char": 0,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.08450725040974885,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4134a311157852bf67c5208673f5361bc814d50d9339871b8a324464f81f46ff",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "to successfully\nmanage technology.\nWaterfall is a structured, linear framework used to guide project management. Generally, the steps of",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2794,
+              "language": "en",
+              "char_count": 136,
+              "start_char": 2658,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.08268149097251111,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c3c15b214a06e345630d00a0ae45962297a9ab3f3c544a4f98b0013431b24467",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "Businesses that strive to ensure they follow these data management parameters can decide to follow any\nframework. A framework is a structured and organized approach that provides a set of guidelines, principles,\nor tools to address complex problems or tasks in a systematic manner . It serves as a foundation to build and\nmanage processes, systems, or projects, ensuring consistency, efficiency, and effectiveness. Following are\nsome common data management frameworks:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 468,
+              "language": "en",
+              "char_count": 468,
+              "start_char": 0,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.08069630467130531,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 857,
+              "language": "en",
+              "char_count": 477,
+              "start_char": 380,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.07839349821289657,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "60c8854150bac13a41d5a105f2de7ee6f8b256ab55141c4a1b658a562d1ef108",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "When applying the Gorry and Scott Morton framework to review existing systems or to propose new systems\nthat cater to user needs, an information systems designer or reviewer often investigates how available\ntechnology can support decision-making. This framework emphasizes both applications and decisions,\nnecessitating input from a diverse range of users to understand the benefits of existing systems or\nexpectations for new ones. It is important to gather user feedback through structured",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1921,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1430,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.07633118592583635,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 874,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 394,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.07116089969228112,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4169d6a55994c5307b84a83bc6dd2b87feb87ba38eb8b9811f8b385bb70d87bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "There are some differences in how each framework approaches data management. DAMA-DMBOK focuses on\nthe technical aspects of data management, while MIKE2.0 focuses on the business aspects of information\nmanagement. The IBM Data Governance Council Maturity Model and the EDM Council Data Management\nMaturity Model are both designed to help organizations assess their current data management practices and\nidentify areas for improvement. The best framework for an organization will depend on its",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1839,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 1347,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.06844985339726734,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1906,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1415,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.06645163428113066,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 554,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 55,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "7672b5d814968d274c1511d7806bd871180a237ebd9d4745ee9e74aa9df11021",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "4 Robert N. Anthony, “Framework for Analysis,” Management Services: A Magazine of Planning, Systems, and Controls 1, no. 1\n(1964): 6, https://egrove.olemiss.edu/mgmtservices/vol1/iss1/6",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3777,
+            "language": "en",
+            "char_count": 185,
+            "start_char": 3592,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 3
+          },
+          "rank": 2
+        },
+        {
+          "id": "2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "Operational Track and control day-to-day activities. Data are typically detailed and time sensitive.\nManagement Make decisions about how to allocate resources and achieve goals. Data are typically summarized and less time sensitive than operational data.\nStrategic Set long-term goals and make strategic decisions. Data are typically aggregated and less time sensitive than management data.\nTable 2.1 Three Domains of the Robert Anthony Framework The three domains of the Robert Anthony",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2180,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 1694,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.0315136476426799,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 2
+          },
+          "rank": 3
+        },
+        {
+          "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1693,
+            "language": "en",
+            "char_count": 319,
+            "start_char": 1374,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.031024531024531024,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 6
+          },
+          "rank": 4
+        },
+        {
+          "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 55,
+          "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 496,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 0,
+            "printed_page": 51,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4016
+          },
+          "score": 0.031009615384615385,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 5
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 474.54130000187433
+    },
+    {
+      "query": "Robert Anthony framework three domains classify problem and data needed to solve the problem strategic management control operational control",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.7627571198249389,
+            "strategy": "dense"
+          },
+          {
+            "id": "2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "Operational Track and control day-to-day activities. Data are typically detailed and time sensitive.\nManagement Make decisions about how to allocate resources and achieve goals. Data are typically summarized and less time sensitive than operational data.\nStrategic Set long-term goals and make strategic decisions. Data are typically aggregated and less time sensitive than management data.\nTable 2.1 Three Domains of the Robert Anthony Framework The three domains of the Robert Anthony",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2180,
+              "language": "en",
+              "char_count": 486,
+              "start_char": 1694,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.7081316681052211,
+            "strategy": "dense"
+          },
+          {
+            "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1693,
+              "language": "en",
+              "char_count": 319,
+              "start_char": 1374,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.6918895407691006,
+            "strategy": "dense"
+          },
+          {
+            "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2672,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 2181,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.6394669712862899,
+            "strategy": "dense"
+          },
+          {
+            "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.6336915726632368,
+            "strategy": "dense"
+          },
+          {
+            "id": "7672b5d814968d274c1511d7806bd871180a237ebd9d4745ee9e74aa9df11021",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "4 Robert N. Anthony, “Framework for Analysis,” Management Services: A Magazine of Planning, Systems, and Controls 1, no. 1\n(1964): 6, https://egrove.olemiss.edu/mgmtservices/vol1/iss1/6",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3777,
+              "language": "en",
+              "char_count": 185,
+              "start_char": 3592,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.6157055589900579,
+            "strategy": "dense"
+          },
+          {
+            "id": "911ad8a3dfada57452b8070912f721643a7369d6cdc1c08594e49a78a1b0da7d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "According to the Gorry and Scott Morton framework, management control primarily deals with overseeing and\nguiding people, while operational control focuses on the performance of designated activities or tasks, such as\nmanufacturing a particular part. Typically, operational control systems have a limited ability to provide\nmanagerial control reports or data that are helpful for strategic decision-making. For example, an online retail\nsystem primarily focused on operational control can generate",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3067,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 2570,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.5677785670446355,
+            "strategy": "dense"
+          },
+          {
+            "id": "02833b973582897e123e4969ee8a75c8e98e57aae351b52dbc8e0cb7584373ba",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "There is a distinction between information used for strategic planning and information used for management\ncontrol. An organization’s strategic planning is its process of defining the organization’s mission, vision, goals,\nand objectives, and developing strategies to achieve them, often with the support of information systems,\ntypically done by senior-level managers. In contrast, management control ensures efficient day-to-day\noperations and adherence to those strategic plans. The information",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1181,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 684,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.5180556417849607,
+            "strategy": "dense"
+          },
+          {
+            "id": "c3c15b214a06e345630d00a0ae45962297a9ab3f3c544a4f98b0013431b24467",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "Businesses that strive to ensure they follow these data management parameters can decide to follow any\nframework. A framework is a structured and organized approach that provides a set of guidelines, principles,\nor tools to address complex problems or tasks in a systematic manner . It serves as a foundation to build and\nmanage processes, systems, or projects, ensuring consistency, efficiency, and effectiveness. Following are\nsome common data management frameworks:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 468,
+              "language": "en",
+              "char_count": 468,
+              "start_char": 0,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.4966192923244622,
+            "strategy": "dense"
+          },
+          {
+            "id": "e5d979140337332e3f9fd8d8a0be7dbec51345ffd2eb52cfd20f2b0b335cd031",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "• Interpret the dimensions and characteristics of data needed to make decisions\n• Identify information system planning strategies and frameworks that inform an organization’s data\nmanagement practices and processes\nData Management and Information Systems Business\nStrategies\n2",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 276,
+              "start_char": 1577,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.49135306598595585,
+            "strategy": "dense"
+          },
+          {
+            "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.4848410958904642,
+            "strategy": "dense"
+          },
+          {
+            "id": "ef27a2dedd2e7455ca99817bcf67c619686abee0c996264a2d518da40d133cb9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "When developing an information system, frameworks provide guidance to help IS professionals apply critical\nthinking as they identify the goals of the system and problems that can be resolved by the system.\nFrameworks promote proactive communication and help IS professionals organize their ideas and provide a\nfoundation for strategic planning to develop and maintain a system that meets an organization’s specific\nneeds. As part of this process, frameworks also provide IS professionals with",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 556,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 64,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.4841355282214328,
+            "strategy": "dense"
+          },
+          {
+            "id": "4169d6a55994c5307b84a83bc6dd2b87feb87ba38eb8b9811f8b385bb70d87bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "There are some differences in how each framework approaches data management. DAMA-DMBOK focuses on\nthe technical aspects of data management, while MIKE2.0 focuses on the business aspects of information\nmanagement. The IBM Data Governance Council Maturity Model and the EDM Council Data Management\nMaturity Model are both designed to help organizations assess their current data management practices and\nidentify areas for improvement. The best framework for an organization will depend on its",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1839,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 1347,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.469223599579915,
+            "strategy": "dense"
+          },
+          {
+            "id": "9aa847aaf8554c08589f14ac5467c8b9c0a3f0aba6f1250d5dcb58ee0cfc7d58",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "information management. They\nhighlighted the importance of aligning IT strategic planning with an organization’s decision-making needs and\nthe potential benefits that technology can bring to the decision-making process. Gorry and Scott Morton\nsuggest that for each business problem that involves information systems, data managers must first\ndetermine whether the problem is strategic, managerial, or operational in nature and then see whether the\ndecision-makers and the intelligence required should",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 993,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 493,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.46729505241347624,
+            "strategy": "dense"
+          },
+          {
+            "id": "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "preserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2741,
+              "language": "en",
+              "char_count": 476,
+              "start_char": 2265,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.4608364123446367,
+            "strategy": "dense"
+          },
+          {
+            "id": "63d9d58b43dc448bceb0dfe4930a762de3cc032f80ad3ebf5c3fc7b825600149",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "specific needs and\nrequirements. However , all five frameworks can be valuable tools for improving data management and\ninformation quality. The optimal framework for managing data is one that is continuously developing to\naddress advancements in data storage and changes in organizational policy.\nCAREERS IN IS\nData Architect",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1840,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.45554334013270426,
+            "strategy": "dense"
+          },
+          {
+            "id": "4f3151281048038c07daf477196d682fa9b8e1e476b0252bce9269bba8af41e1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "strategic planning4 :\n• Operational control is the process of ensuring that the organization’s day-to-day operations are running\nsmoothly. It involves setting production schedules, managing inventory levels, and processing customer\norders. Operational control is typically done by frontline managers and employees.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 869,
+              "language": "en",
+              "char_count": 314,
+              "start_char": 555,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.4554391583275642,
+            "strategy": "dense"
+          },
+          {
+            "id": "9780fb5d5fbb2851df3f673bd322406219a62ed53bdac7fbf6e4efa32862933c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "Frameworks for Data Management Practices and Processes",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 54,
+              "language": "en",
+              "char_count": 54,
+              "start_char": 0,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.44452804455482764,
+            "strategy": "dense"
+          },
+          {
+            "id": "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "be internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1429,
+              "language": "en",
+              "char_count": 435,
+              "start_char": 994,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.44449421920609855,
+            "strategy": "dense"
+          },
+          {
+            "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 647,
+              "language": "en",
+              "char_count": 273,
+              "start_char": 374,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.441781404740234,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.569710648503952,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "Operational Track and control day-to-day activities. Data are typically detailed and time sensitive.\nManagement Make decisions about how to allocate resources and achieve goals. Data are typically summarized and less time sensitive than operational data.\nStrategic Set long-term goals and make strategic decisions. Data are typically aggregated and less time sensitive than management data.\nTable 2.1 Three Domains of the Robert Anthony Framework The three domains of the Robert Anthony",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2180,
+              "language": "en",
+              "char_count": 486,
+              "start_char": 1694,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.3882077283609799,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.3048478461006334,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "911ad8a3dfada57452b8070912f721643a7369d6cdc1c08594e49a78a1b0da7d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "According to the Gorry and Scott Morton framework, management control primarily deals with overseeing and\nguiding people, while operational control focuses on the performance of designated activities or tasks, such as\nmanufacturing a particular part. Typically, operational control systems have a limited ability to provide\nmanagerial control reports or data that are helpful for strategic decision-making. For example, an online retail\nsystem primarily focused on operational control can generate",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3067,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 2570,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.2928608918138764,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1693,
+              "language": "en",
+              "char_count": 319,
+              "start_char": 1374,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.26242796512876315,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "9aa847aaf8554c08589f14ac5467c8b9c0a3f0aba6f1250d5dcb58ee0cfc7d58",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "information management. They\nhighlighted the importance of aligning IT strategic planning with an organization’s decision-making needs and\nthe potential benefits that technology can bring to the decision-making process. Gorry and Scott Morton\nsuggest that for each business problem that involves information systems, data managers must first\ndetermine whether the problem is strategic, managerial, or operational in nature and then see whether the\ndecision-makers and the intelligence required should",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 993,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 493,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.2261992098490105,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "01342eca9229658f4dff255e40ee7c63c73fd9c0f07202486049139c8bf2eae8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "• Management control is the process of ensuring that the organization is meeting its strategic goals. It\ninvolves setting budgets, monitoring expenses, and tracking sales. Management control is typically done\nby middle management.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1100,
+              "language": "en",
+              "char_count": 230,
+              "start_char": 870,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.19937465387178294,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4f3151281048038c07daf477196d682fa9b8e1e476b0252bce9269bba8af41e1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "strategic planning4 :\n• Operational control is the process of ensuring that the organization’s day-to-day operations are running\nsmoothly. It involves setting production schedules, managing inventory levels, and processing customer\norders. Operational control is typically done by frontline managers and employees.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 869,
+              "language": "en",
+              "char_count": 314,
+              "start_char": 555,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.1933461671428397,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2672,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 2181,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.18276858088180087,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "be internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1429,
+              "language": "en",
+              "char_count": 435,
+              "start_char": 994,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.17699238434831063,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "02833b973582897e123e4969ee8a75c8e98e57aae351b52dbc8e0cb7584373ba",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "There is a distinction between information used for strategic planning and information used for management\ncontrol. An organization’s strategic planning is its process of defining the organization’s mission, vision, goals,\nand objectives, and developing strategies to achieve them, often with the support of information systems,\ntypically done by senior-level managers. In contrast, management control ensures efficient day-to-day\noperations and adherence to those strategic plans. The information",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1181,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 684,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.17547882654725824,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3594,
+              "language": "en",
+              "char_count": 276,
+              "start_char": 3318,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.16494558834539272,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f63c1980bef5f18d285cd791acfa35372de69d535603840934d0cc9692b205f9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "sector’s need for sustainable energy solutions. To plan information\nsystems for a company in this sector , the chief information officer (CIO) must first understand what decisions\nneed to be made and, correspondingly, what data these decisions require—strategic planning, management\ncontrol, and operational control. The CIO should assess the different types of data currently available. These\ndata can come from various sources across operations. The focus should be on ensuring existing data",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2717,
+              "language": "en",
+              "char_count": 493,
+              "start_char": 2224,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.1602295375003354,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "58ebcfd257a95c5cb6856ce0c41950d682b292429693aac3a6d1f0e0d328d951",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "• Associated with operational or real-time applications, operational data include transactional data\ngenerated by day-to-day business operations. Operational data often require high availability, real-time\nprocessing, and quick access for operational decision-making. When managing operational data, the focus\nis on ensuring data integrity, availability, and performance to support critical business processes.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2365,
+              "language": "en",
+              "char_count": 410,
+              "start_char": 1955,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.1559136064810258,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "aa4c03083b8e01ecb5dcc9676eeff01791cf9c2966e1e36e18af1c8889faf6f6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Listen to this podcast about digital transformation at the energy company Shell (https://openstax.org/r/\n109DigitalTrans) across three levels: operational, management, and strategic.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3271,
+              "language": "en",
+              "char_count": 182,
+              "start_char": 3089,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.15325324906670781,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.14466514123402172,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a85fb9ebd8c732daff082085b2edd3c9f0549a11c72fbefd6bee5858d4b3e42f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "responsibilities. A data architect needs\nstrong knowledge of database technologies, data modeling, cloud platforms, and big data tools. They must\nalso understand data governance practices, security protocols, and compliance regulations and be familiar\nwith data pipelines, integration tools, and extract, transform, and tools. Having strong problem-solving\nskills will allow a data architect to design complex systems and solve integration challenges, ensuring data\nflows smoothly across different",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3149,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 2652,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.14451357233670167,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7672b5d814968d274c1511d7806bd871180a237ebd9d4745ee9e74aa9df11021",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "4 Robert N. Anthony, “Framework for Analysis,” Management Services: A Magazine of Planning, Systems, and Controls 1, no. 1\n(1964): 6, https://egrove.olemiss.edu/mgmtservices/vol1/iss1/6",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3777,
+              "language": "en",
+              "char_count": 185,
+              "start_char": 3592,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.13963578763650364,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "37284ce360e6b740613297557cb261dcdd9fdd6335156e9176072754e7a0ec58",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "sales reports that may provide valuable data for\nboth managerial and strategic decision-making. Similarly, an online retail system primarily focused on\noperational control can generate reports, such as a sales analysis report. While intended for operational\npurposes, such reports can also provide valuable data for both managerial and strategic decision-making. For\ninstance, Zara has been able to use online retail system data for its supply chain management system to beat\ncompetitors in the time",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3567,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 3068,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.13866198413706413,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "preserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2741,
+              "language": "en",
+              "char_count": 476,
+              "start_char": 2265,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.11720200817094752,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 554,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 55,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "2c5e1ed40635f28039c2bd6f8e68e8629b887ddf4a3ec578840446956097f964",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "Operational Track and control day-to-day activities. Data are typically detailed and time sensitive.\nManagement Make decisions about how to allocate resources and achieve goals. Data are typically summarized and less time sensitive than operational data.\nStrategic Set long-term goals and make strategic decisions. Data are typically aggregated and less time sensitive than management data.\nTable 2.1 Three Domains of the Robert Anthony Framework The three domains of the Robert Anthony",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2180,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 1694,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 55,
+          "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 496,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 0,
+            "printed_page": 51,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4016
+          },
+          "score": 0.03125763125763126,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1693,
+            "language": "en",
+            "char_count": 319,
+            "start_char": 1374,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.03125763125763126,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 5
+          },
+          "rank": 4
+        },
+        {
+          "id": "911ad8a3dfada57452b8070912f721643a7369d6cdc1c08594e49a78a1b0da7d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 54,
+          "text": "According to the Gorry and Scott Morton framework, management control primarily deals with overseeing and\nguiding people, while operational control focuses on the performance of designated activities or tasks, such as\nmanufacturing a particular part. Typically, operational control systems have a limited ability to provide\nmanagerial control reports or data that are helpful for strategic decision-making. For example, an online retail\nsystem primarily focused on operational control can generate",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3067,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 2570,
+            "printed_page": 50,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4179
+          },
+          "score": 0.03055037313432836,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 7,
+            "tfidf": 4
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 280.56959999958053
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 37
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 19
+    }
+  ],
+  "cost_usd": null
+}

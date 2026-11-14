@@ -1,0 +1,67 @@
+{
+  "model": "gpt-6-luna",
+  "price_source": "user-provided rates",
+  "input_usd_per_million_tokens": "0.1",
+  "output_usd_per_million_tokens": "0.5",
+  "formula": "input_tokens / 1000000 * 0.1 + output_tokens / 1000000 * 0.5",
+  "rows": [
+    {
+      "config_id": "dense-baseline",
+      "split": "dev",
+      "input_tokens": 21782,
+      "output_tokens": 2598,
+      "input_cost_usd": "0.0021782",
+      "output_cost_usd": "0.001299",
+      "model_cost_usd": "0.0034772",
+      "excluded_embedding_tokens": 951
+    },
+    {
+      "config_id": "tfidf-keywords",
+      "split": "dev",
+      "input_tokens": 22151,
+      "output_tokens": 2621,
+      "input_cost_usd": "0.0022151",
+      "output_cost_usd": "0.0013105",
+      "model_cost_usd": "0.0035256",
+      "excluded_embedding_tokens": 0
+    },
+    {
+      "config_id": "hybrid-context",
+      "split": "dev",
+      "input_tokens": 34864,
+      "output_tokens": 2960,
+      "input_cost_usd": "0.0034864",
+      "output_cost_usd": "0.00148",
+      "model_cost_usd": "0.0049664",
+      "excluded_embedding_tokens": 1030
+    },
+    {
+      "config_id": "dense-baseline",
+      "split": "test",
+      "input_tokens": 9062,
+      "output_tokens": 952,
+      "input_cost_usd": "0.0009062",
+      "output_cost_usd": "0.000476",
+      "model_cost_usd": "0.0013822",
+      "excluded_embedding_tokens": 511
+    },
+    {
+      "config_id": "tfidf-keywords",
+      "split": "test",
+      "input_tokens": 9456,
+      "output_tokens": 961,
+      "input_cost_usd": "0.0009456",
+      "output_cost_usd": "0.0004805",
+      "model_cost_usd": "0.0014261",
+      "excluded_embedding_tokens": 0
+    }
+  ],
+  "total_input_tokens": 97315,
+  "total_output_tokens": 10092,
+  "total_model_tokens": 107407,
+  "total_input_cost_usd": "0.0097315",
+  "total_output_cost_usd": "0.005046",
+  "total_model_cost_usd": "0.0147775",
+  "excluded_embedding_tokens": 2492,
+  "scope": "65 benchmark agent runs only; embedding, Day06 ingestion and earlier smoke calls excluded. Estimate from supplied rates, not an invoice; repeated improvement rows are counted once."
+}

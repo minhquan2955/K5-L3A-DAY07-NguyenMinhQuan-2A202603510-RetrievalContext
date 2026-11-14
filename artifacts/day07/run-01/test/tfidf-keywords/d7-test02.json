@@ -1,0 +1,260 @@
+{
+  "query_id": "d7-test02",
+  "split": "test",
+  "question": "Sổ cái dùng chung ghi lại giao dịch và được duy trì bởi các máy tính liên kết trong mạng ngang hàng được gọi là gì?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:05:12.593488+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "shared ledger records transactions maintained by computers linked in a peer-to-peer network called what blockchain",
+      "filter": {},
+      "results": [
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.7136012835019214,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 63,
+          "text": "A sharing economy model involves individuals sharing resources or services through a peer-to-peer network,\nenabling efficient utilization of underused assets. This fosters collaboration and convenience among users\nseeking specific services or goods. Uber , Airbnb, and TaskRabbit are examples of companies using this model.\nIn terms of IT strategy, those with a sharing economy model should build robust peer-to-peer communication\nsystems that implement secure payment processing, real-time tracking",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4260,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 3761,
+            "printed_page": 59,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4773
+          },
+          "score": 0.35232946436501233,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "f4e6b3d6d004ed4c85f4757459e39302625e3a4d09cbe6d5f4b6eb003a94ce6c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 16,
+          "text": "Initially, computers were not linked by data networks and could not be used as communication tools. Rather ,\ntheir primary purpose was to calculate, process, and store information. For example, the U.S. government\nused early computers to compile and calculate statistical data gathered from census questionnaires.\nBusinesses first used computers for purposes such as tabulating and storing financial information, and\nacademic institutions relied on these basic computers to organize and analyze",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3451,
+            "language": "en",
+            "char_count": 494,
+            "start_char": 2957,
+            "printed_page": 12,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4312
+          },
+          "score": 0.12359557467432668,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c | chapter1-2.pdf | page 35]\n• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.\n\n[559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34 | chapter1-2.pdf | page 63]\nA sharing economy model involves individuals sharing resources or services through a peer-to-peer network,\nenabling efficient utilization of underused assets. This fosters collaboration and convenience among users\nseeking specific services or goods. Uber , Airbnb, and TaskRabbit are examples of companies using this model.\nIn terms of IT strategy, those with a sharing economy model should build robust peer-to-peer communication\nsystems that implement secure payment processing, real-time tracking\n\n[f4e6b3d6d004ed4c85f4757459e39302625e3a4d09cbe6d5f4b6eb003a94ce6c | chapter1-2.pdf | page 16]\nInitially, computers were not linked by data networks and could not be used as communication tools. Rather ,\ntheir primary purpose was to calculate, process, and store information. For example, the U.S. government\nused early computers to compile and calculate statistical data gathered from census questionnaires.\nBusinesses first used computers for purposes such as tabulating and storing financial information, and\nacademic institutions relied on these basic computers to organize and analyze",
+      "context_ids": [
+        "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+        "559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34",
+        "f4e6b3d6d004ed4c85f4757459e39302625e3a4d09cbe6d5f4b6eb003a94ce6c"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Sổ cái dùng chung ghi lại giao dịch và được duy trì bởi các máy tính liên kết trong mạng ngang hàng được gọi là gì?",
+    "filter": {},
+    "results": []
+  },
+  "status": "answered",
+  "answer": "Đó là blockchain (chuỗi khối). [0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c]",
+  "elapsed_ms": 4078.2252000026347,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 386,
+        "completion_tokens": 32,
+        "total_tokens": 418
+      },
+      "action": {
+        "action": "search",
+        "query": "shared ledger records transactions maintained by computers linked in a peer-to-peer network called what blockchain"
+      },
+      "elapsed_ms": 1599.6352000001934
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "shared ledger records transactions maintained by computers linked in a peer-to-peer network called what blockchain"
+          ],
+          "context": "[0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c | chapter1-2.pdf | page 35]\n• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.\n\n[559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34 | chapter1-2.pdf | page 63]\nA sharing economy model involves individuals sharing resources or services through a peer-to-peer network,\nenabling efficient utilization of underused assets. This fosters collaboration and convenience among users\nseeking specific services or goods. Uber , Airbnb, and TaskRabbit are examples of companies using this model.\nIn terms of IT strategy, those with a sharing economy model should build robust peer-to-peer communication\nsystems that implement secure payment processing, real-time tracking\n\n[f4e6b3d6d004ed4c85f4757459e39302625e3a4d09cbe6d5f4b6eb003a94ce6c | chapter1-2.pdf | page 16]\nInitially, computers were not linked by data networks and could not be used as communication tools. Rather ,\ntheir primary purpose was to calculate, process, and store information. For example, the U.S. government\nused early computers to compile and calculate statistical data gathered from census questionnaires.\nBusinesses first used computers for purposes such as tabulating and storing financial information, and\nacademic institutions relied on these basic computers to organize and analyze",
+          "context_ids": [
+            "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+            "559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34",
+            "f4e6b3d6d004ed4c85f4757459e39302625e3a4d09cbe6d5f4b6eb003a94ce6c"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 986,
+        "completion_tokens": 73,
+        "total_tokens": 1059
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là blockchain (chuỗi khối). [0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c]",
+        "citations": [
+          "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c"
+        ]
+      },
+      "elapsed_ms": 2430.0474999981816
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Sổ cái dùng chung ghi lại giao dịch và được duy trì bởi các máy tính liên kết trong mạng ngang hàng được gọi là gì?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [],
+      "elapsed_ms": 0.33850000181701034
+    },
+    {
+      "query": "shared ledger records transactions maintained by computers linked in a peer-to-peer network called what blockchain",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.7136012835019214,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 63,
+          "text": "A sharing economy model involves individuals sharing resources or services through a peer-to-peer network,\nenabling efficient utilization of underused assets. This fosters collaboration and convenience among users\nseeking specific services or goods. Uber , Airbnb, and TaskRabbit are examples of companies using this model.\nIn terms of IT strategy, those with a sharing economy model should build robust peer-to-peer communication\nsystems that implement secure payment processing, real-time tracking",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4260,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 3761,
+            "printed_page": 59,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4773
+          },
+          "score": 0.35232946436501233,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "f4e6b3d6d004ed4c85f4757459e39302625e3a4d09cbe6d5f4b6eb003a94ce6c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 16,
+          "text": "Initially, computers were not linked by data networks and could not be used as communication tools. Rather ,\ntheir primary purpose was to calculate, process, and store information. For example, the U.S. government\nused early computers to compile and calculate statistical data gathered from census questionnaires.\nBusinesses first used computers for purposes such as tabulating and storing financial information, and\nacademic institutions relied on these basic computers to organize and analyze",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3451,
+            "language": "en",
+            "char_count": 494,
+            "start_char": 2957,
+            "printed_page": 12,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4312
+          },
+          "score": 0.12359557467432668,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 3.4349000015936326
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

@@ -1,0 +1,398 @@
+{
+  "query_id": "d7-test06",
+  "split": "test",
+  "question": "Tài liệu quy định phải dùng khóa AES dài bao nhiêu bit để mã hóa dữ liệu?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:05:09.000140+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "AES key length bits encryption data required AES-128 AES-256 security policy document",
+      "filter": {},
+      "results": [
+        {
+          "id": "ba1926c78ca0d587cb07743093c2077d8eb147234bf2b9ca238f3391bff716f5",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 69,
+          "text": "• Implementing antivirus control measures for data security\n• Reporting and addressing computer security incidents\n• Conducting computer user training for e fficient system usage\n• Applying disaster recovery procedures for data protection\n• Developing and implementing policies for email and internet use\n• Managing information technology infrastructure and system\nmaintenance",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 875,
+            "language": "en",
+            "char_count": 376,
+            "start_char": 499,
+            "printed_page": 65,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3598
+          },
+          "score": 0.36773076734675647,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "• Data security protects data from unauthorized access, use, disclosure, disruption, modi fication, or\ndestruction. It is achieved through measures like encryption, access controls, and adherence to\nsecurity best practices.\n• Data privacy, like data security, safeguards personal data from unauthorized access, use, disclosure,\ndisruption, modification, or destruction. It relies on the use of encryption, access controls, and privacy\nbest practices.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1338,
+            "language": "en",
+            "char_count": 450,
+            "start_char": 888,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.36535066583173414,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "contains sensitive information\nthat must be protected from unauthorized users, the physical location of the system must be in a secure\nbuilding, and the system itself must include cybersecurity features that guard against hacking and other\nunauthorized use.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1752,
+            "language": "en",
+            "char_count": 257,
+            "start_char": 1495,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.35287841976706846,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[ba1926c78ca0d587cb07743093c2077d8eb147234bf2b9ca238f3391bff716f5 | chapter1-2.pdf | page 69]\n• Implementing antivirus control measures for data security\n• Reporting and addressing computer security incidents\n• Conducting computer user training for e fficient system usage\n• Applying disaster recovery procedures for data protection\n• Developing and implementing policies for email and internet use\n• Managing information technology infrastructure and system\nmaintenance\n\n[31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161 | chapter1-2.pdf | page 47]\n• Data security protects data from unauthorized access, use, disclosure, disruption, modi fication, or\ndestruction. It is achieved through measures like encryption, access controls, and adherence to\nsecurity best practices.\n• Data privacy, like data security, safeguards personal data from unauthorized access, use, disclosure,\ndisruption, modification, or destruction. It relies on the use of encryption, access controls, and privacy\nbest practices.\n\n[0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d | chapter1-2.pdf | page 21]\ncontains sensitive information\nthat must be protected from unauthorized users, the physical location of the system must be in a secure\nbuilding, and the system itself must include cybersecurity features that guard against hacking and other\nunauthorized use.",
+      "context_ids": [
+        "ba1926c78ca0d587cb07743093c2077d8eb147234bf2b9ca238f3391bff716f5",
+        "31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161",
+        "0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d"
+      ]
+    },
+    {
+      "event": "search_limit"
+    }
+  ],
+  "citations": [],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Tài liệu quy định phải dùng khóa AES dài bao nhiêu bit để mã hóa dữ liệu?",
+    "filter": {},
+    "results": [
+      {
+        "id": "ab5a8df7b5f94a1aa37bc60caa23ed9fce60d7360014051710c46c3be48727bf",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 18,
+        "text": "piece of data (called a “bit” today) that the machines read. (credit a: modification of work “Jacquard.loom.cards” by George\nH. Williams/Wikimedia Commons, Public Domain; credit b: modification of work “Holerith395782Figures1-6” by Herman Hollerith/\nWikimedia Commons, Public Domain; credit c: modification of work “2punchCards” by José Antonio González Nieto/Wikimedia\nCommons, CC BY 3.0)\nWhile the cards’ pasteboard was hardware, the patterns of holes in the cards were software because they",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2249,
+          "language": "en",
+          "char_count": 493,
+          "start_char": 1756,
+          "printed_page": 14,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2947
+        },
+        "score": 0.2751283459610463,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 48,
+        "text": "age of big data and advanced analytics.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1634,
+          "language": "en",
+          "char_count": 39,
+          "start_char": 1595,
+          "printed_page": 44,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1634
+        },
+        "score": 0.26976129687700645,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "4468de0f550df982b68c80867d2bbdb1f880ec163c87a22326d47320e74f6e6c",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 46,
+        "text": "Analysts report that by 2025 the global volume of data is expected to reach 200 zettabytes.1 A zettabyte is a\nmeasure of digital storage capacity equal to a thousand exabytes, a billion terabytes, or a trillion gigabytes.\nNotably, most of these data are underutilized. For most enterprises, only about one-third of data is used for\ndecision-making, while the remaining two-thirds is simply stored.2 When analysts are unable to find the\nappropriate and available data for decision-making, it can cost",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3241,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 2742,
+          "printed_page": 42,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4911
+        },
+        "score": 0.2539888362328032,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "elapsed_ms": 3592.1410999981163,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 378,
+        "completion_tokens": 31,
+        "total_tokens": 409
+      },
+      "action": {
+        "action": "search",
+        "query": "AES key length bits encryption data required AES-128 AES-256 security policy document"
+      },
+      "elapsed_ms": 1344.4970000018657
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "AES key length bits encryption data required AES-128 AES-256 security policy document"
+          ],
+          "context": "[ba1926c78ca0d587cb07743093c2077d8eb147234bf2b9ca238f3391bff716f5 | chapter1-2.pdf | page 69]\n• Implementing antivirus control measures for data security\n• Reporting and addressing computer security incidents\n• Conducting computer user training for e fficient system usage\n• Applying disaster recovery procedures for data protection\n• Developing and implementing policies for email and internet use\n• Managing information technology infrastructure and system\nmaintenance\n\n[31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161 | chapter1-2.pdf | page 47]\n• Data security protects data from unauthorized access, use, disclosure, disruption, modi fication, or\ndestruction. It is achieved through measures like encryption, access controls, and adherence to\nsecurity best practices.\n• Data privacy, like data security, safeguards personal data from unauthorized access, use, disclosure,\ndisruption, modification, or destruction. It relies on the use of encryption, access controls, and privacy\nbest practices.\n\n[0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d | chapter1-2.pdf | page 21]\ncontains sensitive information\nthat must be protected from unauthorized users, the physical location of the system must be in a secure\nbuilding, and the system itself must include cybersecurity features that guard against hacking and other\nunauthorized use.",
+          "context_ids": [
+            "ba1926c78ca0d587cb07743093c2077d8eb147234bf2b9ca238f3391bff716f5",
+            "31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161",
+            "0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 926,
+        "completion_tokens": 30,
+        "total_tokens": 956
+      },
+      "action": {
+        "action": "search",
+        "query": "AES 128-bit key 192 256-bit encryption key size data encryption"
+      },
+      "elapsed_ms": 1490.3238999977475
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Tài liệu quy định phải dùng khóa AES dài bao nhiêu bit để mã hóa dữ liệu?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ab5a8df7b5f94a1aa37bc60caa23ed9fce60d7360014051710c46c3be48727bf",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 18,
+          "text": "piece of data (called a “bit” today) that the machines read. (credit a: modification of work “Jacquard.loom.cards” by George\nH. Williams/Wikimedia Commons, Public Domain; credit b: modification of work “Holerith395782Figures1-6” by Herman Hollerith/\nWikimedia Commons, Public Domain; credit c: modification of work “2punchCards” by José Antonio González Nieto/Wikimedia\nCommons, CC BY 3.0)\nWhile the cards’ pasteboard was hardware, the patterns of holes in the cards were software because they",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2249,
+            "language": "en",
+            "char_count": 493,
+            "start_char": 1756,
+            "printed_page": 14,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2947
+          },
+          "score": 0.2751283459610463,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 48,
+          "text": "age of big data and advanced analytics.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1634,
+            "language": "en",
+            "char_count": 39,
+            "start_char": 1595,
+            "printed_page": 44,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1634
+          },
+          "score": 0.26976129687700645,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "4468de0f550df982b68c80867d2bbdb1f880ec163c87a22326d47320e74f6e6c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "Analysts report that by 2025 the global volume of data is expected to reach 200 zettabytes.1 A zettabyte is a\nmeasure of digital storage capacity equal to a thousand exabytes, a billion terabytes, or a trillion gigabytes.\nNotably, most of these data are underutilized. For most enterprises, only about one-third of data is used for\ndecision-making, while the remaining two-thirds is simply stored.2 When analysts are unable to find the\nappropriate and available data for decision-making, it can cost",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3241,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 2742,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.2539888362328032,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 427.0125000002736
+    },
+    {
+      "query": "AES key length bits encryption data required AES-128 AES-256 security policy document",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ba1926c78ca0d587cb07743093c2077d8eb147234bf2b9ca238f3391bff716f5",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 69,
+          "text": "• Implementing antivirus control measures for data security\n• Reporting and addressing computer security incidents\n• Conducting computer user training for e fficient system usage\n• Applying disaster recovery procedures for data protection\n• Developing and implementing policies for email and internet use\n• Managing information technology infrastructure and system\nmaintenance",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 875,
+            "language": "en",
+            "char_count": 376,
+            "start_char": 499,
+            "printed_page": 65,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3598
+          },
+          "score": 0.36773076734675647,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "• Data security protects data from unauthorized access, use, disclosure, disruption, modi fication, or\ndestruction. It is achieved through measures like encryption, access controls, and adherence to\nsecurity best practices.\n• Data privacy, like data security, safeguards personal data from unauthorized access, use, disclosure,\ndisruption, modification, or destruction. It relies on the use of encryption, access controls, and privacy\nbest practices.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1338,
+            "language": "en",
+            "char_count": 450,
+            "start_char": 888,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.36535066583173414,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "contains sensitive information\nthat must be protected from unauthorized users, the physical location of the system must be in a secure\nbuilding, and the system itself must include cybersecurity features that guard against hacking and other\nunauthorized use.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1752,
+            "language": "en",
+            "char_count": 257,
+            "start_char": 1495,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.35287841976706846,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 276.3111000022036
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 32
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 16
+    }
+  ],
+  "cost_usd": null
+}

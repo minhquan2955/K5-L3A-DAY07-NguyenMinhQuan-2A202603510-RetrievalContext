@@ -1,0 +1,411 @@
+{
+  "query_id": "d7-dev09",
+  "split": "dev",
+  "question": "Trong Chương 2, lĩnh vực nào thiết lập chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như một tài sản?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:29.708087+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 2 policies procedures standards roles responsibilities manage data as an asset field governance",
+      "filter": {
+        "chapter": 2
+      },
+      "results": [
+        {
+          "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 486,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 0,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.6170166926510982,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 48,
+          "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 345,
+            "language": "en",
+            "char_count": 345,
+            "start_char": 0,
+            "printed_page": 44,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1634
+          },
+          "score": 0.6144003782471864,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "a309b12b7ac5689d95bfac385ca7ce0ec422ff330b970b45ff746a5dc21048c1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "challenges for\nmaking sure data are handled well. Data governance is like a rulebook for how data are managed and making\nsure the right people are responsible for decisions about data.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4423,
+            "language": "en",
+            "char_count": 184,
+            "start_char": 4239,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.6073212696663288,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8 | chapter1-2.pdf | page 47]\nAppropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.\n\n[ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f | chapter1-2.pdf | page 48]\nFigure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies\n\n[a309b12b7ac5689d95bfac385ca7ce0ec422ff330b970b45ff746a5dc21048c1 | chapter1-2.pdf | page 46]\nchallenges for\nmaking sure data are handled well. Data governance is like a rulebook for how data are managed and making\nsure the right people are responsible for decisions about data.",
+      "context_ids": [
+        "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+        "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+        "a309b12b7ac5689d95bfac385ca7ce0ec422ff330b970b45ff746a5dc21048c1"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 2, lĩnh vực nào thiết lập chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như một tài sản?",
+    "filter": {
+      "chapter": 2
+    },
+    "results": [
+      {
+        "id": "610d5708a317368653e1af3eef2fa4f7949f294f72ac5e10b9fb8fece1f3e703",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 46,
+        "text": "organizations billions of dollars each year . On\nthe other hand, data archives are often required for regulatory reasons to ensure compliance with laws\ngoverning data retention, privacy, and security. For instance, industries like health care and finance have strict\nregulations regarding the retention of patient records and financial transactions data.\nAnother important aspect of dealing with data is data governance, which involves the policies, procedures,\nand standards how an organization",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3737,
+          "language": "en",
+          "char_count": 495,
+          "start_char": 3242,
+          "printed_page": 42,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4911
+        },
+        "score": 0.4310711856340932,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 47,
+        "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 486,
+          "language": "en",
+          "char_count": 486,
+          "start_char": 0,
+          "printed_page": 43,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2143
+        },
+        "score": 0.4254833269914806,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 48,
+        "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 345,
+          "language": "en",
+          "char_count": 345,
+          "start_char": 0,
+          "printed_page": 44,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1634
+        },
+        "score": 0.3887547383802703,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là **quản trị dữ liệu (data governance)**, lĩnh vực thiết lập chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như một tài sản có giá trị. [ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8]",
+  "elapsed_ms": 3983.871399999771,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 393,
+        "completion_tokens": 30,
+        "total_tokens": 423
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 2 policies procedures standards roles responsibilities manage data as an asset field governance"
+      },
+      "elapsed_ms": 1375.6599000007554
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 2 policies procedures standards roles responsibilities manage data as an asset field governance"
+          ],
+          "context": "[ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8 | chapter1-2.pdf | page 47]\nAppropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.\n\n[ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f | chapter1-2.pdf | page 48]\nFigure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies\n\n[a309b12b7ac5689d95bfac385ca7ce0ec422ff330b970b45ff746a5dc21048c1 | chapter1-2.pdf | page 46]\nchallenges for\nmaking sure data are handled well. Data governance is like a rulebook for how data are managed and making\nsure the right people are responsible for decisions about data.",
+          "context_ids": [
+            "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+            "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+            "a309b12b7ac5689d95bfac385ca7ce0ec422ff330b970b45ff746a5dc21048c1"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 936,
+        "completion_tokens": 133,
+        "total_tokens": 1069
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là **quản trị dữ liệu (data governance)**, lĩnh vực thiết lập chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như một tài sản có giá trị. [ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8]",
+        "citations": [
+          "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8"
+        ]
+      },
+      "elapsed_ms": 1845.0204000000667
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 2, lĩnh vực nào thiết lập chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như một tài sản?",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "610d5708a317368653e1af3eef2fa4f7949f294f72ac5e10b9fb8fece1f3e703",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "organizations billions of dollars each year . On\nthe other hand, data archives are often required for regulatory reasons to ensure compliance with laws\ngoverning data retention, privacy, and security. For instance, industries like health care and finance have strict\nregulations regarding the retention of patient records and financial transactions data.\nAnother important aspect of dealing with data is data governance, which involves the policies, procedures,\nand standards how an organization",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3737,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 3242,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.4310711856340932,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 486,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 0,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.4254833269914806,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 48,
+          "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 345,
+            "language": "en",
+            "char_count": 345,
+            "start_char": 0,
+            "printed_page": 44,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1634
+          },
+          "score": 0.3887547383802703,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 412.5597000020207
+    },
+    {
+      "query": "Chapter 2 policies procedures standards roles responsibilities manage data as an asset field governance",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 486,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 0,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.6170166926510982,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 48,
+          "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 345,
+            "language": "en",
+            "char_count": 345,
+            "start_char": 0,
+            "printed_page": 44,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1634
+          },
+          "score": 0.6144003782471864,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "a309b12b7ac5689d95bfac385ca7ce0ec422ff330b970b45ff746a5dc21048c1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "challenges for\nmaking sure data are handled well. Data governance is like a rulebook for how data are managed and making\nsure the right people are responsible for decisions about data.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4423,
+            "language": "en",
+            "char_count": 184,
+            "start_char": 4239,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.6073212696663288,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 303.1582999974489
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 63
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 15
+    }
+  ],
+  "cost_usd": null
+}

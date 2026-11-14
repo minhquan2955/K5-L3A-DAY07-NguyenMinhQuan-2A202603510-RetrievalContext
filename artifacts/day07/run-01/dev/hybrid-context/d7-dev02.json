@@ -1,0 +1,2359 @@
+{
+  "query_id": "d7-dev02",
+  "split": "dev",
+  "question": "Trong Chương 1, hệ thống nào xử lý các giao dịch hằng ngày như đơn hàng và tiền lương?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:54.627326+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 1 system processes routine daily transactions sales orders payroll transaction processing system TPS",
+      "filter": {
+        "chapter": 1
+      },
+      "results": [
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 957,
+            "language": "en",
+            "char_count": 117,
+            "start_char": 840,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.031754032258064516,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 4
+          },
+          "rank": 2
+        },
+        {
+          "id": "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2243,
+            "language": "en",
+            "char_count": 490,
+            "start_char": 1753,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.03076923076923077,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 5
+          },
+          "rank": 3
+        },
+        {
+          "id": "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "Think about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1451,
+            "language": "en",
+            "char_count": 493,
+            "start_char": 958,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.030158730158730156,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 10
+          },
+          "rank": 4
+        },
+        {
+          "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2399,
+            "language": "en",
+            "char_count": 155,
+            "start_char": 2244,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.02976190476190476,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 12,
+            "tfidf": 3
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce | chapter1-2.pdf | page 15]\nfinancial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business\n\n[aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428 | chapter1-2.pdf | page 21]\n• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word\n\n[d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984 | chapter1-2.pdf | page 15]\nThink about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a\n\n[b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7 | chapter1-2.pdf | page 21]\nprocessing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+      "context_ids": [
+        "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+        "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+        "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+        "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984",
+        "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 1, hệ thống nào xử lý các giao dịch hằng ngày như đơn hàng và tiền lương?",
+    "filter": {
+      "chapter": 1
+    },
+    "results": [
+      {
+        "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 11,
+        "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1643,
+          "language": "en",
+          "char_count": 98,
+          "start_char": 1545,
+          "printed_page": 7,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1643
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 5,
+          "tfidf": 3
+        },
+        "rank": 1
+      },
+      {
+        "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 11,
+        "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 500,
+          "language": "en",
+          "char_count": 500,
+          "start_char": 0,
+          "printed_page": 7,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1643
+        },
+        "score": 0.02938045560996381,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 17,
+          "tfidf": 1
+        },
+        "rank": 2
+      },
+      {
+        "id": "e129ff6bdb93172afe808d767934afc0122ea4f1e1d87f55e980c5571c92bd11",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 14,
+        "text": "As shown in Figure 1.3, information systems can be categorized into different types based on their scope and\nfunctionality. Executive information systems are used by an organization’s executive staff, decision support\nsystems are used by senior managers, management information systems are used by middle managers, and\ntransaction processing systems are used by frontline workers.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 597,
+          "language": "en",
+          "char_count": 380,
+          "start_char": 217,
+          "printed_page": 10,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2738
+        },
+        "score": 0.02631578947368421,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 16,
+          "tfidf": 16
+        },
+        "rank": 3
+      },
+      {
+        "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 15,
+        "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 957,
+          "language": "en",
+          "char_count": 117,
+          "start_char": 840,
+          "printed_page": 11,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3778
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1
+        },
+        "rank": 4
+      },
+      {
+        "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 15,
+        "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 339,
+          "language": "en",
+          "char_count": 339,
+          "start_char": 0,
+          "printed_page": 11,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3778
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Hệ thống xử lý giao dịch (TPS) đảm nhiệm các giao dịch hằng ngày như xử lý đơn hàng và tiền lương. [99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def]",
+  "elapsed_ms": 3920.6701000002795,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 383,
+        "completion_tokens": 30,
+        "total_tokens": 413
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 1 system processes routine daily transactions sales orders payroll transaction processing system TPS"
+      },
+      "elapsed_ms": 1400.3545999985363
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 1 system processes routine daily transactions sales orders payroll transaction processing system TPS"
+          ],
+          "context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce | chapter1-2.pdf | page 15]\nfinancial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business\n\n[aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428 | chapter1-2.pdf | page 21]\n• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word\n\n[d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984 | chapter1-2.pdf | page 15]\nThink about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a\n\n[b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7 | chapter1-2.pdf | page 21]\nprocessing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+          "context_ids": [
+            "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+            "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+            "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+            "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984",
+            "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1205,
+        "completion_tokens": 85,
+        "total_tokens": 1290
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Hệ thống xử lý giao dịch (TPS) đảm nhiệm các giao dịch hằng ngày như xử lý đơn hàng và tiền lương. [99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def]",
+        "citations": [
+          "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def"
+        ]
+      },
+      "elapsed_ms": 1743.5041999997338
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 1, hệ thống nào xử lý các giao dịch hằng ngày như đơn hàng và tiền lương?",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 957,
+              "language": "en",
+              "char_count": 117,
+              "start_char": 840,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.356149001545053,
+            "strategy": "dense"
+          },
+          {
+            "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 339,
+              "language": "en",
+              "char_count": 339,
+              "start_char": 0,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.333706600083007,
+            "strategy": "dense"
+          },
+          {
+            "id": "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2243,
+              "language": "en",
+              "char_count": 490,
+              "start_char": 1753,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.3268079944776514,
+            "strategy": "dense"
+          },
+          {
+            "id": "9a447790b87ef61a393128e35eb911aebb9443d5456df5b3d5ad68808f4efe69",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The process of gathering data from various sources such as customers and financial records, and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4152,
+              "language": "en",
+              "char_count": 97,
+              "start_char": 4055,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.3003217543745019,
+            "strategy": "dense"
+          },
+          {
+            "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1643,
+              "language": "en",
+              "char_count": 98,
+              "start_char": 1545,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.2927399714479382,
+            "strategy": "dense"
+          },
+          {
+            "id": "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "inputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 326,
+              "language": "en",
+              "char_count": 326,
+              "start_char": 0,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.2866602479717788,
+            "strategy": "dense"
+          },
+          {
+            "id": "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2817,
+              "language": "en",
+              "char_count": 417,
+              "start_char": 2400,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.27153886317701237,
+            "strategy": "dense"
+          },
+          {
+            "id": "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "Think about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1451,
+              "language": "en",
+              "char_count": 493,
+              "start_char": 958,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.25733696177921417,
+            "strategy": "dense"
+          },
+          {
+            "id": "64450a8fe487d56b27a6d4d23384d05e3ce6dc1f3e2daa498582804193bf749d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "To understand how information systems improve an organization’s transactional business, consider a food\norder through a delivery service. The customer places an order online, the restaurant’s system processes it,\nand the app collects the payment. Generally, this process is simple and convenient for the customer and the\nrestaurant. Because the customer entered the order online, the restaurant knows exactly what food they want,\nwhich should reduce the chance for errors in the order . Later , the",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2874,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2376,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.2527662270584755,
+            "strategy": "dense"
+          },
+          {
+            "id": "97f22485f24e4a8e0cdf5d2f31d3d79f9138dd10a8642052bbb6f1f191029b33",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Information systems improve efficiency by reducing the time, effort, and costs required to perform tasks and\nconduct transactional business, which may include processes such as inventory management, filling orders,\nbilling, payment processing, shipping, and returns and refunds. Information systems can make certain tasks\neasier to perform and can automate others. They can also improve accuracy, making an organization’s data\nmore reliable.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2375,
+              "language": "en",
+              "char_count": 441,
+              "start_char": 1934,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.2523423362524422,
+            "strategy": "dense"
+          },
+          {
+            "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 35,
+            "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3187,
+              "language": "en",
+              "char_count": 282,
+              "start_char": 2905,
+              "printed_page": 31,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3973
+            },
+            "score": 0.24763517206974395,
+            "strategy": "dense"
+          },
+          {
+            "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2073,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1576,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.24762679494578554,
+            "strategy": "dense"
+          },
+          {
+            "id": "316502c79a7a2ccebac8476bee5b6cc19895e580c5d7748f58b115e053543a93",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 16,
+            "text": "communication, allowing real-time conversations for\nsharing information for both personal and business purposes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1632,
+              "language": "en",
+              "char_count": 112,
+              "start_char": 1520,
+              "printed_page": 12,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4312
+            },
+            "score": 0.24748255786827733,
+            "strategy": "dense"
+          },
+          {
+            "id": "df5b46f2978141b245ec9195da184bf27f8f7a0ff964636d26df6648db64b008",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "• A management information system (MIS) provides middle managers with reports and summaries to\nsupport decision-making and managerial functions. For example, middle managers may use an MIS to\ngenerate reports, such as budgeting documents and cash flow statements, to understand an\norganization’s financial status. In many organizations, this type of system provides the data for an\norganization’s balanced scorecard (BSC), which is a performance metric used by strategic managers to\nidentify an",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 2153,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.24595757176156607,
+            "strategy": "dense"
+          },
+          {
+            "id": "32ba11dd0838e6ceecb2d51eb49f673d3b12b3b8b7aef3ecd1f4b54369ed8368",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 18,
+            "text": "programs.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 756,
+              "language": "en",
+              "char_count": 9,
+              "start_char": 747,
+              "printed_page": 14,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2947
+            },
+            "score": 0.24586566955972344,
+            "strategy": "dense"
+          },
+          {
+            "id": "e129ff6bdb93172afe808d767934afc0122ea4f1e1d87f55e980c5571c92bd11",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "As shown in Figure 1.3, information systems can be categorized into different types based on their scope and\nfunctionality. Executive information systems are used by an organization’s executive staff, decision support\nsystems are used by senior managers, management information systems are used by middle managers, and\ntransaction processing systems are used by frontline workers.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 597,
+              "language": "en",
+              "char_count": 380,
+              "start_char": 217,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.24436675842525934,
+            "strategy": "dense"
+          },
+          {
+            "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 500,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 0,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.2407425839414139,
+            "strategy": "dense"
+          },
+          {
+            "id": "5b390f3a138295f9efeb8f4fb17754aa47753af71a0f273a7e3633fa9194f1ad",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 20,
+            "text": "necessary for information systems to\nfunction. The operating system (OS) functions as a computer’s manager by operating the computer’s\nmemory and other hardware resources such as disk storage. Additionally, the OS provides the interface for\nusers to work with the computer , and it manages the computer’s application software programs. Examples of\nan OS include Linux, which is open source, and Microsoft Windows, for which a license must be purchased.\nPrograms that enable computers to perform",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3311,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 2817,
+              "printed_page": 16,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4240
+            },
+            "score": 0.23869684801157187,
+            "strategy": "dense"
+          },
+          {
+            "id": "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3317,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 2818,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.23719307267428802,
+            "strategy": "dense"
+          },
+          {
+            "id": "6a514b177b2d2f07d5e02bf529f5d3194102e6cecc92f83777628aae321a5111",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "• A decision support system (DSS) assists in decision-making by providing interactive tools and access to\ndata analysis. Typically, senior managers use a DSS to obtain tactical information that helps them make\nroutine, short-term decisions about an organization’s operations. This helps ensure that organizations stay\non track to achieve long-term goals and objectives. Interactive tools available through a DSS enhance\nthese efforts by providing information and technology needed for activities such",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2107,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1607,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.23542232329590784,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 500,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 0,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.6181322453497919,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d53e0e4eeca4c52fe3148f79f1b904a73247d38d7e724704a913b7e110e8d209",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 12,
+            "text": "thereby allowed for improved health care\nfor the community.1 This is information systems in action, using technology and information to help address\nconcerns from the COVID-19 pandemic.\n1.1 Introduction to Information Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• De fine the key concepts in information systems\n• Discuss the historical evolution of information systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 896,
+              "language": "en",
+              "char_count": 402,
+              "start_char": 494,
+              "printed_page": 8,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2754
+            },
+            "score": 0.3046023922910848,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1643,
+              "language": "en",
+              "char_count": 98,
+              "start_char": 1545,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.24022067410270487,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c8783db2dde733f52794b2ddf34a53e0e41e6e70165857081a367fcc1287b7dc",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 31,
+            "text": "• willingness to learn\n• professionalism\nAcademic Essential education\nGeneral:\n• reading\n• writing\n• mathematics\nIS-specific:\n• business\n• technology\nTable 1.1 Professional Competencies No matter what field you go into, certain personal, academic, and workplace skills are needed\nto be successful as you grow in your career .",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1958,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1633,
+              "printed_page": 27,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1958
+            },
+            "score": 0.2206205285615858,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "719b8c20fc13dcc63ac2952031c3cf906ae297b8ec288c11790dc6c8201103c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 31,
+            "text": "user and\ncustomer support, digital media and visualization, compliance, risk management, security, and information\nassurance. IS professionals also need competencies specific to the role they fill in IS. Table 1.1 outlines both\ngeneral and IS-specific professional competencies.\nCompetency Description Examples\nPersonal\neffectiveness\nPersonal characteristics or traits\nrelated to working\nGeneral:\n• interpersonal skills\n• initiative\n• dependability\n• reliability\nIS-specific:\n• integrity",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1632,
+              "language": "en",
+              "char_count": 487,
+              "start_char": 1145,
+              "printed_page": 27,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1958
+            },
+            "score": 0.18883241727897893,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7044f3838a3329af6f868a729f7ffab7d199707408ee05eabc984545a3e9b4b2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 32,
+            "text": "Management\nCompetencies regarding\nleadership, conflict resolution,\ndelegation, and team dynamics\nGeneral:\n• team management\n• con flict management\n• delegation\n• leadership\nIS-specific:\n• risk assessment\n• policy development\n• regulatory compliance\n• incident response planning\nTable 1.1 Professional Competencies No matter what field you go into, certain personal, academic, and workplace skills are needed\nto be successful as you grow in your career .",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1364,
+              "language": "en",
+              "char_count": 453,
+              "start_char": 911,
+              "printed_page": 28,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1364
+            },
+            "score": 0.1740715409514733,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "1b208e08ba31f739102bb96f1564d648120311f0621e87abf318d74df4b2d0f6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 12,
+            "text": "As shown in Figure 1.2, an information system typically consists of five key components: hardware, software,\ndata, people, and procedures.\n1 Geethu Mathew, Nooh Bava, Aby Dany Varghese, Abey Sushan, and Anoop Ivan Benjamin, “Project Vayoraksha: Implementation\nof Novel mHealth Technology for Healthcare Delivery during COVID-19 in Geriatric Population of Kerala,” Indian Journal of Medical\nResearch, 159, 3–4 (July 19, 2024): 289–297, https://doi.org/10.25259/IJMR_62_23",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2754,
+              "language": "en",
+              "char_count": 470,
+              "start_char": 2284,
+              "printed_page": 8,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2754
+            },
+            "score": 0.15775307626093252,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "9c65a5cd8a7951c94321d5d3d270d2828d52338531546474a9dd6ee7d3d3af2f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 18,
+            "text": "rods in the steps needed to\nweave a specific pattern of cloth (Figure 1.5). The design of the loom helped early computer designers\nunderstand the concepts and importance of computer hardware and software by applying binary code.\nFigure 1.5 (a) Jacquard’s loom, which performed calculations using a punch card system, was an early development in computing, as\nwas (b) Herman Hollerith’s punch-card tabulating machine, for which he was awarded a patent in 1889. (c) Each hole in a punch card\nequals a",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1755,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 1257,
+              "printed_page": 14,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2947
+            },
+            "score": 0.1318049034350254,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "82556e383639cd7043cd593b06ec8f4f20ebadef119904d2f11a30f4d0bbe6aa",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "Figure 1.3 Information systems include several types of systems with distinct purposes. (credit: modification of work from\nIntroduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nLet us take a closer look at each type of information system and explore their purposes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 918,
+              "language": "en",
+              "char_count": 320,
+              "start_char": 598,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.11568976435501752,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f2ed543870db052ccb342fbae176f0800d9fec2174986dbd5191416814aa715c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 17,
+            "text": "Figure 1.4 In the 1970s, the Advanced Research Projects Agency’s network consisted of a series of nodes (connectors) and lines that\nstretched across the continental United States. (credit: modification of work “Arpanet 1974” by “Yngvar”/Wikimedia Commons, Public\nDomain)",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 622,
+              "language": "en",
+              "char_count": 270,
+              "start_char": 352,
+              "printed_page": 13,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1794
+            },
+            "score": 0.11378490809352292,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.11013055011159727,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "60dadcb33e902fcb3dca5373676cd401065c087ee7e35849d46b43fe0273ed22",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "be managed with an ethical\nmindset, understanding its importance and recognizing that IS professionals have an obligation to do\neverything they can to help safeguard data.\n1.3 Connections between Information Systems and Information Technology\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain competencies in IS and IT\n• Describe the connections between IS and IT",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1455,
+              "language": "en",
+              "char_count": 392,
+              "start_char": 1063,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.10824260872787944,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 13,
+            "text": "Figure 1.2 Typically, an information system includes people, as well as hardware, software, data, and procedures. (credit:\nmodification of work from Introduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0\nlicense)\nBefore looking closely at each component to understand what it entails and why it is important in IS, let’s start\nwith a brief overview of the five components.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 417,
+              "language": "en",
+              "char_count": 417,
+              "start_char": 0,
+              "printed_page": 9,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2399
+            },
+            "score": 0.10459839829593606,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2146,
+              "language": "en",
+              "char_count": 378,
+              "start_char": 1768,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.10223863414941861,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d482767cd0054844003914524edeada73caa6e45257b9d5deddf2e28605d9d40",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 23,
+            "text": "1.2 Frameworks of Knowledge and Industry Standards\nLearning Objectives\nBy the end of this section, you will be able to:\n• Discuss the use of frameworks and industry standards in IS\n• Identify the frameworks and standards in IS\n• Correlate the frameworks and standards to knowledge as an IS professional",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2177,
+              "language": "en",
+              "char_count": 302,
+              "start_char": 1875,
+              "printed_page": 19,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3719
+            },
+            "score": 0.10194061203886313,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e129ff6bdb93172afe808d767934afc0122ea4f1e1d87f55e980c5571c92bd11",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "As shown in Figure 1.3, information systems can be categorized into different types based on their scope and\nfunctionality. Executive information systems are used by an organization’s executive staff, decision support\nsystems are used by senior managers, management information systems are used by middle managers, and\ntransaction processing systems are used by frontline workers.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 597,
+              "language": "en",
+              "char_count": 380,
+              "start_char": 217,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.09671998554938563,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.09666523714382774,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 886,
+              "language": "en",
+              "char_count": 389,
+              "start_char": 497,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.0962877856218511,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c902a58448e5278210f01be24e0db293703ac2b569c13d5402a5f190f0c842ef",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 17,
+            "text": "developed features such as the following:\n• telnet, which enables users on one computer to log into other computers using the same network\n• FTP protocols, which allow electronic file transfers\n• list servers, which send a single message to multiple subscribers\n• routers, which handle data packets\nFigure 1.4 shows the expanse of the network in 1974.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 351,
+              "language": "en",
+              "char_count": 351,
+              "start_char": 0,
+              "printed_page": 13,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1794
+            },
+            "score": 0.09382301023656799,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.09228948706388815,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1643,
+            "language": "en",
+            "char_count": 98,
+            "start_char": 1545,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.03125763125763126,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 3
+          },
+          "rank": 1
+        },
+        {
+          "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 500,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 0,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.02938045560996381,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 17,
+            "tfidf": 1
+          },
+          "rank": 2
+        },
+        {
+          "id": "e129ff6bdb93172afe808d767934afc0122ea4f1e1d87f55e980c5571c92bd11",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 14,
+          "text": "As shown in Figure 1.3, information systems can be categorized into different types based on their scope and\nfunctionality. Executive information systems are used by an organization’s executive staff, decision support\nsystems are used by senior managers, management information systems are used by middle managers, and\ntransaction processing systems are used by frontline workers.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 597,
+            "language": "en",
+            "char_count": 380,
+            "start_char": 217,
+            "printed_page": 10,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2738
+          },
+          "score": 0.02631578947368421,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 16,
+            "tfidf": 16
+          },
+          "rank": 3
+        },
+        {
+          "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 957,
+            "language": "en",
+            "char_count": 117,
+            "start_char": 840,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.01639344262295082,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1
+          },
+          "rank": 4
+        },
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.016129032258064516,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 401.21559999897727
+    },
+    {
+      "query": "Chapter 1 system processes routine daily transactions sales orders payroll transaction processing system TPS",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 339,
+              "language": "en",
+              "char_count": 339,
+              "start_char": 0,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.5980491758837713,
+            "strategy": "dense"
+          },
+          {
+            "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 957,
+              "language": "en",
+              "char_count": 117,
+              "start_char": 840,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.4822286513091891,
+            "strategy": "dense"
+          },
+          {
+            "id": "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "Think about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1451,
+              "language": "en",
+              "char_count": 493,
+              "start_char": 958,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.462537757633692,
+            "strategy": "dense"
+          },
+          {
+            "id": "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2817,
+              "language": "en",
+              "char_count": 417,
+              "start_char": 2400,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.45563530523188955,
+            "strategy": "dense"
+          },
+          {
+            "id": "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2243,
+              "language": "en",
+              "char_count": 490,
+              "start_char": 1753,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.44378182818238643,
+            "strategy": "dense"
+          },
+          {
+            "id": "64450a8fe487d56b27a6d4d23384d05e3ce6dc1f3e2daa498582804193bf749d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "To understand how information systems improve an organization’s transactional business, consider a food\norder through a delivery service. The customer places an order online, the restaurant’s system processes it,\nand the app collects the payment. Generally, this process is simple and convenient for the customer and the\nrestaurant. Because the customer entered the order online, the restaurant knows exactly what food they want,\nwhich should reduce the chance for errors in the order . Later , the",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2874,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2376,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.4348038425194688,
+            "strategy": "dense"
+          },
+          {
+            "id": "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "inputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 326,
+              "language": "en",
+              "char_count": 326,
+              "start_char": 0,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.4236537436652875,
+            "strategy": "dense"
+          },
+          {
+            "id": "97f22485f24e4a8e0cdf5d2f31d3d79f9138dd10a8642052bbb6f1f191029b33",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Information systems improve efficiency by reducing the time, effort, and costs required to perform tasks and\nconduct transactional business, which may include processes such as inventory management, filling orders,\nbilling, payment processing, shipping, and returns and refunds. Information systems can make certain tasks\neasier to perform and can automate others. They can also improve accuracy, making an organization’s data\nmore reliable.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2375,
+              "language": "en",
+              "char_count": 441,
+              "start_char": 1934,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.4104568825396626,
+            "strategy": "dense"
+          },
+          {
+            "id": "7d7541beee2f8273147a2c13912aa1fb4c11115c38c47e9ea921f277a02c4380",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "Once a system has hardware, software, and data, procedures are essential to ensure that it functions\nappropriately. These procedures should be written in detail to provide instructions and policies for the use of\nthe system. These procedures should include information about security, such as who has authorization to use\nthe system and policies for maintaining and updating passwords.\nElements of Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 802,
+              "language": "en",
+              "char_count": 417,
+              "start_char": 385,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.4034354570505331,
+            "strategy": "dense"
+          },
+          {
+            "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2073,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1576,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.40132314831860594,
+            "strategy": "dense"
+          },
+          {
+            "id": "e129ff6bdb93172afe808d767934afc0122ea4f1e1d87f55e980c5571c92bd11",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "As shown in Figure 1.3, information systems can be categorized into different types based on their scope and\nfunctionality. Executive information systems are used by an organization’s executive staff, decision support\nsystems are used by senior managers, management information systems are used by middle managers, and\ntransaction processing systems are used by frontline workers.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 597,
+              "language": "en",
+              "char_count": 380,
+              "start_char": 217,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.3687116268407078,
+            "strategy": "dense"
+          },
+          {
+            "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2399,
+              "language": "en",
+              "char_count": 155,
+              "start_char": 2244,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.368057105091261,
+            "strategy": "dense"
+          },
+          {
+            "id": "4f2b9bd3eb36c6294e591bbca724d2261191b874b263f1fac3e13d4ed16fb8ba",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 13,
+            "text": "browse online\nshopping sites, and interact with information we find on the internet or in the world around us. We use\ndatabases to organize and store this data efficiently.\n• A Set of instructions and rules that governs the use of the hardware, software, and data components is\nknown as a procedure. Standard operating procedures ensure consistency and reliability in the use of\ninformation systems.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1700,
+              "language": "en",
+              "char_count": 399,
+              "start_char": 1301,
+              "printed_page": 9,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2399
+            },
+            "score": 0.36473351214373007,
+            "strategy": "dense"
+          },
+          {
+            "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 500,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 0,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.3606043423384011,
+            "strategy": "dense"
+          },
+          {
+            "id": "9a447790b87ef61a393128e35eb911aebb9443d5456df5b3d5ad68808f4efe69",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The process of gathering data from various sources such as customers and financial records, and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4152,
+              "language": "en",
+              "char_count": 97,
+              "start_char": 4055,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.35973231296235153,
+            "strategy": "dense"
+          },
+          {
+            "id": "29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "as project management\nand employee training.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2152,
+              "language": "en",
+              "char_count": 44,
+              "start_char": 2108,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.3571058872875029,
+            "strategy": "dense"
+          },
+          {
+            "id": "4a3289694608b8888e34dd988caad0a97ae4d55d7be7c1dd81fff258a1876e70",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "customer can use the system to let the\nrestaurant know about any concerns or to provide a positive review. By using information systems, restaurants\nand delivery services across the nation have streamlined the process of taking and filling takeout delivery\norders, improving customer service while creating a better system of recordkeeping.\nInformation systems help organizations gather reliable data and make better decisions by providing timely\ninformation and the option of developing scenarios,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3373,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2875,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.35652916013359226,
+            "strategy": "dense"
+          },
+          {
+            "id": "df333f9ff102c78e43a3af399b89afc9ccf8a3ce44e74ad3d01dc5dbc2bc1a92",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "• Data information systems management manages the people, technology, and procedures needed to\nconvert data into information. This includes cleaning, extracting, integrating, categorizing, labeling, and\norganizing data.\n• Database management develops procedures to organize, manipulate, and retrieve data that are stored on\ncomputer databases.\n• Systems analysis, design, and development examines an organization’s system needs, and designs and\ndevelops a system to meet those needs.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3295,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 2812,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.34903114359882625,
+            "strategy": "dense"
+          },
+          {
+            "id": "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3317,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 2818,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.3479366138902531,
+            "strategy": "dense"
+          },
+          {
+            "id": "6a514b177b2d2f07d5e02bf529f5d3194102e6cecc92f83777628aae321a5111",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "• A decision support system (DSS) assists in decision-making by providing interactive tools and access to\ndata analysis. Typically, senior managers use a DSS to obtain tactical information that helps them make\nroutine, short-term decisions about an organization’s operations. This helps ensure that organizations stay\non track to achieve long-term goals and objectives. Interactive tools available through a DSS enhance\nthese efforts by providing information and technology needed for activities such",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2107,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1607,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.34411258974876724,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 339,
+              "language": "en",
+              "char_count": 339,
+              "start_char": 0,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.4149099912538826,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 500,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 0,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.15031976277685385,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2399,
+              "language": "en",
+              "char_count": 155,
+              "start_char": 2244,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.14095446718782267,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 957,
+              "language": "en",
+              "char_count": 117,
+              "start_char": 840,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.13607061657618238,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2243,
+              "language": "en",
+              "char_count": 490,
+              "start_char": 1753,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.12227945328421895,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3594,
+              "language": "en",
+              "char_count": 276,
+              "start_char": 3318,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.11334930785689007,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e3affe0301357860e378fe3a08e6a586a6f424dd08decebe20dc17e309873f4a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• Information that users provide to managers about an information system’s functionality is called\nfeedback. When users report problems with the system or note a procedure that can be improved, this\nfeedback is used to modify and improve the functionality of the information system.\nOperations of Information Systems\nInformation systems operations refer to how the system is used. This includes data capture, processing,\nstorage, retrieval, and dissemination.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4054,
+              "language": "en",
+              "char_count": 459,
+              "start_char": 3595,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.11102002269650467,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c479a3cd5d50959fc847829df7be48cafab7e9e29fa3b8c0e8b2064f76280468",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 13,
+            "text": "• Individuals who use the information system, including end users who input and retrieve data in the\nsystem, as well as information technology (IT) professionals who design, develop, and maintain the\nsystem, are the people who make up an information system.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1975,
+              "language": "en",
+              "char_count": 274,
+              "start_char": 1701,
+              "printed_page": 9,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2399
+            },
+            "score": 0.10866958229998856,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3317,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 2818,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.10679104438263452,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "Think about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1451,
+              "language": "en",
+              "char_count": 493,
+              "start_char": 958,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.10345355240446392,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e3f4e87cafc842d3b0ffe6c2a50881460cf72db6ed74a8042a8248867ed55984",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "inputting this data into the system is called data capture.\n• Using calculations, manipulations, and analysis to transform data into useful information is called data\nprocessing. This includes, for example, the processes of adding the number of products sold during a\nmonth and calculating the profits earned from these sales.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 326,
+              "language": "en",
+              "char_count": 326,
+              "start_char": 0,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.10095047735720329,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "10b823ef3a6ce628368bfea45cc31530a88aad7413a87f5c13488cfe0e77adea",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "In general, an information system is a set of components that helps gather , analyze, maintain, and distribute\ndata. The components of information systems include people, the system’s hardware and software, networks,\ndata, and the procedures used to process the data and maintain the system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1045,
+              "language": "en",
+              "char_count": 291,
+              "start_char": 754,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.0925555081662541,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4a3289694608b8888e34dd988caad0a97ae4d55d7be7c1dd81fff258a1876e70",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "customer can use the system to let the\nrestaurant know about any concerns or to provide a positive review. By using information systems, restaurants\nand delivery services across the nation have streamlined the process of taking and filling takeout delivery\norders, improving customer service while creating a better system of recordkeeping.\nInformation systems help organizations gather reliable data and make better decisions by providing timely\ninformation and the option of developing scenarios,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3373,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2875,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.09043738572221355,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e129ff6bdb93172afe808d767934afc0122ea4f1e1d87f55e980c5571c92bd11",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "As shown in Figure 1.3, information systems can be categorized into different types based on their scope and\nfunctionality. Executive information systems are used by an organization’s executive staff, decision support\nsystems are used by senior managers, management information systems are used by middle managers, and\ntransaction processing systems are used by frontline workers.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 597,
+              "language": "en",
+              "char_count": 380,
+              "start_char": 217,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.08820529668052465,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "97f22485f24e4a8e0cdf5d2f31d3d79f9138dd10a8642052bbb6f1f191029b33",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Information systems improve efficiency by reducing the time, effort, and costs required to perform tasks and\nconduct transactional business, which may include processes such as inventory management, filling orders,\nbilling, payment processing, shipping, and returns and refunds. Information systems can make certain tasks\neasier to perform and can automate others. They can also improve accuracy, making an organization’s data\nmore reliable.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2375,
+              "language": "en",
+              "char_count": 441,
+              "start_char": 1934,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.08759016757326947,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ef27a2dedd2e7455ca99817bcf67c619686abee0c996264a2d518da40d133cb9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "When developing an information system, frameworks provide guidance to help IS professionals apply critical\nthinking as they identify the goals of the system and problems that can be resolved by the system.\nFrameworks promote proactive communication and help IS professionals organize their ideas and provide a\nfoundation for strategic planning to develop and maintain a system that meets an organization’s specific\nneeds. As part of this process, frameworks also provide IS professionals with",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 556,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 64,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.08531424165970056,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2817,
+              "language": "en",
+              "char_count": 417,
+              "start_char": 2400,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.0849120588424278,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5b3fda5587e8671364f58cad8c8bd8a6bc86dec0b0a2c95e32fb3162b0e88c23",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• Factors such as physical location and network capabilities that a ffect a system and help determine how it\noperates are referred to as its environment. This also involves the purpose and context of a system,\nincluding whether the majority of users are tech savvy or have limited skills in technology. To ensure that a\nsystem is set up appropriately, it must be implemented in an environment that will promote its capabilities\nand meet the goals and objectives. For example, if an information system",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1494,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 994,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.08210080019293832,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "3367f37b7ab3b3a5ead564dda0b63b9e6882f0082d712c870151cb8a65081730",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 20,
+            "text": "The components of information systems all interact closely to make the system function. People are a vital part\nof information systems, both as developers and as system users. An important aspect of systems development\nis ensuring that a system is user-friendly. To maximize functionality and promote information sharing, systems\nmust be accessible to individuals without a background in technology.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2322,
+              "language": "en",
+              "char_count": 399,
+              "start_char": 1923,
+              "printed_page": 16,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4240
+            },
+            "score": 0.07830518369536278,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "3d81a31d3e4ce06bed3c86146e5539d9c6e47178b5b4823080f3671f70b9efda",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 34,
+            "text": "change and gather the information\nneeded to make decisions, set policies, and take action to combat the impacts of climate change.\nOrganizations use processes such as business analysis, problem-solving, and decision-making for global\ninnovation, and these same processes are used for internal and local issues. With global innovation, these\norganizational processes have a broader scope as they are applied to the global marketplace and this is\ncovered in-depth in Chapter 11 Global Information",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3724,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 3230,
+              "printed_page": 30,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3881
+            },
+            "score": 0.07762037737526652,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 957,
+            "language": "en",
+            "char_count": 117,
+            "start_char": 840,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.031754032258064516,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 4
+          },
+          "rank": 2
+        },
+        {
+          "id": "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2243,
+            "language": "en",
+            "char_count": 490,
+            "start_char": 1753,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.03076923076923077,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 5
+          },
+          "rank": 3
+        },
+        {
+          "id": "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "Think about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1451,
+            "language": "en",
+            "char_count": 493,
+            "start_char": 958,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.030158730158730156,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 10
+          },
+          "rank": 4
+        },
+        {
+          "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2399,
+            "language": "en",
+            "char_count": 155,
+            "start_char": 2244,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.02976190476190476,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 12,
+            "tfidf": 3
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 286.72200000073644
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 41
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 16
+    }
+  ],
+  "cost_usd": null
+}

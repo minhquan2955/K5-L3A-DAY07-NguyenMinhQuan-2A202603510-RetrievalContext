@@ -1,0 +1,153 @@
+[
+  {
+    "query_id": "d7-dev01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Đúng và đủ năm thành phần. Trích dẫn trang PDF 12 nêu rõ hardware, software, data, people, procedures; ngữ cảnh trang 13 và 20 cũng xác nhận cùng danh sách.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Đúng hệ thống xử lý giao dịch TPS. Trích dẫn trang PDF 15 nói trực tiếp TPS xử lý giao dịch hằng ngày, gồm xử lý đơn hàng và tiền lương; ngữ cảnh đủ điều kiện Chương 1.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true, true],
+    "reason": "Đúng chức năng quản lý các loại hệ thống thông tin và tích hợp quy trình, chức năng toàn tổ chức. Citation thứ nhất trang PDF 15 hỗ trợ chức năng chính cùng ví dụ nhân sự, quản lý dự án, kế toán; citation thứ hai trang 72 hỗ trợ ví dụ tài chính, nhân sự, chuỗi cung ứng. Các chi tiết bổ sung đều có trong ngữ cảnh.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Đúng thuật ngữ truy xuất dữ liệu (data retrieval). Citation trang PDF 22 định nghĩa trực tiếp việc lấy dữ liệu từ nơi lưu trữ là data retrieval; không nhầm với data storage hay processing trong các đoạn lân cận.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Đủ hai hành động xem xét tiến độ và điều chỉnh trước sprint kế tiếp. Citation trang PDF 24 nêu nguyên ý này sau mỗi sprint; không thêm độ dài sprint hay yêu cầu ngoài nguồn.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Đúng shared values là sứ mệnh và giá trị tạo động lực cho hoạt động tổ chức. Citation trang PDF 25 ghi rõ định nghĩa này trong McKinsey 7-S, đủ nguồn và đúng phạm vi Chương 1.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Trả lời đủ kiến thức và chuyên môn cần cho từng vai trò. Citation trang PDF 25 còn hỗ trợ đầy đủ phần bổ sung về vị trí đầu vào đến nâng cao và các lĩnh vực phát triển công nghệ, chiến lược, kiến trúc, hỗ trợ.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev08",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Đủ sáu câu hỏi What, How, Where, Who, When, Why và bản dịch phù hợp. Citation trang PDF 27 liệt kê cả sáu và nêu mục đích hiểu nhu cầu từ góc nhìn các bên liên quan.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev09",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Đúng quản trị dữ liệu (data governance). Citation trang PDF 47 trong Chương 2 nêu rõ chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như tài sản có giá trị, khớp toàn bộ điều kiện hỏi.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Đúng Velocity và đúng quan hệ tốc độ sinh, thu thập dữ liệu dẫn tới nhu cầu xử lý thời gian thực. Citation trang PDF 50 phát biểu trực tiếp đầy đủ hai phần này.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Đủ lập chỉ mục nội dung, tìm kiếm, quản lý siêu dữ liệu. Citation trang PDF 51 gắn các kỹ thuật này với khám phá và truy xuất thông tin liên quan; câu ngay trước mô tả tổ chức, lưu trữ, truy xuất dữ liệu phi cấu trúc nên phần diễn giải bổ sung phù hợp ngữ cảnh.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true, true],
+    "reason": "Đủ nguồn dữ liệu chuẩn, chính xác, tập trung cùng tác dụng loại bỏ thiếu nhất quán và trao đổi liên hệ thống. Citation thứ nhất trang PDF 51 hỗ trợ cơ chế MDM; citation thứ hai cùng trang hỗ trợ ví dụ kho sản phẩm tập trung và thông tin nhất quán trên các giao diện.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev13",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "citation_support": [false],
+    "reason": "Đúng hai miền operational control và management control nhưng miền thứ ba chỉ viết strategic/chiến lược, thiếu planning/hoạch định nên chưa đủ tên miền yêu cầu. Citation trang PDF 53 kết thúc ngay sau 'operational control, management control, and', không hỗ trợ miền thứ ba. Toàn bộ ngữ cảnh vẫn đủ bằng chứng: đoạn trang 55 liệt kê operational control, managerial control, strategic planning và bảng trang 53 mô tả miền strategic.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "Đúng nonprogrammed/phi cấu trúc và đủ phán đoán, phân tích, sáng tạo. Citation trang PDF 53 trực tiếp nêu tính độc nhất, phức tạp, không có hướng dẫn hay tiền lệ và ba năng lực; đoạn lân cận trong ngữ cảnh xác định khung Simon.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev15",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "citation_support": [false, true],
+    "reason": "Ý chính cản trở trao đổi hiểu biết và yêu cầu đúng, ngữ cảnh trang PDF 60 đủ để trả lời. Tuy nhiên câu trả lời thêm hệ quả hai bên hiểu sai nhu cầu do thiếu giao tiếp: citation thứ nhất quy hiểu nhầm và lệch liên kết cho thiếu nhận thức chuyên môn, một nguyên nhân riêng, nên chưa hỗ trợ đầy đủ chuỗi nhân quả đã gán. Citation thứ hai trang 60 hỗ trợ quan hệ giao tiếp, hợp tác với giải pháp công nghệ đáp ứng nhu cầu và mục tiêu kinh doanh; phần này là diễn giải phù hợp, không chứng minh riêng hệ quả hiểu sai nhu cầu.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev16",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối đúng và không thêm giá ERP vô căn cứ. Ngữ cảnh trang PDF 15 và 72 chỉ có chức năng, tích hợp và ví dụ ERP; các đoạn trang 62–67 nói mô hình kinh doanh, giá hoặc chi phí chủ đề khác, không cho USD/người dùng/tháng. Kết luận giới hạn trong snapshot và kiểm tra vắng mặt được cung cấp trong audit packet.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev17",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối đúng và không suy ra số ngày bắt buộc. Trang PDF 24 nêu các pha sprint và việc xem xét, điều chỉnh; trang 70 nói chu kỳ phát triển ngắn nhưng không quy định số ngày chính xác. Không dùng ví dụ bảy ngày một tuần ở trang 19 làm độ dài sprint; đánh giá giới hạn trong nguồn snapshot của packet.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  }
+]

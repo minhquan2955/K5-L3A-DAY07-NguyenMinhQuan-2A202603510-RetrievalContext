@@ -1,0 +1,153 @@
+[
+  {
+    "query_id": "d7-dev01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 20 nêu đủ people, hardware, software, data và procedures; câu trả lời dịch đúng cả năm thành phần và trích đúng đoạn này. Trang 13 trong ngữ cảnh cũng xác nhận cùng danh sách; bằng chứng đủ dù không cần đúng một trang gold duy nhất.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 15 xác định TPS xử lý giao dịch hằng ngày, gồm order processing và payroll. Câu trả lời nhận diện đúng TPS và hai ví dụ; citation hỗ trợ trực tiếp.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true, true],
+    "reason": "chapter1-2.pdf trang vật lý 15 hỗ trợ quản lý nhiều hệ thống thông tin, tích hợp quy trình/chức năng và các ví dụ nhân sự, dự án, kế toán; trang 72 hỗ trợ kết nối tài chính, nhân sự và chuỗi cung ứng. Hai citation cùng hỗ trợ đầy đủ phần giải thích và ví dụ.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 22 định nghĩa việc lấy dữ liệu từ nơi lưu trữ là data retrieval. Câu trả lời truy xuất dữ liệu đúng và citation chứa chính định nghĩa đó.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 24 nói sau mỗi sprint nhóm xem xét tiến độ và điều chỉnh trước sprint kế tiếp. Câu trả lời giữ đủ hành động và thứ tự điều kiện; citation hỗ trợ trực tiếp.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 25 định nghĩa shared values là mission và values tạo động lực cho hoạt động tổ chức. Câu trả lời dịch đúng nội dung và trích đúng đoạn; ngữ cảnh cũng xác định rõ McKinsey 7-S.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 25 giải thích dùng SFIA để xác định kiến thức và chuyên môn cho từng vai trò, từ nhập môn đến nâng cao; các lĩnh vực bổ sung trong câu trả lời cũng nằm trong cùng đoạn được trích.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev08",
+    "answer_grade": 0,
+    "context_grade": 2,
+    "citation_support": [],
+    "reason": "Từ chối sai trên câu có đáp án: ngữ cảnh cuối từ chapter1-2.pdf trang vật lý 27 nêu rõ what, how, where, who, when và why, cùng quan hệ với nhu cầu các bên liên quan. Bằng chứng đủ nhưng agent kết thúc bằng search_limit thay vì trả lời; đây là lỗi quyết định/dừng, không phải thiếu bằng chứng trong ngữ cảnh.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev09",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 47 định nghĩa data governance bằng các chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như tài sản. Câu trả lời nêu đúng tên và đủ nội dung; citation hỗ trợ trực tiếp.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 50 nêu velocity là tốc độ tạo và thu thập dữ liệu khiến cần xử lý thời gian thực. Câu trả lời nhận diện đúng chiều V và giải thích đúng điều kiện; citation hỗ trợ đủ.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 51 gắn content indexing, search và metadata management với khám phá/truy xuất thông tin trong dữ liệu phi cấu trúc. Câu trả lời liệt kê đầy đủ và trích đúng đoạn.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 51 hỗ trợ đủ cơ chế MDM: tạo/duy trì nguồn sự thật chính xác duy nhất, kho tập trung loại bỏ thiếu nhất quán và trao đổi thông tin giữa hệ thống/ứng dụng. Câu trả lời đầy đủ và citation hỗ trợ mọi ý chính.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true, true],
+    "reason": "chapter1-2.pdf trang vật lý 53 trong citation thứ nhất xác nhận operational control và management control; bảng trong citation thứ hai nêu Operational, Management, Strategic và mô tả Strategic bằng đặt mục tiêu dài hạn. Câu trả lời rút gọn strategic planning thành strategic/chiến lược nhưng vẫn nhận diện đúng ba miền theo bảng; tổng hai đoạn đủ về nghĩa dù câu liệt kê ở đoạn đầu bị ngắt trước miền thứ ba.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [true],
+    "reason": "chapter1-2.pdf trang vật lý 53 mô tả nonprogrammed decisions là độc nhất, phức tạp, không có hướng dẫn/tiền lệ, cần judgment, analysis và creativity. Câu trả lời nêu đúng loại quyết định và đủ ba năng lực; citation trực tiếp hỗ trợ.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev15",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "citation_support": [false],
+    "reason": "chapter1-2.pdf trang vật lý 60 cung cấp đủ bằng chứng cho đáp án: thiếu giao tiếp cản trở trao đổi insights và requirements. Câu trả lời nêu đúng ý này nhưng thêm quan hệ nhân quả từ thiếu giao tiếp đến hiểu lầm và lệch hướng. Đoạn nguồn quy hệ quả hiểu lầm và lệch hướng cho lack of expertise awareness, một nguyên nhân riêng, nên không đủ hỗ trợ việc chuyển quy kết sang lack of communication. Theo cách chấm bảo thủ, đáp án chỉ được điểm một phần và citation không hỗ trợ đầy đủ toàn bộ phát biểu gắn với nó; ngữ cảnh vẫn đủ để trả lời đúng câu hỏi.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev16",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối đúng: ngữ cảnh chapter1-2.pdf trang vật lý 15 chỉ mô tả chức năng ERP; trang 21 nói số bán hàng mỗi tháng, không phải phí giấy phép ERP theo người dùng. Hồ sơ absence_check của case ghi đã rà các đoạn ERP trang 15, 37, 39, 40, 72 mà không có mức phí yêu cầu. Không suy diễn con số từ nội dung gần chủ đề; kết thúc thực tế là search_limit.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev17",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối đúng: chapter1-2.pdf trang vật lý 24 mô tả các pha sprint và xem xét/điều chỉnh sau sprint nhưng không quy định chính xác số ngày bắt buộc. Các đoạn ngữ cảnh trang 50, 73 không cung cấp thời lượng; absence_check của case cũng xác nhận không có chi tiết này trong nguồn đã rà. Kết thúc thực tế là search_limit nên kết quả đúng không chứng minh agent đã chủ động nhận biết đầy đủ tính không trả lời được.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  }
+]

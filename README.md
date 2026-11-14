@@ -2,6 +2,10 @@
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
+**Bài làm cá nhân:** đã triển khai dense, TF-IDF, hybrid RRF và agent `gpt-6-luna`; chạy benchmark 24 câu tiếng Việt, chốt cấu hình trên dev rồi đánh giá baseline/selected trên test. Xem [báo cáo Nguyễn Minh Quân](report/individual/2A202603510_NguyenMinhQuan.md), [lệnh thí nghiệm](docs/EXPERIMENTS.md), [checklist bài nộp](artifacts/day07/SUBMISSION_CHECK.md) và [cách chạy agent](docs/RUN_AGENT.md). Nhãn có Codex hỗ trợ, chưa xác nhận độc lập bởi học viên.
+
+**Dữ liệu và tái lập:** Day06 được giữ ở repo riêng, pin commit `e81e2efa357db48ea263deb7efe27086b60a85dc`. Xem [hướng dẫn dựng lại trên máy khác](docs/DAY06_REPRODUCIBILITY.md) và [cấu hình/hash tham chiếu](data/day06_reference.json).
+
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.

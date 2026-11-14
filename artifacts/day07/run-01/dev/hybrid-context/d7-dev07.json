@@ -1,0 +1,2061 @@
+{
+  "query_id": "d7-dev07",
+  "split": "dev",
+  "question": "Các tổ chức sử dụng SFIA để xác định điều gì cho từng vai trò công việc?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:58.769672+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "SFIA organizations use to define for each job role skills levels responsibility role profiles",
+      "filter": {},
+      "results": [
+        {
+          "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3064,
+            "language": "en",
+            "char_count": 416,
+            "start_char": 2648,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 496,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 0,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 886,
+            "language": "en",
+            "char_count": 389,
+            "start_char": 497,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.032018442622950824,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 4
+          },
+          "rank": 3
+        },
+        {
+          "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2647,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 2147,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 3
+          },
+          "rank": 4
+        },
+        {
+          "id": "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 29,
+          "text": "Application of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 340,
+            "language": "en",
+            "char_count": 340,
+            "start_char": 0,
+            "printed_page": 25,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3741
+          },
+          "score": 0.02900988017658188,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 7,
+            "tfidf": 11
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b | chapter1-2.pdf | page 25]\nand other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.\n\n[73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f | chapter1-2.pdf | page 26]\nFigure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and\n\n[ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae | chapter1-2.pdf | page 26]\nadvance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.\n\n[7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035 | chapter1-2.pdf | page 25]\nThis framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS\n\n[e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf | chapter1-2.pdf | page 29]\nApplication of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+      "context_ids": [
+        "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+        "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+        "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+        "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+        "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Các tổ chức sử dụng SFIA để xác định điều gì cho từng vai trò công việc?",
+    "filter": {},
+    "results": [
+      {
+        "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 26,
+        "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 496,
+          "language": "en",
+          "char_count": 496,
+          "start_char": 0,
+          "printed_page": 22,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2794
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 1
+        },
+        "rank": 1
+      },
+      {
+        "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 26,
+        "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 886,
+          "language": "en",
+          "char_count": 389,
+          "start_char": 497,
+          "printed_page": 22,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2794
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 5
+        },
+        "rank": 2
+      },
+      {
+        "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 25,
+        "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2647,
+          "language": "en",
+          "char_count": 500,
+          "start_char": 2147,
+          "printed_page": 21,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3064
+        },
+        "score": 0.031754032258064516,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 4,
+          "tfidf": 2
+        },
+        "rank": 3
+      },
+      {
+        "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 25,
+        "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3064,
+          "language": "en",
+          "char_count": 416,
+          "start_char": 2648,
+          "printed_page": 21,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3064
+        },
+        "score": 0.03149801587301587,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 3,
+          "tfidf": 4
+        },
+        "rank": 4
+      },
+      {
+        "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 26,
+        "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2657,
+          "language": "en",
+          "char_count": 498,
+          "start_char": 2159,
+          "printed_page": 22,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2794
+        },
+        "score": 0.030536130536130537,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 5,
+          "tfidf": 6
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Các tổ chức dùng SFIA để xác định và lập bản đồ kiến thức, chuyên môn cần thiết cho từng vai trò trong tổ chức, từ vị trí đầu vào đến nâng cao trong các lĩnh vực phát triển công nghệ, chiến lược, kiến trúc và hỗ trợ. [cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b]",
+  "elapsed_ms": 4174.551100000826,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 377,
+        "completion_tokens": 30,
+        "total_tokens": 407
+      },
+      "action": {
+        "action": "search",
+        "query": "SFIA organizations use to define for each job role skills levels responsibility role profiles"
+      },
+      "elapsed_ms": 1390.2952000025834
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "SFIA organizations use to define for each job role skills levels responsibility role profiles"
+          ],
+          "context": "[cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b | chapter1-2.pdf | page 25]\nand other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.\n\n[73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f | chapter1-2.pdf | page 26]\nFigure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and\n\n[ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae | chapter1-2.pdf | page 26]\nadvance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.\n\n[7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035 | chapter1-2.pdf | page 25]\nThis framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS\n\n[e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf | chapter1-2.pdf | page 29]\nApplication of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+          "context_ids": [
+            "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+            "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+            "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1296,
+        "completion_tokens": 142,
+        "total_tokens": 1438
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Các tổ chức dùng SFIA để xác định và lập bản đồ kiến thức, chuyên môn cần thiết cho từng vai trò trong tổ chức, từ vị trí đầu vào đến nâng cao trong các lĩnh vực phát triển công nghệ, chiến lược, kiến trúc và hỗ trợ. [cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b]",
+        "citations": [
+          "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b"
+        ]
+      },
+      "elapsed_ms": 1912.4674000013329
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Các tổ chức sử dụng SFIA để xác định điều gì cho từng vai trò công việc?",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 886,
+              "language": "en",
+              "char_count": 389,
+              "start_char": 497,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.5581997235101237,
+            "strategy": "dense"
+          },
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.534654278809767,
+            "strategy": "dense"
+          },
+          {
+            "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3064,
+              "language": "en",
+              "char_count": 416,
+              "start_char": 2648,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.49541068166923197,
+            "strategy": "dense"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.4694817677867985,
+            "strategy": "dense"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.40724718210762956,
+            "strategy": "dense"
+          },
+          {
+            "id": "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "Application of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 340,
+              "language": "en",
+              "char_count": 340,
+              "start_char": 0,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.358963728880317,
+            "strategy": "dense"
+          },
+          {
+            "id": "806ac6c86721bf40be7ff5cf585940e9fa9960fcc6611dd0230c69458f11ce95",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "of work “Zachman Framework (9026775815)” by National Institute of Standards and Technology/Wikimedia Commons, Public\nDomain)\nThe industry standards that are applicable in IS include the American Society for Industrial Security (ASIS), the\nFederal Information Security Modernization Act (FISMA), IS2020, ISO/IEC 27001, and the Open Group\nArchitecture Framework (TOGAF).",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 368,
+              "language": "en",
+              "char_count": 368,
+              "start_char": 0,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.34909323835445827,
+            "strategy": "dense"
+          },
+          {
+            "id": "0c4c75271637c0af26c320674453cc7c2ae52e43bdf5083b6f630fb3e15c60c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 57,
+            "text": "An individual department or functional area within a large organization may have its own specific IT\napplication program known as a functional area information system (FAIS), an information system designed\nto support specific business functions within the organization. These FAISs are designed to enhance the\ninternal efficiency and effectiveness of each department by providing valuable support tailored to each\nrespective department’s functions. These information systems often generate a diverse",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2258,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1759,
+              "printed_page": 53,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2799
+            },
+            "score": 0.3472485725600726,
+            "strategy": "dense"
+          },
+          {
+            "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1414,
+              "language": "en",
+              "char_count": 286,
+              "start_char": 1128,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.34106399643246466,
+            "strategy": "dense"
+          },
+          {
+            "id": "a6fef7a329ea28d3f98a4daf070ef5028a0c8d3af81aefa23c8c55ac3c4a30e4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "IS professionals who work for government agencies or private businesses that contract with the government\nshould be familiar with the Federal Information Security Modernization Act (FISMA), which sets the\nguidelines and standards for security that affected organizations are required to meet to minimize the\npossibility that data will be stolen, lost, or misused. Under FISMA, affected organizations must have a security\nstrategy that addresses issues such as system access control, risk assessment",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1434,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 936,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.3271780611418351,
+            "strategy": "dense"
+          },
+          {
+            "id": "b8c7198de7c4b3124c5339a642f46f665296312f14e58201016210aaca058635",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Industry standards help IS professionals ensure that the system they develop has the appropriate\ninfrastructure and technological components required to function efficiently. This includes ensuring the\nsystem is compatible with information systems used in other organizations. After all, an important objective of\nIS to enable information sharing internally and externally as organizations interact in the marketplace.\nSpecific Frameworks and Standards in Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1127,
+              "language": "en",
+              "char_count": 475,
+              "start_char": 652,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.3125771078735139,
+            "strategy": "dense"
+          },
+          {
+            "id": "1a7467d8178b6b84c15b775b026845dc4b113dc0913e4579c1e3eb0320268a95",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "The American Society for Industrial Security (ASIS) is a global organization that provides training and\ncertification to help professionals in all industries provide security for people, property, and information. ASIS\nis a global organization that collaborates with public and private organizations throughout the world—such as\nthe Department of Homeland Security and the Federal Bureau of Investigation—to ensure that IS\nprofessionals and others involved in security have the resources needed to",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 866,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 369,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.31082946065748474,
+            "strategy": "dense"
+          },
+          {
+            "id": "ed3ef1fe59af247e75ba818b9a9e04c9e1c5f8287eb8be6a596f0338b5fcd43d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "It is also beneficial to join one or more professional organizations such as the Association for Information\nSystems (https://aisnet.org/), International Association for Computer Information Systems\n(https://www.iacis.org/), or Information Systems Audit and Control Association (https://www.isaca.org/). Such\norganizations provide members with important resources, including training, as well as news and updates\nabout events and changes important to IS professionals. Joining such organizations and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 840,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 341,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.310729263627765,
+            "strategy": "dense"
+          },
+          {
+            "id": "e37dc048ca1f9699dd1c56ae39526e99751790fe88d3825e2b161e20d511bf04",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 23,
+            "text": "• Discuss characteristics and roles of IS professionals\nTo promote best practices and help organizations achieve information systems goals and objectives, the field\nof information systems (IS) is guided by frameworks and industry standards. A framework refers to a tangible\nstructured set of guidelines and best practices that is used to guide the process of developing, implementing,\nmanaging, or maintaining a business process, policy, system, or procedure—such as an information system.\nAn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2670,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 2178,
+              "printed_page": 19,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3719
+            },
+            "score": 0.3081512055635638,
+            "strategy": "dense"
+          },
+          {
+            "id": "109bbec34eda24b4c32c69898ddd3eb6081655b32d5158d5833ccdd2e8447d3a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 57,
+            "text": "range of reports. Some\ncommon examples of functional areas for FAIS include accounting, finance, production and operations\nmanagement, marketing, and human resources. The indicators of value listed in Table 2.2 signify the positive\noutcomes and advantages that result from investing in IT within each functional area and system category.\n10 Parmy Olson, “Under Armour Buys Health-Tracking App MyFitnessPal for $475 Million,” Forbes, February 4, 2015,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2709,
+              "language": "en",
+              "char_count": 450,
+              "start_char": 2259,
+              "printed_page": 53,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2799
+            },
+            "score": 0.3035494697088458,
+            "strategy": "dense"
+          },
+          {
+            "id": "e16763c123242d9eb6eff01c731038715158ecf533494bef4c6ff4b02729ecf8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 31,
+            "text": "• Industry-sector technical: competencies directly related to speci fic positions within an industry; for\nexample, in IS, professionals who focus on cybersecurity must be competent about data security and risk\nmanagement",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 646,
+              "language": "en",
+              "char_count": 220,
+              "start_char": 426,
+              "printed_page": 27,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1958
+            },
+            "score": 0.2993278044713392,
+            "strategy": "dense"
+          },
+          {
+            "id": "02a86a0da6e4211fe0d64498609bd7414b8d7b13e547529711406e986e1a977a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "helpful information about IS careers, including the general skills required, types of organizations that hire\nIS professionals, and what students can expect if they pursue a career in IS.\nTypes of Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 216,
+              "language": "en",
+              "char_count": 216,
+              "start_char": 0,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.2956387055906675,
+            "strategy": "dense"
+          },
+          {
+            "id": "c22358affdae0e02258a72c16373f6bec2da725fed6a76b2a2fbfc4a74d88d80",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 58,
+            "text": "Functional\nArea\nStrategic\nInformation\nSystems\nManagerial\nInformation\nSystems\nOperational\nInformation\nSystems\nOverall Value\nIndicators for\nInformation\nTechnology Investment\nHuman\nresources\nWorkforce\noptimization\nData-driven\nhuman\nresources\ndecision-making\nand analytics\nEfficient\nemployee data\nmanagement\nand self-\nservice options\nImproved talent\nacquisition and\nretention, reduced\nhuman resources\noperational costs\nFinance and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 426,
+              "language": "en",
+              "char_count": 426,
+              "start_char": 0,
+              "printed_page": 54,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2239
+            },
+            "score": 0.29526846959842246,
+            "strategy": "dense"
+          },
+          {
+            "id": "f5d45ff30e75825f0f4f85e04188a5e7f05db70be2379e90f3c1e09731c8831d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "• Discuss training and education requirements for IS fields\nAs you have learned, organizations must have robust information systems managed by qualified\nprofessionals. To help ensure that IS professionals and organizations have the required expertise, the U.S.\nDepartment of Labor has developed the Information Technology Competency Model, a framework that defines\nthe knowledge, skills, and abilities that are essential for IS professionals. It is important for IS professionals to\nunderstand the",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1953,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1456,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.2943195135104384,
+            "strategy": "dense"
+          },
+          {
+            "id": "63d9d58b43dc448bceb0dfe4930a762de3cc032f80ad3ebf5c3fc7b825600149",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "specific needs and\nrequirements. However , all five frameworks can be valuable tools for improving data management and\ninformation quality. The optimal framework for managing data is one that is continuously developing to\naddress advancements in data storage and changes in organizational policy.\nCAREERS IN IS\nData Architect",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1840,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.2924369828745128,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.300452470641238,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.28685187376409693,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1414,
+              "language": "en",
+              "char_count": 286,
+              "start_char": 1128,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.20822043567426687,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3064,
+              "language": "en",
+              "char_count": 416,
+              "start_char": 2648,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.16665461238337154,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 886,
+              "language": "en",
+              "char_count": 389,
+              "start_char": 497,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.14963964263396143,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.14249797480172843,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 496,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 0,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 886,
+            "language": "en",
+            "char_count": 389,
+            "start_char": 497,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.03177805800756621,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 5
+          },
+          "rank": 2
+        },
+        {
+          "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2647,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 2147,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.031754032258064516,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 2
+          },
+          "rank": 3
+        },
+        {
+          "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3064,
+            "language": "en",
+            "char_count": 416,
+            "start_char": 2648,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2657,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 2159,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.030536130536130537,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 6
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 439.98719999945024
+    },
+    {
+      "query": "SFIA organizations use to define for each job role skills levels responsibility role profiles",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 886,
+              "language": "en",
+              "char_count": 389,
+              "start_char": 497,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.6606045087343925,
+            "strategy": "dense"
+          },
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.5967274954624111,
+            "strategy": "dense"
+          },
+          {
+            "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3064,
+              "language": "en",
+              "char_count": 416,
+              "start_char": 2648,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.5945118517879474,
+            "strategy": "dense"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.5589107679228565,
+            "strategy": "dense"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.5566799542722821,
+            "strategy": "dense"
+          },
+          {
+            "id": "e37dc048ca1f9699dd1c56ae39526e99751790fe88d3825e2b161e20d511bf04",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 23,
+            "text": "• Discuss characteristics and roles of IS professionals\nTo promote best practices and help organizations achieve information systems goals and objectives, the field\nof information systems (IS) is guided by frameworks and industry standards. A framework refers to a tangible\nstructured set of guidelines and best practices that is used to guide the process of developing, implementing,\nmanaging, or maintaining a business process, policy, system, or procedure—such as an information system.\nAn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2670,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 2178,
+              "printed_page": 19,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3719
+            },
+            "score": 0.47424735693734044,
+            "strategy": "dense"
+          },
+          {
+            "id": "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "Application of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 340,
+              "language": "en",
+              "char_count": 340,
+              "start_char": 0,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.45040607782397535,
+            "strategy": "dense"
+          },
+          {
+            "id": "e16763c123242d9eb6eff01c731038715158ecf533494bef4c6ff4b02729ecf8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 31,
+            "text": "• Industry-sector technical: competencies directly related to speci fic positions within an industry; for\nexample, in IS, professionals who focus on cybersecurity must be competent about data security and risk\nmanagement",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 646,
+              "language": "en",
+              "char_count": 220,
+              "start_char": 426,
+              "printed_page": 27,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1958
+            },
+            "score": 0.44855123670659647,
+            "strategy": "dense"
+          },
+          {
+            "id": "9368c2c8a00eb618b5879fc94f17facd58882ac4921edaf0e4a899d9465f234a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "People working in IS may be involved with new technologies applicable to information systems, how\ninformation systems are used globally, and the ethical requirements necessary to ensure a system is managed\nsecurely with integrity. IS professionals hold a variety of important roles and responsibilities in an\norganization. These include the following:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2516,
+              "language": "en",
+              "char_count": 351,
+              "start_char": 2165,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.43479402205523465,
+            "strategy": "dense"
+          },
+          {
+            "id": "b43c9ba8e0fd923cae5b71335abeb7374923f4cc5bb18f1d7caa452d66c222be",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 6, Initiate and In fluence: Employees who initiate and influence play a central role in establishing an\norganization’s objectives and assigning responsibilities to subordinates. These employees perform highly\ncomplex tasks and make decisions that directly impact an organization’s performance and achievement of\norganizational goals and objectives.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2158,
+              "language": "en",
+              "char_count": 356,
+              "start_char": 1802,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.43325391412686187,
+            "strategy": "dense"
+          },
+          {
+            "id": "719b8c20fc13dcc63ac2952031c3cf906ae297b8ec288c11790dc6c8201103c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 31,
+            "text": "user and\ncustomer support, digital media and visualization, compliance, risk management, security, and information\nassurance. IS professionals also need competencies specific to the role they fill in IS. Table 1.1 outlines both\ngeneral and IS-specific professional competencies.\nCompetency Description Examples\nPersonal\neffectiveness\nPersonal characteristics or traits\nrelated to working\nGeneral:\n• interpersonal skills\n• initiative\n• dependability\n• reliability\nIS-specific:\n• integrity",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1632,
+              "language": "en",
+              "char_count": 487,
+              "start_char": 1145,
+              "printed_page": 27,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1958
+            },
+            "score": 0.43010608193840505,
+            "strategy": "dense"
+          },
+          {
+            "id": "3027a0ae622e05fe179e48d10990319c36e4b94fe7d1952fd98ab766300ecbdc",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "It is important to be aware that the level of automation in these roles can vary. Some tasks are fully\nautomated, meaning the information system handles them entirely without human intervention. In contrast,\nother tasks require human input, where the information system relies on the judgment, expertise, and\nintuition of managers to make decisions based on the information provided.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3716,
+              "language": "en",
+              "char_count": 400,
+              "start_char": 3316,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.4297140707457685,
+            "strategy": "dense"
+          },
+          {
+            "id": "993f410ce4ea2c029a05e90349df03f14bcf8cd83ec1f52d21517717ca14fd30",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 2, Assist: These employees also work under close supervision, but their work is a bit more complex,\nand they have more influence with colleagues.\n• Level 3, Apply: At this level, employees receive more general supervision, and they have more autonomy.\nTheir work is more complex and may not be routine. They also may be allowed to make some decisions on\ntheir own and may oversee other employees.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1291,
+              "language": "en",
+              "char_count": 404,
+              "start_char": 887,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.4292151593236364,
+            "strategy": "dense"
+          },
+          {
+            "id": "788774d962f68b20f9652f61b28b99fc5ce20f51cee0a83a7425c644ea4cbd8d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Structure: how an organization is designed, including its hierarchy and chain of command\n• Strategy: the organization’s goals/objectives and the plans to achieve these\n• Skills: the skills, knowledge, and competencies held by the organization’s sta ff\n• Systems: the work flow processes used to achieve the organization’s goals and objectives\n• Style: the tone at the executive level established by the organization’s leaders and managers",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1315,
+              "language": "en",
+              "char_count": 440,
+              "start_char": 875,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.42587053575973854,
+            "strategy": "dense"
+          },
+          {
+            "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1414,
+              "language": "en",
+              "char_count": 286,
+              "start_char": 1128,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.4230985088829837,
+            "strategy": "dense"
+          },
+          {
+            "id": "a35ff1dabcc92bd1965cb9e04f82d227053f5c85be73943a3ae55befe4d2aef8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 34,
+            "text": "Management Professional\n(BDMP), Certified Business Intelligence Professional (CBIP), Certified Data Professional (CDP), and Information\nSystems Analyst (ISA). Typically, IS professionals earn the certification(s) related to the IS role(s) that they\nperform. To learn more, refer to 5.4 Career Focus: Key Certifications.\n1.4 The Global Importance of Information Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• Describe why information systems should be global",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 985,
+              "language": "en",
+              "char_count": 489,
+              "start_char": 496,
+              "printed_page": 30,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3881
+            },
+            "score": 0.42279873794030165,
+            "strategy": "dense"
+          },
+          {
+            "id": "0714f8184b2fc438912064171cc5890dbc73f7924d91fce342855040bc8ebf82",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 33,
+            "text": "You will likely work with IT professionals at some point during your career , and it will be helpful to\nunderstand how IT roles differ from IS roles. This geeksforgeeks.org blog provides more details\n(https://openstax.org/r/109ITvsIS) about the differences, including a table that compares the two fields.\nCareer Focus: Training and Education Requirements for Information\nSystems Fields",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1640,
+              "language": "en",
+              "char_count": 386,
+              "start_char": 1254,
+              "printed_page": 29,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3132
+            },
+            "score": 0.41965409849870006,
+            "strategy": "dense"
+          },
+          {
+            "id": "0c4c75271637c0af26c320674453cc7c2ae52e43bdf5083b6f630fb3e15c60c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 57,
+            "text": "An individual department or functional area within a large organization may have its own specific IT\napplication program known as a functional area information system (FAIS), an information system designed\nto support specific business functions within the organization. These FAISs are designed to enhance the\ninternal efficiency and effectiveness of each department by providing valuable support tailored to each\nrespective department’s functions. These information systems often generate a diverse",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2258,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1759,
+              "printed_page": 53,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2799
+            },
+            "score": 0.41812113349886126,
+            "strategy": "dense"
+          },
+          {
+            "id": "9f8e4039b0391d05044cf7a6df5a87e200d6b16ac84e7d8051d0bef2c1170b74",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "various roles and expertise. It typically includes the process owner ,\nprocess experts, subject matter experts, data analysts, and cross-functional representatives from different\ndepartments. Continuous improvement specialists may also be part of the team, and a project manager or\nfacilitator leads the efforts. Stakeholders, including customers or end users, may also be involved or consulted\nfor their valuable input.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1995,
+              "language": "en",
+              "char_count": 420,
+              "start_char": 1575,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.41640094929479554,
+            "strategy": "dense"
+          },
+          {
+            "id": "f5d45ff30e75825f0f4f85e04188a5e7f05db70be2379e90f3c1e09731c8831d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "• Discuss training and education requirements for IS fields\nAs you have learned, organizations must have robust information systems managed by qualified\nprofessionals. To help ensure that IS professionals and organizations have the required expertise, the U.S.\nDepartment of Labor has developed the Information Technology Competency Model, a framework that defines\nthe knowledge, skills, and abilities that are essential for IS professionals. It is important for IS professionals to\nunderstand the",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1953,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1456,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.4159137532000362,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3064,
+              "language": "en",
+              "char_count": 416,
+              "start_char": 2648,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.2446198508658161,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.21363578020364396,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.1805090052210667,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 886,
+              "language": "en",
+              "char_count": 389,
+              "start_char": 497,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.1666218929778858,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "dabd6847a477b00914fd904920552cf53bca291a24ebc81819c5f2b4cafc7ce4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Information systems play an important role in data management by transforming raw data into a strategic\nasset. Information system planning and management involve selecting and implementing the right\ntechnology infrastructure for data storage, processing, analysis, and governance. Information technologies\nand systems play a vital role in facilitating data management within organizations, as they encompass\nactivities such as data acquisition, organization, storage, access, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 532,
+              "language": "en",
+              "char_count": 489,
+              "start_char": 43,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.14284695694710026,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ffc4bf67f4e42c6544624a669f628718c9dbd2f53b495ed4c332c7c136aa164d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 34,
+            "text": "frameworks they need for strategic planning and\ndecision-making on a global scale.\nYou will learn more about globalization and the role of IS in promoting global operations in Chapter 11 Global\nInformation Systems which covers strategic and global information systems. This will include a look at the role\nof culture in IS, as well as IT, and the risks associated with the use of global data and systems sharing. For now,\nit is important to recognize IS as a vital tool for globalization.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2715,
+              "language": "en",
+              "char_count": 488,
+              "start_char": 2227,
+              "printed_page": 30,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3881
+            },
+            "score": 0.13827051212941935,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "16d6e7f1070cf254187026300bbfac77f5174bbb42433335a270710a064ac955",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "For all occupations, including IS positions, the U.S. Department of Labor (DOL) recommends competency-\nbased approaches for hiring employees and for providing the education and training that employees need to\ndo their jobs well. A competency is the ability to apply specific skills, experience, and personal characteristics\nto do a job in an effective and efficient manner . Someone’s personal characteristics are the traits that are\nappropriate for the job or task being done based on the",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2833,
+              "language": "en",
+              "char_count": 489,
+              "start_char": 2344,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.13109595323353568,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1414,
+              "language": "en",
+              "char_count": 286,
+              "start_char": 1128,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.12778692625247187,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "417847514f51f38c8fcc6117cd85bce9fb6018366610621f15f42ef2060d29c9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 33,
+            "text": "• programming, which delves into the processes to develop and write computer code that enables hardware\nand software to function appropriately\nIf you want to pursue a degree in IS or learn more about specific topics, you can take additional courses\ndevoted to covering these subjects in depth.\nDepending on the role, future IS professionals may qualify for a job by earning a degree or certification(s) in IS,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3132,
+              "language": "en",
+              "char_count": 409,
+              "start_char": 2723,
+              "printed_page": 29,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3132
+            },
+            "score": 0.1180871366922277,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e966fa53d1378eae139614256964df6afd3217aa331e1e6bf94807ed7eb00880",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "• Responsible Data Maturity Model: This model is an evolving concept that continues to gain importance as\nthe role of data in our lives becomes more prominent.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1346,
+              "language": "en",
+              "char_count": 159,
+              "start_char": 1187,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.10423885427442664,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "Application of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 340,
+              "language": "en",
+              "char_count": 340,
+              "start_char": 0,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.10381693715064325,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "preserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2741,
+              "language": "en",
+              "char_count": 476,
+              "start_char": 2265,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.10371591654571778,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d1a212ba279f068ba53fa92020db1bd8caced5732249458eb36cd3611ff4c2ca",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "By the end of this section, you will be able to:\n• Evaluate and compare di fferent methods to define the value of information technology\n• Analyze speci fic strategies to improve the value of information technology",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1423,
+              "language": "en",
+              "char_count": 214,
+              "start_char": 1209,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.09990745365596611,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "64dec786929f39659af40eff364325c6f16ec93af01d572d40c13bb313d815ed",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 12,
+            "text": "depending on technological\nadvancements. It intersects with business, computer science, and management, playing a critical role in\nenhancing organizational efficiency, productivity, and competitiveness. When organizations have robust\ninformation systems, they are more capable of planning strategically to gain a competitive edge and achieve\nsuccess.\nComponents of an Information System",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2283,
+              "language": "en",
+              "char_count": 386,
+              "start_char": 1897,
+              "printed_page": 8,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2754
+            },
+            "score": 0.09681051979368208,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7367d2e0be2ce0bf65a6fb4ebeeaf4901b448b637828c15b9d036ab51edce981",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "landscape.\nInformation Systems and Business Processes\nBy capturing and managing data, monitoring performance, and facilitating communication, information\nsystems contribute to improved efficiency, better decision-making, and overall business growth for any\nbusiness process. Following are the primary areas in which information systems play a vital role:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1352,
+              "language": "en",
+              "char_count": 354,
+              "start_char": 998,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.09425150578468779,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "719b8c20fc13dcc63ac2952031c3cf906ae297b8ec288c11790dc6c8201103c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 31,
+            "text": "user and\ncustomer support, digital media and visualization, compliance, risk management, security, and information\nassurance. IS professionals also need competencies specific to the role they fill in IS. Table 1.1 outlines both\ngeneral and IS-specific professional competencies.\nCompetency Description Examples\nPersonal\neffectiveness\nPersonal characteristics or traits\nrelated to working\nGeneral:\n• interpersonal skills\n• initiative\n• dependability\n• reliability\nIS-specific:\n• integrity",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1632,
+              "language": "en",
+              "char_count": 487,
+              "start_char": 1145,
+              "printed_page": 27,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1958
+            },
+            "score": 0.09383651669052552,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "41ab5bb5f7073587fcc9d14678735400eb8975d3b93eeae919fa941210d5ffdc",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 34,
+            "text": "One role of IS is to support and promote global innovation, which refers to the processes used to collaborate\nacross international borders in designing and developing new goods and services for the global marketplace.\nGlobal innovation also focuses on international collaboration to develop solutions for global problems and\nchallenges, such as climate change. For example, the World Meteorological Organization (WMO) helps\ngovernments and other organizations throughout the world track climate",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3229,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 2735,
+              "printed_page": 30,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3881
+            },
+            "score": 0.0930294074856545,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8cf26b60e6fa76f3df835f2898bdb81a73bd61f15bd1a04e559368a47e0914e6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "In addition to the benefit of working in a role aligned with an individual’s experience and interest, IS positions\ntend to pay competitive salaries, and the field’s outlook remains promising.\nETHICS IN IS\nEthics as Integral to IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 562,
+              "language": "en",
+              "char_count": 229,
+              "start_char": 333,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.08748879878719958,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e4d0f8a6a9d5d7c047d544b4de776fb1b9e03c7cd2667321be968bb69db6db90",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 62,
+            "text": "business models, each of which has\nspecific information technology strategies.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2475,
+              "language": "en",
+              "char_count": 78,
+              "start_char": 2397,
+              "printed_page": 58,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3849
+            },
+            "score": 0.08480411453263839,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "05fe8b5545be13a473cd2fdb17ebc0a2863a84537296c21d8bb3605a666e4196",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 4, Enable: Employees at this level have much more complex work in a broader range of contexts.\nWhile they receive general direction, they have considerable autonomy, as well as personal responsibility\nfor work outcomes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1519,
+              "language": "en",
+              "char_count": 227,
+              "start_char": 1292,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.0842224969309925,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3064,
+            "language": "en",
+            "char_count": 416,
+            "start_char": 2648,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 496,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 0,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 886,
+            "language": "en",
+            "char_count": 389,
+            "start_char": 497,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.032018442622950824,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 4
+          },
+          "rank": 3
+        },
+        {
+          "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2647,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 2147,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03149801587301587,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 3
+          },
+          "rank": 4
+        },
+        {
+          "id": "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 29,
+          "text": "Application of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 340,
+            "language": "en",
+            "char_count": 340,
+            "start_char": 0,
+            "printed_page": 25,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3741
+          },
+          "score": 0.02900988017658188,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 7,
+            "tfidf": 11
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 356.0198999985005
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 35
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 15
+    }
+  ],
+  "cost_usd": null
+}

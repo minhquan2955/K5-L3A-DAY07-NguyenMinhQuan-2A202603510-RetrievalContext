@@ -1,0 +1,403 @@
+{
+  "query_id": "d7-dev05",
+  "split": "dev",
+  "question": "Theo mô tả về Agile, sau mỗi sprint nhóm dự án cần làm gì trước khi chuyển sang sprint tiếp theo?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:25.966794+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Agile after each sprint project team what do before moving to next sprint review retrospective deliverable",
+      "filter": {},
+      "results": [
+        {
+          "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1906,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1415,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.5402959779609657,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4848,
+            "language": "en",
+            "char_count": 305,
+            "start_char": 4543,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.5297831290274647,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "enhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4542,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 4044,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.42157030636629844,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9 | chapter1-2.pdf | page 24]\nAgile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,\n\n[a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804 | chapter1-2.pdf | page 70]\nexample, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product\n\n[b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646 | chapter1-2.pdf | page 70]\nenhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+      "context_ids": [
+        "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+        "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+        "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Theo mô tả về Agile, sau mỗi sprint nhóm dự án cần làm gì trước khi chuyển sang sprint tiếp theo?",
+    "filter": {},
+    "results": [
+      {
+        "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 24,
+        "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1906,
+          "language": "en",
+          "char_count": 491,
+          "start_char": 1415,
+          "printed_page": 20,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3136
+        },
+        "score": 0.5271032711359088,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 70,
+        "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 4848,
+          "language": "en",
+          "char_count": 305,
+          "start_char": 4543,
+          "printed_page": 66,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4848
+        },
+        "score": 0.4795524862045393,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 70,
+        "text": "enhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 4542,
+          "language": "en",
+          "char_count": 498,
+          "start_char": 4044,
+          "printed_page": 66,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4848
+        },
+        "score": 0.3886624489545971,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Sau mỗi sprint, nhóm dự án cần xem xét tiến độ và điều chỉnh những gì cần thiết trước khi chuyển sang sprint tiếp theo. [ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9]",
+  "elapsed_ms": 3738.983899998857,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 382,
+        "completion_tokens": 33,
+        "total_tokens": 415
+      },
+      "action": {
+        "action": "search",
+        "query": "Agile after each sprint project team what do before moving to next sprint review retrospective deliverable"
+      },
+      "elapsed_ms": 1321.7124999973748
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Agile after each sprint project team what do before moving to next sprint review retrospective deliverable"
+          ],
+          "context": "[ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9 | chapter1-2.pdf | page 24]\nAgile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,\n\n[a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804 | chapter1-2.pdf | page 70]\nexample, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product\n\n[b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646 | chapter1-2.pdf | page 70]\nenhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+          "context_ids": [
+            "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+            "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+            "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 983,
+        "completion_tokens": 86,
+        "total_tokens": 1069
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Sau mỗi sprint, nhóm dự án cần xem xét tiến độ và điều chỉnh những gì cần thiết trước khi chuyển sang sprint tiếp theo. [ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9]",
+        "citations": [
+          "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9"
+        ]
+      },
+      "elapsed_ms": 1545.7229999992705
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Theo mô tả về Agile, sau mỗi sprint nhóm dự án cần làm gì trước khi chuyển sang sprint tiếp theo?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1906,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1415,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.5271032711359088,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4848,
+            "language": "en",
+            "char_count": 305,
+            "start_char": 4543,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.4795524862045393,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "enhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4542,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 4044,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.3886624489545971,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 556.0030999986338
+    },
+    {
+      "query": "Agile after each sprint project team what do before moving to next sprint review retrospective deliverable",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1906,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1415,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.5402959779609657,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4848,
+            "language": "en",
+            "char_count": 305,
+            "start_char": 4543,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.5297831290274647,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "enhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4542,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 4044,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.42157030636629844,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 262.6568999985466
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 41
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 18
+    }
+  ],
+  "cost_usd": null
+}

@@ -1,0 +1,398 @@
+{
+  "query_id": "d7-dev16",
+  "split": "dev",
+  "question": "Theo tài liệu, chi phí giấy phép ERP là bao nhiêu USD cho mỗi người dùng mỗi tháng?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:36.075136+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "ERP license cost USD per user per month subscription licensing cost per user monthly",
+      "filter": {},
+      "results": [
+        {
+          "id": "3128b9acb8c736ff0984fdb8d6b6252cdf95bd3642f1b054e119386dc67bce17",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 62,
+          "text": "customers need routinely and are willing to make\nrecurring payments for to have continued access to the products and/or services. Amazon Prime and YouTube\nare subscription models.\nThe freemium model provides a free basic service, with the option to upgrade to a premium version for\nenhanced features or benefits, such as with the services offered by LinkedIn, DropBox, and MailChimp.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3849,
+            "language": "en",
+            "char_count": 383,
+            "start_char": 3466,
+            "printed_page": 58,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3849
+          },
+          "score": 0.35280574581933455,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "0131b45e9eddadeb5807f68d86b3066d64e979136ecac4d363da14a26643496e",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 67,
+          "text": "license)\nProviding an easy-to-use, up-to-date information system that delivers swift responses to user queries is\nessential for attracting customers and increasing usage. Accuracy in displaying current information related, in\nthis case, to available time slots, testing locations, and pricing is crucial to building trust and reliability among\nusers. Conversely, an information system that fails to offer timely and accurate information or has slow\nresponse times can have adverse effects on its",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 989,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 494,
+            "printed_page": 63,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2135
+          },
+          "score": 0.3160303286036992,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "61c0f80416f4bddcbecf72961d6cd72b8512b493c35c2e060546901a0b408469",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 63,
+          "text": "strategies, monitor\nuser behavior to optimize premium feature adoption, and continuously improve the platform to increase\nconversion rates and drive revenue growth.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 665,
+            "language": "en",
+            "char_count": 164,
+            "start_char": 501,
+            "printed_page": 59,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4773
+          },
+          "score": 0.30846017261898107,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[3128b9acb8c736ff0984fdb8d6b6252cdf95bd3642f1b054e119386dc67bce17 | chapter1-2.pdf | page 62]\ncustomers need routinely and are willing to make\nrecurring payments for to have continued access to the products and/or services. Amazon Prime and YouTube\nare subscription models.\nThe freemium model provides a free basic service, with the option to upgrade to a premium version for\nenhanced features or benefits, such as with the services offered by LinkedIn, DropBox, and MailChimp.\n\n[0131b45e9eddadeb5807f68d86b3066d64e979136ecac4d363da14a26643496e | chapter1-2.pdf | page 67]\nlicense)\nProviding an easy-to-use, up-to-date information system that delivers swift responses to user queries is\nessential for attracting customers and increasing usage. Accuracy in displaying current information related, in\nthis case, to available time slots, testing locations, and pricing is crucial to building trust and reliability among\nusers. Conversely, an information system that fails to offer timely and accurate information or has slow\nresponse times can have adverse effects on its\n\n[61c0f80416f4bddcbecf72961d6cd72b8512b493c35c2e060546901a0b408469 | chapter1-2.pdf | page 63]\nstrategies, monitor\nuser behavior to optimize premium feature adoption, and continuously improve the platform to increase\nconversion rates and drive revenue growth.",
+      "context_ids": [
+        "3128b9acb8c736ff0984fdb8d6b6252cdf95bd3642f1b054e119386dc67bce17",
+        "0131b45e9eddadeb5807f68d86b3066d64e979136ecac4d363da14a26643496e",
+        "61c0f80416f4bddcbecf72961d6cd72b8512b493c35c2e060546901a0b408469"
+      ]
+    },
+    {
+      "event": "search_limit"
+    }
+  ],
+  "citations": [],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Theo tài liệu, chi phí giấy phép ERP là bao nhiêu USD cho mỗi người dùng mỗi tháng?",
+    "filter": {},
+    "results": [
+      {
+        "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 72,
+        "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3315,
+          "language": "en",
+          "char_count": 172,
+          "start_char": 3143,
+          "printed_page": 68,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4031
+        },
+        "score": 0.3571628359380238,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 15,
+        "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 839,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 340,
+          "printed_page": 11,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3778
+        },
+        "score": 0.3084651506348477,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "610d5708a317368653e1af3eef2fa4f7949f294f72ac5e10b9fb8fece1f3e703",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 46,
+        "text": "organizations billions of dollars each year . On\nthe other hand, data archives are often required for regulatory reasons to ensure compliance with laws\ngoverning data retention, privacy, and security. For instance, industries like health care and finance have strict\nregulations regarding the retention of patient records and financial transactions data.\nAnother important aspect of dealing with data is data governance, which involves the policies, procedures,\nand standards how an organization",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3737,
+          "language": "en",
+          "char_count": 495,
+          "start_char": 3242,
+          "printed_page": 42,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4911
+        },
+        "score": 0.2975658723460568,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "elapsed_ms": 3340.8197999997356,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 379,
+        "completion_tokens": 29,
+        "total_tokens": 408
+      },
+      "action": {
+        "action": "search",
+        "query": "ERP license cost USD per user per month subscription licensing cost per user monthly"
+      },
+      "elapsed_ms": 1364.7612999993726
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "ERP license cost USD per user per month subscription licensing cost per user monthly"
+          ],
+          "context": "[3128b9acb8c736ff0984fdb8d6b6252cdf95bd3642f1b054e119386dc67bce17 | chapter1-2.pdf | page 62]\ncustomers need routinely and are willing to make\nrecurring payments for to have continued access to the products and/or services. Amazon Prime and YouTube\nare subscription models.\nThe freemium model provides a free basic service, with the option to upgrade to a premium version for\nenhanced features or benefits, such as with the services offered by LinkedIn, DropBox, and MailChimp.\n\n[0131b45e9eddadeb5807f68d86b3066d64e979136ecac4d363da14a26643496e | chapter1-2.pdf | page 67]\nlicense)\nProviding an easy-to-use, up-to-date information system that delivers swift responses to user queries is\nessential for attracting customers and increasing usage. Accuracy in displaying current information related, in\nthis case, to available time slots, testing locations, and pricing is crucial to building trust and reliability among\nusers. Conversely, an information system that fails to offer timely and accurate information or has slow\nresponse times can have adverse effects on its\n\n[61c0f80416f4bddcbecf72961d6cd72b8512b493c35c2e060546901a0b408469 | chapter1-2.pdf | page 63]\nstrategies, monitor\nuser behavior to optimize premium feature adoption, and continuously improve the platform to increase\nconversion rates and drive revenue growth.",
+          "context_ids": [
+            "3128b9acb8c736ff0984fdb8d6b6252cdf95bd3642f1b054e119386dc67bce17",
+            "0131b45e9eddadeb5807f68d86b3066d64e979136ecac4d363da14a26643496e",
+            "61c0f80416f4bddcbecf72961d6cd72b8512b493c35c2e060546901a0b408469"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 916,
+        "completion_tokens": 31,
+        "total_tokens": 947
+      },
+      "action": {
+        "action": "search",
+        "query": "ERP software cost license price per user per month dollars ERP system pricing monthly user license"
+      },
+      "elapsed_ms": 1257.5868999992963
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Theo tài liệu, chi phí giấy phép ERP là bao nhiêu USD cho mỗi người dùng mỗi tháng?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3315,
+            "language": "en",
+            "char_count": 172,
+            "start_char": 3143,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.3571628359380238,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 839,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 340,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.3084651506348477,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "610d5708a317368653e1af3eef2fa4f7949f294f72ac5e10b9fb8fece1f3e703",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "organizations billions of dollars each year . On\nthe other hand, data archives are often required for regulatory reasons to ensure compliance with laws\ngoverning data retention, privacy, and security. For instance, industries like health care and finance have strict\nregulations regarding the retention of patient records and financial transactions data.\nAnother important aspect of dealing with data is data governance, which involves the policies, procedures,\nand standards how an organization",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3737,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 3242,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.2975658723460568,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 391.39179999983753
+    },
+    {
+      "query": "ERP license cost USD per user per month subscription licensing cost per user monthly",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "3128b9acb8c736ff0984fdb8d6b6252cdf95bd3642f1b054e119386dc67bce17",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 62,
+          "text": "customers need routinely and are willing to make\nrecurring payments for to have continued access to the products and/or services. Amazon Prime and YouTube\nare subscription models.\nThe freemium model provides a free basic service, with the option to upgrade to a premium version for\nenhanced features or benefits, such as with the services offered by LinkedIn, DropBox, and MailChimp.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3849,
+            "language": "en",
+            "char_count": 383,
+            "start_char": 3466,
+            "printed_page": 58,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3849
+          },
+          "score": 0.35280574581933455,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "0131b45e9eddadeb5807f68d86b3066d64e979136ecac4d363da14a26643496e",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 67,
+          "text": "license)\nProviding an easy-to-use, up-to-date information system that delivers swift responses to user queries is\nessential for attracting customers and increasing usage. Accuracy in displaying current information related, in\nthis case, to available time slots, testing locations, and pricing is crucial to building trust and reliability among\nusers. Conversely, an information system that fails to offer timely and accurate information or has slow\nresponse times can have adverse effects on its",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 989,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 494,
+            "printed_page": 63,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2135
+          },
+          "score": 0.3160303286036992,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "61c0f80416f4bddcbecf72961d6cd72b8512b493c35c2e060546901a0b408469",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 63,
+          "text": "strategies, monitor\nuser behavior to optimize premium feature adoption, and continuously improve the platform to increase\nconversion rates and drive revenue growth.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 665,
+            "language": "en",
+            "char_count": 164,
+            "start_char": 501,
+            "printed_page": 59,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4773
+          },
+          "score": 0.30846017261898107,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 275.95750000182306
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 36
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 14
+    }
+  ],
+  "cost_usd": null
+}

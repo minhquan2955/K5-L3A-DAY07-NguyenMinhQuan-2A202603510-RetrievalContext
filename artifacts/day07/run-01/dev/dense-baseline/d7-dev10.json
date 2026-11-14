@@ -1,0 +1,403 @@
+{
+  "query_id": "d7-dev10",
+  "split": "dev",
+  "question": "Nếu dữ liệu được sinh ra và thu thập quá nhanh khiến hệ thống phải xử lý theo thời gian thực, đó là chiều V nào của big data?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:30.454556+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "big data V dimension data generated collected quickly real time processing velocity",
+      "filter": {},
+      "results": [
+        {
+          "id": "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Velocity: The rapid pace at which data are generated and collected, thereby necessitating real-time\nprocessing, is characterized by velocity. Particularly evident during high-traffic events, such as online flash\nsales, the constant influx of clickstream data necessitates swift analysis to enable the system to offer\ntailored recommendations and insights to users navigating a dynamic digital landscape.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1106,
+            "language": "en",
+            "char_count": 405,
+            "start_char": 701,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.6568574794250177,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "281153e8c48b6dda97c1e1fa7812db051f0264b16316044ea0c6e75e504add6b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "formats from multiple sources,\nincluding internal sources, personal sources, and external sources. Data can also come from the web in the\nform of blogs, podcasts, tweets, social media posts, online videos, texts, and radio-frequency identification\ntags and other wireless sensors. These technologies generate data that must be managed but are difficult to\nprocess and analyze. Unstructured data are often generated at high velocity. This can make it difficult to keep\nup with and make sense of the",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4156,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 3659,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.4965741792469395,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 48,
+          "text": "age of big data and advanced analytics.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1634,
+            "language": "en",
+            "char_count": 39,
+            "start_char": 1595,
+            "printed_page": 44,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1634
+          },
+          "score": 0.4840355543561441,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0 | chapter1-2.pdf | page 50]\n• Velocity: The rapid pace at which data are generated and collected, thereby necessitating real-time\nprocessing, is characterized by velocity. Particularly evident during high-traffic events, such as online flash\nsales, the constant influx of clickstream data necessitates swift analysis to enable the system to offer\ntailored recommendations and insights to users navigating a dynamic digital landscape.\n\n[281153e8c48b6dda97c1e1fa7812db051f0264b16316044ea0c6e75e504add6b | chapter1-2.pdf | page 50]\nformats from multiple sources,\nincluding internal sources, personal sources, and external sources. Data can also come from the web in the\nform of blogs, podcasts, tweets, social media posts, online videos, texts, and radio-frequency identification\ntags and other wireless sensors. These technologies generate data that must be managed but are difficult to\nprocess and analyze. Unstructured data are often generated at high velocity. This can make it difficult to keep\nup with and make sense of the\n\n[5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264 | chapter1-2.pdf | page 48]\nage of big data and advanced analytics.",
+      "context_ids": [
+        "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0",
+        "281153e8c48b6dda97c1e1fa7812db051f0264b16316044ea0c6e75e504add6b",
+        "5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Nếu dữ liệu được sinh ra và thu thập quá nhanh khiến hệ thống phải xử lý theo thời gian thực, đó là chiều V nào của big data?",
+    "filter": {},
+    "results": [
+      {
+        "id": "5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 48,
+        "text": "age of big data and advanced analytics.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1634,
+          "language": "en",
+          "char_count": 39,
+          "start_char": 1595,
+          "printed_page": 44,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1634
+        },
+        "score": 0.3970107747687853,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 50,
+        "text": "• Velocity: The rapid pace at which data are generated and collected, thereby necessitating real-time\nprocessing, is characterized by velocity. Particularly evident during high-traffic events, such as online flash\nsales, the constant influx of clickstream data necessitates swift analysis to enable the system to offer\ntailored recommendations and insights to users navigating a dynamic digital landscape.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1106,
+          "language": "en",
+          "char_count": 405,
+          "start_char": 701,
+          "printed_page": 46,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4269
+        },
+        "score": 0.3814833879182222,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "7eaf888f1d614c2b8f1eb410a89e516941c429434f584ad45f67d202acd21657",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 50,
+        "text": "Dimensions and Characteristics of Data to Inform Data Management\nDecisions\nFor each type of data, an organization needs to define rules and policies to measure the quality of the data\nand the effectiveness of the data’s management. There are four key dimensions of big data known as the four\nVs:\n• Volume: The dimension of volume refers to the vast amount of data generated and stored. Big data\ndatasets are incredibly large and can grow exponentially.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 452,
+          "language": "en",
+          "char_count": 452,
+          "start_char": 0,
+          "printed_page": 46,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4269
+        },
+        "score": 0.3447434099517841,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là chiều **Velocity (tốc độ)**: dữ liệu được sinh ra và thu thập nhanh đến mức cần xử lý theo thời gian thực. [d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0]",
+  "elapsed_ms": 4059.1786000004504,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 390,
+        "completion_tokens": 27,
+        "total_tokens": 417
+      },
+      "action": {
+        "action": "search",
+        "query": "big data V dimension data generated collected quickly real time processing velocity"
+      },
+      "elapsed_ms": 1277.5584000009985
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "big data V dimension data generated collected quickly real time processing velocity"
+          ],
+          "context": "[d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0 | chapter1-2.pdf | page 50]\n• Velocity: The rapid pace at which data are generated and collected, thereby necessitating real-time\nprocessing, is characterized by velocity. Particularly evident during high-traffic events, such as online flash\nsales, the constant influx of clickstream data necessitates swift analysis to enable the system to offer\ntailored recommendations and insights to users navigating a dynamic digital landscape.\n\n[281153e8c48b6dda97c1e1fa7812db051f0264b16316044ea0c6e75e504add6b | chapter1-2.pdf | page 50]\nformats from multiple sources,\nincluding internal sources, personal sources, and external sources. Data can also come from the web in the\nform of blogs, podcasts, tweets, social media posts, online videos, texts, and radio-frequency identification\ntags and other wireless sensors. These technologies generate data that must be managed but are difficult to\nprocess and analyze. Unstructured data are often generated at high velocity. This can make it difficult to keep\nup with and make sense of the\n\n[5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264 | chapter1-2.pdf | page 48]\nage of big data and advanced analytics.",
+          "context_ids": [
+            "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0",
+            "281153e8c48b6dda97c1e1fa7812db051f0264b16316044ea0c6e75e504add6b",
+            "5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 897,
+        "completion_tokens": 126,
+        "total_tokens": 1023
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là chiều **Velocity (tốc độ)**: dữ liệu được sinh ra và thu thập nhanh đến mức cần xử lý theo thời gian thực. [d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0]",
+        "citations": [
+          "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0"
+        ]
+      },
+      "elapsed_ms": 1829.6872999999323
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Nếu dữ liệu được sinh ra và thu thập quá nhanh khiến hệ thống phải xử lý theo thời gian thực, đó là chiều V nào của big data?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 48,
+          "text": "age of big data and advanced analytics.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1634,
+            "language": "en",
+            "char_count": 39,
+            "start_char": 1595,
+            "printed_page": 44,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1634
+          },
+          "score": 0.3970107747687853,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Velocity: The rapid pace at which data are generated and collected, thereby necessitating real-time\nprocessing, is characterized by velocity. Particularly evident during high-traffic events, such as online flash\nsales, the constant influx of clickstream data necessitates swift analysis to enable the system to offer\ntailored recommendations and insights to users navigating a dynamic digital landscape.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1106,
+            "language": "en",
+            "char_count": 405,
+            "start_char": 701,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.3814833879182222,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "7eaf888f1d614c2b8f1eb410a89e516941c429434f584ad45f67d202acd21657",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "Dimensions and Characteristics of Data to Inform Data Management\nDecisions\nFor each type of data, an organization needs to define rules and policies to measure the quality of the data\nand the effectiveness of the data’s management. There are four key dimensions of big data known as the four\nVs:\n• Volume: The dimension of volume refers to the vast amount of data generated and stored. Big data\ndatasets are incredibly large and can grow exponentially.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 452,
+            "language": "en",
+            "char_count": 452,
+            "start_char": 0,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.3447434099517841,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 551.0393000004115
+    },
+    {
+      "query": "big data V dimension data generated collected quickly real time processing velocity",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Velocity: The rapid pace at which data are generated and collected, thereby necessitating real-time\nprocessing, is characterized by velocity. Particularly evident during high-traffic events, such as online flash\nsales, the constant influx of clickstream data necessitates swift analysis to enable the system to offer\ntailored recommendations and insights to users navigating a dynamic digital landscape.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1106,
+            "language": "en",
+            "char_count": 405,
+            "start_char": 701,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.6568574794250177,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "281153e8c48b6dda97c1e1fa7812db051f0264b16316044ea0c6e75e504add6b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "formats from multiple sources,\nincluding internal sources, personal sources, and external sources. Data can also come from the web in the\nform of blogs, podcasts, tweets, social media posts, online videos, texts, and radio-frequency identification\ntags and other wireless sensors. These technologies generate data that must be managed but are difficult to\nprocess and analyze. Unstructured data are often generated at high velocity. This can make it difficult to keep\nup with and make sense of the",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4156,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 3659,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.4965741792469395,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 48,
+          "text": "age of big data and advanced analytics.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1634,
+            "language": "en",
+            "char_count": 39,
+            "start_char": 1595,
+            "printed_page": 44,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1634
+          },
+          "score": 0.4840355543561441,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 338.3706999993592
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 53
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 12
+    }
+  ],
+  "cost_usd": null
+}

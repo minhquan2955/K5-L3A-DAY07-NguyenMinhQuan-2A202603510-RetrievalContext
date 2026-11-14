@@ -1,0 +1,249 @@
+{
+  "review_type": "AI-assisted source and benchmark integrity check",
+  "created_at_utc": "2026-11-14T08:54:53.160749+00:00",
+  "human_review_claimed": false,
+  "independent_student_review": "pending",
+  "source_pdf_physical_pages": 83,
+  "included_source_pages": 58,
+  "B_chunk_count": 505,
+  "included_canonical_characters": 191045,
+  "manifest_character_count_match": true,
+  "normalization": "Original Day06 load_pdf/normalize_text/canonical_text with manifest font-specific mappings; NFC and whitespace collapse only for evidence matching. No source or Day06 labels edited.",
+  "evidence_checks": [
+    {
+      "id": "d7-dev01",
+      "gold_index": 0,
+      "page": 12,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "1b208e08ba31f739102bb96f1564d648120311f0621e87abf318d74df4b2d0f6"
+      ]
+    },
+    {
+      "id": "d7-dev01",
+      "gold_index": 1,
+      "page": 13,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9"
+      ]
+    },
+    {
+      "id": "d7-dev02",
+      "gold_index": 0,
+      "page": 15,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def"
+      ]
+    },
+    {
+      "id": "d7-dev03",
+      "gold_index": 0,
+      "page": 15,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572"
+      ]
+    },
+    {
+      "id": "d7-dev04",
+      "gold_index": 0,
+      "page": 22,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3"
+      ]
+    },
+    {
+      "id": "d7-dev05",
+      "gold_index": 0,
+      "page": 24,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9"
+      ]
+    },
+    {
+      "id": "d7-dev06",
+      "gold_index": 0,
+      "page": 25,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450"
+      ]
+    },
+    {
+      "id": "d7-dev07",
+      "gold_index": 0,
+      "page": 25,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b"
+      ]
+    },
+    {
+      "id": "d7-dev08",
+      "gold_index": 0,
+      "page": 27,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f"
+      ]
+    },
+    {
+      "id": "d7-dev09",
+      "gold_index": 0,
+      "page": 47,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8"
+      ]
+    },
+    {
+      "id": "d7-dev10",
+      "gold_index": 0,
+      "page": 50,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0"
+      ]
+    },
+    {
+      "id": "d7-dev11",
+      "gold_index": 0,
+      "page": 51,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c"
+      ]
+    },
+    {
+      "id": "d7-dev12",
+      "gold_index": 0,
+      "page": 51,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4"
+      ]
+    },
+    {
+      "id": "d7-dev13",
+      "gold_index": 0,
+      "page": 53,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": false,
+      "matching_B_chunk_ids": [],
+      "overlapping_B_chunks": [
+        {
+          "chunk_id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+          "start_char": 55,
+          "end_char": 554,
+          "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting pioneer who developed it in 1964, helps in understanding information needs across different organizational levels. This framework categorizes decisions based on the level of certainty surrounding the problem and the solution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this problem, into three domains: operational control, management control, and"
+        },
+        {
+          "chunk_id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+          "start_char": 2181,
+          "end_char": 2672,
+          "text": "framework—operational control, management control, and strategic planning—each work with different types of data for different purposes. Another data management framework developed by data scientist Herbert A. Simon in 1977, the decision- making framework breaks down decisions into two types: programmed decisions with clear procedures or nonprogrammed decisions requiring more judgment. Programmed decisions are also called structured decisions as they are routine and can be made based on"
+        }
+      ],
+      "status": "Original Day06 evidence preserved; full quote split across B chunks. Single-chunk evidence metric cannot score it as a hit; context assembled in source order may contain complete evidence."
+    },
+    {
+      "id": "d7-dev14",
+      "gold_index": 0,
+      "page": 53,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b"
+      ]
+    },
+    {
+      "id": "d7-dev15",
+      "gold_index": 0,
+      "page": 60,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "7b9208e8c8501998f3e839c6b5ce8296340504164ee6e4277848af0857917e73"
+      ]
+    },
+    {
+      "id": "d7-test01",
+      "gold_index": 0,
+      "page": 21,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756"
+      ]
+    },
+    {
+      "id": "d7-test02",
+      "gold_index": 0,
+      "page": 35,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c"
+      ]
+    },
+    {
+      "id": "d7-test03",
+      "gold_index": 0,
+      "page": 47,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d"
+      ]
+    },
+    {
+      "id": "d7-test04",
+      "gold_index": 0,
+      "page": 61,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "a89feb6b493afabd13fa4a28ec4caf65c59919eff1978cf265db9104b1bb9545"
+      ]
+    },
+    {
+      "id": "d7-test05",
+      "gold_index": 0,
+      "page": 65,
+      "complete_evidence_in_source_page": true,
+      "single_B_chunk_contains_complete_evidence": true,
+      "matching_B_chunk_ids": [
+        "1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9"
+      ]
+    }
+  ],
+  "integrity_issues": [
+    {
+      "id": "d7-dev13",
+      "day6_origin_id": "q13",
+      "issue": "original_evidence_spans_B_chunks",
+      "action": "preserved_unchanged",
+      "page": 53
+    }
+  ],
+  "unanswerable_checks": "Per-item full-source and full-corpus scan records are stored in absence_check in cases.json. No retrieval rankings or model outputs used.",
+  "held_out_design": "Five new answerable test target concepts were reviewed against every Day06 q01-q20 target concept and the components smoke question. No reused test question or paraphrase included. Test cases and gold are excluded from tuning.",
+  "scope_limitation": "AI-assisted reading and automated containment checks do not replace independent student review. q13 single-chunk limitation is retained and reported rather than altering Day06 gold."
+}

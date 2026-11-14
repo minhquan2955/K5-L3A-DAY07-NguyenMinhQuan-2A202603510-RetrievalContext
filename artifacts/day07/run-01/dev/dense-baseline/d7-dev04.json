@@ -1,0 +1,401 @@
+{
+  "query_id": "d7-dev04",
+  "split": "dev",
+  "question": "Thao tác lấy dữ liệu từ nơi lưu trữ được gọi là gì?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:19.424776+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "operation retrieving data from storage called data retrieval read access database information systems",
+      "filter": {},
+      "results": [
+        {
+          "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1257,
+            "language": "en",
+            "char_count": 432,
+            "start_char": 825,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.5508224955545576,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1853,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 1353,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.5111348412247062,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "df333f9ff102c78e43a3af399b89afc9ccf8a3ce44e74ad3d01dc5dbc2bc1a92",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 29,
+          "text": "• Data information systems management manages the people, technology, and procedures needed to\nconvert data into information. This includes cleaning, extracting, integrating, categorizing, labeling, and\norganizing data.\n• Database management develops procedures to organize, manipulate, and retrieve data that are stored on\ncomputer databases.\n• Systems analysis, design, and development examines an organization’s system needs, and designs and\ndevelops a system to meet those needs.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3295,
+            "language": "en",
+            "char_count": 483,
+            "start_char": 2812,
+            "printed_page": 25,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3741
+          },
+          "score": 0.5012812393203339,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3 | chapter1-2.pdf | page 22]\ncomputer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.\n\n[989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d | chapter1-2.pdf | page 72]\n• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+      "context_ids": [
+        "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+        "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Thao tác lấy dữ liệu từ nơi lưu trữ được gọi là gì?",
+    "filter": {},
+    "results": [
+      {
+        "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 72,
+        "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1853,
+          "language": "en",
+          "char_count": 500,
+          "start_char": 1353,
+          "printed_page": 68,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4031
+        },
+        "score": 0.37304840690161756,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 22,
+        "text": "• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 824,
+          "language": "en",
+          "char_count": 497,
+          "start_char": 327,
+          "printed_page": 18,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4238
+        },
+        "score": 0.3702311503552619,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 22,
+        "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1257,
+          "language": "en",
+          "char_count": 432,
+          "start_char": 825,
+          "printed_page": 18,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4238
+        },
+        "score": 0.369024767077601,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Thao tác lấy dữ liệu từ nơi lưu trữ được gọi là **truy xuất dữ liệu** (data retrieval). [7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3]",
+  "elapsed_ms": 6540.027999999438,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 374,
+        "completion_tokens": 28,
+        "total_tokens": 402
+      },
+      "action": {
+        "action": "search",
+        "query": "operation retrieving data from storage called data retrieval read access database information systems"
+      },
+      "elapsed_ms": 2396.6378000004624
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "operation retrieving data from storage called data retrieval read access database information systems"
+          ],
+          "context": "[7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3 | chapter1-2.pdf | page 22]\ncomputer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.\n\n[989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d | chapter1-2.pdf | page 72]\n• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+          "context_ids": [
+            "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+            "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 807,
+        "completion_tokens": 82,
+        "total_tokens": 889
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Thao tác lấy dữ liệu từ nơi lưu trữ được gọi là **truy xuất dữ liệu** (data retrieval). [7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3]",
+        "citations": [
+          "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3"
+        ]
+      },
+      "elapsed_ms": 1584.0661000002
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Thao tác lấy dữ liệu từ nơi lưu trữ được gọi là gì?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1853,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 1353,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.37304840690161756,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "cc065a2412c8a5f8109f627be00ba5cdca97de7e0c829a3bbe46ba50013f4b8c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "• The process of maintaining a system’s data and information in a location that is secure, reliable, and\naccessible to authorized users is called data storage. Location refers to the specific computer hardware\nand software used for an information system. These must include the tools and capability to store and\nmanage data, such as databases. Location also refers to the physical building that houses the computer\nhardware and software for the system. This location must be secure, protecting the",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 824,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 327,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.3702311503552619,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1257,
+            "language": "en",
+            "char_count": 432,
+            "start_char": 825,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.369024767077601,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 1733.6154000004171
+    },
+    {
+      "query": "operation retrieving data from storage called data retrieval read access database information systems",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "7a04412365953b80cebcce661f5f2ba5831eef53a2e074ffa9f2eecde7de18d3",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 22,
+          "text": "computer hardware\nand software from unauthorized users, as well as environmental threats such as earthquakes, fires, and\nfloods.\n• The process of retrieving data from storage is called data retrieval. For example, users should be able to\nload and review applications, such as spreadsheets, that store data. Users should be able to download this\ninformation and use it for authorized purposes, such as research and preparing reports.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1257,
+            "language": "en",
+            "char_count": 432,
+            "start_char": 825,
+            "printed_page": 18,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4238
+          },
+          "score": 0.5508224955545576,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1853,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 1353,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.5111348412247062,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "df333f9ff102c78e43a3af399b89afc9ccf8a3ce44e74ad3d01dc5dbc2bc1a92",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 29,
+          "text": "• Data information systems management manages the people, technology, and procedures needed to\nconvert data into information. This includes cleaning, extracting, integrating, categorizing, labeling, and\norganizing data.\n• Database management develops procedures to organize, manipulate, and retrieve data that are stored on\ncomputer databases.\n• Systems analysis, design, and development examines an organization’s system needs, and designs and\ndevelops a system to meet those needs.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3295,
+            "language": "en",
+            "char_count": 483,
+            "start_char": 2812,
+            "printed_page": 25,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3741
+          },
+          "score": 0.5012812393203339,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 333.6471000002348
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 26
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 13
+    }
+  ],
+  "cost_usd": null
+}

@@ -1,0 +1,260 @@
+{
+  "query_id": "d7-dev01",
+  "split": "dev",
+  "question": "Một hệ thống thông tin thường có năm thành phần chính nào?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:38.734447+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "five main components of an information system hardware software data procedures people components",
+      "filter": {},
+      "results": [
+        {
+          "id": "10b823ef3a6ce628368bfea45cc31530a88aad7413a87f5c13488cfe0e77adea",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "In general, an information system is a set of components that helps gather , analyze, maintain, and distribute\ndata. The components of information systems include people, the system’s hardware and software, networks,\ndata, and the procedures used to process the data and maintain the system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1045,
+            "language": "en",
+            "char_count": 291,
+            "start_char": 754,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.49710801391637865,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 20,
+          "text": "benefits they bring.\nFeatures of Information Systems\nAs you have learned, the components of information systems are people, hardware, software, data, and\nprocedures. These components work with the elements of information systems—input, processing, output,\nand feedback—and the operations of these systems and the processes to manage data and ultimately to\nsupport business operations.\nComponents of Information Systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1922,
+            "language": "en",
+            "char_count": 418,
+            "start_char": 1504,
+            "printed_page": 16,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4240
+          },
+          "score": 0.44272005870321124,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 13,
+          "text": "Figure 1.2 Typically, an information system includes people, as well as hardware, software, data, and procedures. (credit:\nmodification of work from Introduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0\nlicense)\nBefore looking closely at each component to understand what it entails and why it is important in IS, let’s start\nwith a brief overview of the five components.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 417,
+            "language": "en",
+            "char_count": 417,
+            "start_char": 0,
+            "printed_page": 9,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2399
+          },
+          "score": 0.3089522873527875,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[10b823ef3a6ce628368bfea45cc31530a88aad7413a87f5c13488cfe0e77adea | chapter1-2.pdf | page 11]\nIn general, an information system is a set of components that helps gather , analyze, maintain, and distribute\ndata. The components of information systems include people, the system’s hardware and software, networks,\ndata, and the procedures used to process the data and maintain the system.\n\n[fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8 | chapter1-2.pdf | page 20]\nbenefits they bring.\nFeatures of Information Systems\nAs you have learned, the components of information systems are people, hardware, software, data, and\nprocedures. These components work with the elements of information systems—input, processing, output,\nand feedback—and the operations of these systems and the processes to manage data and ultimately to\nsupport business operations.\nComponents of Information Systems\n\n[d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9 | chapter1-2.pdf | page 13]\nFigure 1.2 Typically, an information system includes people, as well as hardware, software, data, and procedures. (credit:\nmodification of work from Introduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0\nlicense)\nBefore looking closely at each component to understand what it entails and why it is important in IS, let’s start\nwith a brief overview of the five components.",
+      "context_ids": [
+        "10b823ef3a6ce628368bfea45cc31530a88aad7413a87f5c13488cfe0e77adea",
+        "fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8",
+        "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Một hệ thống thông tin thường có năm thành phần chính nào?",
+    "filter": {},
+    "results": []
+  },
+  "status": "answered",
+  "answer": "Một hệ thống thông tin thường có năm thành phần chính: con người, phần cứng, phần mềm, dữ liệu và các quy trình [fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8].",
+  "elapsed_ms": 3385.9609000028286,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 371,
+        "completion_tokens": 28,
+        "total_tokens": 399
+      },
+      "action": {
+        "action": "search",
+        "query": "five main components of an information system hardware software data procedures people components"
+      },
+      "elapsed_ms": 1455.5743999990227
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "five main components of an information system hardware software data procedures people components"
+          ],
+          "context": "[10b823ef3a6ce628368bfea45cc31530a88aad7413a87f5c13488cfe0e77adea | chapter1-2.pdf | page 11]\nIn general, an information system is a set of components that helps gather , analyze, maintain, and distribute\ndata. The components of information systems include people, the system’s hardware and software, networks,\ndata, and the procedures used to process the data and maintain the system.\n\n[fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8 | chapter1-2.pdf | page 20]\nbenefits they bring.\nFeatures of Information Systems\nAs you have learned, the components of information systems are people, hardware, software, data, and\nprocedures. These components work with the elements of information systems—input, processing, output,\nand feedback—and the operations of these systems and the processes to manage data and ultimately to\nsupport business operations.\nComponents of Information Systems\n\n[d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9 | chapter1-2.pdf | page 13]\nFigure 1.2 Typically, an information system includes people, as well as hardware, software, data, and procedures. (credit:\nmodification of work from Introduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0\nlicense)\nBefore looking closely at each component to understand what it entails and why it is important in IS, let’s start\nwith a brief overview of the five components.",
+          "context_ids": [
+            "10b823ef3a6ce628368bfea45cc31530a88aad7413a87f5c13488cfe0e77adea",
+            "fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8",
+            "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 940,
+        "completion_tokens": 128,
+        "total_tokens": 1068
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Một hệ thống thông tin thường có năm thành phần chính: con người, phần cứng, phần mềm, dữ liệu và các quy trình [fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8].",
+        "citations": [
+          "fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8"
+        ]
+      },
+      "elapsed_ms": 1860.8074000003398
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Một hệ thống thông tin thường có năm thành phần chính nào?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [],
+      "elapsed_ms": 0.3995000006398186
+    },
+    {
+      "query": "five main components of an information system hardware software data procedures people components",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "10b823ef3a6ce628368bfea45cc31530a88aad7413a87f5c13488cfe0e77adea",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "In general, an information system is a set of components that helps gather , analyze, maintain, and distribute\ndata. The components of information systems include people, the system’s hardware and software, networks,\ndata, and the procedures used to process the data and maintain the system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1045,
+            "language": "en",
+            "char_count": 291,
+            "start_char": 754,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.49710801391637865,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 20,
+          "text": "benefits they bring.\nFeatures of Information Systems\nAs you have learned, the components of information systems are people, hardware, software, data, and\nprocedures. These components work with the elements of information systems—input, processing, output,\nand feedback—and the operations of these systems and the processes to manage data and ultimately to\nsupport business operations.\nComponents of Information Systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1922,
+            "language": "en",
+            "char_count": 418,
+            "start_char": 1504,
+            "printed_page": 16,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4240
+          },
+          "score": 0.44272005870321124,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 13,
+          "text": "Figure 1.2 Typically, an information system includes people, as well as hardware, software, data, and procedures. (credit:\nmodification of work from Introduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0\nlicense)\nBefore looking closely at each component to understand what it entails and why it is important in IS, let’s start\nwith a brief overview of the five components.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 417,
+            "language": "en",
+            "char_count": 417,
+            "start_char": 0,
+            "printed_page": 9,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2399
+          },
+          "score": 0.3089522873527875,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 4.135399998631328
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

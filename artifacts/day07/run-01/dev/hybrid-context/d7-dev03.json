@@ -1,0 +1,2015 @@
+{
+  "query_id": "d7-dev03",
+  "split": "dev",
+  "question": "ERP giúp một tổ chức quản lý và tích hợp những gì?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:54.940051+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "ERP enterprise resource planning helps organization manage and integrate what processes resources departments information systems",
+      "filter": {},
+      "results": [
+        {
+          "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3315,
+            "language": "en",
+            "char_count": 172,
+            "start_char": 3143,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 2
+          },
+          "rank": 1
+        },
+        {
+          "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 839,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 340,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 1
+          },
+          "rank": 2
+        },
+        {
+          "id": "84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "• Facilitating communication and coordination: Another important role of information systems is to\nfacilitate communication and coordination among different functional areas within the organization. As\nbusinesses grow, the complexity of operations increases, and different departments need to work\ntogether seamlessly. Information systems enable smooth information flow, allowing employees from\nvarious departments to collaborate effectively. For example, a company’s enterprise resource planning",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3142,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 2646,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.031746031746031744,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2073,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 1576,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.031009615384615385,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 5
+          },
+          "rank": 4
+        },
+        {
+          "id": "e365bef917a8c0c53b724bd18633425c68bb115d2c5d7af0c8af862b1082b1eb",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 52,
+          "text": "Information System Planning and Management",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 42,
+            "language": "en",
+            "char_count": 42,
+            "start_char": 0,
+            "printed_page": 48,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3271
+          },
+          "score": 0.0293236301369863,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 13,
+            "tfidf": 4
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b | chapter1-2.pdf | page 72]\n(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.\n\n[fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572 | chapter1-2.pdf | page 15]\nIn addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and\n\n[84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8 | chapter1-2.pdf | page 72]\n• Facilitating communication and coordination: Another important role of information systems is to\nfacilitate communication and coordination among different functional areas within the organization. As\nbusinesses grow, the complexity of operations increases, and different departments need to work\ntogether seamlessly. Information systems enable smooth information flow, allowing employees from\nvarious departments to collaborate effectively. For example, a company’s enterprise resource planning\n\n[accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1 | chapter1-2.pdf | page 15]\nNow, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of\n\n[e365bef917a8c0c53b724bd18633425c68bb115d2c5d7af0c8af862b1082b1eb | chapter1-2.pdf | page 52]\nInformation System Planning and Management",
+      "context_ids": [
+        "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+        "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+        "84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8",
+        "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+        "e365bef917a8c0c53b724bd18633425c68bb115d2c5d7af0c8af862b1082b1eb"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+    "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "ERP giúp một tổ chức quản lý và tích hợp những gì?",
+    "filter": {},
+    "results": [
+      {
+        "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 72,
+        "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3315,
+          "language": "en",
+          "char_count": 172,
+          "start_char": 3143,
+          "printed_page": 68,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4031
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 2
+        },
+        "rank": 1
+      },
+      {
+        "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 15,
+        "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 839,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 340,
+          "printed_page": 11,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3778
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 5,
+          "tfidf": 1
+        },
+        "rank": 2
+      },
+      {
+        "id": "32c8c0f9b146c5f937631f217d3eecb8b725e989b3b2362bb3af21858081823c",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 14,
+        "text": "organization’s various functions and monitor outcomes. By providing the data necessary for",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2738,
+          "language": "en",
+          "char_count": 90,
+          "start_char": 2648,
+          "printed_page": 10,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2738
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1
+        },
+        "rank": 3
+      },
+      {
+        "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 15,
+        "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2073,
+          "language": "en",
+          "char_count": 497,
+          "start_char": 1576,
+          "printed_page": 11,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3778
+        },
+        "score": 0.015873015873015872,
+        "strategy": "hybrid",
+        "ranks": {
+          "tfidf": 3
+        },
+        "rank": 4
+      },
+      {
+        "id": "ce4a8ea7e629ed2879a06291d9fdd90221b768357bdf29a185009c0f7c8c2863",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 49,
+        "text": "parts of the organization.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3176,
+          "language": "en",
+          "char_count": 26,
+          "start_char": 3150,
+          "printed_page": 45,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3974
+        },
+        "score": 0.015873015873015872,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 3
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "ERP giúp tổ chức quản lý các loại hệ thống thông tin khác nhau, đồng thời tích hợp các quy trình và chức năng kinh doanh trên toàn tổ chức. Những ví dụ được nêu gồm tài chính, nhân sự và chuỗi cung ứng; ERP cũng có thể hỗ trợ quản lý dự án và kế toán. [fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572][251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b]",
+  "elapsed_ms": 4533.64320000037,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 371,
+        "completion_tokens": 30,
+        "total_tokens": 401
+      },
+      "action": {
+        "action": "search",
+        "query": "ERP enterprise resource planning helps organization manage and integrate what processes resources departments information systems"
+      },
+      "elapsed_ms": 1412.744900000689
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "ERP enterprise resource planning helps organization manage and integrate what processes resources departments information systems"
+          ],
+          "context": "[251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b | chapter1-2.pdf | page 72]\n(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.\n\n[fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572 | chapter1-2.pdf | page 15]\nIn addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and\n\n[84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8 | chapter1-2.pdf | page 72]\n• Facilitating communication and coordination: Another important role of information systems is to\nfacilitate communication and coordination among different functional areas within the organization. As\nbusinesses grow, the complexity of operations increases, and different departments need to work\ntogether seamlessly. Information systems enable smooth information flow, allowing employees from\nvarious departments to collaborate effectively. For example, a company’s enterprise resource planning\n\n[accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1 | chapter1-2.pdf | page 15]\nNow, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of\n\n[e365bef917a8c0c53b724bd18633425c68bb115d2c5d7af0c8af862b1082b1eb | chapter1-2.pdf | page 52]\nInformation System Planning and Management",
+          "context_ids": [
+            "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+            "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+            "84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8",
+            "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+            "e365bef917a8c0c53b724bd18633425c68bb115d2c5d7af0c8af862b1082b1eb"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1187,
+        "completion_tokens": 224,
+        "total_tokens": 1411
+      },
+      "action": {
+        "action": "answer",
+        "answer": "ERP giúp tổ chức quản lý các loại hệ thống thông tin khác nhau, đồng thời tích hợp các quy trình và chức năng kinh doanh trên toàn tổ chức. Những ví dụ được nêu gồm tài chính, nhân sự và chuỗi cung ứng; ERP cũng có thể hỗ trợ quản lý dự án và kế toán. [fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572][251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b]",
+        "citations": [
+          "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+          "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b"
+        ]
+      },
+      "elapsed_ms": 2317.8521000008914
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "ERP giúp một tổ chức quản lý và tích hợp những gì?",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "32c8c0f9b146c5f937631f217d3eecb8b725e989b3b2362bb3af21858081823c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "organization’s various functions and monitor outcomes. By providing the data necessary for",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2738,
+              "language": "en",
+              "char_count": 90,
+              "start_char": 2648,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.4338348509341219,
+            "strategy": "dense"
+          },
+          {
+            "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3315,
+              "language": "en",
+              "char_count": 172,
+              "start_char": 3143,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.4278388485087925,
+            "strategy": "dense"
+          },
+          {
+            "id": "ce4a8ea7e629ed2879a06291d9fdd90221b768357bdf29a185009c0f7c8c2863",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "parts of the organization.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3176,
+              "language": "en",
+              "char_count": 26,
+              "start_char": 3150,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.40676009148085823,
+            "strategy": "dense"
+          },
+          {
+            "id": "29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "as project management\nand employee training.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2152,
+              "language": "en",
+              "char_count": 44,
+              "start_char": 2108,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.4011243368144042,
+            "strategy": "dense"
+          },
+          {
+            "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 839,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 340,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.3790207543153652,
+            "strategy": "dense"
+          },
+          {
+            "id": "84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Facilitating communication and coordination: Another important role of information systems is to\nfacilitate communication and coordination among different functional areas within the organization. As\nbusinesses grow, the complexity of operations increases, and different departments need to work\ntogether seamlessly. Information systems enable smooth information flow, allowing employees from\nvarious departments to collaborate effectively. For example, a company’s enterprise resource planning",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3142,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 2646,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.3614543729040547,
+            "strategy": "dense"
+          },
+          {
+            "id": "cee366ab8dfd41a4d761d587e74bcc3d34a6a35fc1bad468b2b69d6c47697788",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "chain\nmanagement is an example of how an EIS can be used as an interorganizational information system,\nwhich occurs when two or more organizations use IS to conduct business electronically.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1606,
+              "language": "en",
+              "char_count": 189,
+              "start_char": 1417,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.35263060041002325,
+            "strategy": "dense"
+          },
+          {
+            "id": "e5e56237201e33365437ad3c220a7d7848ca8ed40fe29f8f01d25275e9c58bd8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Focus on strengthening governance: Organizations should involve IT in strategic planning to ensure\ntechnology initiatives align with overall business goals. Engaging IT in executive committees enhances the\ndecision-making process. Implementing a structured reporting hierarchy establishes clear communication\nchannels, and defining authorization for decision-making roles ensures efficient execution. Coordinated\ngovernance can help set criteria whereby IT projects are prioritized based on their",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2664,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2166,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.3511001777034759,
+            "strategy": "dense"
+          },
+          {
+            "id": "291c07b1f2867e9680a53b8628475fbc7a62a0d0f0d438e3a23de77f5922e915",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 67,
+            "text": "Business Process Reengineering, Improvement, and Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1571,
+              "language": "en",
+              "char_count": 59,
+              "start_char": 1512,
+              "printed_page": 63,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2135
+            },
+            "score": 0.3487616934302278,
+            "strategy": "dense"
+          },
+          {
+            "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 486,
+              "language": "en",
+              "char_count": 486,
+              "start_char": 0,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.3464860276984847,
+            "strategy": "dense"
+          },
+          {
+            "id": "e365bef917a8c0c53b724bd18633425c68bb115d2c5d7af0c8af862b1082b1eb",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Information System Planning and Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 42,
+              "language": "en",
+              "char_count": 42,
+              "start_char": 0,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.3453391601084297,
+            "strategy": "dense"
+          },
+          {
+            "id": "41fb621f91fef19a66635b7905921a19c165725e29dd3ed9dd2873bbf3660d7b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "implementation governance, and\narchitecture change management.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3230,
+              "language": "en",
+              "char_count": 79,
+              "start_char": 3151,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.3442235700739258,
+            "strategy": "dense"
+          },
+          {
+            "id": "dabd6847a477b00914fd904920552cf53bca291a24ebc81819c5f2b4cafc7ce4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Information systems play an important role in data management by transforming raw data into a strategic\nasset. Information system planning and management involve selecting and implementing the right\ntechnology infrastructure for data storage, processing, analysis, and governance. Information technologies\nand systems play a vital role in facilitating data management within organizations, as they encompass\nactivities such as data acquisition, organization, storage, access, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 532,
+              "language": "en",
+              "char_count": 489,
+              "start_char": 43,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.3431252063333381,
+            "strategy": "dense"
+          },
+          {
+            "id": "b21aa47c2c07a5fd2b7d11d22d830ae789b6bd129807be2bebb17a5d99a503d7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 69,
+            "text": "Functional Area Business Process Examples\nHuman resources\n• Administering HR policies and providing necessary support\n• Managing employee hiring and conducting orientation programs\n• Maintaining employee files and records for documentation\n• Handling health-care bene fits and ensuring employee well-being\n• Managing performance appraisals and salary adjustments\n• Conducting employee training and development programs\n• Implementing workplace policies and compliance\nManagement information\nsystems",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 498,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 0,
+              "printed_page": 65,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3598
+            },
+            "score": 0.3429430726652678,
+            "strategy": "dense"
+          },
+          {
+            "id": "ba1926c78ca0d587cb07743093c2077d8eb147234bf2b9ca238f3391bff716f5",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 69,
+            "text": "• Implementing antivirus control measures for data security\n• Reporting and addressing computer security incidents\n• Conducting computer user training for e fficient system usage\n• Applying disaster recovery procedures for data protection\n• Developing and implementing policies for email and internet use\n• Managing information technology infrastructure and system\nmaintenance",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 875,
+              "language": "en",
+              "char_count": 376,
+              "start_char": 499,
+              "printed_page": 65,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3598
+            },
+            "score": 0.34233734583790254,
+            "strategy": "dense"
+          },
+          {
+            "id": "9aa847aaf8554c08589f14ac5467c8b9c0a3f0aba6f1250d5dcb58ee0cfc7d58",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "information management. They\nhighlighted the importance of aligning IT strategic planning with an organization’s decision-making needs and\nthe potential benefits that technology can bring to the decision-making process. Gorry and Scott Morton\nsuggest that for each business problem that involves information systems, data managers must first\ndetermine whether the problem is strategic, managerial, or operational in nature and then see whether the\ndecision-makers and the intelligence required should",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 993,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 493,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.3421799302707156,
+            "strategy": "dense"
+          },
+          {
+            "id": "ed3ef1fe59af247e75ba818b9a9e04c9e1c5f8287eb8be6a596f0338b5fcd43d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "It is also beneficial to join one or more professional organizations such as the Association for Information\nSystems (https://aisnet.org/), International Association for Computer Information Systems\n(https://www.iacis.org/), or Information Systems Audit and Control Association (https://www.isaca.org/). Such\norganizations provide members with important resources, including training, as well as news and updates\nabout events and changes important to IS professionals. Joining such organizations and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 840,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 341,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.34081329135416705,
+            "strategy": "dense"
+          },
+          {
+            "id": "84b851055ab6ac202af33ad43cf918a737219dab7e4186523b066d9a467f86fc",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "• An executive information system (EIS) supports the strategic information needs of top executives,\nproviding the information needed to handle executive functions, such as developing an organization’s\nstrategic goals and objectives and plans for achieving them. This includes providing the information\nneeded for managers to understand and manage their organization’s supply chain and value chain, which\ncan be helpful to streamline production processes and provide better customer service. Supply",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1416,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 919,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.33823145264504895,
+            "strategy": "dense"
+          },
+          {
+            "id": "0806430faad4eb1115d84685b3af1387022bf66d6c623e0491523c955a4ed075",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "• Prioritize organizational communication: Encouraging e ffective dialogue between different departments,\nfostering interdepartmental partnerships, and promoting mutual understanding between business and IT\nteams ensures sufficient knowledge sharing, well-informed decision-making, and seamless collaboration.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 309,
+              "start_char": 1856,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.33509901740273385,
+            "strategy": "dense"
+          },
+          {
+            "id": "efad3117fdbb1286224db81ae57dd44d8aa3b9a92acfb60fdf1f6c41cf97670d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "number of stakeholders? Future data\nmanagers will have an obligation not only to understand information and data management but also to\npossess the ability to extract valuable insights from data, apply these insights strategically, and align them\nwith the organization’s goals.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 772,
+              "language": "en",
+              "char_count": 277,
+              "start_char": 495,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.3348021113421964,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 839,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 340,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.4490260802036422,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3315,
+              "language": "en",
+              "char_count": 172,
+              "start_char": 3143,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.28304815075688317,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2073,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1576,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.24454456376932443,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5174b9f24e52bf65eda4ff3053f2c02f48afb3250a9735735899606d377d4e67",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "their most popular blend, but also\nhelps them manage costs and operate more efficiently.\nThe POS and ERP systems are not the only information systems in a coffee shop. Most coffee shops have Wi-Fi,\nwhich is another information system that includes hardware, software, and the networks that connect them.\nThe coffee shop’s Wi-Fi is a small-scale example of how businesses use IS to stay ahead of the competition,\nwhether it be locally, nationally, or globally.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2533,
+              "language": "en",
+              "char_count": 459,
+              "start_char": 2074,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.12690865849411093,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3315,
+            "language": "en",
+            "char_count": 172,
+            "start_char": 3143,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 1
+        },
+        {
+          "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 839,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 340,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.03177805800756621,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 1
+          },
+          "rank": 2
+        },
+        {
+          "id": "32c8c0f9b146c5f937631f217d3eecb8b725e989b3b2362bb3af21858081823c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 14,
+          "text": "organization’s various functions and monitor outcomes. By providing the data necessary for",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2738,
+            "language": "en",
+            "char_count": 90,
+            "start_char": 2648,
+            "printed_page": 10,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2738
+          },
+          "score": 0.01639344262295082,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1
+          },
+          "rank": 3
+        },
+        {
+          "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2073,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 1576,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.015873015873015872,
+          "strategy": "hybrid",
+          "ranks": {
+            "tfidf": 3
+          },
+          "rank": 4
+        },
+        {
+          "id": "ce4a8ea7e629ed2879a06291d9fdd90221b768357bdf29a185009c0f7c8c2863",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 49,
+          "text": "parts of the organization.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3176,
+            "language": "en",
+            "char_count": 26,
+            "start_char": 3150,
+            "printed_page": 45,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3974
+          },
+          "score": 0.015873015873015872,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 397.95260000028065
+    },
+    {
+      "query": "ERP enterprise resource planning helps organization manage and integrate what processes resources departments information systems",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3315,
+              "language": "en",
+              "char_count": 172,
+              "start_char": 3143,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.7164306258749256,
+            "strategy": "dense"
+          },
+          {
+            "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 839,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 340,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.7110804564199488,
+            "strategy": "dense"
+          },
+          {
+            "id": "84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Facilitating communication and coordination: Another important role of information systems is to\nfacilitate communication and coordination among different functional areas within the organization. As\nbusinesses grow, the complexity of operations increases, and different departments need to work\ntogether seamlessly. Information systems enable smooth information flow, allowing employees from\nvarious departments to collaborate effectively. For example, a company’s enterprise resource planning",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3142,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 2646,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.5319405159975978,
+            "strategy": "dense"
+          },
+          {
+            "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2073,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1576,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.52567421168705,
+            "strategy": "dense"
+          },
+          {
+            "id": "84b851055ab6ac202af33ad43cf918a737219dab7e4186523b066d9a467f86fc",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "• An executive information system (EIS) supports the strategic information needs of top executives,\nproviding the information needed to handle executive functions, such as developing an organization’s\nstrategic goals and objectives and plans for achieving them. This includes providing the information\nneeded for managers to understand and manage their organization’s supply chain and value chain, which\ncan be helpful to streamline production processes and provide better customer service. Supply",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1416,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 919,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.5198557779097328,
+            "strategy": "dense"
+          },
+          {
+            "id": "291c07b1f2867e9680a53b8628475fbc7a62a0d0f0d438e3a23de77f5922e915",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 67,
+            "text": "Business Process Reengineering, Improvement, and Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1571,
+              "language": "en",
+              "char_count": 59,
+              "start_char": 1512,
+              "printed_page": 63,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2135
+            },
+            "score": 0.4987448993336031,
+            "strategy": "dense"
+          },
+          {
+            "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 957,
+              "language": "en",
+              "char_count": 117,
+              "start_char": 840,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.48381617095418494,
+            "strategy": "dense"
+          },
+          {
+            "id": "7367d2e0be2ce0bf65a6fb4ebeeaf4901b448b637828c15b9d036ab51edce981",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "landscape.\nInformation Systems and Business Processes\nBy capturing and managing data, monitoring performance, and facilitating communication, information\nsystems contribute to improved efficiency, better decision-making, and overall business growth for any\nbusiness process. Following are the primary areas in which information systems play a vital role:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1352,
+              "language": "en",
+              "char_count": 354,
+              "start_char": 998,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.4793108384389372,
+            "strategy": "dense"
+          },
+          {
+            "id": "676709e6ea53ae47d7d88080c7a4157696ca0fba79d582b00ddf2565ebd6b137",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "achieve optimization. This strategic approach strives to expand the productivity and profitability of an\norganization’s business processes. In essence, BPR requires organizations to scrutinize their business\nprocesses through an unprejudiced lens and subsequently determine the optimal means to reconstruct these\nprocesses to bolster their business functions. Business process reengineering originates from the capabilities\nIT offers, including process automation, standardization of several process",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 499,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 0,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.47835272273882967,
+            "strategy": "dense"
+          },
+          {
+            "id": "7226024802a1d8c889ccfe8390e9e190a9cfe5677c78e2ab49adb5e01e804259",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 66,
+            "text": "general, efficient and well-designed business\nprocesses are crucial for gaining a competitive advantage and ensuring organizational success. Such\nprocesses must enable the information system to function innovatively and with enhanced effectiveness and\nefficiency compared to its competitors. Conversely, poorly designed processes could become liabilities,\nhindering the information system’s responsiveness and productivity.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2391,
+              "language": "en",
+              "char_count": 423,
+              "start_char": 1968,
+              "printed_page": 62,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2391
+            },
+            "score": 0.467022499983029,
+            "strategy": "dense"
+          },
+          {
+            "id": "e07a6a2837b98c96ad0e8b15f29c2eb96e31f0c70d1f109ce0ea7c9d99fd26cd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 66,
+            "text": "• Discuss ways in which information systems enable business processes\nTo promote success, businesses and other organizations need robust business processes that are well\nmanaged. Business processes help organizations be more efficient and effective—providing higher-quality\nproducts and services, and improving customer service and satisfaction. Business processes can be tailored to\nmeet an organization’s specific needs, and information systems can be important tools to enhance business\nprocesses.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 708,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 208,
+              "printed_page": 62,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2391
+            },
+            "score": 0.45796782598732777,
+            "strategy": "dense"
+          },
+          {
+            "id": "97f22485f24e4a8e0cdf5d2f31d3d79f9138dd10a8642052bbb6f1f191029b33",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Information systems improve efficiency by reducing the time, effort, and costs required to perform tasks and\nconduct transactional business, which may include processes such as inventory management, filling orders,\nbilling, payment processing, shipping, and returns and refunds. Information systems can make certain tasks\neasier to perform and can automate others. They can also improve accuracy, making an organization’s data\nmore reliable.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2375,
+              "language": "en",
+              "char_count": 441,
+              "start_char": 1934,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.4560228291955266,
+            "strategy": "dense"
+          },
+          {
+            "id": "e365bef917a8c0c53b724bd18633425c68bb115d2c5d7af0c8af862b1082b1eb",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Information System Planning and Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 42,
+              "language": "en",
+              "char_count": 42,
+              "start_char": 0,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.4540143639189569,
+            "strategy": "dense"
+          },
+          {
+            "id": "29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "as project management\nand employee training.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2152,
+              "language": "en",
+              "char_count": 44,
+              "start_char": 2108,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.44837146449649357,
+            "strategy": "dense"
+          },
+          {
+            "id": "b21aa47c2c07a5fd2b7d11d22d830ae789b6bd129807be2bebb17a5d99a503d7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 69,
+            "text": "Functional Area Business Process Examples\nHuman resources\n• Administering HR policies and providing necessary support\n• Managing employee hiring and conducting orientation programs\n• Maintaining employee files and records for documentation\n• Handling health-care bene fits and ensuring employee well-being\n• Managing performance appraisals and salary adjustments\n• Conducting employee training and development programs\n• Implementing workplace policies and compliance\nManagement information\nsystems",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 498,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 0,
+              "printed_page": 65,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3598
+            },
+            "score": 0.44699408964615817,
+            "strategy": "dense"
+          },
+          {
+            "id": "cee366ab8dfd41a4d761d587e74bcc3d34a6a35fc1bad468b2b69d6c47697788",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "chain\nmanagement is an example of how an EIS can be used as an interorganizational information system,\nwhich occurs when two or more organizations use IS to conduct business electronically.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1606,
+              "language": "en",
+              "char_count": 189,
+              "start_char": 1417,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.4468030131468802,
+            "strategy": "dense"
+          },
+          {
+            "id": "0e644ac7df17f95680daebcff51de4db015c57d627cfa95eb29c371e8b15bffa",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 23,
+            "text": "Similarly, an organization can use\ninformation systems to support decision-making and set goals for any function, including financial\nmanagement, human resources, and marketing. Once an organization establishes its goals, it can use\ninformation systems to develop a plan of action to achieve those goals and then use it to carry out their plans,\ntrack progress, and achieve success in the marketplace.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3719,
+              "language": "en",
+              "char_count": 401,
+              "start_char": 3318,
+              "printed_page": 19,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3719
+            },
+            "score": 0.44136391731951874,
+            "strategy": "dense"
+          },
+          {
+            "id": "dabd6847a477b00914fd904920552cf53bca291a24ebc81819c5f2b4cafc7ce4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Information systems play an important role in data management by transforming raw data into a strategic\nasset. Information system planning and management involve selecting and implementing the right\ntechnology infrastructure for data storage, processing, analysis, and governance. Information technologies\nand systems play a vital role in facilitating data management within organizations, as they encompass\nactivities such as data acquisition, organization, storage, access, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 532,
+              "language": "en",
+              "char_count": 489,
+              "start_char": 43,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.4412517955091979,
+            "strategy": "dense"
+          },
+          {
+            "id": "64dec786929f39659af40eff364325c6f16ec93af01d572d40c13bb313d815ed",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 12,
+            "text": "depending on technological\nadvancements. It intersects with business, computer science, and management, playing a critical role in\nenhancing organizational efficiency, productivity, and competitiveness. When organizations have robust\ninformation systems, they are more capable of planning strategically to gain a competitive edge and achieve\nsuccess.\nComponents of an Information System",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2283,
+              "language": "en",
+              "char_count": 386,
+              "start_char": 1897,
+              "printed_page": 8,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2754
+            },
+            "score": 0.4404758622468513,
+            "strategy": "dense"
+          },
+          {
+            "id": "568f812d8e766ead9e4a4e499fe348b179c6db81a539b6536e8159c1e1b307e5",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Organizations have come to rely on information systems as a critical resource. A well-developed and\nmaintained system offers important benefits to organizations of all types, including businesses, government\nagencies, and nonprofit associations. Information systems bring interconnectedness to an organization and\nprovide many benefits, such as improved efficiency, more robust decision-making, enhanced communication\nprocesses, increased productivity, and competitive advantages.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1933,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 1453,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.4403692426558705,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 839,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 340,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.4986961183936714,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3315,
+              "language": "en",
+              "char_count": 172,
+              "start_char": 3143,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.29103168760142867,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Facilitating communication and coordination: Another important role of information systems is to\nfacilitate communication and coordination among different functional areas within the organization. As\nbusinesses grow, the complexity of operations increases, and different departments need to work\ntogether seamlessly. Information systems enable smooth information flow, allowing employees from\nvarious departments to collaborate effectively. For example, a company’s enterprise resource planning",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3142,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 2646,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.26567781980130295,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e365bef917a8c0c53b724bd18633425c68bb115d2c5d7af0c8af862b1082b1eb",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Information System Planning and Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 42,
+              "language": "en",
+              "char_count": 42,
+              "start_char": 0,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.22074945491745704,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2073,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1576,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.20401440929411965,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1467,
+              "language": "en",
+              "char_count": 245,
+              "start_char": 1222,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.1608643806200236,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c22358affdae0e02258a72c16373f6bec2da725fed6a76b2a2fbfc4a74d88d80",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 58,
+            "text": "Functional\nArea\nStrategic\nInformation\nSystems\nManagerial\nInformation\nSystems\nOperational\nInformation\nSystems\nOverall Value\nIndicators for\nInformation\nTechnology Investment\nHuman\nresources\nWorkforce\noptimization\nData-driven\nhuman\nresources\ndecision-making\nand analytics\nEfficient\nemployee data\nmanagement\nand self-\nservice options\nImproved talent\nacquisition and\nretention, reduced\nhuman resources\noperational costs\nFinance and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 426,
+              "language": "en",
+              "char_count": 426,
+              "start_char": 0,
+              "printed_page": 54,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2239
+            },
+            "score": 0.15242707850938902,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b92c47287a337e7636c16287d53e6455024137bd8050e3cadabbe0acf33cfc7a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 12,
+            "text": "An information system is a set of interconnected components that integrate the collection, processing,\nstorage, and distribution of data, information, and digital products in order to support decision-making,\ncoordination, control, analysis, and visualization in an organization. These systems play an important role in\nmanaging and facilitating various business processes and can also be used in individuals’ personal lives.\nThe field of information systems (IS) is a dynamic industry, evolving and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1896,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1397,
+              "printed_page": 8,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2754
+            },
+            "score": 0.14384241422904157,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e07a6a2837b98c96ad0e8b15f29c2eb96e31f0c70d1f109ce0ea7c9d99fd26cd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 66,
+            "text": "• Discuss ways in which information systems enable business processes\nTo promote success, businesses and other organizations need robust business processes that are well\nmanaged. Business processes help organizations be more efficient and effective—providing higher-quality\nproducts and services, and improving customer service and satisfaction. Business processes can be tailored to\nmeet an organization’s specific needs, and information systems can be important tools to enhance business\nprocesses.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 708,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 208,
+              "printed_page": 62,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2391
+            },
+            "score": 0.14365167494736047,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.14235792594348226,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "fe6ffbf3c9d97a6e6b9c148bff2e8166d5735ef114822e79085272e0057b6ee5",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Functional\nArea\nStrategic\nInformation\nSystems\nManagerial\nInformation\nSystems\nOperational\nInformation\nSystems\nOverall Value\nIndicators for\nInformation\nTechnology Investment\nInformation\ntechnology\nand\ntechnology\nmanagement\nAlignment of\ninformation\ntechnology\ninvestments with\nbusiness goals and\nstrategy\nInformation\ntechnology\nproject progress\nmonitoring and\nresource\noptimization\nEfficient",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 388,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 0,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.14160566264321273,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "fd058ca590696ff189c1b7e88b3c586f22d0c7bc9210b13083f5ed8bf6b29da8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 20,
+            "text": "benefits they bring.\nFeatures of Information Systems\nAs you have learned, the components of information systems are people, hardware, software, data, and\nprocedures. These components work with the elements of information systems—input, processing, output,\nand feedback—and the operations of these systems and the processes to manage data and ultimately to\nsupport business operations.\nComponents of Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1922,
+              "language": "en",
+              "char_count": 418,
+              "start_char": 1504,
+              "printed_page": 16,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4240
+            },
+            "score": 0.14098774351042664,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e5d979140337332e3f9fd8d8a0be7dbec51345ffd2eb52cfd20f2b0b335cd031",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "• Interpret the dimensions and characteristics of data needed to make decisions\n• Identify information system planning strategies and frameworks that inform an organization’s data\nmanagement practices and processes\nData Management and Information Systems Business\nStrategies\n2",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 276,
+              "start_char": 1577,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.1405075803898945,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f213c9f260144bafee96c5070786c1f4dd86677e5755482b420340bc8b68190e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 12,
+            "text": "• Describe the components, elements, and operations of information systems\nIt’s helpful to understand the relationship between information systems and related fields. Computer science\nis the discipline that provides foundations for the theories and technology necessary for computing systems.\nInformation technology (IT) implements and maintains those computer systems. Information systems, our\narea of focus, uses those systems to process and manage information.\nKey Concepts in Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1396,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 897,
+              "printed_page": 8,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2754
+            },
+            "score": 0.13546095598225746,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "468691bc0fcc88ab9b0a1300170db35f333a5099df62ae1b5cb8b6adcb9e5a35",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "using data in mock situations to examine potential\nproblems or opportunities. The decision-making processes that have been improved by information systems\ninclude performance evaluations, risk assessment, budgeting, cost analysis, forecasting, resource allocation,\nstrategic planning, investment analysis, and competitive analysis.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3705,
+              "language": "en",
+              "char_count": 331,
+              "start_char": 3374,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.12713754679583367,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5174b9f24e52bf65eda4ff3053f2c02f48afb3250a9735735899606d377d4e67",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "their most popular blend, but also\nhelps them manage costs and operate more efficiently.\nThe POS and ERP systems are not the only information systems in a coffee shop. Most coffee shops have Wi-Fi,\nwhich is another information system that includes hardware, software, and the networks that connect them.\nThe coffee shop’s Wi-Fi is a small-scale example of how businesses use IS to stay ahead of the competition,\nwhether it be locally, nationally, or globally.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2533,
+              "language": "en",
+              "char_count": 459,
+              "start_char": 2074,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.12679606560651616,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b4c454c7b6d0408e8c8f739108d39f3ca4954d96fa658e74328dba7c98500de1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "• Strategic planning is the process of setting long-term goals for an organization. It involves identifying the\norganization’s mission, vision, and values, as well as its strategic objectives. Strategic planning is typically\ndone by the organization’s top management team.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1373,
+              "language": "en",
+              "char_count": 272,
+              "start_char": 1101,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.12528825586883952,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "02833b973582897e123e4969ee8a75c8e98e57aae351b52dbc8e0cb7584373ba",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "There is a distinction between information used for strategic planning and information used for management\ncontrol. An organization’s strategic planning is its process of defining the organization’s mission, vision, goals,\nand objectives, and developing strategies to achieve them, often with the support of information systems,\ntypically done by senior-level managers. In contrast, management control ensures efficient day-to-day\noperations and adherence to those strategic plans. The information",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1181,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 684,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.12300360954746162,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "568f812d8e766ead9e4a4e499fe348b179c6db81a539b6536e8159c1e1b307e5",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Organizations have come to rely on information systems as a critical resource. A well-developed and\nmaintained system offers important benefits to organizations of all types, including businesses, government\nagencies, and nonprofit associations. Information systems bring interconnectedness to an organization and\nprovide many benefits, such as improved efficiency, more robust decision-making, enhanced communication\nprocesses, increased productivity, and competitive advantages.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1933,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 1453,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.11848806862322753,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.11688294383749297,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3315,
+            "language": "en",
+            "char_count": 172,
+            "start_char": 3143,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 2
+          },
+          "rank": 1
+        },
+        {
+          "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 839,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 340,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 1
+          },
+          "rank": 2
+        },
+        {
+          "id": "84c160fc57b2c78e1ff19246b81ea2fdfc459de961f502a399a167f2c64fdfb8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "• Facilitating communication and coordination: Another important role of information systems is to\nfacilitate communication and coordination among different functional areas within the organization. As\nbusinesses grow, the complexity of operations increases, and different departments need to work\ntogether seamlessly. Information systems enable smooth information flow, allowing employees from\nvarious departments to collaborate effectively. For example, a company’s enterprise resource planning",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3142,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 2646,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.031746031746031744,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2073,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 1576,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.031009615384615385,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 5
+          },
+          "rank": 4
+        },
+        {
+          "id": "e365bef917a8c0c53b724bd18633425c68bb115d2c5d7af0c8af862b1082b1eb",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 52,
+          "text": "Information System Planning and Management",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 42,
+            "language": "en",
+            "char_count": 42,
+            "start_char": 0,
+            "printed_page": 48,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3271
+          },
+          "score": 0.0293236301369863,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 13,
+            "tfidf": 4
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 331.06920000136597
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 26
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 15
+    }
+  ],
+  "cost_usd": null
+}

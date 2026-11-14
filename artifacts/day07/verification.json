@@ -1,0 +1,39 @@
+{
+  "verified_at": "2026-11-14T09:13:13.353752+00:00",
+  "trace_count": 65,
+  "labels": 65,
+  "selected_config": "tfidf-keywords",
+  "selection_before_all_test_traces": true,
+  "frozen_pipeline_identity_matches": true,
+  "summaries_recomputed_from_traces_and_labels": true,
+  "day06_input_and_code_hashes_unchanged": true,
+  "day06_live_counts": [
+    [
+      "A",
+      449,
+      1536
+    ],
+    [
+      "B",
+      505,
+      1536
+    ],
+    [
+      "C",
+      505,
+      1536
+    ]
+  ],
+  "actual_api_key_scan": "no match in text/code/json artifacts",
+  "local_report_links": "resolve",
+  "usd_cost_status": "unknown; tokens measured",
+  "student_independent_review": "pending",
+  "offline_unittests": {
+    "command": "python -X utf8 -m unittest discover -s tests -v",
+    "count": 31,
+    "exit_code": 0,
+    "status": "passed",
+    "log": "artifacts/day07/unittest.log"
+  },
+  "independent_artifact_consistency_review": "Read-only reviewer confirmed numeric report tables, 65 traces/labels, Vietnamese original queries and freeze/dev/selection/test chronology."
+}

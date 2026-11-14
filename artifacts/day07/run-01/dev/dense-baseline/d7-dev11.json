@@ -1,0 +1,403 @@
+{
+  "query_id": "d7-dev11",
+  "split": "dev",
+  "question": "Những kỹ thuật nào giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:30.949880+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "techniques discover retrieve relevant information unstructured data search indexing text mining natural language processing",
+      "filter": {},
+      "results": [
+        {
+          "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.6197878237805176,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2264,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 1769,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.5811016147146979,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4269,
+            "language": "en",
+            "char_count": 112,
+            "start_char": 4157,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.5326544614547737,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c | chapter1-2.pdf | page 51]\ninto customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,\n\n[2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f | chapter1-2.pdf | page 46]\nthrough techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is\n\n[03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497 | chapter1-2.pdf | page 50]\ndata.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+      "context_ids": [
+        "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+        "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+        "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Những kỹ thuật nào giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc?",
+    "filter": {},
+    "results": [
+      {
+        "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 46,
+        "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2264,
+          "language": "en",
+          "char_count": 495,
+          "start_char": 1769,
+          "printed_page": 42,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4911
+        },
+        "score": 0.3582574922531596,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "4ee1fa9c4941976c11ad134e99a1ec4957ee6044bf7a5c03ba23a53d65ae1fe8",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 52,
+        "text": "Figure 2.3 Data processing for particular purposes generates information, and when applied with business acumen, information\ncreates knowledge. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit Data: modification of work\n“Project 365 #195: 140709 Let’s Get Jiggy With It” by Pete/Flickr , Public Domain; credit Knowledge: modification of work “Thick arrow\nmade from jigsaw puzzle pieces” by Old Photo Profile/Flickr , CC BY 2.0)\nConsider an example within the energy",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2223,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 1724,
+          "printed_page": 48,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3271
+        },
+        "score": 0.3321202104033475,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 47,
+        "text": "• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 887,
+          "language": "en",
+          "char_count": 400,
+          "start_char": 487,
+          "printed_page": 43,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2143
+        },
+        "score": 0.3274194875618073,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Các kỹ thuật được nêu gồm lập chỉ mục nội dung (content indexing), tìm kiếm và quản lý siêu dữ liệu (metadata management), nhằm giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc. [b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c]",
+  "elapsed_ms": 4491.515400000935,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 383,
+        "completion_tokens": 31,
+        "total_tokens": 414
+      },
+      "action": {
+        "action": "search",
+        "query": "techniques discover retrieve relevant information unstructured data search indexing text mining natural language processing"
+      },
+      "elapsed_ms": 1667.6657999996678
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "techniques discover retrieve relevant information unstructured data search indexing text mining natural language processing"
+          ],
+          "context": "[b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c | chapter1-2.pdf | page 51]\ninto customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,\n\n[2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f | chapter1-2.pdf | page 46]\nthrough techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is\n\n[03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497 | chapter1-2.pdf | page 50]\ndata.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+          "context_ids": [
+            "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+            "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+            "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 931,
+        "completion_tokens": 112,
+        "total_tokens": 1043
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Các kỹ thuật được nêu gồm lập chỉ mục nội dung (content indexing), tìm kiếm và quản lý siêu dữ liệu (metadata management), nhằm giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc. [b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c]",
+        "citations": [
+          "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c"
+        ]
+      },
+      "elapsed_ms": 1952.852400001575
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Những kỹ thuật nào giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2264,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 1769,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.3582574922531596,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "4ee1fa9c4941976c11ad134e99a1ec4957ee6044bf7a5c03ba23a53d65ae1fe8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 52,
+          "text": "Figure 2.3 Data processing for particular purposes generates information, and when applied with business acumen, information\ncreates knowledge. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit Data: modification of work\n“Project 365 #195: 140709 Let’s Get Jiggy With It” by Pete/Flickr , Public Domain; credit Knowledge: modification of work “Thick arrow\nmade from jigsaw puzzle pieces” by Old Photo Profile/Flickr , CC BY 2.0)\nConsider an example within the energy",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2223,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 1724,
+            "printed_page": 48,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3271
+          },
+          "score": 0.3321202104033475,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 887,
+            "language": "en",
+            "char_count": 400,
+            "start_char": 487,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.3274194875618073,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 485.292200002732
+    },
+    {
+      "query": "techniques discover retrieve relevant information unstructured data search indexing text mining natural language processing",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.6197878237805176,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2264,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 1769,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.5811016147146979,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4269,
+            "language": "en",
+            "char_count": 112,
+            "start_char": 4157,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.5326544614547737,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 300.8550999984436
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 45
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 16
+    }
+  ],
+  "cost_usd": null
+}

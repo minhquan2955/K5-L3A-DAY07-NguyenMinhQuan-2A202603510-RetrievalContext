@@ -1,0 +1,387 @@
+{
+  "query_id": "d7-dev08",
+  "split": "dev",
+  "question": "Zachman Framework dùng sáu câu hỏi nào để hiểu nhu cầu của tổ chức từ góc nhìn các bên liên quan?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:44.743707+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Zachman Framework six questions what how where who when why stakeholder perspectives organization needs",
+      "filter": {},
+      "results": [
+        {
+          "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2338,
+            "language": "en",
+            "char_count": 388,
+            "start_char": 1950,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.43287026923610206,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 857,
+            "language": "en",
+            "char_count": 477,
+            "start_char": 380,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.36582914478392087,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1949,
+            "language": "en",
+            "char_count": 481,
+            "start_char": 1468,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.25606642555640474,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f | chapter1-2.pdf | page 27]\nFigure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification\n\n[82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1 | chapter1-2.pdf | page 27]\nThe Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+      "context_ids": [
+        "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+        "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1"
+      ]
+    },
+    {
+      "event": "search_limit"
+    }
+  ],
+  "citations": [],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Zachman Framework dùng sáu câu hỏi nào để hiểu nhu cầu của tổ chức từ góc nhìn các bên liên quan?",
+    "filter": {},
+    "results": [
+      {
+        "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 27,
+        "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2338,
+          "language": "en",
+          "char_count": 388,
+          "start_char": 1950,
+          "printed_page": 23,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2338
+        },
+        "score": 0.41548583595939387,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 27,
+        "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 857,
+          "language": "en",
+          "char_count": 477,
+          "start_char": 380,
+          "printed_page": 23,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2338
+        },
+        "score": 0.3570645532268232,
+        "strategy": "tfidf",
+        "rank": 2
+      },
+      {
+        "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 27,
+        "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1949,
+          "language": "en",
+          "char_count": 481,
+          "start_char": 1468,
+          "printed_page": 23,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2338
+        },
+        "score": 0.2541713268972834,
+        "strategy": "tfidf",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "elapsed_ms": 2849.1615999992064,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 384,
+        "completion_tokens": 31,
+        "total_tokens": 415
+      },
+      "action": {
+        "action": "search",
+        "query": "Zachman Framework six questions what how where who when why stakeholder perspectives organization needs"
+      },
+      "elapsed_ms": 1499.481900002138
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Zachman Framework six questions what how where who when why stakeholder perspectives organization needs"
+          ],
+          "context": "[8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f | chapter1-2.pdf | page 27]\nFigure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification\n\n[82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1 | chapter1-2.pdf | page 27]\nThe Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+          "context_ids": [
+            "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 812,
+        "completion_tokens": 32,
+        "total_tokens": 844
+      },
+      "action": {
+        "action": "search",
+        "query": "Zachman Framework six questions How where who when why definitions process location responsibility timing motivation"
+      },
+      "elapsed_ms": 1282.9419999980018
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Zachman Framework dùng sáu câu hỏi nào để hiểu nhu cầu của tổ chức từ góc nhìn các bên liên quan?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2338,
+            "language": "en",
+            "char_count": 388,
+            "start_char": 1950,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.41548583595939387,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 857,
+            "language": "en",
+            "char_count": 477,
+            "start_char": 380,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.3570645532268232,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1949,
+            "language": "en",
+            "char_count": 481,
+            "start_char": 1468,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.2541713268972834,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 0.6953000010980759
+    },
+    {
+      "query": "Zachman Framework six questions what how where who when why stakeholder perspectives organization needs",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2338,
+            "language": "en",
+            "char_count": 388,
+            "start_char": 1950,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.43287026923610206,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 857,
+            "language": "en",
+            "char_count": 477,
+            "start_char": 380,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.36582914478392087,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1949,
+            "language": "en",
+            "char_count": 481,
+            "start_char": 1468,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.25606642555640474,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 4.730500000732718
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

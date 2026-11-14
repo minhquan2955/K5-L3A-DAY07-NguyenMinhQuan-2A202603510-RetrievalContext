@@ -1,0 +1,389 @@
+{
+  "query_id": "d7-dev16",
+  "split": "dev",
+  "question": "Theo tài liệu, chi phí giấy phép ERP là bao nhiêu USD cho mỗi người dùng mỗi tháng?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:51.908661+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "ERP license cost USD per user per month licensing fees per user monthly",
+      "filter": {},
+      "results": [
+        {
+          "id": "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2817,
+            "language": "en",
+            "char_count": 417,
+            "start_char": 2400,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.31463086281742125,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 839,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 340,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.10331515290651691,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "b88072302ad791bedec4031e756c80d427aea05c93ac63abfe58f1b55009a100",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Variety: The variety dimension encompasses the diverse array of data types and formats, which might\ninclude structured elements like user IDs, time stamps, and actions taken, as well as unstructured\ncomponents such as user comments and feedback.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 700,
+            "language": "en",
+            "char_count": 247,
+            "start_char": 453,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.08268730016129948,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d | chapter1-2.pdf | page 21]\n• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.\n\n[fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572 | chapter1-2.pdf | page 15]\nIn addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and\n\n[b88072302ad791bedec4031e756c80d427aea05c93ac63abfe58f1b55009a100 | chapter1-2.pdf | page 50]\n• Variety: The variety dimension encompasses the diverse array of data types and formats, which might\ninclude structured elements like user IDs, time stamps, and actions taken, as well as unstructured\ncomponents such as user comments and feedback.",
+      "context_ids": [
+        "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+        "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+        "b88072302ad791bedec4031e756c80d427aea05c93ac63abfe58f1b55009a100"
+      ]
+    },
+    {
+      "event": "search_limit"
+    }
+  ],
+  "citations": [],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Theo tài liệu, chi phí giấy phép ERP là bao nhiêu USD cho mỗi người dùng mỗi tháng?",
+    "filter": {},
+    "results": [
+      {
+        "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 15,
+        "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 839,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 340,
+          "printed_page": 11,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3778
+        },
+        "score": 0.4490260802036422,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 72,
+        "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3315,
+          "language": "en",
+          "char_count": 172,
+          "start_char": 3143,
+          "printed_page": 68,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4031
+        },
+        "score": 0.28304815075688317,
+        "strategy": "tfidf",
+        "rank": 2
+      },
+      {
+        "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 15,
+        "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2073,
+          "language": "en",
+          "char_count": 497,
+          "start_char": 1576,
+          "printed_page": 11,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3778
+        },
+        "score": 0.24454456376932443,
+        "strategy": "tfidf",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "elapsed_ms": 2715.890899999067,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 379,
+        "completion_tokens": 28,
+        "total_tokens": 407
+      },
+      "action": {
+        "action": "search",
+        "query": "ERP license cost USD per user per month licensing fees per user monthly"
+      },
+      "elapsed_ms": 1335.738500001753
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "ERP license cost USD per user per month licensing fees per user monthly"
+          ],
+          "context": "[de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d | chapter1-2.pdf | page 21]\n• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.\n\n[fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572 | chapter1-2.pdf | page 15]\nIn addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and\n\n[b88072302ad791bedec4031e756c80d427aea05c93ac63abfe58f1b55009a100 | chapter1-2.pdf | page 50]\n• Variety: The variety dimension encompasses the diverse array of data types and formats, which might\ninclude structured elements like user IDs, time stamps, and actions taken, as well as unstructured\ncomponents such as user comments and feedback.",
+          "context_ids": [
+            "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+            "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+            "b88072302ad791bedec4031e756c80d427aea05c93ac63abfe58f1b55009a100"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 925,
+        "completion_tokens": 29,
+        "total_tokens": 954
+      },
+      "action": {
+        "action": "search",
+        "query": "ERP software license pricing per user per month cost dollars SaaS ERP price"
+      },
+      "elapsed_ms": 1309.3588999981876
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Theo tài liệu, chi phí giấy phép ERP là bao nhiêu USD cho mỗi người dùng mỗi tháng?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 839,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 340,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.4490260802036422,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "251f37255db4753fb38598230c0948fc9a293e420da1e43144b42f22be86a25b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "(ERP) system integrates information from different departments, like finance, human resources, and\nsupply chain, ensuring a coherent flow of data and streamlined processes.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3315,
+            "language": "en",
+            "char_count": 172,
+            "start_char": 3143,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.28304815075688317,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "accdd4880a1d43a01d23386740afa09577b6eeb20a0ce291068851fac7401fa1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "Now, imagine if the coffee shop had no system to track sales, manage its supplies, and keep track of customer\npreferences. What do you think might be some of the challenges a business would face if they did not have a\nway to gather , track, and analyze this data? This is where ERP systems come into play. ERP systems integrate\nvarious business processes, ensuring that everything from bean procurement to milk deliveries is\nsynchronized. This not only prevents the coffee shop from running out of",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2073,
+            "language": "en",
+            "char_count": 497,
+            "start_char": 1576,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.24454456376932443,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 0.8250999999290798
+    },
+    {
+      "query": "ERP license cost USD per user per month licensing fees per user monthly",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2817,
+            "language": "en",
+            "char_count": 417,
+            "start_char": 2400,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.31463086281742125,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "fd45b561abdf11c5cda5ba36488c02cd0be2c853fb641284efe82df61af2e572",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "In addition to these four types of information systems, an enterprise resource planning (ERP) system is a\nsoftware system that helps an organization manage various types of information systems within the\norganization, and integrate business processes and functions across the organization. For example, large\norganizations may rely on an ERP system to handle human resource management throughout the\norganization. An ERP is also a useful tool for functions such as project management, accounting and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 839,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 340,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.10331515290651691,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "b88072302ad791bedec4031e756c80d427aea05c93ac63abfe58f1b55009a100",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Variety: The variety dimension encompasses the diverse array of data types and formats, which might\ninclude structured elements like user IDs, time stamps, and actions taken, as well as unstructured\ncomponents such as user comments and feedback.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 700,
+            "language": "en",
+            "char_count": 247,
+            "start_char": 453,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.08268730016129948,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 2.3488999977416825
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

@@ -1,0 +1,2365 @@
+{
+  "query_id": "d7-dev12",
+  "split": "dev",
+  "question": "Trong Chương 2, MDM giải quyết sự thiếu nhất quán giữa các hệ thống bằng cách nào?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:00:03.520173+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 2 master data management MDM resolve inconsistencies across systems common master data single source of truth",
+      "filter": {
+        "chapter": 2
+      },
+      "results": [
+        {
+          "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2767,
+            "language": "en",
+            "char_count": 393,
+            "start_char": 2374,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3780,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 3282,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Serving as a system of record or reference for enterprise-wide use, master data represent core entities\nsuch as customers, products, or employees, and reference data include codes, classifications, or\nstandards used across the organization. Maintaining data accuracy, consistency, and synchronization\nacross multiple systems for these data types is necessary to ensure reliable and consistent information\nacross the organization.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2797,
+            "language": "en",
+            "char_count": 431,
+            "start_char": 2366,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3878,
+            "language": "en",
+            "char_count": 97,
+            "start_char": 3781,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.030117753623188408,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 9,
+            "tfidf": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "3938a9b5d5ef2cfebb59c6e1fe28cd3c48d24ffa6abb026635bd95798dd069b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "• Managing variations in opinions, forecasting techniques, or simulation models: Recognizing and\naddressing divergent viewpoints, methodologies, or models used for forecasting or simulation ensures\ntransparency and reliability in the data analysis process.\nFUTURE TECHNOLOGY\nMaster Data Management",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2373,
+            "language": "en",
+            "char_count": 297,
+            "start_char": 2076,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.029910714285714284,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 10
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4 | chapter1-2.pdf | page 51]\nMaster data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.\n\n[28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9 | chapter1-2.pdf | page 51]\n• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,\n\n[b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90 | chapter1-2.pdf | page 50]\n• Serving as a system of record or reference for enterprise-wide use, master data represent core entities\nsuch as customers, products, or employees, and reference data include codes, classifications, or\nstandards used across the organization. Maintaining data accuracy, consistency, and synchronization\nacross multiple systems for these data types is necessary to ensure reliable and consistent information\nacross the organization.\n\n[c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7 | chapter1-2.pdf | page 51]\nMDM facilitates efficient inventory management and product updates across various sales\nchannels.\n\n[3938a9b5d5ef2cfebb59c6e1fe28cd3c48d24ffa6abb026635bd95798dd069b4 | chapter1-2.pdf | page 51]\n• Managing variations in opinions, forecasting techniques, or simulation models: Recognizing and\naddressing divergent viewpoints, methodologies, or models used for forecasting or simulation ensures\ntransparency and reliability in the data analysis process.\nFUTURE TECHNOLOGY\nMaster Data Management",
+      "context_ids": [
+        "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+        "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+        "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90",
+        "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+        "3938a9b5d5ef2cfebb59c6e1fe28cd3c48d24ffa6abb026635bd95798dd069b4"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+    "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 2, MDM giải quyết sự thiếu nhất quán giữa các hệ thống bằng cách nào?",
+    "filter": {
+      "chapter": 2
+    },
+    "results": [
+      {
+        "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 51,
+        "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2767,
+          "language": "en",
+          "char_count": 393,
+          "start_char": 2374,
+          "printed_page": 47,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3878
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 3
+        },
+        "rank": 1
+      },
+      {
+        "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 51,
+        "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3878,
+          "language": "en",
+          "char_count": 97,
+          "start_char": 3781,
+          "printed_page": 47,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3878
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 3,
+          "tfidf": 2
+        },
+        "rank": 2
+      },
+      {
+        "id": "cbe77a3f9fe60fe4a95d646ceffe4195e987dff092152954355cdb3d5bb280d1",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 51,
+        "text": "• In the health-care sector , creating a unified, digital infrastructure for health-care services facilitates the\nseamless exchange of health-related information among patients, health-care providers, and\ngovernment agencies. Efficient MDM ensures that patient data, such as medical history, medications,\nand allergies, are organized, stored securely, and readily accessible by authorized personnel. This both\nimproves the efficiency of health-care delivery and reduces the risk of errors and delays",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3267,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 2768,
+          "printed_page": 47,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3878
+        },
+        "score": 0.03131881575727918,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 7
+        },
+        "rank": 3
+      },
+      {
+        "id": "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 51,
+        "text": "• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3780,
+          "language": "en",
+          "char_count": 498,
+          "start_char": 3282,
+          "printed_page": 47,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3878
+        },
+        "score": 0.031009615384615385,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 5,
+          "tfidf": 4
+        },
+        "rank": 4
+      },
+      {
+        "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 48,
+        "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 345,
+          "language": "en",
+          "char_count": 345,
+          "start_char": 0,
+          "printed_page": 44,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1634
+        },
+        "score": 0.030309988518943745,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 7,
+          "tfidf": 5
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "MDM tạo lập và duy trì một nguồn dữ liệu chính xác, thống nhất cho các dữ liệu cốt lõi trong kho lưu trữ tập trung. Nhờ vậy, nó loại bỏ sự không nhất quán và hỗ trợ trao đổi thông tin liền mạch giữa các hệ thống, ứng dụng; ví dụ, dữ liệu sản phẩm được quản lý tập trung để hiển thị chính xác và nhất quán trên các kênh bán hàng khác nhau. [51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4][28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9]",
+  "elapsed_ms": 5429.072499999165,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 381,
+        "completion_tokens": 35,
+        "total_tokens": 416
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 2 master data management MDM resolve inconsistencies across systems common master data single source of truth"
+      },
+      "elapsed_ms": 1554.795699998067
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 2 master data management MDM resolve inconsistencies across systems common master data single source of truth"
+          ],
+          "context": "[51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4 | chapter1-2.pdf | page 51]\nMaster data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.\n\n[28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9 | chapter1-2.pdf | page 51]\n• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,\n\n[b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90 | chapter1-2.pdf | page 50]\n• Serving as a system of record or reference for enterprise-wide use, master data represent core entities\nsuch as customers, products, or employees, and reference data include codes, classifications, or\nstandards used across the organization. Maintaining data accuracy, consistency, and synchronization\nacross multiple systems for these data types is necessary to ensure reliable and consistent information\nacross the organization.\n\n[c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7 | chapter1-2.pdf | page 51]\nMDM facilitates efficient inventory management and product updates across various sales\nchannels.\n\n[3938a9b5d5ef2cfebb59c6e1fe28cd3c48d24ffa6abb026635bd95798dd069b4 | chapter1-2.pdf | page 51]\n• Managing variations in opinions, forecasting techniques, or simulation models: Recognizing and\naddressing divergent viewpoints, methodologies, or models used for forecasting or simulation ensures\ntransparency and reliability in the data analysis process.\nFUTURE TECHNOLOGY\nMaster Data Management",
+          "context_ids": [
+            "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+            "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+            "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90",
+            "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+            "3938a9b5d5ef2cfebb59c6e1fe28cd3c48d24ffa6abb026635bd95798dd069b4"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1243,
+        "completion_tokens": 273,
+        "total_tokens": 1516
+      },
+      "action": {
+        "action": "answer",
+        "answer": "MDM tạo lập và duy trì một nguồn dữ liệu chính xác, thống nhất cho các dữ liệu cốt lõi trong kho lưu trữ tập trung. Nhờ vậy, nó loại bỏ sự không nhất quán và hỗ trợ trao đổi thông tin liền mạch giữa các hệ thống, ứng dụng; ví dụ, dữ liệu sản phẩm được quản lý tập trung để hiển thị chính xác và nhất quán trên các kênh bán hàng khác nhau. [51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4][28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9]",
+        "citations": [
+          "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9"
+        ]
+      },
+      "elapsed_ms": 2977.876199998718
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 2, MDM giải quyết sự thiếu nhất quán giữa các hệ thống bằng cách nào?",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "cbe77a3f9fe60fe4a95d646ceffe4195e987dff092152954355cdb3d5bb280d1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• In the health-care sector , creating a unified, digital infrastructure for health-care services facilitates the\nseamless exchange of health-related information among patients, health-care providers, and\ngovernment agencies. Efficient MDM ensures that patient data, such as medical history, medications,\nand allergies, are organized, stored securely, and readily accessible by authorized personnel. This both\nimproves the efficiency of health-care delivery and reduces the risk of errors and delays",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3267,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 2768,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.37064013577608046,
+            "strategy": "dense"
+          },
+          {
+            "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2767,
+              "language": "en",
+              "char_count": 393,
+              "start_char": 2374,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.34426109515454706,
+            "strategy": "dense"
+          },
+          {
+            "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3878,
+              "language": "en",
+              "char_count": 97,
+              "start_char": 3781,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.32196968180691177,
+            "strategy": "dense"
+          },
+          {
+            "id": "4169d6a55994c5307b84a83bc6dd2b87feb87ba38eb8b9811f8b385bb70d87bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "There are some differences in how each framework approaches data management. DAMA-DMBOK focuses on\nthe technical aspects of data management, while MIKE2.0 focuses on the business aspects of information\nmanagement. The IBM Data Governance Council Maturity Model and the EDM Council Data Management\nMaturity Model are both designed to help organizations assess their current data management practices and\nidentify areas for improvement. The best framework for an organization will depend on its",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1839,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 1347,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.3192410144736799,
+            "strategy": "dense"
+          },
+          {
+            "id": "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3780,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 3282,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.30611550574556856,
+            "strategy": "dense"
+          },
+          {
+            "id": "7c3a559c3b0a9bcd67966464efec0682663825884f5458b51f8274033851089b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "steps, and error mitigation through\nimproved interdepartmental communication.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 577,
+              "language": "en",
+              "char_count": 77,
+              "start_char": 500,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.30239860835659527,
+            "strategy": "dense"
+          },
+          {
+            "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 345,
+              "language": "en",
+              "char_count": 345,
+              "start_char": 0,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.30069453296679205,
+            "strategy": "dense"
+          },
+          {
+            "id": "3938a9b5d5ef2cfebb59c6e1fe28cd3c48d24ffa6abb026635bd95798dd069b4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• Managing variations in opinions, forecasting techniques, or simulation models: Recognizing and\naddressing divergent viewpoints, methodologies, or models used for forecasting or simulation ensures\ntransparency and reliability in the data analysis process.\nFUTURE TECHNOLOGY\nMaster Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2373,
+              "language": "en",
+              "char_count": 297,
+              "start_char": 2076,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.2947483203365223,
+            "strategy": "dense"
+          },
+          {
+            "id": "ba1926c78ca0d587cb07743093c2077d8eb147234bf2b9ca238f3391bff716f5",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 69,
+            "text": "• Implementing antivirus control measures for data security\n• Reporting and addressing computer security incidents\n• Conducting computer user training for e fficient system usage\n• Applying disaster recovery procedures for data protection\n• Developing and implementing policies for email and internet use\n• Managing information technology infrastructure and system\nmaintenance",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 875,
+              "language": "en",
+              "char_count": 376,
+              "start_char": 499,
+              "printed_page": 65,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3598
+            },
+            "score": 0.28996541169908907,
+            "strategy": "dense"
+          },
+          {
+            "id": "a564081272a81fcb640d90bde03a0473683ea39bc983126479d9a9b3498a1ce7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "avoid data inaccuracies,\nnoncompliance with legal requirements, lost opportunities, increased costs, and dissatisfied customers. How\norganizations develop and maintain robust data and which systems they utilize are important to\norganizational success.\n2.1 Practices and Frameworks for Data Management\nLearning Objectives\nBy the end of this section, you will be able to:\n• Identify practices and frameworks in the management of data",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1576,
+              "language": "en",
+              "char_count": 431,
+              "start_char": 1145,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.2832898094189261,
+            "strategy": "dense"
+          },
+          {
+            "id": "010e623da56459bc3813da3c8b8f2c9e61f8b285bc00346ee4c5ea68c0596977",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 65,
+            "text": "mechanism resulting\nin efficient matches for a distributed workforce. Some criticism and challenges faced by digital business\nmodels include14 :",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1228,
+              "language": "en",
+              "char_count": 144,
+              "start_char": 1084,
+              "printed_page": 61,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4129
+            },
+            "score": 0.28226518907010567,
+            "strategy": "dense"
+          },
+          {
+            "id": "cc273a153daef4cfe2e7aa3a4fe58867db41443ee2061f4fa60409ce8f811e44",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "• DAMA-DMBOK: The Data Management Body of Knowledge, developed by the Data Management\nAssociation (DAMA International), provides comprehensive guidelines across ten key knowledge areas,\nincluding data governance, data architecture, and data quality.\n• MIKE2.0 IMM: This framework o ffers a structured way to assess an organization’s information maturity\nlevel.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 829,
+              "language": "en",
+              "char_count": 360,
+              "start_char": 469,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.2775783524883739,
+            "strategy": "dense"
+          },
+          {
+            "id": "746ea3ee1684fc5e33df4c1957f598b7ef811a754873f3103f8420a1c8e65364",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "be internal or external. If both the decision-makers\n(stakeholders) and intelligence needed can be found internally, as in the case of order entry and budgeting,\nthen the problem qualifies as being structured. But if both the intelligence needed and the decision-makers\nare external to the organization, then the problem qualifies as being unstructured, for instance, in the case of\nsystems for cash management or personnel management.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1429,
+              "language": "en",
+              "char_count": 435,
+              "start_char": 994,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.2723462864843118,
+            "strategy": "dense"
+          },
+          {
+            "id": "a309b12b7ac5689d95bfac385ca7ce0ec422ff330b970b45ff746a5dc21048c1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "challenges for\nmaking sure data are handled well. Data governance is like a rulebook for how data are managed and making\nsure the right people are responsible for decisions about data.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4423,
+              "language": "en",
+              "char_count": 184,
+              "start_char": 4239,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.26748780096478453,
+            "strategy": "dense"
+          },
+          {
+            "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 486,
+              "language": "en",
+              "char_count": 486,
+              "start_char": 0,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.2653411770679678,
+            "strategy": "dense"
+          },
+          {
+            "id": "7569202127872f8423021ec105cf14df243afb51558b072f58e96d354cfc7d98",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "Implementing responsible data management requires an understanding of the legal and social\nresponsibilities associated with processing data across its life cycle.7 To learn more, read about the\nResponsible Data Maturity Model (https://openstax.org/r/109RespDataMod) as it recommends how data\nshould be managed to ensure privacy, transparency, sharing, and acquisition of data.\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\nLearning Objectives",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1208,
+              "language": "en",
+              "char_count": 479,
+              "start_char": 729,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.26502738533817705,
+            "strategy": "dense"
+          },
+          {
+            "id": "a842f5bb949eef32c75617f2a45ef5a5fbff92f1a0a55d196f3e553773f55ce2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "• IBM Data Governance Council Maturity Model: This model provides a road map for implementing e ffective\ndata governance processes and controls.\n• Enterprise Data Management (EDM) Council Data Management Maturity Model: This comprehensive\nframework covers various aspects of data management, including data strategy, data operations, and data\narchitecture.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1186,
+              "language": "en",
+              "char_count": 356,
+              "start_char": 830,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.264939960365292,
+            "strategy": "dense"
+          },
+          {
+            "id": "5bf48edd34398b7232c4168bb3a54077220c5b884faff1ffbfe76c0df73d7cb4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "Figure 2.1 As technology advances, businesses and other organizations have many tools available to promote efficient operations.\nRobust data and information management strategies are necessary to ensure that these technological tools function optimally.\n(credit: modification of work “Voigtländer Vitoret - AZ Tower 3” by Jaroslav A. Polák/Flickr , CC0 1.0)\nChapter Outline",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 373,
+              "language": "en",
+              "char_count": 373,
+              "start_char": 0,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.26025977624237473,
+            "strategy": "dense"
+          },
+          {
+            "id": "9aa847aaf8554c08589f14ac5467c8b9c0a3f0aba6f1250d5dcb58ee0cfc7d58",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "information management. They\nhighlighted the importance of aligning IT strategic planning with an organization’s decision-making needs and\nthe potential benefits that technology can bring to the decision-making process. Gorry and Scott Morton\nsuggest that for each business problem that involves information systems, data managers must first\ndetermine whether the problem is strategic, managerial, or operational in nature and then see whether the\ndecision-makers and the intelligence required should",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 993,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 493,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.2598297061086464,
+            "strategy": "dense"
+          },
+          {
+            "id": "d1a212ba279f068ba53fa92020db1bd8caced5732249458eb36cd3611ff4c2ca",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "By the end of this section, you will be able to:\n• Evaluate and compare di fferent methods to define the value of information technology\n• Analyze speci fic strategies to improve the value of information technology",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1423,
+              "language": "en",
+              "char_count": 214,
+              "start_char": 1209,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.25898373584035994,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 647,
+              "language": "en",
+              "char_count": 273,
+              "start_char": 374,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.3562681721147214,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3878,
+              "language": "en",
+              "char_count": 97,
+              "start_char": 3781,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.32296290528774574,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2767,
+              "language": "en",
+              "char_count": 393,
+              "start_char": 2374,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.2926301462156444,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3780,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 3282,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.12730327286632862,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 345,
+              "language": "en",
+              "char_count": 345,
+              "start_char": 0,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.11886921543940537,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e2a686605bf919716620e86dc296668f9bbbad0fc71cfa1f42c0b29e65f6b752",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "dashboards for\nreal-time\nperformance\ntracking\nData-driven decision-\nmaking, actionable\ninsights, and improved\nbusiness performance\nTable 2.2 FAIS Values These indicators serve as metrics for evaluating information technology investments and demonstrate how\ntechnology can create value for organizations.\nStrategies to Improve the Value of Information Technology for\nOrganizations",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1078,
+              "language": "en",
+              "char_count": 379,
+              "start_char": 699,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.11517718509433739,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cbe77a3f9fe60fe4a95d646ceffe4195e987dff092152954355cdb3d5bb280d1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• In the health-care sector , creating a unified, digital infrastructure for health-care services facilitates the\nseamless exchange of health-related information among patients, health-care providers, and\ngovernment agencies. Efficient MDM ensures that patient data, such as medical history, medications,\nand allergies, are organized, stored securely, and readily accessible by authorized personnel. This both\nimproves the efficiency of health-care delivery and reduces the risk of errors and delays",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3267,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 2768,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.10560450778318704,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7569202127872f8423021ec105cf14df243afb51558b072f58e96d354cfc7d98",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "Implementing responsible data management requires an understanding of the legal and social\nresponsibilities associated with processing data across its life cycle.7 To learn more, read about the\nResponsible Data Maturity Model (https://openstax.org/r/109RespDataMod) as it recommends how data\nshould be managed to ensure privacy, transparency, sharing, and acquisition of data.\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\nLearning Objectives",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1208,
+              "language": "en",
+              "char_count": 479,
+              "start_char": 729,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.10218129383250267,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 486,
+              "language": "en",
+              "char_count": 486,
+              "start_char": 0,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.10176516056813985,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "109bbec34eda24b4c32c69898ddd3eb6081655b32d5158d5833ccdd2e8447d3a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 57,
+            "text": "range of reports. Some\ncommon examples of functional areas for FAIS include accounting, finance, production and operations\nmanagement, marketing, and human resources. The indicators of value listed in Table 2.2 signify the positive\noutcomes and advantages that result from investing in IT within each functional area and system category.\n10 Parmy Olson, “Under Armour Buys Health-Tracking App MyFitnessPal for $475 Million,” Forbes, February 4, 2015,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2709,
+              "language": "en",
+              "char_count": 450,
+              "start_char": 2259,
+              "printed_page": 53,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2799
+            },
+            "score": 0.09160086047502189,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5b3d4e8e5a2ae380ab9e3d19df7ac55d1d47a81ecaadc735ccb02b7ef5b6a07c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 58,
+            "text": "development\nRate of collaborative\ninnovation and new\nidea generation\nProject resource\nallocation and\ninnovation\ntracking\nIdea evaluation\nand research\nand\ndevelopment\nprocess\noptimization\nAccelerated innovation,\nstreamlined research\nand development\nprocesses, and\nsuccessful product\ndevelopment\nTable 2.2 FAIS Values These indicators serve as metrics for evaluating information technology investments and demonstrate how\ntechnology can create value for organizations.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2239,
+              "language": "en",
+              "char_count": 466,
+              "start_char": 1773,
+              "printed_page": 54,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2239
+            },
+            "score": 0.09114014737162951,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c6c60378ab65b703a4fa4cf4f598881060ac0db24997d44848cd431ec132a49f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 62,
+            "text": "like retailers, banks, travel agencies, and print media have struggled to\nsurvive in the face of digital disruption. Organizations confront a common challenge—the necessity to develop\ndigital business models that deliver value to customers or users. Thus, business models act as the vital\nconnector between technology and the strategic goals of an organization (Figure 2.7).\nFigure 2.7 The business model is the key to bridging the gap between technological potential and business success, paving the",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1399,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 899,
+              "printed_page": 58,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3849
+            },
+            "score": 0.08600666910350221,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e5d979140337332e3f9fd8d8a0be7dbec51345ffd2eb52cfd20f2b0b335cd031",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "• Interpret the dimensions and characteristics of data needed to make decisions\n• Identify information system planning strategies and frameworks that inform an organization’s data\nmanagement practices and processes\nData Management and Information Systems Business\nStrategies\n2",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 276,
+              "start_char": 1577,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.07987738553084976,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e8cafe7ed675d07ba22f90084f2238e9528b4d8c0845ab5f1188e7ef6b659deb",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 66,
+            "text": "2.4 Business Process Management\nLearning Objectives\nBy the end of this section, you will be able to:\n• Describe a business process\n• Di fferentiate business process reengineering, improvement, and management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 207,
+              "language": "en",
+              "char_count": 207,
+              "start_char": 0,
+              "printed_page": 62,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2391
+            },
+            "score": 0.07871344005052452,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4ee1fa9c4941976c11ad134e99a1ec4957ee6044bf7a5c03ba23a53d65ae1fe8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Figure 2.3 Data processing for particular purposes generates information, and when applied with business acumen, information\ncreates knowledge. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit Data: modification of work\n“Project 365 #195: 140709 Let’s Get Jiggy With It” by Pete/Flickr , Public Domain; credit Knowledge: modification of work “Thick arrow\nmade from jigsaw puzzle pieces” by Old Photo Profile/Flickr , CC BY 2.0)\nConsider an example within the energy",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2223,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1724,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.07792920764531379,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "39ab17d1f2c4e98d07d88b5925e4d77ed96ef2c66ed3a321faa6ac4a5f0716d0",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 69,
+            "text": "• Analyzing and improving business processes through technology\nTable 2.3 Business Process of Different Functional Areas There are numerous fundamental business processes performed across\nan organization’s functional areas.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1099,
+              "language": "en",
+              "char_count": 223,
+              "start_char": 876,
+              "printed_page": 65,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3598
+            },
+            "score": 0.0755738770986569,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ad9480ba5c9f63e7a1ee868fde8a0ab1713780df98e5b12de8cf7319b9ebc1bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Figure 2.6 Successful strategic alignment occurs when information technology directly supports the business goals of the\norganization, guided by these six characteristics. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2630,
+              "language": "en",
+              "char_count": 254,
+              "start_char": 2376,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.07176335612936041,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e3564146a4c383f4ab4d551da9050404fb55148a026894e0416a310da9d8885a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 73,
+            "text": "generate value in business for customers using IT.\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nLearning Objectives\nBy the end of this section, you will be able to:\n• Discuss digital innovation, and steps to create a digital innovation",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 259,
+              "language": "en",
+              "char_count": 259,
+              "start_char": 0,
+              "printed_page": 69,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4139
+            },
+            "score": 0.06881117312771838,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1693,
+              "language": "en",
+              "char_count": 319,
+              "start_char": 1374,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.06521321549060127,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "19e6a083f150ba7a6fc0707a83b0994902c120cfade534e13ed10677eb36cc75",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 68,
+            "text": "• Implementing lean manufacturing principles for e fficiency\n• Managing supplier relationships and inventory procurement\nTable 2.3 Business Process of Different Functional Areas There are numerous fundamental business processes performed across\nan organization’s functional areas.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1700,
+              "language": "en",
+              "char_count": 280,
+              "start_char": 1420,
+              "printed_page": 64,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1700
+            },
+            "score": 0.06468504237521029,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2767,
+            "language": "en",
+            "char_count": 393,
+            "start_char": 2374,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 3
+          },
+          "rank": 1
+        },
+        {
+          "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3878,
+            "language": "en",
+            "char_count": 97,
+            "start_char": 3781,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "cbe77a3f9fe60fe4a95d646ceffe4195e987dff092152954355cdb3d5bb280d1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "• In the health-care sector , creating a unified, digital infrastructure for health-care services facilitates the\nseamless exchange of health-related information among patients, health-care providers, and\ngovernment agencies. Efficient MDM ensures that patient data, such as medical history, medications,\nand allergies, are organized, stored securely, and readily accessible by authorized personnel. This both\nimproves the efficiency of health-care delivery and reduces the risk of errors and delays",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3267,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 2768,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.03131881575727918,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 7
+          },
+          "rank": 3
+        },
+        {
+          "id": "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3780,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 3282,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.031009615384615385,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 48,
+          "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 345,
+            "language": "en",
+            "char_count": 345,
+            "start_char": 0,
+            "printed_page": 44,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1634
+          },
+          "score": 0.030309988518943745,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 7,
+            "tfidf": 5
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 504.9650999972073
+    },
+    {
+      "query": "Chapter 2 master data management MDM resolve inconsistencies across systems common master data single source of truth",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2767,
+              "language": "en",
+              "char_count": 393,
+              "start_char": 2374,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.6939892065921899,
+            "strategy": "dense"
+          },
+          {
+            "id": "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "• Serving as a system of record or reference for enterprise-wide use, master data represent core entities\nsuch as customers, products, or employees, and reference data include codes, classifications, or\nstandards used across the organization. Maintaining data accuracy, consistency, and synchronization\nacross multiple systems for these data types is necessary to ensure reliable and consistent information\nacross the organization.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2797,
+              "language": "en",
+              "char_count": 431,
+              "start_char": 2366,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.6472592726157601,
+            "strategy": "dense"
+          },
+          {
+            "id": "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3780,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 3282,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.6240614650294207,
+            "strategy": "dense"
+          },
+          {
+            "id": "3938a9b5d5ef2cfebb59c6e1fe28cd3c48d24ffa6abb026635bd95798dd069b4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• Managing variations in opinions, forecasting techniques, or simulation models: Recognizing and\naddressing divergent viewpoints, methodologies, or models used for forecasting or simulation ensures\ntransparency and reliability in the data analysis process.\nFUTURE TECHNOLOGY\nMaster Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2373,
+              "language": "en",
+              "char_count": 297,
+              "start_char": 2076,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.5313633673546767,
+            "strategy": "dense"
+          },
+          {
+            "id": "a564081272a81fcb640d90bde03a0473683ea39bc983126479d9a9b3498a1ce7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "avoid data inaccuracies,\nnoncompliance with legal requirements, lost opportunities, increased costs, and dissatisfied customers. How\norganizations develop and maintain robust data and which systems they utilize are important to\norganizational success.\n2.1 Practices and Frameworks for Data Management\nLearning Objectives\nBy the end of this section, you will be able to:\n• Identify practices and frameworks in the management of data",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1576,
+              "language": "en",
+              "char_count": 431,
+              "start_char": 1145,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.5106662670195855,
+            "strategy": "dense"
+          },
+          {
+            "id": "4169d6a55994c5307b84a83bc6dd2b87feb87ba38eb8b9811f8b385bb70d87bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "There are some differences in how each framework approaches data management. DAMA-DMBOK focuses on\nthe technical aspects of data management, while MIKE2.0 focuses on the business aspects of information\nmanagement. The IBM Data Governance Council Maturity Model and the EDM Council Data Management\nMaturity Model are both designed to help organizations assess their current data management practices and\nidentify areas for improvement. The best framework for an organization will depend on its",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1839,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 1347,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.5093996045152437,
+            "strategy": "dense"
+          },
+          {
+            "id": "cbe77a3f9fe60fe4a95d646ceffe4195e987dff092152954355cdb3d5bb280d1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• In the health-care sector , creating a unified, digital infrastructure for health-care services facilitates the\nseamless exchange of health-related information among patients, health-care providers, and\ngovernment agencies. Efficient MDM ensures that patient data, such as medical history, medications,\nand allergies, are organized, stored securely, and readily accessible by authorized personnel. This both\nimproves the efficiency of health-care delivery and reduces the risk of errors and delays",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3267,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 2768,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.5048220195303381,
+            "strategy": "dense"
+          },
+          {
+            "id": "cc273a153daef4cfe2e7aa3a4fe58867db41443ee2061f4fa60409ce8f811e44",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "• DAMA-DMBOK: The Data Management Body of Knowledge, developed by the Data Management\nAssociation (DAMA International), provides comprehensive guidelines across ten key knowledge areas,\nincluding data governance, data architecture, and data quality.\n• MIKE2.0 IMM: This framework o ffers a structured way to assess an organization’s information maturity\nlevel.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 829,
+              "language": "en",
+              "char_count": 360,
+              "start_char": 469,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.4977053110289029,
+            "strategy": "dense"
+          },
+          {
+            "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3878,
+              "language": "en",
+              "char_count": 97,
+              "start_char": 3781,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.47941651367454474,
+            "strategy": "dense"
+          },
+          {
+            "id": "9780fb5d5fbb2851df3f673bd322406219a62ed53bdac7fbf6e4efa32862933c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "Frameworks for Data Management Practices and Processes",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 54,
+              "language": "en",
+              "char_count": 54,
+              "start_char": 0,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.47105828068755873,
+            "strategy": "dense"
+          },
+          {
+            "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 345,
+              "language": "en",
+              "char_count": 345,
+              "start_char": 0,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.4708542809676828,
+            "strategy": "dense"
+          },
+          {
+            "id": "a842f5bb949eef32c75617f2a45ef5a5fbff92f1a0a55d196f3e553773f55ce2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "• IBM Data Governance Council Maturity Model: This model provides a road map for implementing e ffective\ndata governance processes and controls.\n• Enterprise Data Management (EDM) Council Data Management Maturity Model: This comprehensive\nframework covers various aspects of data management, including data strategy, data operations, and data\narchitecture.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1186,
+              "language": "en",
+              "char_count": 356,
+              "start_char": 830,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.4634550206274667,
+            "strategy": "dense"
+          },
+          {
+            "id": "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 887,
+              "language": "en",
+              "char_count": 400,
+              "start_char": 487,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.45786303201654066,
+            "strategy": "dense"
+          },
+          {
+            "id": "7569202127872f8423021ec105cf14df243afb51558b072f58e96d354cfc7d98",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "Implementing responsible data management requires an understanding of the legal and social\nresponsibilities associated with processing data across its life cycle.7 To learn more, read about the\nResponsible Data Maturity Model (https://openstax.org/r/109RespDataMod) as it recommends how data\nshould be managed to ensure privacy, transparency, sharing, and acquisition of data.\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\nLearning Objectives",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1208,
+              "language": "en",
+              "char_count": 479,
+              "start_char": 729,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.45717840159643774,
+            "strategy": "dense"
+          },
+          {
+            "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 486,
+              "language": "en",
+              "char_count": 486,
+              "start_char": 0,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.45274787165798736,
+            "strategy": "dense"
+          },
+          {
+            "id": "e966fa53d1378eae139614256964df6afd3217aa331e1e6bf94807ed7eb00880",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "• Responsible Data Maturity Model: This model is an evolving concept that continues to gain importance as\nthe role of data in our lives becomes more prominent.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1346,
+              "language": "en",
+              "char_count": 159,
+              "start_char": 1187,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.4507428842732557,
+            "strategy": "dense"
+          },
+          {
+            "id": "d587558db46169c0d2d76c928ea829fd29c612b07f176264fdb6179e4ad72eac",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "A new approach to data management, called a data mesh, is based on the principle of domain-driven\ndesign. In a data mesh, data are owned by the domain experts who create the data, and the data are made\navailable to other users through a self-service model.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 602,
+              "language": "en",
+              "char_count": 256,
+              "start_char": 346,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.44523204841578456,
+            "strategy": "dense"
+          },
+          {
+            "id": "a309b12b7ac5689d95bfac385ca7ce0ec422ff330b970b45ff746a5dc21048c1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "challenges for\nmaking sure data are handled well. Data governance is like a rulebook for how data are managed and making\nsure the right people are responsible for decisions about data.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4423,
+              "language": "en",
+              "char_count": 184,
+              "start_char": 4239,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.4448640830526145,
+            "strategy": "dense"
+          },
+          {
+            "id": "fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "necessitate data-driven information and\nknowledge processing). Also, it is often possible to convert unstructured data into structured data.\nGood data management strategies require the following:\n• Updating outdated data: A data management process should involve incorporating the latest information\nand revisions into the dataset, thereby ensuring it remains relevant and accurate.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 875,
+              "language": "en",
+              "char_count": 382,
+              "start_char": 493,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.4370249160502748,
+            "strategy": "dense"
+          },
+          {
+            "id": "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "preserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2741,
+              "language": "en",
+              "char_count": 476,
+              "start_char": 2265,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.4285085394228022,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2767,
+              "language": "en",
+              "char_count": 393,
+              "start_char": 2374,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.466414272008553,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3780,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 3282,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.2379443002369288,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "• Serving as a system of record or reference for enterprise-wide use, master data represent core entities\nsuch as customers, products, or employees, and reference data include codes, classifications, or\nstandards used across the organization. Maintaining data accuracy, consistency, and synchronization\nacross multiple systems for these data types is necessary to ensure reliable and consistent information\nacross the organization.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2797,
+              "language": "en",
+              "char_count": 431,
+              "start_char": 2366,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.19633129283163858,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3878,
+              "language": "en",
+              "char_count": 97,
+              "start_char": 3781,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.16837989968884862,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 647,
+              "language": "en",
+              "char_count": 273,
+              "start_char": 374,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.15041199236156744,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 345,
+              "language": "en",
+              "char_count": 345,
+              "start_char": 0,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.13565371374138685,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7569202127872f8423021ec105cf14df243afb51558b072f58e96d354cfc7d98",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "Implementing responsible data management requires an understanding of the legal and social\nresponsibilities associated with processing data across its life cycle.7 To learn more, read about the\nResponsible Data Maturity Model (https://openstax.org/r/109RespDataMod) as it recommends how data\nshould be managed to ensure privacy, transparency, sharing, and acquisition of data.\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\nLearning Objectives",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1208,
+              "language": "en",
+              "char_count": 479,
+              "start_char": 729,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.13279780969906496,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e5d979140337332e3f9fd8d8a0be7dbec51345ffd2eb52cfd20f2b0b335cd031",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "• Interpret the dimensions and characteristics of data needed to make decisions\n• Identify information system planning strategies and frameworks that inform an organization’s data\nmanagement practices and processes\nData Management and Information Systems Business\nStrategies\n2",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 276,
+              "start_char": 1577,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.12876378060777033,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 486,
+              "language": "en",
+              "char_count": 486,
+              "start_char": 0,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.12873649322604805,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "3938a9b5d5ef2cfebb59c6e1fe28cd3c48d24ffa6abb026635bd95798dd069b4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• Managing variations in opinions, forecasting techniques, or simulation models: Recognizing and\naddressing divergent viewpoints, methodologies, or models used for forecasting or simulation ensures\ntransparency and reliability in the data analysis process.\nFUTURE TECHNOLOGY\nMaster Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2373,
+              "language": "en",
+              "char_count": 297,
+              "start_char": 2076,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.1285027505568101,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a842f5bb949eef32c75617f2a45ef5a5fbff92f1a0a55d196f3e553773f55ce2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "• IBM Data Governance Council Maturity Model: This model provides a road map for implementing e ffective\ndata governance processes and controls.\n• Enterprise Data Management (EDM) Council Data Management Maturity Model: This comprehensive\nframework covers various aspects of data management, including data strategy, data operations, and data\narchitecture.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1186,
+              "language": "en",
+              "char_count": 356,
+              "start_char": 830,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.12415102135880464,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cfe349ad746d3d2c85ef0e85110ec4f26370a8a026566d0507fb07fe4579ed8d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "Most data architects have a bachelor’s degree in computer science, information systems, business analytics,\nor a related field. Some also have a master’s degree, which can help give candidates a competitive edge or\nallow for a smoother transition from another field. There are also numerous certificates available for a data\narchitect. Different organizations may require different certifications, but the Certified Data Management\nProfessional certificate is one that many organizations prefer .",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3673,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 3177,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.11848878108114674,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7eaf888f1d614c2b8f1eb410a89e516941c429434f584ad45f67d202acd21657",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "Dimensions and Characteristics of Data to Inform Data Management\nDecisions\nFor each type of data, an organization needs to define rules and policies to measure the quality of the data\nand the effectiveness of the data’s management. There are four key dimensions of big data known as the four\nVs:\n• Volume: The dimension of volume refers to the vast amount of data generated and stored. Big data\ndatasets are incredibly large and can grow exponentially.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 452,
+              "language": "en",
+              "char_count": 452,
+              "start_char": 0,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.11019103288749386,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "cc273a153daef4cfe2e7aa3a4fe58867db41443ee2061f4fa60409ce8f811e44",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "• DAMA-DMBOK: The Data Management Body of Knowledge, developed by the Data Management\nAssociation (DAMA International), provides comprehensive guidelines across ten key knowledge areas,\nincluding data governance, data architecture, and data quality.\n• MIKE2.0 IMM: This framework o ffers a structured way to assess an organization’s information maturity\nlevel.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 829,
+              "language": "en",
+              "char_count": 360,
+              "start_char": 469,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.10868653990465302,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a564081272a81fcb640d90bde03a0473683ea39bc983126479d9a9b3498a1ce7",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "avoid data inaccuracies,\nnoncompliance with legal requirements, lost opportunities, increased costs, and dissatisfied customers. How\norganizations develop and maintain robust data and which systems they utilize are important to\norganizational success.\n2.1 Practices and Frameworks for Data Management\nLearning Objectives\nBy the end of this section, you will be able to:\n• Identify practices and frameworks in the management of data",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1576,
+              "language": "en",
+              "char_count": 431,
+              "start_char": 1145,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.10541183855318083,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.1051528569381212,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "dabd6847a477b00914fd904920552cf53bca291a24ebc81819c5f2b4cafc7ce4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Information systems play an important role in data management by transforming raw data into a strategic\nasset. Information system planning and management involve selecting and implementing the right\ntechnology infrastructure for data storage, processing, analysis, and governance. Information technologies\nand systems play a vital role in facilitating data management within organizations, as they encompass\nactivities such as data acquisition, organization, storage, access, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 532,
+              "language": "en",
+              "char_count": 489,
+              "start_char": 43,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.10495586777127977,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "794db66cb28fddcd910b45ec7c7714728cba97a498aa501ba29045b2d45a9030",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "In Chapter 1 Fundamentals of Information Systems, you learned that the term data refers to raw facts and\nfigures that are processed and turned into meaningful information. Data represent discrete elements without\ncontext or meaning on their own, and data come in various forms—such as numbers, text, images, or audio.\nFor example, a list of numbers or a collection of customer names and addresses is considered data.\nInformation is the result of processing data through organization, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1270,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 773,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.10365209214288673,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "necessitate data-driven information and\nknowledge processing). Also, it is often possible to convert unstructured data into structured data.\nGood data management strategies require the following:\n• Updating outdated data: A data management process should involve incorporating the latest information\nand revisions into the dataset, thereby ensuring it remains relevant and accurate.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 875,
+              "language": "en",
+              "char_count": 382,
+              "start_char": 493,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.09903299105826284,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "preserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2741,
+              "language": "en",
+              "char_count": 476,
+              "start_char": 2265,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.0981256391680183,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2767,
+            "language": "en",
+            "char_count": 393,
+            "start_char": 2374,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3780,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 3282,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Serving as a system of record or reference for enterprise-wide use, master data represent core entities\nsuch as customers, products, or employees, and reference data include codes, classifications, or\nstandards used across the organization. Maintaining data accuracy, consistency, and synchronization\nacross multiple systems for these data types is necessary to ensure reliable and consistent information\nacross the organization.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2797,
+            "language": "en",
+            "char_count": 431,
+            "start_char": 2366,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3878,
+            "language": "en",
+            "char_count": 97,
+            "start_char": 3781,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.030117753623188408,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 9,
+            "tfidf": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "3938a9b5d5ef2cfebb59c6e1fe28cd3c48d24ffa6abb026635bd95798dd069b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "• Managing variations in opinions, forecasting techniques, or simulation models: Recognizing and\naddressing divergent viewpoints, methodologies, or models used for forecasting or simulation ensures\ntransparency and reliability in the data analysis process.\nFUTURE TECHNOLOGY\nMaster Data Management",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2373,
+            "language": "en",
+            "char_count": 297,
+            "start_char": 2076,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.029910714285714284,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 10
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 303.1769000008353
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 40
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 19
+    }
+  ],
+  "cost_usd": null
+}

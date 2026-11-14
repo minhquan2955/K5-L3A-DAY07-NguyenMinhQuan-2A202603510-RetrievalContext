@@ -1,0 +1,345 @@
+{
+  "query_id": "d7-test06",
+  "split": "test",
+  "question": "Tài liệu quy định phải dùng khóa AES dài bao nhiêu bit để mã hóa dữ liệu?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:05:16.674405+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "AES key length bits data encryption recommended required 128 192 256 bit textbook",
+      "filter": {},
+      "results": [
+        {
+          "id": "31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "• Data security protects data from unauthorized access, use, disclosure, disruption, modi fication, or\ndestruction. It is achieved through measures like encryption, access controls, and adherence to\nsecurity best practices.\n• Data privacy, like data security, safeguards personal data from unauthorized access, use, disclosure,\ndisruption, modification, or destruction. It relies on the use of encryption, access controls, and privacy\nbest practices.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1338,
+            "language": "en",
+            "char_count": 450,
+            "start_char": 888,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.1887999599258986,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "db5f58d0bd544502fa234d234fc543743d3c12ef1a703a8fff3c0c0a3a64779b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 52,
+          "text": "required for each level serves a distinct\npurpose; hence, the data required also differ . The data need to be in user-friendly formats, enabling managers\nand analysts to easily comprehend and utilize the information according to their specific requirements (Figure\n2.3). Managers, drawing on their expertise and experience while analyzing data, can effectively leverage these\ninsights to address complex business problems. This fosters a dynamic and adaptive approach of leveraging\ncollective data to",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1682,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 1182,
+            "printed_page": 48,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3271
+          },
+          "score": 0.1412961782503937,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2399,
+            "language": "en",
+            "char_count": 155,
+            "start_char": 2244,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.1359231832216345,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161 | chapter1-2.pdf | page 47]\n• Data security protects data from unauthorized access, use, disclosure, disruption, modi fication, or\ndestruction. It is achieved through measures like encryption, access controls, and adherence to\nsecurity best practices.\n• Data privacy, like data security, safeguards personal data from unauthorized access, use, disclosure,\ndisruption, modification, or destruction. It relies on the use of encryption, access controls, and privacy\nbest practices.\n\n[db5f58d0bd544502fa234d234fc543743d3c12ef1a703a8fff3c0c0a3a64779b | chapter1-2.pdf | page 52]\nrequired for each level serves a distinct\npurpose; hence, the data required also differ . The data need to be in user-friendly formats, enabling managers\nand analysts to easily comprehend and utilize the information according to their specific requirements (Figure\n2.3). Managers, drawing on their expertise and experience while analyzing data, can effectively leverage these\ninsights to address complex business problems. This fosters a dynamic and adaptive approach of leveraging\ncollective data to\n\n[b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7 | chapter1-2.pdf | page 21]\nprocessing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+      "context_ids": [
+        "31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161",
+        "db5f58d0bd544502fa234d234fc543743d3c12ef1a703a8fff3c0c0a3a64779b",
+        "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7"
+      ]
+    },
+    {
+      "event": "search_limit"
+    }
+  ],
+  "citations": [],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Tài liệu quy định phải dùng khóa AES dài bao nhiêu bit để mã hóa dữ liệu?",
+    "filter": {},
+    "results": [
+      {
+        "id": "993f410ce4ea2c029a05e90349df03f14bcf8cd83ec1f52d21517717ca14fd30",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 26,
+        "text": "• Level 2, Assist: These employees also work under close supervision, but their work is a bit more complex,\nand they have more influence with colleagues.\n• Level 3, Apply: At this level, employees receive more general supervision, and they have more autonomy.\nTheir work is more complex and may not be routine. They also may be allowed to make some decisions on\ntheir own and may oversee other employees.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1291,
+          "language": "en",
+          "char_count": 404,
+          "start_char": 887,
+          "printed_page": 22,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2794
+        },
+        "score": 0.13704443505447556,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "ab5a8df7b5f94a1aa37bc60caa23ed9fce60d7360014051710c46c3be48727bf",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 18,
+        "text": "piece of data (called a “bit” today) that the machines read. (credit a: modification of work “Jacquard.loom.cards” by George\nH. Williams/Wikimedia Commons, Public Domain; credit b: modification of work “Holerith395782Figures1-6” by Herman Hollerith/\nWikimedia Commons, Public Domain; credit c: modification of work “2punchCards” by José Antonio González Nieto/Wikimedia\nCommons, CC BY 3.0)\nWhile the cards’ pasteboard was hardware, the patterns of holes in the cards were software because they",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2249,
+          "language": "en",
+          "char_count": 493,
+          "start_char": 1756,
+          "printed_page": 14,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2947
+        },
+        "score": 0.12066381063287902,
+        "strategy": "tfidf",
+        "rank": 2
+      }
+    ]
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "elapsed_ms": 2940.7227000010607,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 378,
+        "completion_tokens": 31,
+        "total_tokens": 409
+      },
+      "action": {
+        "action": "search",
+        "query": "AES key length bits data encryption recommended required 128 192 256 bit textbook"
+      },
+      "elapsed_ms": 1438.1601999994018
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "AES key length bits data encryption recommended required 128 192 256 bit textbook"
+          ],
+          "context": "[31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161 | chapter1-2.pdf | page 47]\n• Data security protects data from unauthorized access, use, disclosure, disruption, modi fication, or\ndestruction. It is achieved through measures like encryption, access controls, and adherence to\nsecurity best practices.\n• Data privacy, like data security, safeguards personal data from unauthorized access, use, disclosure,\ndisruption, modification, or destruction. It relies on the use of encryption, access controls, and privacy\nbest practices.\n\n[db5f58d0bd544502fa234d234fc543743d3c12ef1a703a8fff3c0c0a3a64779b | chapter1-2.pdf | page 52]\nrequired for each level serves a distinct\npurpose; hence, the data required also differ . The data need to be in user-friendly formats, enabling managers\nand analysts to easily comprehend and utilize the information according to their specific requirements (Figure\n2.3). Managers, drawing on their expertise and experience while analyzing data, can effectively leverage these\ninsights to address complex business problems. This fosters a dynamic and adaptive approach of leveraging\ncollective data to\n\n[b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7 | chapter1-2.pdf | page 21]\nprocessing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+          "context_ids": [
+            "31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161",
+            "db5f58d0bd544502fa234d234fc543743d3c12ef1a703a8fff3c0c0a3a64779b",
+            "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 948,
+        "completion_tokens": 32,
+        "total_tokens": 980
+      },
+      "action": {
+        "action": "search",
+        "query": "AES Advanced Encryption Standard key size 128-bit 192-bit 256-bit key encryption"
+      },
+      "elapsed_ms": 1417.4949000007473
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Tài liệu quy định phải dùng khóa AES dài bao nhiêu bit để mã hóa dữ liệu?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "993f410ce4ea2c029a05e90349df03f14bcf8cd83ec1f52d21517717ca14fd30",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "• Level 2, Assist: These employees also work under close supervision, but their work is a bit more complex,\nand they have more influence with colleagues.\n• Level 3, Apply: At this level, employees receive more general supervision, and they have more autonomy.\nTheir work is more complex and may not be routine. They also may be allowed to make some decisions on\ntheir own and may oversee other employees.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1291,
+            "language": "en",
+            "char_count": 404,
+            "start_char": 887,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.13704443505447556,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "ab5a8df7b5f94a1aa37bc60caa23ed9fce60d7360014051710c46c3be48727bf",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 18,
+          "text": "piece of data (called a “bit” today) that the machines read. (credit a: modification of work “Jacquard.loom.cards” by George\nH. Williams/Wikimedia Commons, Public Domain; credit b: modification of work “Holerith395782Figures1-6” by Herman Hollerith/\nWikimedia Commons, Public Domain; credit c: modification of work “2punchCards” by José Antonio González Nieto/Wikimedia\nCommons, CC BY 3.0)\nWhile the cards’ pasteboard was hardware, the patterns of holes in the cards were software because they",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2249,
+            "language": "en",
+            "char_count": 493,
+            "start_char": 1756,
+            "printed_page": 14,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2947
+          },
+          "score": 0.12066381063287902,
+          "strategy": "tfidf",
+          "rank": 2
+        }
+      ],
+      "elapsed_ms": 0.5204999979468994
+    },
+    {
+      "query": "AES key length bits data encryption recommended required 128 192 256 bit textbook",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "• Data security protects data from unauthorized access, use, disclosure, disruption, modi fication, or\ndestruction. It is achieved through measures like encryption, access controls, and adherence to\nsecurity best practices.\n• Data privacy, like data security, safeguards personal data from unauthorized access, use, disclosure,\ndisruption, modification, or destruction. It relies on the use of encryption, access controls, and privacy\nbest practices.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1338,
+            "language": "en",
+            "char_count": 450,
+            "start_char": 888,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.1887999599258986,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "db5f58d0bd544502fa234d234fc543743d3c12ef1a703a8fff3c0c0a3a64779b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 52,
+          "text": "required for each level serves a distinct\npurpose; hence, the data required also differ . The data need to be in user-friendly formats, enabling managers\nand analysts to easily comprehend and utilize the information according to their specific requirements (Figure\n2.3). Managers, drawing on their expertise and experience while analyzing data, can effectively leverage these\ninsights to address complex business problems. This fosters a dynamic and adaptive approach of leveraging\ncollective data to",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1682,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 1182,
+            "printed_page": 48,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3271
+          },
+          "score": 0.1412961782503937,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2399,
+            "language": "en",
+            "char_count": 155,
+            "start_char": 2244,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.1359231832216345,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 2.382800001214491
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

@@ -1,0 +1,394 @@
+{
+  "query_id": "d7-test05",
+  "split": "test",
+  "question": "Theo phần phê bình mô hình kinh doanh số, vì sao lao động có điểm uy tín thấp và ít kinh nghiệm bị bất lợi về cơ hội nhận việc trên nền tảng gig work?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:05:13.473386+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "critique digital business models gig work platform low reputation score inexperienced workers disadvantage opportunity to get jobs ratings experience algorithm allocation",
+      "filter": {},
+      "results": [
+        {
+          "id": "1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 65,
+          "text": "• Unequal distribution of opportunities: Research has shed light on a concerning phenomenon observed in\ngig work platforms—the “rich get richer” effect. Workers with higher reputation scores and greater\nexperience tend to receive more work, as clients prefer to engage with those perceived as more reliable.\nConsequently, this phenomenon results in an unequal distribution of opportunities, disadvantaging\nworkers with lower scores and less experience.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1681,
+            "language": "en",
+            "char_count": 452,
+            "start_char": 1229,
+            "printed_page": 61,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4129
+          },
+          "score": 0.2578091092679761,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "97ccf5f6c971fd10515367ed8ebe0326a04d85f88fbf5c14d1cc7206d6de32e2",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 65,
+          "text": "The emergence of digital business models has created the space for a workforce through online\nplatform–based work. While this has brought about innovative solutions for economic interactions between\npeople seeking jobs and employers, it has opened new challenges. With the sharing economy business model,\nalgorithmic reputation features play a central role in fostering trust and accountability. These reputation\nsystems, based on customer feedback and ratings, have been hailed as a valuable trust",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1083,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 585,
+            "printed_page": 61,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4129
+          },
+          "score": 0.22807498277454527,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "ba742ffce1e141dcea07a955ba2488cf011ea3dbd2112cad2cfdde39907fcefc",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 67,
+          "text": "success and reputation.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1013,
+            "language": "en",
+            "char_count": 23,
+            "start_char": 990,
+            "printed_page": 63,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2135
+          },
+          "score": 0.20048227622628392,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9 | chapter1-2.pdf | page 65]\n• Unequal distribution of opportunities: Research has shed light on a concerning phenomenon observed in\ngig work platforms—the “rich get richer” effect. Workers with higher reputation scores and greater\nexperience tend to receive more work, as clients prefer to engage with those perceived as more reliable.\nConsequently, this phenomenon results in an unequal distribution of opportunities, disadvantaging\nworkers with lower scores and less experience.\n\n[97ccf5f6c971fd10515367ed8ebe0326a04d85f88fbf5c14d1cc7206d6de32e2 | chapter1-2.pdf | page 65]\nThe emergence of digital business models has created the space for a workforce through online\nplatform–based work. While this has brought about innovative solutions for economic interactions between\npeople seeking jobs and employers, it has opened new challenges. With the sharing economy business model,\nalgorithmic reputation features play a central role in fostering trust and accountability. These reputation\nsystems, based on customer feedback and ratings, have been hailed as a valuable trust\n\n[ba742ffce1e141dcea07a955ba2488cf011ea3dbd2112cad2cfdde39907fcefc | chapter1-2.pdf | page 67]\nsuccess and reputation.",
+      "context_ids": [
+        "1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9",
+        "97ccf5f6c971fd10515367ed8ebe0326a04d85f88fbf5c14d1cc7206d6de32e2",
+        "ba742ffce1e141dcea07a955ba2488cf011ea3dbd2112cad2cfdde39907fcefc"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Theo phần phê bình mô hình kinh doanh số, vì sao lao động có điểm uy tín thấp và ít kinh nghiệm bị bất lợi về cơ hội nhận việc trên nền tảng gig work?",
+    "filter": {},
+    "results": [
+      {
+        "id": "1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 65,
+        "text": "• Unequal distribution of opportunities: Research has shed light on a concerning phenomenon observed in\ngig work platforms—the “rich get richer” effect. Workers with higher reputation scores and greater\nexperience tend to receive more work, as clients prefer to engage with those perceived as more reliable.\nConsequently, this phenomenon results in an unequal distribution of opportunities, disadvantaging\nworkers with lower scores and less experience.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1681,
+          "language": "en",
+          "char_count": 452,
+          "start_char": 1229,
+          "printed_page": 61,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4129
+        },
+        "score": 0.19553988516655782,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "0933363172fde2aa851cd5f7e8408523edd1d9636e4cfde9b99a3ab232dc5df1",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 60,
+        "text": "Innovation: modification of work “Idea (89054) - The Noun Project” by “Nice and Serious”/Wikimedia Commons, CC0 1.0; credit\nCustomers: modification of work “Noun Project people icon 3376085” by Anhar Ismail, ID/Wikimedia Commons, CC BY 3.0; credit\nCollaboration: modification of work “Handshake, by David“ by David/Wikimedia Commons, CC BY 3.0; credit Goals: modification of\nwork “Checklist Noun project 5166” by Aaron Dodson/Wikimedia Commons, CC BY 3.0; credit Financials: modification of work",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 495,
+          "language": "en",
+          "char_count": 495,
+          "start_char": 0,
+          "printed_page": 56,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4634
+        },
+        "score": 0.13512103199133235,
+        "strategy": "tfidf",
+        "rank": 2
+      },
+      {
+        "id": "05fe8b5545be13a473cd2fdb17ebc0a2863a84537296c21d8bb3605a666e4196",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 26,
+        "text": "• Level 4, Enable: Employees at this level have much more complex work in a broader range of contexts.\nWhile they receive general direction, they have considerable autonomy, as well as personal responsibility\nfor work outcomes.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1519,
+          "language": "en",
+          "char_count": 227,
+          "start_char": 1292,
+          "printed_page": 22,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2794
+        },
+        "score": 0.13170234524142557,
+        "strategy": "tfidf",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là hiệu ứng “người giàu càng giàu”: khách hàng thường chọn lao động được xem là đáng tin cậy hơn, nên người có điểm uy tín cao và nhiều kinh nghiệm nhận được nhiều việc hơn. Vì thế, lao động có điểm thấp và ít kinh nghiệm bị phân bổ ít cơ hội hơn và khó cạnh tranh để nhận việc trên nền tảng. [1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9]",
+  "elapsed_ms": 4163.888400002179,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 397,
+        "completion_tokens": 37,
+        "total_tokens": 434
+      },
+      "action": {
+        "action": "search",
+        "query": "critique digital business models gig work platform low reputation score inexperienced workers disadvantage opportunity to get jobs ratings experience algorithm allocation"
+      },
+      "elapsed_ms": 1570.4313999995065
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "critique digital business models gig work platform low reputation score inexperienced workers disadvantage opportunity to get jobs ratings experience algorithm allocation"
+          ],
+          "context": "[1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9 | chapter1-2.pdf | page 65]\n• Unequal distribution of opportunities: Research has shed light on a concerning phenomenon observed in\ngig work platforms—the “rich get richer” effect. Workers with higher reputation scores and greater\nexperience tend to receive more work, as clients prefer to engage with those perceived as more reliable.\nConsequently, this phenomenon results in an unequal distribution of opportunities, disadvantaging\nworkers with lower scores and less experience.\n\n[97ccf5f6c971fd10515367ed8ebe0326a04d85f88fbf5c14d1cc7206d6de32e2 | chapter1-2.pdf | page 65]\nThe emergence of digital business models has created the space for a workforce through online\nplatform–based work. While this has brought about innovative solutions for economic interactions between\npeople seeking jobs and employers, it has opened new challenges. With the sharing economy business model,\nalgorithmic reputation features play a central role in fostering trust and accountability. These reputation\nsystems, based on customer feedback and ratings, have been hailed as a valuable trust\n\n[ba742ffce1e141dcea07a955ba2488cf011ea3dbd2112cad2cfdde39907fcefc | chapter1-2.pdf | page 67]\nsuccess and reputation.",
+          "context_ids": [
+            "1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9",
+            "97ccf5f6c971fd10515367ed8ebe0326a04d85f88fbf5c14d1cc7206d6de32e2",
+            "ba742ffce1e141dcea07a955ba2488cf011ea3dbd2112cad2cfdde39907fcefc"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 938,
+        "completion_tokens": 185,
+        "total_tokens": 1123
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là hiệu ứng “người giàu càng giàu”: khách hàng thường chọn lao động được xem là đáng tin cậy hơn, nên người có điểm uy tín cao và nhiều kinh nghiệm nhận được nhiều việc hơn. Vì thế, lao động có điểm thấp và ít kinh nghiệm bị phân bổ ít cơ hội hơn và khó cạnh tranh để nhận việc trên nền tảng. [1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9]",
+        "citations": [
+          "1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9"
+        ]
+      },
+      "elapsed_ms": 2533.286000001681
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Theo phần phê bình mô hình kinh doanh số, vì sao lao động có điểm uy tín thấp và ít kinh nghiệm bị bất lợi về cơ hội nhận việc trên nền tảng gig work?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 65,
+          "text": "• Unequal distribution of opportunities: Research has shed light on a concerning phenomenon observed in\ngig work platforms—the “rich get richer” effect. Workers with higher reputation scores and greater\nexperience tend to receive more work, as clients prefer to engage with those perceived as more reliable.\nConsequently, this phenomenon results in an unequal distribution of opportunities, disadvantaging\nworkers with lower scores and less experience.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1681,
+            "language": "en",
+            "char_count": 452,
+            "start_char": 1229,
+            "printed_page": 61,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4129
+          },
+          "score": 0.19553988516655782,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "0933363172fde2aa851cd5f7e8408523edd1d9636e4cfde9b99a3ab232dc5df1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 60,
+          "text": "Innovation: modification of work “Idea (89054) - The Noun Project” by “Nice and Serious”/Wikimedia Commons, CC0 1.0; credit\nCustomers: modification of work “Noun Project people icon 3376085” by Anhar Ismail, ID/Wikimedia Commons, CC BY 3.0; credit\nCollaboration: modification of work “Handshake, by David“ by David/Wikimedia Commons, CC BY 3.0; credit Goals: modification of\nwork “Checklist Noun project 5166” by Aaron Dodson/Wikimedia Commons, CC BY 3.0; credit Financials: modification of work",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 495,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 0,
+            "printed_page": 56,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4634
+          },
+          "score": 0.13512103199133235,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "05fe8b5545be13a473cd2fdb17ebc0a2863a84537296c21d8bb3605a666e4196",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "• Level 4, Enable: Employees at this level have much more complex work in a broader range of contexts.\nWhile they receive general direction, they have considerable autonomy, as well as personal responsibility\nfor work outcomes.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1519,
+            "language": "en",
+            "char_count": 227,
+            "start_char": 1292,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.13170234524142557,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 0.7186000002548099
+    },
+    {
+      "query": "critique digital business models gig work platform low reputation score inexperienced workers disadvantage opportunity to get jobs ratings experience algorithm allocation",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 65,
+          "text": "• Unequal distribution of opportunities: Research has shed light on a concerning phenomenon observed in\ngig work platforms—the “rich get richer” effect. Workers with higher reputation scores and greater\nexperience tend to receive more work, as clients prefer to engage with those perceived as more reliable.\nConsequently, this phenomenon results in an unequal distribution of opportunities, disadvantaging\nworkers with lower scores and less experience.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1681,
+            "language": "en",
+            "char_count": 452,
+            "start_char": 1229,
+            "printed_page": 61,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4129
+          },
+          "score": 0.2578091092679761,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "97ccf5f6c971fd10515367ed8ebe0326a04d85f88fbf5c14d1cc7206d6de32e2",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 65,
+          "text": "The emergence of digital business models has created the space for a workforce through online\nplatform–based work. While this has brought about innovative solutions for economic interactions between\npeople seeking jobs and employers, it has opened new challenges. With the sharing economy business model,\nalgorithmic reputation features play a central role in fostering trust and accountability. These reputation\nsystems, based on customer feedback and ratings, have been hailed as a valuable trust",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1083,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 585,
+            "printed_page": 61,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4129
+          },
+          "score": 0.22807498277454527,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "ba742ffce1e141dcea07a955ba2488cf011ea3dbd2112cad2cfdde39907fcefc",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 67,
+          "text": "success and reputation.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1013,
+            "language": "en",
+            "char_count": 23,
+            "start_char": 990,
+            "printed_page": 63,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2135
+          },
+          "score": 0.20048227622628392,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 4.448100000445265
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

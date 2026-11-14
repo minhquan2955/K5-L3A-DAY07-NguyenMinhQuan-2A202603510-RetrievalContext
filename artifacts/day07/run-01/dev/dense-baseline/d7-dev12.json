@@ -1,0 +1,411 @@
+{
+  "query_id": "d7-dev12",
+  "split": "dev",
+  "question": "Trong Chương 2, MDM giải quyết sự thiếu nhất quán giữa các hệ thống bằng cách nào?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:31.037873+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 2 master data management MDM resolve inconsistency among systems single version of truth synchronize data",
+      "filter": {
+        "chapter": 2
+      },
+      "results": [
+        {
+          "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2767,
+            "language": "en",
+            "char_count": 393,
+            "start_char": 2374,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.6543045640711869,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Serving as a system of record or reference for enterprise-wide use, master data represent core entities\nsuch as customers, products, or employees, and reference data include codes, classifications, or\nstandards used across the organization. Maintaining data accuracy, consistency, and synchronization\nacross multiple systems for these data types is necessary to ensure reliable and consistent information\nacross the organization.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2797,
+            "language": "en",
+            "char_count": 431,
+            "start_char": 2366,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.5966058324776384,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3780,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 3282,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.5719316914301322,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4 | chapter1-2.pdf | page 51]\nMaster data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.\n\n[b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90 | chapter1-2.pdf | page 50]\n• Serving as a system of record or reference for enterprise-wide use, master data represent core entities\nsuch as customers, products, or employees, and reference data include codes, classifications, or\nstandards used across the organization. Maintaining data accuracy, consistency, and synchronization\nacross multiple systems for these data types is necessary to ensure reliable and consistent information\nacross the organization.",
+      "context_ids": [
+        "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+        "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+    "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 2, MDM giải quyết sự thiếu nhất quán giữa các hệ thống bằng cách nào?",
+    "filter": {
+      "chapter": 2
+    },
+    "results": [
+      {
+        "id": "cbe77a3f9fe60fe4a95d646ceffe4195e987dff092152954355cdb3d5bb280d1",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 51,
+        "text": "• In the health-care sector , creating a unified, digital infrastructure for health-care services facilitates the\nseamless exchange of health-related information among patients, health-care providers, and\ngovernment agencies. Efficient MDM ensures that patient data, such as medical history, medications,\nand allergies, are organized, stored securely, and readily accessible by authorized personnel. This both\nimproves the efficiency of health-care delivery and reduces the risk of errors and delays",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3267,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 2768,
+          "printed_page": 47,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3878
+        },
+        "score": 0.37064013577608046,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 51,
+        "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2767,
+          "language": "en",
+          "char_count": 393,
+          "start_char": 2374,
+          "printed_page": 47,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3878
+        },
+        "score": 0.34426109515454706,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 51,
+        "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3878,
+          "language": "en",
+          "char_count": 97,
+          "start_char": 3781,
+          "printed_page": 47,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3878
+        },
+        "score": 0.32196968180691177,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "MDM giải quyết sự thiếu nhất quán bằng cách tạo và duy trì một nguồn dữ liệu chuẩn xác duy nhất cho các dữ liệu cốt lõi của tổ chức. Kho dữ liệu tập trung này giúp loại bỏ sự không nhất quán và hỗ trợ trao đổi thông tin liền mạch giữa các hệ thống, ứng dụng; đồng thời duy trì tính chính xác, nhất quán và đồng bộ của dữ liệu trên nhiều hệ thống.[51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4][b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90]",
+  "elapsed_ms": 5033.980499996687,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 381,
+        "completion_tokens": 34,
+        "total_tokens": 415
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 2 master data management MDM resolve inconsistency among systems single version of truth synchronize data"
+      },
+      "elapsed_ms": 1496.8659000005573
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 2 master data management MDM resolve inconsistency among systems single version of truth synchronize data"
+          ],
+          "context": "[51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4 | chapter1-2.pdf | page 51]\nMaster data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.\n\n[b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90 | chapter1-2.pdf | page 50]\n• Serving as a system of record or reference for enterprise-wide use, master data represent core entities\nsuch as customers, products, or employees, and reference data include codes, classifications, or\nstandards used across the organization. Maintaining data accuracy, consistency, and synchronization\nacross multiple systems for these data types is necessary to ensure reliable and consistent information\nacross the organization.",
+          "context_ids": [
+            "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+            "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 796,
+        "completion_tokens": 265,
+        "total_tokens": 1061
+      },
+      "action": {
+        "action": "answer",
+        "answer": "MDM giải quyết sự thiếu nhất quán bằng cách tạo và duy trì một nguồn dữ liệu chuẩn xác duy nhất cho các dữ liệu cốt lõi của tổ chức. Kho dữ liệu tập trung này giúp loại bỏ sự không nhất quán và hỗ trợ trao đổi thông tin liền mạch giữa các hệ thống, ứng dụng; đồng thời duy trì tính chính xác, nhất quán và đồng bộ của dữ liệu trên nhiều hệ thống.[51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4][b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90]",
+        "citations": [
+          "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90"
+        ]
+      },
+      "elapsed_ms": 2712.110999997094
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 2, MDM giải quyết sự thiếu nhất quán giữa các hệ thống bằng cách nào?",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "cbe77a3f9fe60fe4a95d646ceffe4195e987dff092152954355cdb3d5bb280d1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "• In the health-care sector , creating a unified, digital infrastructure for health-care services facilitates the\nseamless exchange of health-related information among patients, health-care providers, and\ngovernment agencies. Efficient MDM ensures that patient data, such as medical history, medications,\nand allergies, are organized, stored securely, and readily accessible by authorized personnel. This both\nimproves the efficiency of health-care delivery and reduces the risk of errors and delays",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3267,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 2768,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.37064013577608046,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2767,
+            "language": "en",
+            "char_count": 393,
+            "start_char": 2374,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.34426109515454706,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3878,
+            "language": "en",
+            "char_count": 97,
+            "start_char": 3781,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.32196968180691177,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 481.7904000010458
+    },
+    {
+      "query": "Chapter 2 master data management MDM resolve inconsistency among systems single version of truth synchronize data",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2767,
+            "language": "en",
+            "char_count": 393,
+            "start_char": 2374,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.6543045640711869,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "b18220ed8e7a4db8424492b2b235a0c095b459df7c7b3add883b94a3daaa5a90",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Serving as a system of record or reference for enterprise-wide use, master data represent core entities\nsuch as customers, products, or employees, and reference data include codes, classifications, or\nstandards used across the organization. Maintaining data accuracy, consistency, and synchronization\nacross multiple systems for these data types is necessary to ensure reliable and consistent information\nacross the organization.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2797,
+            "language": "en",
+            "char_count": 431,
+            "start_char": 2366,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.5966058324776384,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "28b2734f9d0b823cb7ca6b6fb7b13408f07932b739a5f4884aaeb7f7b26feff9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "• In the e-commerce sector , consider a large online retailer managing millions of product listings.\nWithout MDM, product information like descriptions, specifications, and prices might be scattered\nacross different data sources, potentially leading to inconsistencies. Master data management\nestablishes a centralized repository for product data to ensure that customers see accurate and\nconsistent information across all interfaces: web, mobile, on-site, and in marketing materials.\nAdditionally,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3780,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 3282,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.5719316914301322,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 272.7147000005061
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 40
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 18
+    }
+  ],
+  "cost_usd": null
+}

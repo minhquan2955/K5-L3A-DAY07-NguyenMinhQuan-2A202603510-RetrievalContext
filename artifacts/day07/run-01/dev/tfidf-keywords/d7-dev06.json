@@ -1,0 +1,402 @@
+{
+  "query_id": "d7-dev06",
+  "split": "dev",
+  "question": "Trong Chương 1, thành phần shared values của McKinsey 7-S được giải thích như thế nào?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:42.345908+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 1 McKinsey 7-S shared values explanation shared values core beliefs culture",
+      "filter": {
+        "chapter": 1
+      },
+      "results": [
+        {
+          "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1767,
+            "language": "en",
+            "char_count": 451,
+            "start_char": 1316,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.4328189482168094,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2146,
+            "language": "en",
+            "char_count": 378,
+            "start_char": 1768,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.2573068938825094,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 874,
+            "language": "en",
+            "char_count": 480,
+            "start_char": 394,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.22363376235014154,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450 | chapter1-2.pdf | page 25]\n• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:\n\n[744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791 | chapter1-2.pdf | page 25]\n1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.\n\n[34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30 | chapter1-2.pdf | page 25]\nThe McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+      "context_ids": [
+        "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+        "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+        "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 1, thành phần shared values của McKinsey 7-S được giải thích như thế nào?",
+    "filter": {
+      "chapter": 1
+    },
+    "results": [
+      {
+        "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 25,
+        "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1767,
+          "language": "en",
+          "char_count": 451,
+          "start_char": 1316,
+          "printed_page": 21,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3064
+        },
+        "score": 0.5635820182598309,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 25,
+        "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 874,
+          "language": "en",
+          "char_count": 480,
+          "start_char": 394,
+          "printed_page": 21,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3064
+        },
+        "score": 0.2640630435098545,
+        "strategy": "tfidf",
+        "rank": 2
+      },
+      {
+        "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 25,
+        "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2146,
+          "language": "en",
+          "char_count": 378,
+          "start_char": 1768,
+          "printed_page": 21,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3064
+        },
+        "score": 0.2328558905613181,
+        "strategy": "tfidf",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Trong mô hình McKinsey 7-S, **shared values (giá trị chung)** là sứ mệnh và các giá trị của tổ chức, những điều định hướng và thúc đẩy hoạt động của tổ chức. [e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450]",
+  "elapsed_ms": 3473.87610000078,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 382,
+        "completion_tokens": 32,
+        "total_tokens": 414
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 1 McKinsey 7-S shared values explanation shared values core beliefs culture"
+      },
+      "elapsed_ms": 1360.7582000004186
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 1 McKinsey 7-S shared values explanation shared values core beliefs culture"
+          ],
+          "context": "[e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450 | chapter1-2.pdf | page 25]\n• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:\n\n[744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791 | chapter1-2.pdf | page 25]\n1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.\n\n[34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30 | chapter1-2.pdf | page 25]\nThe McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+          "context_ids": [
+            "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+            "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1001,
+        "completion_tokens": 142,
+        "total_tokens": 1143
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Trong mô hình McKinsey 7-S, **shared values (giá trị chung)** là sứ mệnh và các giá trị của tổ chức, những điều định hướng và thúc đẩy hoạt động của tổ chức. [e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450]",
+        "citations": [
+          "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450"
+        ]
+      },
+      "elapsed_ms": 2055.775900000299
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 1, thành phần shared values của McKinsey 7-S được giải thích như thế nào?",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1767,
+            "language": "en",
+            "char_count": 451,
+            "start_char": 1316,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.5635820182598309,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 874,
+            "language": "en",
+            "char_count": 480,
+            "start_char": 394,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.2640630435098545,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2146,
+            "language": "en",
+            "char_count": 378,
+            "start_char": 1768,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.2328558905613181,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 1.4298000023700297
+    },
+    {
+      "query": "Chapter 1 McKinsey 7-S shared values explanation shared values core beliefs culture",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1767,
+            "language": "en",
+            "char_count": 451,
+            "start_char": 1316,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.4328189482168094,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2146,
+            "language": "en",
+            "char_count": 378,
+            "start_char": 1768,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.2573068938825094,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 874,
+            "language": "en",
+            "char_count": 480,
+            "start_char": 394,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.22363376235014154,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 3.406899999390589
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

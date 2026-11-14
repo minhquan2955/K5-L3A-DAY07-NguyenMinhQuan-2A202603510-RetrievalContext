@@ -1,0 +1,260 @@
+{
+  "query_id": "d7-dev11",
+  "split": "dev",
+  "question": "Những kỹ thuật nào giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:47.594440+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "techniques discover retrieve relevant information unstructured data text mining search indexing NLP information retrieval",
+      "filter": {},
+      "results": [
+        {
+          "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.3551249781791686,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4269,
+            "language": "en",
+            "char_count": 112,
+            "start_char": 4157,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.19993457904856607,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2264,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 1769,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.163712549383894,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c | chapter1-2.pdf | page 51]\ninto customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,\n\n[03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497 | chapter1-2.pdf | page 50]\ndata.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights\n\n[2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f | chapter1-2.pdf | page 46]\nthrough techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+      "context_ids": [
+        "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+        "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+        "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Những kỹ thuật nào giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc?",
+    "filter": {},
+    "results": []
+  },
+  "status": "answered",
+  "answer": "Các kỹ thuật được nêu gồm **lập chỉ mục nội dung (content indexing)**, **tìm kiếm (search)** và **quản lý siêu dữ liệu (metadata management)**. Chúng hỗ trợ khám phá và truy xuất thông tin liên quan hiệu quả trong dữ liệu phi cấu trúc. [b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c]",
+  "elapsed_ms": 3758.2008999997925,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 383,
+        "completion_tokens": 31,
+        "total_tokens": 414
+      },
+      "action": {
+        "action": "search",
+        "query": "techniques discover retrieve relevant information unstructured data text mining search indexing NLP information retrieval"
+      },
+      "elapsed_ms": 1574.1476000002876
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "techniques discover retrieve relevant information unstructured data text mining search indexing NLP information retrieval"
+          ],
+          "context": "[b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c | chapter1-2.pdf | page 51]\ninto customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,\n\n[03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497 | chapter1-2.pdf | page 50]\ndata.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights\n\n[2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f | chapter1-2.pdf | page 46]\nthrough techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+          "context_ids": [
+            "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+            "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+            "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 931,
+        "completion_tokens": 171,
+        "total_tokens": 1102
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Các kỹ thuật được nêu gồm **lập chỉ mục nội dung (content indexing)**, **tìm kiếm (search)** và **quản lý siêu dữ liệu (metadata management)**. Chúng hỗ trợ khám phá và truy xuất thông tin liên quan hiệu quả trong dữ liệu phi cấu trúc. [b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c]",
+        "citations": [
+          "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c"
+        ]
+      },
+      "elapsed_ms": 2112.3709000021336
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Những kỹ thuật nào giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [],
+      "elapsed_ms": 0.3180999992764555
+    },
+    {
+      "query": "techniques discover retrieve relevant information unstructured data text mining search indexing NLP information retrieval",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.3551249781791686,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4269,
+            "language": "en",
+            "char_count": 112,
+            "start_char": 4157,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.19993457904856607,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2264,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 1769,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.163712549383894,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 3.3172000003105495
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

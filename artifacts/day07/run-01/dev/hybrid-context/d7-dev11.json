@@ -1,0 +1,1924 @@
+{
+  "query_id": "d7-dev11",
+  "split": "dev",
+  "question": "Những kỹ thuật nào giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:00:02.946734+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "techniques discover and retrieve relevant information in unstructured data text mining search indexing tagging taxonomy natural language processing",
+      "filter": {},
+      "results": [
+        {
+          "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4269,
+            "language": "en",
+            "char_count": 112,
+            "start_char": 4157,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2264,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 1769,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "necessitate data-driven information and\nknowledge processing). Also, it is often possible to convert unstructured data into structured data.\nGood data management strategies require the following:\n• Updating outdated data: A data management process should involve incorporating the latest information\nand revisions into the dataset, thereby ensuring it remains relevant and accurate.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 875,
+            "language": "en",
+            "char_count": 382,
+            "start_char": 493,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.030776515151515152,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 6,
+            "tfidf": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "f99295b1ecf8bf44520ed033490ac30d5a52b7e0e61e67751f3f9716cb61600c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "The other data type, unstructured data, do not reside in a traditional relational database; examples of\nunstructured data generated within organizations are emails, documents, media (videos, images, audio), slide\npresentations, social media activity (such as posts, images, ratings, and recommendations), and web pages.\nThere are several challenges associated with managing unstructured data. Their large volume can make them\ndifficult to store and manage. Unstructured data also come in a variety of",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3658,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 3158,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.03076923076923077,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 5
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c | chapter1-2.pdf | page 51]\ninto customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,\n\n[03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497 | chapter1-2.pdf | page 50]\ndata.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights\n\n[2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f | chapter1-2.pdf | page 46]\nthrough techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is\n\n[fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9 | chapter1-2.pdf | page 51]\nnecessitate data-driven information and\nknowledge processing). Also, it is often possible to convert unstructured data into structured data.\nGood data management strategies require the following:\n• Updating outdated data: A data management process should involve incorporating the latest information\nand revisions into the dataset, thereby ensuring it remains relevant and accurate.\n\n[f99295b1ecf8bf44520ed033490ac30d5a52b7e0e61e67751f3f9716cb61600c | chapter1-2.pdf | page 50]\nThe other data type, unstructured data, do not reside in a traditional relational database; examples of\nunstructured data generated within organizations are emails, documents, media (videos, images, audio), slide\npresentations, social media activity (such as posts, images, ratings, and recommendations), and web pages.\nThere are several challenges associated with managing unstructured data. Their large volume can make them\ndifficult to store and manage. Unstructured data also come in a variety of",
+      "context_ids": [
+        "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+        "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+        "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+        "fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9",
+        "f99295b1ecf8bf44520ed033490ac30d5a52b7e0e61e67751f3f9716cb61600c"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Những kỹ thuật nào giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc?",
+    "filter": {},
+    "results": [
+      {
+        "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 46,
+        "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2264,
+          "language": "en",
+          "char_count": 495,
+          "start_char": 1769,
+          "printed_page": 42,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4911
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1
+        },
+        "rank": 1
+      },
+      {
+        "id": "4ee1fa9c4941976c11ad134e99a1ec4957ee6044bf7a5c03ba23a53d65ae1fe8",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 52,
+        "text": "Figure 2.3 Data processing for particular purposes generates information, and when applied with business acumen, information\ncreates knowledge. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit Data: modification of work\n“Project 365 #195: 140709 Let’s Get Jiggy With It” by Pete/Flickr , Public Domain; credit Knowledge: modification of work “Thick arrow\nmade from jigsaw puzzle pieces” by Old Photo Profile/Flickr , CC BY 2.0)\nConsider an example within the energy",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2223,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 1724,
+          "printed_page": 48,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3271
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2
+        },
+        "rank": 2
+      },
+      {
+        "id": "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 47,
+        "text": "• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 887,
+          "language": "en",
+          "char_count": 400,
+          "start_char": 487,
+          "printed_page": 43,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2143
+        },
+        "score": 0.015873015873015872,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 3
+        },
+        "rank": 3
+      },
+      {
+        "id": "a97a43e1d30ba1098870f00e2511ad0d3180caf926f1275ae17b03a036bf39c4",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 52,
+        "text": "capture\npractices faithfully reflect what’s happening in the organization. Additionally, the CIO should consider how\nthese data can be processed and transformed into actionable information that supports the identified decision\nneeds. Finally, the CIO must assess how the different levels of planning and the different types of information\nfit together .\nLINK TO LEARNING",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3088,
+          "language": "en",
+          "char_count": 370,
+          "start_char": 2718,
+          "printed_page": 48,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3271
+        },
+        "score": 0.015625,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 4
+        },
+        "rank": 4
+      },
+      {
+        "id": "f0d2b5e3efce68cce5522d70aedc4b5b92860768d2a5fae453bcf3cbba376d9c",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 47,
+        "text": "• Data analytics involves analyzing data to extract insights and support decision-making. It includes\nimplementing activities like data warehousing, mining, and visualization to achieve meaningful\ninformation extraction. These tools, techniques, and insights can be used in AI and machine learning\napplications. (George Firican, ”Data Management Framework 101”)\n3 George Firican, “Data Management Framework 101,” LightsOnData, https://www.lightsondata.com/data-management-\nframework/",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2143,
+          "language": "en",
+          "char_count": 483,
+          "start_char": 1660,
+          "printed_page": 43,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2143
+        },
+        "score": 0.015384615384615385,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 5
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Các kỹ thuật được nêu gồm **lập chỉ mục nội dung**, **tìm kiếm** và **quản lý siêu dữ liệu**; chúng giúp tổ chức, lưu trữ và truy xuất dữ liệu phi cấu trúc để tìm thông tin liên quan hiệu quả hơn. [b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c]",
+  "elapsed_ms": 4652.5486999998975,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 383,
+        "completion_tokens": 35,
+        "total_tokens": 418
+      },
+      "action": {
+        "action": "search",
+        "query": "techniques discover and retrieve relevant information in unstructured data text mining search indexing tagging taxonomy natural language processing"
+      },
+      "elapsed_ms": 1431.5854999986186
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "techniques discover and retrieve relevant information in unstructured data text mining search indexing tagging taxonomy natural language processing"
+          ],
+          "context": "[b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c | chapter1-2.pdf | page 51]\ninto customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,\n\n[03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497 | chapter1-2.pdf | page 50]\ndata.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights\n\n[2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f | chapter1-2.pdf | page 46]\nthrough techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is\n\n[fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9 | chapter1-2.pdf | page 51]\nnecessitate data-driven information and\nknowledge processing). Also, it is often possible to convert unstructured data into structured data.\nGood data management strategies require the following:\n• Updating outdated data: A data management process should involve incorporating the latest information\nand revisions into the dataset, thereby ensuring it remains relevant and accurate.\n\n[f99295b1ecf8bf44520ed033490ac30d5a52b7e0e61e67751f3f9716cb61600c | chapter1-2.pdf | page 50]\nThe other data type, unstructured data, do not reside in a traditional relational database; examples of\nunstructured data generated within organizations are emails, documents, media (videos, images, audio), slide\npresentations, social media activity (such as posts, images, ratings, and recommendations), and web pages.\nThere are several challenges associated with managing unstructured data. Their large volume can make them\ndifficult to store and manage. Unstructured data also come in a variety of",
+          "context_ids": [
+            "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+            "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+            "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+            "fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9",
+            "f99295b1ecf8bf44520ed033490ac30d5a52b7e0e61e67751f3f9716cb61600c"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1283,
+        "completion_tokens": 166,
+        "total_tokens": 1449
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Các kỹ thuật được nêu gồm **lập chỉ mục nội dung**, **tìm kiếm** và **quản lý siêu dữ liệu**; chúng giúp tổ chức, lưu trữ và truy xuất dữ liệu phi cấu trúc để tìm thông tin liên quan hiệu quả hơn. [b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c]",
+        "citations": [
+          "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c"
+        ]
+      },
+      "elapsed_ms": 2238.2489000010537
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Những kỹ thuật nào giúp khám phá và truy xuất hiệu quả thông tin liên quan trong dữ liệu phi cấu trúc?",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2264,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 1769,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.35806057194145213,
+            "strategy": "dense"
+          },
+          {
+            "id": "4ee1fa9c4941976c11ad134e99a1ec4957ee6044bf7a5c03ba23a53d65ae1fe8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Figure 2.3 Data processing for particular purposes generates information, and when applied with business acumen, information\ncreates knowledge. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit Data: modification of work\n“Project 365 #195: 140709 Let’s Get Jiggy With It” by Pete/Flickr , Public Domain; credit Knowledge: modification of work “Thick arrow\nmade from jigsaw puzzle pieces” by Old Photo Profile/Flickr , CC BY 2.0)\nConsider an example within the energy",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2223,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1724,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.33201989933272047,
+            "strategy": "dense"
+          },
+          {
+            "id": "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 887,
+              "language": "en",
+              "char_count": 400,
+              "start_char": 487,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.32734291578952535,
+            "strategy": "dense"
+          },
+          {
+            "id": "a97a43e1d30ba1098870f00e2511ad0d3180caf926f1275ae17b03a036bf39c4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "capture\npractices faithfully reflect what’s happening in the organization. Additionally, the CIO should consider how\nthese data can be processed and transformed into actionable information that supports the identified decision\nneeds. Finally, the CIO must assess how the different levels of planning and the different types of information\nfit together .\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3088,
+              "language": "en",
+              "char_count": 370,
+              "start_char": 2718,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.3199810322104857,
+            "strategy": "dense"
+          },
+          {
+            "id": "f0d2b5e3efce68cce5522d70aedc4b5b92860768d2a5fae453bcf3cbba376d9c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data analytics involves analyzing data to extract insights and support decision-making. It includes\nimplementing activities like data warehousing, mining, and visualization to achieve meaningful\ninformation extraction. These tools, techniques, and insights can be used in AI and machine learning\napplications. (George Firican, ”Data Management Framework 101”)\n3 George Firican, “Data Management Framework 101,” LightsOnData, https://www.lightsondata.com/data-management-\nframework/",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2143,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 1660,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.30806479697718714,
+            "strategy": "dense"
+          },
+          {
+            "id": "63d9d58b43dc448bceb0dfe4930a762de3cc032f80ad3ebf5c3fc7b825600149",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "specific needs and\nrequirements. However , all five frameworks can be valuable tools for improving data management and\ninformation quality. The optimal framework for managing data is one that is continuously developing to\naddress advancements in data storage and changes in organizational policy.\nCAREERS IN IS\nData Architect",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1840,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.3071066203638091,
+            "strategy": "dense"
+          },
+          {
+            "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4269,
+              "language": "en",
+              "char_count": 112,
+              "start_char": 4157,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.3058502717783449,
+            "strategy": "dense"
+          },
+          {
+            "id": "f2a8a91c5ec14b4b1417c7a97b96efa47a72373dfbd2c6c1b9f0424ae0c007a2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "analyze data without having\nto move it to a central repository. This can help to improve data security and privacy, and it can also make it\neasier to analyze data that reside in different locations. These three techniques address the growing\ncomplexity and scale of data management in modern organizations, especially as data becomes more\ndistributed, diverse, and decentralized. These technologies provide innovative ways to manage, integrate,\nand analyze data at scale, which is necessary in the",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1594,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1097,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.30382888764895444,
+            "strategy": "dense"
+          },
+          {
+            "id": "fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "necessitate data-driven information and\nknowledge processing). Also, it is often possible to convert unstructured data into structured data.\nGood data management strategies require the following:\n• Updating outdated data: A data management process should involve incorporating the latest information\nand revisions into the dataset, thereby ensuring it remains relevant and accurate.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 875,
+              "language": "en",
+              "char_count": 382,
+              "start_char": 493,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.30345166541626334,
+            "strategy": "dense"
+          },
+          {
+            "id": "0e23db6b4cc826ba9254b3abe729b5b03f5cd37cced65b58ccc1d4e01d42667e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 71,
+            "text": "high-definition cameras that create a panoramic view of runways and\nsurrounding areas, AI-powered image analysis that can identify objects like support vehicles and overlay\nradar data on each aircraft for easier identification, and machine learning that automates tasks like\nturnaround time estimation and runway clearance in low visibility conditions, freeing up controllers for\ncritical decision-making.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3710,
+              "language": "en",
+              "char_count": 405,
+              "start_char": 3305,
+              "printed_page": 67,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3865
+            },
+            "score": 0.3030085795187275,
+            "strategy": "dense"
+          },
+          {
+            "id": "e5d979140337332e3f9fd8d8a0be7dbec51345ffd2eb52cfd20f2b0b335cd031",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "• Interpret the dimensions and characteristics of data needed to make decisions\n• Identify information system planning strategies and frameworks that inform an organization’s data\nmanagement practices and processes\nData Management and Information Systems Business\nStrategies\n2",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 276,
+              "start_char": 1577,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.3016762512027309,
+            "strategy": "dense"
+          },
+          {
+            "id": "794db66cb28fddcd910b45ec7c7714728cba97a498aa501ba29045b2d45a9030",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "In Chapter 1 Fundamentals of Information Systems, you learned that the term data refers to raw facts and\nfigures that are processed and turned into meaningful information. Data represent discrete elements without\ncontext or meaning on their own, and data come in various forms—such as numbers, text, images, or audio.\nFor example, a list of numbers or a collection of customer names and addresses is considered data.\nInformation is the result of processing data through organization, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1270,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 773,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.3013436508102345,
+            "strategy": "dense"
+          },
+          {
+            "id": "5bf48edd34398b7232c4168bb3a54077220c5b884faff1ffbfe76c0df73d7cb4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "Figure 2.1 As technology advances, businesses and other organizations have many tools available to promote efficient operations.\nRobust data and information management strategies are necessary to ensure that these technological tools function optimally.\n(credit: modification of work “Voigtländer Vitoret - AZ Tower 3” by Jaroslav A. Polák/Flickr , CC0 1.0)\nChapter Outline",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 373,
+              "language": "en",
+              "char_count": 373,
+              "start_char": 0,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.2985359237938283,
+            "strategy": "dense"
+          },
+          {
+            "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.2957945908825581,
+            "strategy": "dense"
+          },
+          {
+            "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 345,
+              "language": "en",
+              "char_count": 345,
+              "start_char": 0,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.2941225136619847,
+            "strategy": "dense"
+          },
+          {
+            "id": "9c6f29c315d9b5e88dcdcfb78d90b2170a2b127d4b0ebc2d3eb5e4139000a431",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "• Rectifying known inaccuracies: Identifying and correcting any inaccuracies or errors in the data are crucial\nto maintaining data integrity, which means ensuring data remain accurate, consistent, and reliable over\ntheir entire life cycle.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1115,
+              "language": "en",
+              "char_count": 239,
+              "start_char": 876,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.29291117791087284,
+            "strategy": "dense"
+          },
+          {
+            "id": "48f893da7433704fabbca255f3490ee48586ec304135ada7675c0fb21dbf397e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 57,
+            "text": "market trends, and internal operations. Through advanced data analytics and business intelligence tools,\norganizations can derive valuable insights and make data-driven decisions. For instance, understanding\ncustomer preferences based on data analysis allows businesses to tailor their products and services to meet\nspecific demands, improving customer satisfaction and loyalty. Domino’s utilizes various IT systems to\ngenerate real-time data on traffic conditions, delivery times, and customer",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 494,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 0,
+              "printed_page": 53,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2799
+            },
+            "score": 0.2917480332894884,
+            "strategy": "dense"
+          },
+          {
+            "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1693,
+              "language": "en",
+              "char_count": 319,
+              "start_char": 1374,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.2891351449214472,
+            "strategy": "dense"
+          },
+          {
+            "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1353,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.28496980165524066,
+            "strategy": "dense"
+          },
+          {
+            "id": "92f783883ea6a3e75a763e5d6d5926365478f0fb0d4a3cc8895096ad8364d808",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "• Data analytics and modeling transforms raw data into useful information and analyzes that data to\nprovide information useful in organizational decision-making and other operations.\n• IS project management uses the project management steps of initiation, planning, execution, monitoring,\ncontrol, and closure to handle IS projects.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 332,
+              "language": "en",
+              "char_count": 332,
+              "start_char": 0,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.2844952960019195,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": []
+      },
+      "results": [
+        {
+          "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2264,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 1769,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.01639344262295082,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "4ee1fa9c4941976c11ad134e99a1ec4957ee6044bf7a5c03ba23a53d65ae1fe8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 52,
+          "text": "Figure 2.3 Data processing for particular purposes generates information, and when applied with business acumen, information\ncreates knowledge. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit Data: modification of work\n“Project 365 #195: 140709 Let’s Get Jiggy With It” by Pete/Flickr , Public Domain; credit Knowledge: modification of work “Thick arrow\nmade from jigsaw puzzle pieces” by Old Photo Profile/Flickr , CC BY 2.0)\nConsider an example within the energy",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2223,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 1724,
+            "printed_page": 48,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3271
+          },
+          "score": 0.016129032258064516,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 887,
+            "language": "en",
+            "char_count": 400,
+            "start_char": 487,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.015873015873015872,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "a97a43e1d30ba1098870f00e2511ad0d3180caf926f1275ae17b03a036bf39c4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 52,
+          "text": "capture\npractices faithfully reflect what’s happening in the organization. Additionally, the CIO should consider how\nthese data can be processed and transformed into actionable information that supports the identified decision\nneeds. Finally, the CIO must assess how the different levels of planning and the different types of information\nfit together .\nLINK TO LEARNING",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3088,
+            "language": "en",
+            "char_count": 370,
+            "start_char": 2718,
+            "printed_page": 48,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3271
+          },
+          "score": 0.015625,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "f0d2b5e3efce68cce5522d70aedc4b5b92860768d2a5fae453bcf3cbba376d9c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "• Data analytics involves analyzing data to extract insights and support decision-making. It includes\nimplementing activities like data warehousing, mining, and visualization to achieve meaningful\ninformation extraction. These tools, techniques, and insights can be used in AI and machine learning\napplications. (George Firican, ”Data Management Framework 101”)\n3 George Firican, “Data Management Framework 101,” LightsOnData, https://www.lightsondata.com/data-management-\nframework/",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2143,
+            "language": "en",
+            "char_count": 483,
+            "start_char": 1660,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.015384615384615385,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 593.7283000021125
+    },
+    {
+      "query": "techniques discover and retrieve relevant information in unstructured data text mining search indexing tagging taxonomy natural language processing",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.6147612247955508,
+            "strategy": "dense"
+          },
+          {
+            "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2264,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 1769,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.5584682769382517,
+            "strategy": "dense"
+          },
+          {
+            "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4269,
+              "language": "en",
+              "char_count": 112,
+              "start_char": 4157,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.532116060545189,
+            "strategy": "dense"
+          },
+          {
+            "id": "281153e8c48b6dda97c1e1fa7812db051f0264b16316044ea0c6e75e504add6b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "formats from multiple sources,\nincluding internal sources, personal sources, and external sources. Data can also come from the web in the\nform of blogs, podcasts, tweets, social media posts, online videos, texts, and radio-frequency identification\ntags and other wireless sensors. These technologies generate data that must be managed but are difficult to\nprocess and analyze. Unstructured data are often generated at high velocity. This can make it difficult to keep\nup with and make sense of the",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4156,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 3659,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.48761899566840494,
+            "strategy": "dense"
+          },
+          {
+            "id": "f99295b1ecf8bf44520ed033490ac30d5a52b7e0e61e67751f3f9716cb61600c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "The other data type, unstructured data, do not reside in a traditional relational database; examples of\nunstructured data generated within organizations are emails, documents, media (videos, images, audio), slide\npresentations, social media activity (such as posts, images, ratings, and recommendations), and web pages.\nThere are several challenges associated with managing unstructured data. Their large volume can make them\ndifficult to store and manage. Unstructured data also come in a variety of",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3658,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 3158,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.4593637208831637,
+            "strategy": "dense"
+          },
+          {
+            "id": "fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "necessitate data-driven information and\nknowledge processing). Also, it is often possible to convert unstructured data into structured data.\nGood data management strategies require the following:\n• Updating outdated data: A data management process should involve incorporating the latest information\nand revisions into the dataset, thereby ensuring it remains relevant and accurate.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 875,
+              "language": "en",
+              "char_count": 382,
+              "start_char": 493,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.448260678934147,
+            "strategy": "dense"
+          },
+          {
+            "id": "f2a8a91c5ec14b4b1417c7a97b96efa47a72373dfbd2c6c1b9f0424ae0c007a2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "analyze data without having\nto move it to a central repository. This can help to improve data security and privacy, and it can also make it\neasier to analyze data that reside in different locations. These three techniques address the growing\ncomplexity and scale of data management in modern organizations, especially as data becomes more\ndistributed, diverse, and decentralized. These technologies provide innovative ways to manage, integrate,\nand analyze data at scale, which is necessary in the",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1594,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1097,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.4389621630890861,
+            "strategy": "dense"
+          },
+          {
+            "id": "b37d5c9412b03f053a6a77b32cc10de8d9692a52021486eff96c48bb99c343f0",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "Different types of data are required for generating suitable information, and different types of data require\ndifferent management approaches. There are two main categories of data—structured and unstructured. The\nfirst, structured data, exist in organized, fixed fields in a data repository. Structured data are typically defined\nin terms of field name and type (such as numeric or alphabetical). Structured data can be further categorized\nas follows:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1954,
+              "language": "en",
+              "char_count": 452,
+              "start_char": 1502,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.4305741525005238,
+            "strategy": "dense"
+          },
+          {
+            "id": "f0d2b5e3efce68cce5522d70aedc4b5b92860768d2a5fae453bcf3cbba376d9c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data analytics involves analyzing data to extract insights and support decision-making. It includes\nimplementing activities like data warehousing, mining, and visualization to achieve meaningful\ninformation extraction. These tools, techniques, and insights can be used in AI and machine learning\napplications. (George Firican, ”Data Management Framework 101”)\n3 George Firican, “Data Management Framework 101,” LightsOnData, https://www.lightsondata.com/data-management-\nframework/",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2143,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 1660,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.43051090371741374,
+            "strategy": "dense"
+          },
+          {
+            "id": "aa3e34d9fb4f4e3d1cee4bba17822b7642f672508cb16326db721388291cade6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "Organizations typically use digital technology to analyze data to get the information they need to run their\nbusinesses. With the exponential increase in computing capacity and the development of artificial intelligence\n(AI) and large-language models, businesses today rely heavily on efficient managers using sophisticated data\nstorage and data analytics technologies. How can you align your organization’s data management and\ninformation strategies to deliver optimal results for the greatest",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 494,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 0,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.4137127767869868,
+            "strategy": "dense"
+          },
+          {
+            "id": "796084278fe04de7b315c4247548b8bd9abe107940c0102bd6b710f5002a0b2c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "contextualization to derive\nmeaning. If the data are a list of numbers, then the related information may be the trend of increasing sales of\na product. This information can be used to make decisions, understand relationships, and gain insights.\nFor any organization, information is an invaluable resource, hence data and data management have become\ncritical. Effective data management aligns with data analytics capabilities, facilitating the automated discovery\nof trends, patterns, and anomalies",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1768,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1271,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.40980815258828684,
+            "strategy": "dense"
+          },
+          {
+            "id": "5070348d99aed45566686bd04ef2e59274220975cfcef56c51d2948a9c9fd264",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "age of big data and advanced analytics.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1634,
+              "language": "en",
+              "char_count": 39,
+              "start_char": 1595,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.40682758207499825,
+            "strategy": "dense"
+          },
+          {
+            "id": "bdbc6cc3f69baef99712feec045406e5bc50ec6a8ef17a710c9391f4fba5df84",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "Another powerful technique for data management is called data fabric. It involves a move toward data\ndemocratization, which means that data are made available to more people in the organization, not just\nthose in information technology (IT) or data science roles. Through this approach, data can be accessed and\nconsumed by anyone as long as they have proper security credentials for the level of data they desire.\nAnother technology is federated analytics. Federated analytics allows users to",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1096,
+              "language": "en",
+              "char_count": 493,
+              "start_char": 603,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.40617930330465923,
+            "strategy": "dense"
+          },
+          {
+            "id": "c93a61e1d2d195b18e8a905b3b90a7b08c7634da908ef34d8658c4a01a22c39f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "• the Internet of Things: connecting everyday objects to the internet, enabling them to collect and share\ndata\nToday’s IT systems have evolved and are used in handling tasks that involve high degrees of uncertainty and\ntake place in dynamic and unstructured situations. Some examples of these situations include cars driving\nautonomously, chatbots supplanting customer service representatives, and email applications suggesting\nwriting improvements. This paradigm shift demands that we explore novel",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 756,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 257,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.390208459007649,
+            "strategy": "dense"
+          },
+          {
+            "id": "48f893da7433704fabbca255f3490ee48586ec304135ada7675c0fb21dbf397e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 57,
+            "text": "market trends, and internal operations. Through advanced data analytics and business intelligence tools,\norganizations can derive valuable insights and make data-driven decisions. For instance, understanding\ncustomer preferences based on data analysis allows businesses to tailor their products and services to meet\nspecific demands, improving customer satisfaction and loyalty. Domino’s utilizes various IT systems to\ngenerate real-time data on traffic conditions, delivery times, and customer",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 494,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 0,
+              "printed_page": 53,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2799
+            },
+            "score": 0.3832030255319985,
+            "strategy": "dense"
+          },
+          {
+            "id": "61ddbe1364962f822d904b1c29c542d7fd7fbdff54118d5e64f776c9f748fb9b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "• cloud computing: on-demand access to computing resources like storage and processing power\n• big data infrastructure: systems and technologies needed to manage and analyze massive datasets\n• AI: empowering machines to learn and make intelligent decisions",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 256,
+              "language": "en",
+              "char_count": 256,
+              "start_char": 0,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.37612961704442016,
+            "strategy": "dense"
+          },
+          {
+            "id": "21d0665cdae053d0983817883913a4ee9d3a09c75233471bac2ea4695d606653",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 56,
+            "text": "Information generation through IT can also empower organizations to make strategic choices based on real-\ntime and accurate data, which can lead to better decision-making and increased competitiveness. Information\ntechnology systems capture vast amounts of data from various sources, including customer interactions,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3012,
+              "language": "en",
+              "char_count": 316,
+              "start_char": 2696,
+              "printed_page": 52,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3012
+            },
+            "score": 0.367696578320188,
+            "strategy": "dense"
+          },
+          {
+            "id": "4ee1fa9c4941976c11ad134e99a1ec4957ee6044bf7a5c03ba23a53d65ae1fe8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Figure 2.3 Data processing for particular purposes generates information, and when applied with business acumen, information\ncreates knowledge. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit Data: modification of work\n“Project 365 #195: 140709 Let’s Get Jiggy With It” by Pete/Flickr , Public Domain; credit Knowledge: modification of work “Thick arrow\nmade from jigsaw puzzle pieces” by Old Photo Profile/Flickr , CC BY 2.0)\nConsider an example within the energy",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2223,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 1724,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.36468524388876367,
+            "strategy": "dense"
+          },
+          {
+            "id": "b85a284d6922343e61fe5a5a43ac75548eaca9d7888bc9f52e0840dde10b742a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "information\ntechnology\nservice delivery\nand asset\nmanagement\nOptimized information\ntechnology spending,\nimproved project\noutcomes, and reduced\noperational disruptions\nBusiness\nintelligence\nand analytics\nUtilization of data for\nadvanced analytics\nData\nvisualization for\ninsights and\ndecision-making\nInteractive",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 698,
+              "language": "en",
+              "char_count": 309,
+              "start_char": 389,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.36380088704674085,
+            "strategy": "dense"
+          },
+          {
+            "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1353,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.36060068199554474,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.30595087473073845,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4269,
+              "language": "en",
+              "char_count": 112,
+              "start_char": 4157,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.1977572432455877,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2264,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 1769,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.19559624082717406,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 51,
+            "text": "necessitate data-driven information and\nknowledge processing). Also, it is often possible to convert unstructured data into structured data.\nGood data management strategies require the following:\n• Updating outdated data: A data management process should involve incorporating the latest information\nand revisions into the dataset, thereby ensuring it remains relevant and accurate.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 875,
+              "language": "en",
+              "char_count": 382,
+              "start_char": 493,
+              "printed_page": 47,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3878
+            },
+            "score": 0.1649600752090482,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f99295b1ecf8bf44520ed033490ac30d5a52b7e0e61e67751f3f9716cb61600c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "The other data type, unstructured data, do not reside in a traditional relational database; examples of\nunstructured data generated within organizations are emails, documents, media (videos, images, audio), slide\npresentations, social media activity (such as posts, images, ratings, and recommendations), and web pages.\nThere are several challenges associated with managing unstructured data. Their large volume can make them\ndifficult to store and manage. Unstructured data also come in a variety of",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3658,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 3158,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.1626907528760057,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f0d2b5e3efce68cce5522d70aedc4b5b92860768d2a5fae453bcf3cbba376d9c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data analytics involves analyzing data to extract insights and support decision-making. It includes\nimplementing activities like data warehousing, mining, and visualization to achieve meaningful\ninformation extraction. These tools, techniques, and insights can be used in AI and machine learning\napplications. (George Firican, ”Data Management Framework 101”)\n3 George Firican, “Data Management Framework 101,” LightsOnData, https://www.lightsondata.com/data-management-\nframework/",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2143,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 1660,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.13277061460471667,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "794db66cb28fddcd910b45ec7c7714728cba97a498aa501ba29045b2d45a9030",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "In Chapter 1 Fundamentals of Information Systems, you learned that the term data refers to raw facts and\nfigures that are processed and turned into meaningful information. Data represent discrete elements without\ncontext or meaning on their own, and data come in various forms—such as numbers, text, images, or audio.\nFor example, a list of numbers or a collection of customer names and addresses is considered data.\nInformation is the result of processing data through organization, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1270,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 773,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.11867662540426663,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a2b69d80249309913384278f2e3c28bd7cbcc98493fd1ab3a4817e2787609c1f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 13,
+            "text": "If you are interested and want to learn more about career opportunities in IS, search “information systems\ncareers” online and explore the dozens of websites with IS career details. This article provides information\nabout career paths and salary (https://openstax.org/r/109ISCareers) and includes links to online higher\neducation institutions that have related degrees. An online search can find other websites that provide",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2399,
+              "language": "en",
+              "char_count": 423,
+              "start_char": 1976,
+              "printed_page": 9,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2399
+            },
+            "score": 0.10335461106740874,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d08297486c370c785da66c9264d35e6f00993ba591e2032181888e209ed79ba4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 33,
+            "text": "• information technology (IT), which reviews how computers and other technology can be used to\nprocess, store, retrieve, and share information\n• networks, which explores the processes to connect computers and other technology to enable\ninformation sharing",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2722,
+              "language": "en",
+              "char_count": 255,
+              "start_char": 2467,
+              "printed_page": 29,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3132
+            },
+            "score": 0.10266936063316802,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "aa3e34d9fb4f4e3d1cee4bba17822b7642f672508cb16326db721388291cade6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "Organizations typically use digital technology to analyze data to get the information they need to run their\nbusinesses. With the exponential increase in computing capacity and the development of artificial intelligence\n(AI) and large-language models, businesses today rely heavily on efficient managers using sophisticated data\nstorage and data analytics technologies. How can you align your organization’s data management and\ninformation strategies to deliver optimal results for the greatest",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 494,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 0,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.10054098615225705,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0fbadfde772c4fb97f78331c76bb1ecccb6877ecfa51924ab01bd2134a60587b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 16,
+            "text": "The earliest forms of communication evolved from body language, hand signals, and drawings to spoken and\nwritten languages. As written language developed around the world, various societies invented ways to print\nwritten works that could be shared with others. These earlier means of communication provided essential\ninformation without technology components like those we think of today, such as database management\nsystems, data networks, hardware, and software.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1032,
+              "language": "en",
+              "char_count": 464,
+              "start_char": 568,
+              "printed_page": 12,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4312
+            },
+            "score": 0.09924250936832527,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "df333f9ff102c78e43a3af399b89afc9ccf8a3ce44e74ad3d01dc5dbc2bc1a92",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "• Data information systems management manages the people, technology, and procedures needed to\nconvert data into information. This includes cleaning, extracting, integrating, categorizing, labeling, and\norganizing data.\n• Database management develops procedures to organize, manipulate, and retrieve data that are stored on\ncomputer databases.\n• Systems analysis, design, and development examines an organization’s system needs, and designs and\ndevelops a system to meet those needs.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3295,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 2812,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.09771180145978714,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c479a3cd5d50959fc847829df7be48cafab7e9e29fa3b8c0e8b2064f76280468",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 13,
+            "text": "• Individuals who use the information system, including end users who input and retrieve data in the\nsystem, as well as information technology (IT) professionals who design, develop, and maintain the\nsystem, are the people who make up an information system.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1975,
+              "language": "en",
+              "char_count": 274,
+              "start_char": 1701,
+              "printed_page": 9,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2399
+            },
+            "score": 0.09552914852694441,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "989a2cd40b9965364f6ce776090a3684cf2392003c87ea6c86d3cd5bde2f1f5d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 72,
+            "text": "• Capturing and storing process data: Capturing and storing relevant data generated during business\nprocesses is one of the fundamental tasks of an information system. These data can come from various\nsources such as transactions, customer interactions, and inventory updates. For example, a retail store’s\ninformation system records each sales transaction, including the products sold, quantity, and customer\ninformation. These data are then stored in a database for further analysis, reporting, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 1353,
+              "printed_page": 68,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4031
+            },
+            "score": 0.09221825608990651,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b37d5c9412b03f053a6a77b32cc10de8d9692a52021486eff96c48bb99c343f0",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 50,
+            "text": "Different types of data are required for generating suitable information, and different types of data require\ndifferent management approaches. There are two main categories of data—structured and unstructured. The\nfirst, structured data, exist in organized, fixed fields in a data repository. Structured data are typically defined\nin terms of field name and type (such as numeric or alphabetical). Structured data can be further categorized\nas follows:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1954,
+              "language": "en",
+              "char_count": 452,
+              "start_char": 1502,
+              "printed_page": 46,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4269
+            },
+            "score": 0.09172235723557846,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f2a8a91c5ec14b4b1417c7a97b96efa47a72373dfbd2c6c1b9f0424ae0c007a2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 48,
+            "text": "analyze data without having\nto move it to a central repository. This can help to improve data security and privacy, and it can also make it\neasier to analyze data that reside in different locations. These three techniques address the growing\ncomplexity and scale of data management in modern organizations, especially as data becomes more\ndistributed, diverse, and decentralized. These technologies provide innovative ways to manage, integrate,\nand analyze data at scale, which is necessary in the",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1594,
+              "language": "en",
+              "char_count": 497,
+              "start_char": 1097,
+              "printed_page": 44,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1634
+            },
+            "score": 0.09082055740765074,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 21,
+            "text": "• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3317,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 2818,
+              "printed_page": 17,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4152
+            },
+            "score": 0.09014243601485969,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "9d2bb17b00cf065c0457941b6e39c8911a9bc43861c334608f332218a255bfed",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 76,
+            "text": "buyers, Instagram became more than just a social media platform—it became a\nthriving marketplace where businesses could reach a large audience and customers could discover and\npurchase products seamlessly.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1204,
+              "language": "en",
+              "char_count": 205,
+              "start_char": 999,
+              "printed_page": 72,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2577
+            },
+            "score": 0.08981640407329515,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "dabd6847a477b00914fd904920552cf53bca291a24ebc81819c5f2b4cafc7ce4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "Information systems play an important role in data management by transforming raw data into a strategic\nasset. Information system planning and management involve selecting and implementing the right\ntechnology infrastructure for data storage, processing, analysis, and governance. Information technologies\nand systems play a vital role in facilitating data management within organizations, as they encompass\nactivities such as data acquisition, organization, storage, access, analysis, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 532,
+              "language": "en",
+              "char_count": 489,
+              "start_char": 43,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.08980761148359737,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4ebceca23352fc5f35ee07d626fac530e5fe5ec843b29749f179810be76be8f5",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 71,
+            "text": "• Methods: Business process management methods consist of tools and techniques supporting activities\nthroughout the process life cycle and enterprise-wide BPM initiatives. Examples include process modeling,\nanalysis, and improvement techniques with approaches like design thinking and Six Sigma, a quality\nmanagement methodology that utilizes statistical analysis to minimize defects and improve process\nefficiency.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2002,
+              "language": "en",
+              "char_count": 415,
+              "start_char": 1587,
+              "printed_page": 67,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3865
+            },
+            "score": 0.08924831612162754,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "b3b20cbf94b7449c2dc3e5cc38b5389a44c9ac4a4c0231932ace3dfeabf44d1c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "into customer behavior , identify trends, and improve decision-making. The management of unstructured data\ninvolves organizing, storing, and retrieving such content effectively. Techniques like content indexing, search,\nand metadata management are employed to enable efficient discovery and retrieval of relevant information.\nWhen managing unstructured data, it is also important to understand the decision-making priorities of an\norganization (which decisions require data and, consequently,",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 492,
+            "language": "en",
+            "char_count": 492,
+            "start_char": 0,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "03c79d8c37764e4e5df8637374c697a1112adbbfdfea745e5729546365038497",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "data.\nDespite the challenges, managing unstructured data can be valuable. Unstructured data can provide insights",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4269,
+            "language": "en",
+            "char_count": 112,
+            "start_char": 4157,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "2156e96fbbfc4d49c20a369701f0af9a789789eb9a1ecac98d38d5246139c99f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "through techniques like data mining and analysis. In today’s data-driven\nworld, there’s increasing attention to the relevance of big data, highly complex and large datasets that require\nspecialized processing techniques to extract valuable insights and make informed decisions. Managing any\ndata involves activities such as cleaning, extracting, integrating, categorizing, labeling, and organizing. All\nthese activities should be executed in a manner that ensures that the quality of the data is",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2264,
+            "language": "en",
+            "char_count": 495,
+            "start_char": 1769,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "fafaab35bcd6df54ceba811dacf0896f4ab8be836167b6e57cba039f81b194d9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "necessitate data-driven information and\nknowledge processing). Also, it is often possible to convert unstructured data into structured data.\nGood data management strategies require the following:\n• Updating outdated data: A data management process should involve incorporating the latest information\nand revisions into the dataset, thereby ensuring it remains relevant and accurate.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 875,
+            "language": "en",
+            "char_count": 382,
+            "start_char": 493,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.030776515151515152,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 6,
+            "tfidf": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "f99295b1ecf8bf44520ed033490ac30d5a52b7e0e61e67751f3f9716cb61600c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "The other data type, unstructured data, do not reside in a traditional relational database; examples of\nunstructured data generated within organizations are emails, documents, media (videos, images, audio), slide\npresentations, social media activity (such as posts, images, ratings, and recommendations), and web pages.\nThere are several challenges associated with managing unstructured data. Their large volume can make them\ndifficult to store and manage. Unstructured data also come in a variety of",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3658,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 3158,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.03076923076923077,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 5
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 309.0998000006948
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 45
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 20
+    }
+  ],
+  "cost_usd": null
+}

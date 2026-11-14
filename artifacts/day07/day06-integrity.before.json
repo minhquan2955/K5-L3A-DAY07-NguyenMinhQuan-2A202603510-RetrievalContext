@@ -1,0 +1,16 @@
+{
+  "chapter1-2.pdf": "45ea2a3a7fe5aa5f9fdf4beb4ef48bbdf9622d146c55684bb3edbe4b549f96b9",
+  "benchmark/questions.json": "4735ec4f5c52d4a601aeffd9f9152e704a84a64d4dbbaef24bfa2031c1813a38",
+  "data/manifest.json": "ff26398854e5fe6adacf12caf5ebf4d95e49988856bb4e9b772b72731fdb36ed",
+  "starter/src/chunking.py": "27c1854db23909db637d9dbaad4ed79cf07c963dd097c051dc820fff80a5c9bf",
+  "starter/src/embeddings.py": "62a63715d93a0687c62b4d95a5faf36da1dcaad86366b5476e88ad6bdf06e119",
+  "starter/src/evaluation.py": "d208781b4840d63e07e2ad2bdfcafe31cd9289e60a441ba92ba32f265396e698",
+  "starter/src/ingestion.py": "7f6e176b0cbceff0e32519595ab7819ee72eacb0f064e40ef01fd40b379a2ab8",
+  "starter/src/models.py": "9f26a14cd6139c7b608df067894274308ae7b5c2c2ccd10566079c345fae1710",
+  "starter/src/run.py": "1d655d98dfa923624d8081d63bcf6613d808818f55b20802d10285b3b36baf65",
+  "starter/src/store.py": "ce8969ec8038483650f8443ae5017aca44ec88c0b54576b016a855a5a9ba5c4e",
+  "starter/src/test_embeddings.py": "2ddee0d69f12d19284675ab39b99ed13e3877902664109ca126d5e678908da29",
+  "starter/src/test_pipeline.py": "eeec2fc215d55524b166710e91ad52eb925982b8fd158a761111b4b367950408",
+  "starter/src/test_store.py": "a73ff9177c57673e89fd62eeeeeee46bc35a235cff2374185506787c7a1d1319",
+  "starter/src/__init__.py": "9d51e4a4713565f1b69bb8f3a0d8ac2c6c8730961e738a65f7a7a4ebd2a593a8"
+}

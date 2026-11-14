@@ -1,0 +1,36 @@
+test_counts_and_errors_are_separate (test_agent_metrics.AgentMetricTests.test_counts_and_errors_are_separate) ... ok
+test_rejects_missing_review_and_false_abstention_grade (test_agent_metrics.AgentMetricTests.test_rejects_missing_review_and_false_abstention_grade) ... ok
+test_unanswerable_requires_human_confirmation (test_agent_metrics.AgentMetricTests.test_unanswerable_requires_human_confirmation) ... ok
+test_agent_searches_and_cites_actual_context (test_agentic.AgentTests.test_agent_searches_and_cites_actual_context) ... ok
+test_configurable_retrieval_allows_more_than_two_calls (test_agentic.AgentTests.test_configurable_retrieval_allows_more_than_two_calls) ... ok
+test_context_budget_across_multiple_searches (test_agentic.AgentTests.test_context_budget_across_multiple_searches) ... ok
+test_invalid_citation_and_empty_context_abstain (test_agentic.AgentTests.test_invalid_citation_and_empty_context_abstain) ... ok
+test_search_limit_is_enforced (test_agentic.AgentTests.test_search_limit_is_enforced) ... ok
+test_tool_errors_are_not_hidden (test_agentic.AgentTests.test_tool_errors_are_not_hidden) ... ok
+test_budget_dedup_and_empty_query (test_baseline.BaselineTests.test_budget_dedup_and_empty_query) ... ok
+test_cli_uses_requested_split_only (test_baseline.BaselineTests.test_cli_uses_requested_split_only) ... ok
+test_convert_day6_and_preserve_filter (test_baseline.BaselineTests.test_convert_day6_and_preserve_filter) ... ok
+test_gold_alternative_and_wrong_page (test_baseline.BaselineTests.test_gold_alternative_and_wrong_page) ... ok
+test_rank_and_evidence (test_baseline.BaselineTests.test_rank_and_evidence) ... ok
+test_identity_binds_corpus_reference_and_accepts_relative_paths (test_benchmark.BenchmarkTests.test_identity_binds_corpus_reference_and_accepts_relative_paths) ... ok
+test_metrics_use_final_context_and_exclude_unanswerable (test_benchmark.BenchmarkTests.test_metrics_use_final_context_and_exclude_unanswerable) ... ok
+test_only_question_and_explicit_filter_cross_agent_boundary (test_benchmark.BenchmarkTests.test_only_question_and_explicit_filter_cross_agent_boundary) ... ok
+test_partial_search_events_survive_a_later_model_failure (test_benchmark.BenchmarkTests.test_partial_search_events_survive_a_later_model_failure) ... ok
+test_selection_is_deterministic_and_prefers_evidence_before_tokens (test_benchmark.BenchmarkTests.test_selection_is_deterministic_and_prefers_evidence_before_tokens) ... ok
+test_answer_cannot_hide_an_undeclared_citation (test_connected_agent.ConnectedAgentTests.test_answer_cannot_hide_an_undeclared_citation) ... ok
+test_cli_records_configuration_errors_without_leaking_credentials (test_connected_agent.ConnectedAgentTests.test_cli_records_configuration_errors_without_leaking_credentials) ... ok
+test_controller_normalizes_tool_calls_and_retains_usage (test_connected_agent.ConnectedAgentTests.test_controller_normalizes_tool_calls_and_retains_usage) ... ok
+test_controller_rejects_malformed_or_multiple_actions (test_connected_agent.ConnectedAgentTests.test_controller_rejects_malformed_or_multiple_actions) ... ok
+test_explicit_abstention_and_citation_boundary (test_connected_agent.ConnectedAgentTests.test_explicit_abstention_and_citation_boundary) ... ok
+test_filter_types_match_postgres_instead_of_python_bool_coercion (test_connected_agent.ConnectedAgentTests.test_filter_types_match_postgres_instead_of_python_bool_coercion) ... ok
+test_lexical_filter_precedes_top_k_and_rejects_unknown_filter (test_connected_agent.ConnectedAgentTests.test_lexical_filter_precedes_top_k_and_rejects_unknown_filter) ... ok
+test_luna_disables_reasoning_for_chat_function_tools (test_connected_agent.ConnectedAgentTests.test_luna_disables_reasoning_for_chat_function_tools) ... ok
+test_model_grouped_citations_are_formatted_without_inventing_sources (test_connected_agent.ConnectedAgentTests.test_model_grouped_citations_are_formatted_without_inventing_sources) ... ok
+test_rrf_rewards_agreement_without_counting_duplicates (test_connected_agent.ConnectedAgentTests.test_rrf_rewards_agreement_without_counting_duplicates) ... ok
+test_structured_answer_sources_are_rendered_when_model_omits_inline_ids (test_connected_agent.ConnectedAgentTests.test_structured_answer_sources_are_rendered_when_model_omits_inline_ids) ... ok
+test_fixture_gold_resolves (test_fixture.FixtureTest.test_fixture_gold_resolves) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.577s
+
+OK

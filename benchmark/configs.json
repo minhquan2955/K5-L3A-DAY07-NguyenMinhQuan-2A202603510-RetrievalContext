@@ -1,0 +1,5 @@
+[
+  {"id":"dense-baseline","method":"dense","top_k":3,"budget":1600,"max_searches":1,"candidate_k":20,"hypothesis":"Baseline dense retrieval and one search with a compact context."},
+  {"id":"tfidf-keywords","method":"tfidf","top_k":3,"budget":1600,"max_searches":1,"candidate_k":20,"hypothesis":"Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."},
+  {"id":"hybrid-context","method":"hybrid","top_k":5,"budget":4000,"max_searches":3,"candidate_k":20,"hypothesis":"RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."}
+]

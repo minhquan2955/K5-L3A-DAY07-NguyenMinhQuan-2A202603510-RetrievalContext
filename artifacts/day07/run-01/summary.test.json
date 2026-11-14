@@ -1,0 +1,144 @@
+[
+  {
+    "config_id": "dense-baseline",
+    "original_hit1": {
+      "n": 2,
+      "N": 5
+    },
+    "original_hit3": {
+      "n": 4,
+      "N": 5
+    },
+    "first_tool_hit1": {
+      "n": 5,
+      "N": 5
+    },
+    "first_tool_hit3": {
+      "n": 5,
+      "N": 5
+    },
+    "context_evidence": {
+      "n": 5,
+      "N": 5
+    },
+    "provider_errors": 0,
+    "original_retrieval_errors": 0,
+    "model_prompt_tokens": 9062,
+    "model_completion_tokens": 952,
+    "embedding_tokens": 511,
+    "total_tokens": 10525,
+    "median_ms": 4946.546499999386,
+    "search_count_distribution": {
+      "1": 7
+    },
+    "cost_usd": null,
+    "cost_note": "Unpriced; measured token usage is reported, not an invented USD estimate.",
+    "agent_review": {
+      "cases": 7,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 7,
+        "N": 7
+      },
+      "grounded_answer": {
+        "0": 0,
+        "1": 0,
+        "2": 5,
+        "N": 5,
+        "mean": 2.0
+      },
+      "citation_validity": {
+        "n": 5,
+        "N": 5
+      },
+      "answer_citation_coverage": {
+        "n": 5,
+        "N": 5
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 5
+      }
+    },
+    "context_grades": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    }
+  },
+  {
+    "config_id": "tfidf-keywords",
+    "original_hit1": {
+      "n": 1,
+      "N": 5
+    },
+    "original_hit3": {
+      "n": 1,
+      "N": 5
+    },
+    "first_tool_hit1": {
+      "n": 5,
+      "N": 5
+    },
+    "first_tool_hit3": {
+      "n": 5,
+      "N": 5
+    },
+    "context_evidence": {
+      "n": 5,
+      "N": 5
+    },
+    "provider_errors": 0,
+    "original_retrieval_errors": 0,
+    "model_prompt_tokens": 9456,
+    "model_completion_tokens": 961,
+    "embedding_tokens": 0,
+    "total_tokens": 10417,
+    "median_ms": 3861.388299999817,
+    "search_count_distribution": {
+      "1": 7
+    },
+    "cost_usd": null,
+    "cost_note": "Unpriced; measured token usage is reported, not an invented USD estimate.",
+    "agent_review": {
+      "cases": 7,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 7,
+        "N": 7
+      },
+      "grounded_answer": {
+        "0": 0,
+        "1": 0,
+        "2": 5,
+        "N": 5,
+        "mean": 2.0
+      },
+      "citation_validity": {
+        "n": 5,
+        "N": 5
+      },
+      "answer_citation_coverage": {
+        "n": 5,
+        "N": 5
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 5
+      }
+    },
+    "context_grades": {
+      "0": 0,
+      "1": 0,
+      "2": 5
+    }
+  }
+]

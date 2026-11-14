@@ -1,0 +1,2355 @@
+{
+  "query_id": "d7-dev08",
+  "split": "dev",
+  "question": "Zachman Framework dùng sáu câu hỏi nào để hiểu nhu cầu của tổ chức từ góc nhìn các bên liên quan?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:59.475963+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Zachman Framework six questions what how where who when why stakeholder perspectives organizational needs",
+      "filter": {},
+      "results": [
+        {
+          "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2338,
+            "language": "en",
+            "char_count": 388,
+            "start_char": 1950,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1949,
+            "language": "en",
+            "char_count": 481,
+            "start_char": 1468,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 3
+          },
+          "rank": 2
+        },
+        {
+          "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 857,
+            "language": "en",
+            "char_count": 477,
+            "start_char": 380,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 3
+        },
+        {
+          "id": "a8b4d8f091ce5b726ea9fb6133c174cc6f35e1845c30ac02992ab7a1377451fc",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "• How? seeks to understand the organization’s processes and functions.\n• Where? seeks to learn where the organization operates.\n• Who? seeks to learn who the organizational members are, as well as gather details about the\norganization’s units and hierarchy.\n• When? seeks to learn the organization’s schedule of operations, including when processes are performed.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1221,
+            "language": "en",
+            "char_count": 363,
+            "start_char": 858,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.029910714285714284,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 10,
+            "tfidf": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1467,
+            "language": "en",
+            "char_count": 245,
+            "start_char": 1222,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.029857397504456328,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 8,
+            "tfidf": 6
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f | chapter1-2.pdf | page 27]\nFigure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification\n\n[c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898 | chapter1-2.pdf | page 27]\nAs shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.\n\n[82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1 | chapter1-2.pdf | page 27]\nThe Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.\n\n[a8b4d8f091ce5b726ea9fb6133c174cc6f35e1845c30ac02992ab7a1377451fc | chapter1-2.pdf | page 27]\n• How? seeks to understand the organization’s processes and functions.\n• Where? seeks to learn where the organization operates.\n• Who? seeks to learn who the organizational members are, as well as gather details about the\norganization’s units and hierarchy.\n• When? seeks to learn the organization’s schedule of operations, including when processes are performed.\n\n[2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365 | chapter1-2.pdf | page 27]\n• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+      "context_ids": [
+        "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+        "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+        "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+        "a8b4d8f091ce5b726ea9fb6133c174cc6f35e1845c30ac02992ab7a1377451fc",
+        "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Zachman Framework dùng sáu câu hỏi nào để hiểu nhu cầu của tổ chức từ góc nhìn các bên liên quan?",
+    "filter": {},
+    "results": [
+      {
+        "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 27,
+        "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2338,
+          "language": "en",
+          "char_count": 388,
+          "start_char": 1950,
+          "printed_page": 23,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2338
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        },
+        "rank": 1
+      },
+      {
+        "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 27,
+        "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 857,
+          "language": "en",
+          "char_count": 477,
+          "start_char": 380,
+          "printed_page": 23,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2338
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 2
+        },
+        "rank": 2
+      },
+      {
+        "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 27,
+        "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1949,
+          "language": "en",
+          "char_count": 481,
+          "start_char": 1468,
+          "printed_page": 23,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2338
+        },
+        "score": 0.031746031746031744,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 3,
+          "tfidf": 3
+        },
+        "rank": 3
+      },
+      {
+        "id": "806ac6c86721bf40be7ff5cf585940e9fa9960fcc6611dd0230c69458f11ce95",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 28,
+        "text": "of work “Zachman Framework (9026775815)” by National Institute of Standards and Technology/Wikimedia Commons, Public\nDomain)\nThe industry standards that are applicable in IS include the American Society for Industrial Security (ASIS), the\nFederal Information Security Modernization Act (FISMA), IS2020, ISO/IEC 27001, and the Open Group\nArchitecture Framework (TOGAF).",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 368,
+          "language": "en",
+          "char_count": 368,
+          "start_char": 0,
+          "printed_page": 24,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3817
+        },
+        "score": 0.031009615384615385,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 4,
+          "tfidf": 5
+        },
+        "rank": 4
+      },
+      {
+        "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 24,
+        "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1414,
+          "language": "en",
+          "char_count": 286,
+          "start_char": 1128,
+          "printed_page": 20,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3136
+        },
+        "score": 0.030330882352941176,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 8,
+          "tfidf": 4
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Zachman Framework dùng sáu câu hỏi: **What? (Cái gì?)**, **How? (Như thế nào?)**, **Where? (Ở đâu?)**, **Who? (Ai?)**, **When? (Khi nào?)** và **Why? (Tại sao?)** để giúp hiểu nhu cầu tổ chức từ các góc nhìn của những bên liên quan. [8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f]",
+  "elapsed_ms": 4041.7546999997285,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 384,
+        "completion_tokens": 31,
+        "total_tokens": 415
+      },
+      "action": {
+        "action": "search",
+        "query": "Zachman Framework six questions what how where who when why stakeholder perspectives organizational needs"
+      },
+      "elapsed_ms": 1209.004600001208
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Zachman Framework six questions what how where who when why stakeholder perspectives organizational needs"
+          ],
+          "context": "[8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f | chapter1-2.pdf | page 27]\nFigure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification\n\n[c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898 | chapter1-2.pdf | page 27]\nAs shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.\n\n[82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1 | chapter1-2.pdf | page 27]\nThe Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.\n\n[a8b4d8f091ce5b726ea9fb6133c174cc6f35e1845c30ac02992ab7a1377451fc | chapter1-2.pdf | page 27]\n• How? seeks to understand the organization’s processes and functions.\n• Where? seeks to learn where the organization operates.\n• Who? seeks to learn who the organizational members are, as well as gather details about the\norganization’s units and hierarchy.\n• When? seeks to learn the organization’s schedule of operations, including when processes are performed.\n\n[2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365 | chapter1-2.pdf | page 27]\n• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+          "context_ids": [
+            "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "a8b4d8f091ce5b726ea9fb6133c174cc6f35e1845c30ac02992ab7a1377451fc",
+            "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1304,
+        "completion_tokens": 189,
+        "total_tokens": 1493
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Zachman Framework dùng sáu câu hỏi: **What? (Cái gì?)**, **How? (Như thế nào?)**, **Where? (Ở đâu?)**, **Who? (Ai?)**, **When? (Khi nào?)** và **Why? (Tại sao?)** để giúp hiểu nhu cầu tổ chức từ các góc nhìn của những bên liên quan. [8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f]",
+        "citations": [
+          "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f"
+        ]
+      },
+      "elapsed_ms": 2098.420599999372
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Zachman Framework dùng sáu câu hỏi nào để hiểu nhu cầu của tổ chức từ góc nhìn các bên liên quan?",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.6182307182266624,
+            "strategy": "dense"
+          },
+          {
+            "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 857,
+              "language": "en",
+              "char_count": 477,
+              "start_char": 380,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.6175014457090038,
+            "strategy": "dense"
+          },
+          {
+            "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1949,
+              "language": "en",
+              "char_count": 481,
+              "start_char": 1468,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.606447617095929,
+            "strategy": "dense"
+          },
+          {
+            "id": "806ac6c86721bf40be7ff5cf585940e9fa9960fcc6611dd0230c69458f11ce95",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "of work “Zachman Framework (9026775815)” by National Institute of Standards and Technology/Wikimedia Commons, Public\nDomain)\nThe industry standards that are applicable in IS include the American Society for Industrial Security (ASIS), the\nFederal Information Security Modernization Act (FISMA), IS2020, ISO/IEC 27001, and the Open Group\nArchitecture Framework (TOGAF).",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 368,
+              "language": "en",
+              "char_count": 368,
+              "start_char": 0,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.46022384339961997,
+            "strategy": "dense"
+          },
+          {
+            "id": "ef27a2dedd2e7455ca99817bcf67c619686abee0c996264a2d518da40d133cb9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "When developing an information system, frameworks provide guidance to help IS professionals apply critical\nthinking as they identify the goals of the system and problems that can be resolved by the system.\nFrameworks promote proactive communication and help IS professionals organize their ideas and provide a\nfoundation for strategic planning to develop and maintain a system that meets an organization’s specific\nneeds. As part of this process, frameworks also provide IS professionals with",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 556,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 64,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.43098596985764215,
+            "strategy": "dense"
+          },
+          {
+            "id": "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "Application of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 340,
+              "language": "en",
+              "char_count": 340,
+              "start_char": 0,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.4269215697102138,
+            "strategy": "dense"
+          },
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.42618877876028716,
+            "strategy": "dense"
+          },
+          {
+            "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1414,
+              "language": "en",
+              "char_count": 286,
+              "start_char": 1128,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.42594681287015235,
+            "strategy": "dense"
+          },
+          {
+            "id": "63d9d58b43dc448bceb0dfe4930a762de3cc032f80ad3ebf5c3fc7b825600149",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "specific needs and\nrequirements. However , all five frameworks can be valuable tools for improving data management and\ninformation quality. The optimal framework for managing data is one that is continuously developing to\naddress advancements in data storage and changes in organizational policy.\nCAREERS IN IS\nData Architect",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1840,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.42023176171931875,
+            "strategy": "dense"
+          },
+          {
+            "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.4166211736981319,
+            "strategy": "dense"
+          },
+          {
+            "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1767,
+              "language": "en",
+              "char_count": 451,
+              "start_char": 1316,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.4112011635989705,
+            "strategy": "dense"
+          },
+          {
+            "id": "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1467,
+              "language": "en",
+              "char_count": 245,
+              "start_char": 1222,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.3967827893591134,
+            "strategy": "dense"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.39264664503717417,
+            "strategy": "dense"
+          },
+          {
+            "id": "a0a4bd108954397d5c6da05ba42cad461be53ab0d675b07178a488571ec9d1ed",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Use of Frameworks and Industry Standards in Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 63,
+              "language": "en",
+              "char_count": 63,
+              "start_char": 0,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.3922165304853663,
+            "strategy": "dense"
+          },
+          {
+            "id": "fa6c12c9d62a58ba7657e63f0ac8429123d33034b1bde9a4dfb0ff17601d2da6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "By classifying information into these categories, Anthony’s framework provides a structured approach to\ngathering, analyzing, and utilizing information for effective planning and control within an organization. Table\n2.1 features data characteristics for the three types of domains.\nDomain Data Use Data Characteristics",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1693,
+              "language": "en",
+              "char_count": 319,
+              "start_char": 1374,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.3905370207885861,
+            "strategy": "dense"
+          },
+          {
+            "id": "8ec1504f5c37a9d8ad018369f7e1bb840c73139172a214e6b21ff9377de82445",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "The Open Group Architecture Framework (TOGAF) contains vision, requirements, business architecture,\ninformation systems architecture, technology, and architecture realization. TOGAF can be an important\nstandard to support organizations as they develop and manage the requirements for enterprise\narchitecture. As their Architecture Development Method (https://openstax.org/r/109ArchDevMethd) shows,\nTOGAF covers all aspects of enterprise architecture, including information systems. This framework",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3727,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 3231,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.39046349596805674,
+            "strategy": "dense"
+          },
+          {
+            "id": "7672b5d814968d274c1511d7806bd871180a237ebd9d4745ee9e74aa9df11021",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "4 Robert N. Anthony, “Framework for Analysis,” Management Services: A Magazine of Planning, Systems, and Controls 1, no. 1\n(1964): 6, https://egrove.olemiss.edu/mgmtservices/vol1/iss1/6",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3777,
+              "language": "en",
+              "char_count": 185,
+              "start_char": 3592,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.38519423439517475,
+            "strategy": "dense"
+          },
+          {
+            "id": "e5d979140337332e3f9fd8d8a0be7dbec51345ffd2eb52cfd20f2b0b335cd031",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 45,
+            "text": "• Interpret the dimensions and characteristics of data needed to make decisions\n• Identify information system planning strategies and frameworks that inform an organization’s data\nmanagement practices and processes\nData Management and Information Systems Business\nStrategies\n2",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1853,
+              "language": "en",
+              "char_count": 276,
+              "start_char": 1577,
+              "printed_page": 41,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1853
+            },
+            "score": 0.3829599424461363,
+            "strategy": "dense"
+          },
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.38275770647298835,
+            "strategy": "dense"
+          },
+          {
+            "id": "c3c15b214a06e345630d00a0ae45962297a9ab3f3c544a4f98b0013431b24467",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "Businesses that strive to ensure they follow these data management parameters can decide to follow any\nframework. A framework is a structured and organized approach that provides a set of guidelines, principles,\nor tools to address complex problems or tasks in a systematic manner . It serves as a foundation to build and\nmanage processes, systems, or projects, ensuring consistency, efficiency, and effectiveness. Following are\nsome common data management frameworks:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 468,
+              "language": "en",
+              "char_count": 468,
+              "start_char": 0,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.3810265604920431,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.41548583595939387,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 857,
+              "language": "en",
+              "char_count": 477,
+              "start_char": 380,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.3570645532268232,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1949,
+              "language": "en",
+              "char_count": 481,
+              "start_char": 1468,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.2541713268972834,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1414,
+              "language": "en",
+              "char_count": 286,
+              "start_char": 1128,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.2527355337531378,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "806ac6c86721bf40be7ff5cf585940e9fa9960fcc6611dd0230c69458f11ce95",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "of work “Zachman Framework (9026775815)” by National Institute of Standards and Technology/Wikimedia Commons, Public\nDomain)\nThe industry standards that are applicable in IS include the American Society for Industrial Security (ASIS), the\nFederal Information Security Modernization Act (FISMA), IS2020, ISO/IEC 27001, and the Open Group\nArchitecture Framework (TOGAF).",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 368,
+              "language": "en",
+              "char_count": 368,
+              "start_char": 0,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.2465427688130844,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.14677600678820465,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.13505711853507385,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1767,
+              "language": "en",
+              "char_count": 451,
+              "start_char": 1316,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.13342671548955057,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2672,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 2181,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.13097503582158823,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f0d2b5e3efce68cce5522d70aedc4b5b92860768d2a5fae453bcf3cbba376d9c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 47,
+            "text": "• Data analytics involves analyzing data to extract insights and support decision-making. It includes\nimplementing activities like data warehousing, mining, and visualization to achieve meaningful\ninformation extraction. These tools, techniques, and insights can be used in AI and machine learning\napplications. (George Firican, ”Data Management Framework 101”)\n3 George Firican, “Data Management Framework 101,” LightsOnData, https://www.lightsondata.com/data-management-\nframework/",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2143,
+              "language": "en",
+              "char_count": 483,
+              "start_char": 1660,
+              "printed_page": 43,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2143
+            },
+            "score": 0.13077805258872524,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4134a311157852bf67c5208673f5361bc814d50d9339871b8a324464f81f46ff",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "to successfully\nmanage technology.\nWaterfall is a structured, linear framework used to guide project management. Generally, the steps of",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2794,
+              "language": "en",
+              "char_count": 136,
+              "start_char": 2658,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.10583715466399113,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c3c15b214a06e345630d00a0ae45962297a9ab3f3c544a4f98b0013431b24467",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "Businesses that strive to ensure they follow these data management parameters can decide to follow any\nframework. A framework is a structured and organized approach that provides a set of guidelines, principles,\nor tools to address complex problems or tasks in a systematic manner . It serves as a foundation to build and\nmanage processes, systems, or projects, ensuring consistency, efficiency, and effectiveness. Following are\nsome common data management frameworks:",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 468,
+              "language": "en",
+              "char_count": 468,
+              "start_char": 0,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.10329599984050823,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "60c8854150bac13a41d5a105f2de7ee6f8b256ab55141c4a1b658a562d1ef108",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "When applying the Gorry and Scott Morton framework to review existing systems or to propose new systems\nthat cater to user needs, an information systems designer or reviewer often investigates how available\ntechnology can support decision-making. This framework emphasizes both applications and decisions,\nnecessitating input from a diverse range of users to understand the benefits of existing systems or\nexpectations for new ones. It is important to gather user feedback through structured",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1921,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1430,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.0977083919931306,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 874,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 394,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.09109012256763346,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "08e767923547d84aad2c76838db2370810c2976ae70b584cf9d3116e1a2208be",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "Figure 2.4 To identify whether an activity is programmable or nonprogrammable, a three-step process is followed in order to come\nto a decision. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nAnother framework, developed by Gorry and Scott Morton, combines elements of both the Robert Anthony\nand decision-making frameworks.5 Gorry and Scott Morton introduced the concept of IT into their framework,\nacknowledging the influence of technology on decision-making and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 492,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 0,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.08998922780213604,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4169d6a55994c5307b84a83bc6dd2b87feb87ba38eb8b9811f8b385bb70d87bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "There are some differences in how each framework approaches data management. DAMA-DMBOK focuses on\nthe technical aspects of data management, while MIKE2.0 focuses on the business aspects of information\nmanagement. The IBM Data Governance Council Maturity Model and the EDM Council Data Management\nMaturity Model are both designed to help organizations assess their current data management practices and\nidentify areas for improvement. The best framework for an organization will depend on its",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1839,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 1347,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.08761982440716597,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1906,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1415,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.08506198681667775,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4fb7992ffa89fa1de8cd7efeb335814c6340316353c7e8c6c8d87cc5cb50bcdd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "modification of work from Introduction to Computer\nScience. attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nInformation Technology Infrastructure Library (ITIL) is a comprehensive framework of documentation that",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3136,
+              "language": "en",
+              "char_count": 238,
+              "start_char": 2898,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.08078485399457289,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8ec1504f5c37a9d8ad018369f7e1bb840c73139172a214e6b21ff9377de82445",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "The Open Group Architecture Framework (TOGAF) contains vision, requirements, business architecture,\ninformation systems architecture, technology, and architecture realization. TOGAF can be an important\nstandard to support organizations as they develop and manage the requirements for enterprise\narchitecture. As their Architecture Development Method (https://openstax.org/r/109ArchDevMethd) shows,\nTOGAF covers all aspects of enterprise architecture, including information systems. This framework",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3727,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 3231,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.07751932984045731,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "63d9d58b43dc448bceb0dfe4930a762de3cc032f80ad3ebf5c3fc7b825600149",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "specific needs and\nrequirements. However , all five frameworks can be valuable tools for improving data management and\ninformation quality. The optimal framework for managing data is one that is continuously developing to\naddress advancements in data storage and changes in organizational policy.\nCAREERS IN IS\nData Architect",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1840,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.0675444044623134,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2338,
+            "language": "en",
+            "char_count": 388,
+            "start_char": 1950,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 857,
+            "language": "en",
+            "char_count": 477,
+            "start_char": 380,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1949,
+            "language": "en",
+            "char_count": 481,
+            "start_char": 1468,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.031746031746031744,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "806ac6c86721bf40be7ff5cf585940e9fa9960fcc6611dd0230c69458f11ce95",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 28,
+          "text": "of work “Zachman Framework (9026775815)” by National Institute of Standards and Technology/Wikimedia Commons, Public\nDomain)\nThe industry standards that are applicable in IS include the American Society for Industrial Security (ASIS), the\nFederal Information Security Modernization Act (FISMA), IS2020, ISO/IEC 27001, and the Open Group\nArchitecture Framework (TOGAF).",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 368,
+            "language": "en",
+            "char_count": 368,
+            "start_char": 0,
+            "printed_page": 24,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3817
+          },
+          "score": 0.031009615384615385,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 5
+          },
+          "rank": 4
+        },
+        {
+          "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1414,
+            "language": "en",
+            "char_count": 286,
+            "start_char": 1128,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.030330882352941176,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 8,
+            "tfidf": 4
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 382.3261999968963
+    },
+    {
+      "query": "Zachman Framework six questions what how where who when why stakeholder perspectives organizational needs",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1949,
+              "language": "en",
+              "char_count": 481,
+              "start_char": 1468,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.7618656728982587,
+            "strategy": "dense"
+          },
+          {
+            "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 857,
+              "language": "en",
+              "char_count": 477,
+              "start_char": 380,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.7153010125455713,
+            "strategy": "dense"
+          },
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.6431318701378138,
+            "strategy": "dense"
+          },
+          {
+            "id": "efad3117fdbb1286224db81ae57dd44d8aa3b9a92acfb60fdf1f6c41cf97670d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 46,
+            "text": "number of stakeholders? Future data\nmanagers will have an obligation not only to understand information and data management but also to\npossess the ability to extract valuable insights from data, apply these insights strategically, and align them\nwith the organization’s goals.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 772,
+              "language": "en",
+              "char_count": 277,
+              "start_char": 495,
+              "printed_page": 42,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4911
+            },
+            "score": 0.49649575140272173,
+            "strategy": "dense"
+          },
+          {
+            "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1767,
+              "language": "en",
+              "char_count": 451,
+              "start_char": 1316,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.4953652827626258,
+            "strategy": "dense"
+          },
+          {
+            "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 874,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 394,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.48938600588135506,
+            "strategy": "dense"
+          },
+          {
+            "id": "806ac6c86721bf40be7ff5cf585940e9fa9960fcc6611dd0230c69458f11ce95",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "of work “Zachman Framework (9026775815)” by National Institute of Standards and Technology/Wikimedia Commons, Public\nDomain)\nThe industry standards that are applicable in IS include the American Society for Industrial Security (ASIS), the\nFederal Information Security Modernization Act (FISMA), IS2020, ISO/IEC 27001, and the Open Group\nArchitecture Framework (TOGAF).",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 368,
+              "language": "en",
+              "char_count": 368,
+              "start_char": 0,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.4794213041233588,
+            "strategy": "dense"
+          },
+          {
+            "id": "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1467,
+              "language": "en",
+              "char_count": 245,
+              "start_char": 1222,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.47934671054050004,
+            "strategy": "dense"
+          },
+          {
+            "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1414,
+              "language": "en",
+              "char_count": 286,
+              "start_char": 1128,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.4669488368595902,
+            "strategy": "dense"
+          },
+          {
+            "id": "a8b4d8f091ce5b726ea9fb6133c174cc6f35e1845c30ac02992ab7a1377451fc",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "• How? seeks to understand the organization’s processes and functions.\n• Where? seeks to learn where the organization operates.\n• Who? seeks to learn who the organizational members are, as well as gather details about the\norganization’s units and hierarchy.\n• When? seeks to learn the organization’s schedule of operations, including when processes are performed.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1221,
+              "language": "en",
+              "char_count": 363,
+              "start_char": 858,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.4591227322075393,
+            "strategy": "dense"
+          },
+          {
+            "id": "63d9d58b43dc448bceb0dfe4930a762de3cc032f80ad3ebf5c3fc7b825600149",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "specific needs and\nrequirements. However , all five frameworks can be valuable tools for improving data management and\ninformation quality. The optimal framework for managing data is one that is continuously developing to\naddress advancements in data storage and changes in organizational policy.\nCAREERS IN IS\nData Architect",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1840,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.4590673382710686,
+            "strategy": "dense"
+          },
+          {
+            "id": "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "Application of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 340,
+              "language": "en",
+              "char_count": 340,
+              "start_char": 0,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.4541503788165512,
+            "strategy": "dense"
+          },
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.4535074875062768,
+            "strategy": "dense"
+          },
+          {
+            "id": "ef27a2dedd2e7455ca99817bcf67c619686abee0c996264a2d518da40d133cb9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "When developing an information system, frameworks provide guidance to help IS professionals apply critical\nthinking as they identify the goals of the system and problems that can be resolved by the system.\nFrameworks promote proactive communication and help IS professionals organize their ideas and provide a\nfoundation for strategic planning to develop and maintain a system that meets an organization’s specific\nneeds. As part of this process, frameworks also provide IS professionals with",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 556,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 64,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.4497214725968033,
+            "strategy": "dense"
+          },
+          {
+            "id": "9780fb5d5fbb2851df3f673bd322406219a62ed53bdac7fbf6e4efa32862933c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "Frameworks for Data Management Practices and Processes",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 54,
+              "language": "en",
+              "char_count": 54,
+              "start_char": 0,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.44971137229794567,
+            "strategy": "dense"
+          },
+          {
+            "id": "0af8d68b5bd2e155f6e20ecf82f9aa4ac22094304f98c085794068d0f6d213e2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "interviews and\nquestionnaires as they can be utilized to collect user data and gauge user reactions to each system under\nconsideration. Key inquiries may include the following:\n• In which directions should the development of new systems be oriented?\n• Are there speci fic demands for enhanced strategic planning applications or managerial and operational\nsystems?\n• Do users want a system to support them with decisions that are less structured compared to those\nhandled by existing systems?",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2413,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1922,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.44633885040051957,
+            "strategy": "dense"
+          },
+          {
+            "id": "7139fc2715c6bd77c4c8bd91e7d08c76ac2ba86f6128415db6a98aca9525ba86",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "To conduct a thorough examination of the information systems within an organization, a simplified Robert\nAnthony framework can be employed. First, classify each system requirement based on the user and the type\nof decision it supports—whether it pertains to operational control, managerial control, or strategic planning.\nThen, for existing systems, consider factors such as data availability and the governance policies that regulate\naccess by decision-makers. This analysis should help identify",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.4460344767707791,
+            "strategy": "dense"
+          },
+          {
+            "id": "7672b5d814968d274c1511d7806bd871180a237ebd9d4745ee9e74aa9df11021",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "4 Robert N. Anthony, “Framework for Analysis,” Management Services: A Magazine of Planning, Systems, and Controls 1, no. 1\n(1964): 6, https://egrove.olemiss.edu/mgmtservices/vol1/iss1/6",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3777,
+              "language": "en",
+              "char_count": 185,
+              "start_char": 3592,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.4338730421926017,
+            "strategy": "dense"
+          },
+          {
+            "id": "60c8854150bac13a41d5a105f2de7ee6f8b256ab55141c4a1b658a562d1ef108",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "When applying the Gorry and Scott Morton framework to review existing systems or to propose new systems\nthat cater to user needs, an information systems designer or reviewer often investigates how available\ntechnology can support decision-making. This framework emphasizes both applications and decisions,\nnecessitating input from a diverse range of users to understand the benefits of existing systems or\nexpectations for new ones. It is important to gather user feedback through structured",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1921,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1430,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.4291133188859181,
+            "strategy": "dense"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.42882732363205134,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.3995309071001375,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 857,
+              "language": "en",
+              "char_count": 477,
+              "start_char": 380,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.3483141220838,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1949,
+              "language": "en",
+              "char_count": 481,
+              "start_char": 1468,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.23325961337500628,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a8b4d8f091ce5b726ea9fb6133c174cc6f35e1845c30ac02992ab7a1377451fc",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "• How? seeks to understand the organization’s processes and functions.\n• Where? seeks to learn where the organization operates.\n• Who? seeks to learn who the organizational members are, as well as gather details about the\norganization’s units and hierarchy.\n• When? seeks to learn the organization’s schedule of operations, including when processes are performed.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1221,
+              "language": "en",
+              "char_count": 363,
+              "start_char": 858,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.2104609544751166,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c479a3cd5d50959fc847829df7be48cafab7e9e29fa3b8c0e8b2064f76280468",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 13,
+            "text": "• Individuals who use the information system, including end users who input and retrieve data in the\nsystem, as well as information technology (IT) professionals who design, develop, and maintain the\nsystem, are the people who make up an information system.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1975,
+              "language": "en",
+              "char_count": 274,
+              "start_char": 1701,
+              "printed_page": 9,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2399
+            },
+            "score": 0.16340493202351394,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1467,
+              "language": "en",
+              "char_count": 245,
+              "start_char": 1222,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.15306304208124258,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6cf4b1603d383b4d314db130517a8ef9834af9b9efc9c6b1e884ed3c1bb8ac1c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 73,
+            "text": "In management information systems (MIS) scholars have identified two main perspectives on innovation and\nits relation to IS. These perspectives offer valuable insights into how organizations adopt and leverage digital\ntechnologies to drive progress. The first perspective, known as “IT innovation,” focuses on how organizations\nintegrate new IT-enabled business processes, products, and services. Simply put, this type of innovation refers\nto the adoption of an already-existing IT product or service",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3384,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2884,
+              "printed_page": 69,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4139
+            },
+            "score": 0.12681252631560447,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "72b08c2b9d12623c370c33db852950b33d6c1c0fc4f68300b89de32bcbbb27a4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 53,
+            "text": "In the realm of information systems, the Robert Anthony framework, named for the management accounting\npioneer who developed it in 1964, helps in understanding information needs across different organizational\nlevels. This framework categorizes decisions based on the level of certainty surrounding the problem and the\nsolution. The Robert Anthony framework divides a problem, and by extension the data needed to resolve this\nproblem, into three domains: operational control, management control, and",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 554,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 55,
+              "printed_page": 49,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3777
+            },
+            "score": 0.1246677172696257,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "efd6cdde3c6851157fe212c5d66c500235c3c9e5d41d3f3737b96d6e9feef4b2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 75,
+            "text": "Other important aspects of digital innovation are the internal organizational environment, the external\ncompetitive environment, and the outcomes. The internal organizational environment refers to the\norganizational backdrop in which digital innovation takes place. It includes factors such as the organization’s\nbusiness and data strategies, how data are managed and shared within the organization, and the established\nbusiness processes for doing things. The internal organizational environment",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 722,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 226,
+              "printed_page": 71,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4660
+            },
+            "score": 0.11075236224398359,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ad9480ba5c9f63e7a1ee868fde8a0ab1713780df98e5b12de8cf7319b9ebc1bd",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 59,
+            "text": "Figure 2.6 Successful strategic alignment occurs when information technology directly supports the business goals of the\norganization, guided by these six characteristics. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license; credit",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2630,
+              "language": "en",
+              "char_count": 254,
+              "start_char": 2376,
+              "printed_page": 55,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2630
+            },
+            "score": 0.10713777228247937,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "60c8854150bac13a41d5a105f2de7ee6f8b256ab55141c4a1b658a562d1ef108",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "When applying the Gorry and Scott Morton framework to review existing systems or to propose new systems\nthat cater to user needs, an information systems designer or reviewer often investigates how available\ntechnology can support decision-making. This framework emphasizes both applications and decisions,\nnecessitating input from a diverse range of users to understand the benefits of existing systems or\nexpectations for new ones. It is important to gather user feedback through structured",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1921,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1430,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.09983637168895403,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1414,
+              "language": "en",
+              "char_count": 286,
+              "start_char": 1128,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.09833785018748156,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 874,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 394,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.09724440419595029,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "806ac6c86721bf40be7ff5cf585940e9fa9960fcc6611dd0230c69458f11ce95",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "of work “Zachman Framework (9026775815)” by National Institute of Standards and Technology/Wikimedia Commons, Public\nDomain)\nThe industry standards that are applicable in IS include the American Society for Industrial Security (ASIS), the\nFederal Information Security Modernization Act (FISMA), IS2020, ISO/IEC 27001, and the Open Group\nArchitecture Framework (TOGAF).",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 368,
+              "language": "en",
+              "char_count": 368,
+              "start_char": 0,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.09592828323075878,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a97a43e1d30ba1098870f00e2511ad0d3180caf926f1275ae17b03a036bf39c4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "capture\npractices faithfully reflect what’s happening in the organization. Additionally, the CIO should consider how\nthese data can be processed and transformed into actionable information that supports the identified decision\nneeds. Finally, the CIO must assess how the different levels of planning and the different types of information\nfit together .\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3088,
+              "language": "en",
+              "char_count": 370,
+              "start_char": 2718,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.09580634684220354,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a378a47141fd31a755c622af0a85425f701147f2554741785850a46b42f0f1b9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "Introduction\nWhat comes to mind when you think about information systems? In what ways do you think they affect your\nlife? You might be surprised to find out that information systems have an impact on your life and career\nwhether you realize it or not.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 753,
+              "language": "en",
+              "char_count": 252,
+              "start_char": 501,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.0917283001029612,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "63d9d58b43dc448bceb0dfe4930a762de3cc032f80ad3ebf5c3fc7b825600149",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 49,
+            "text": "specific needs and\nrequirements. However , all five frameworks can be valuable tools for improving data management and\ninformation quality. The optimal framework for managing data is one that is continuously developing to\naddress advancements in data storage and changes in organizational policy.\nCAREERS IN IS\nData Architect",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2165,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1840,
+              "printed_page": 45,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3974
+            },
+            "score": 0.09054827581664049,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f1a902b3d2c41acbae01ad2c2d6f89c154376a71e7b175167d06561be008203d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 35,
+            "text": "part of the future of IS.\nThe advent of AI also provides an example of why continuing education is so important. With continuing\neducation, IS professionals can ensure that they are prepared to handle the future, regardless of what\ntechnological changes and challenges face them.\nGlobal Initiatives in Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 974,
+              "language": "en",
+              "char_count": 321,
+              "start_char": 653,
+              "printed_page": 31,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3973
+            },
+            "score": 0.08798609356336927,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "87d9599c5daa075c232770bf469c4e9124054642fea9f2eb8c57986517887b26",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 71,
+            "text": "meets their evolving needs.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 27,
+              "language": "en",
+              "char_count": 27,
+              "start_char": 0,
+              "printed_page": 67,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3865
+            },
+            "score": 0.08652388813370308,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "1492bd76eeaad0d468355997263b09bded62eb689c2c2cb4022150c07e894dfb",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 15,
+            "text": "But not all IS jobs are technical. Students who find the field intriguing but want a less technical job also\nhave career options. For example, systems analysts explore an organization’s operations to identify areas\nwhere technology can be used to help an organization be more efficient and cost-effective. Information\nsystems managers oversee how information systems are planned, implemented, and maintained to ensure\nthat the functionality aligns with their organization’s goals and objectives.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3778,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 3283,
+              "printed_page": 11,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3778
+            },
+            "score": 0.08481844681801251,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2338,
+            "language": "en",
+            "char_count": 388,
+            "start_char": 1950,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1949,
+            "language": "en",
+            "char_count": 481,
+            "start_char": 1468,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 3
+          },
+          "rank": 2
+        },
+        {
+          "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 857,
+            "language": "en",
+            "char_count": 477,
+            "start_char": 380,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 3
+        },
+        {
+          "id": "a8b4d8f091ce5b726ea9fb6133c174cc6f35e1845c30ac02992ab7a1377451fc",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "• How? seeks to understand the organization’s processes and functions.\n• Where? seeks to learn where the organization operates.\n• Who? seeks to learn who the organizational members are, as well as gather details about the\norganization’s units and hierarchy.\n• When? seeks to learn the organization’s schedule of operations, including when processes are performed.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1221,
+            "language": "en",
+            "char_count": 363,
+            "start_char": 858,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.029910714285714284,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 10,
+            "tfidf": 4
+          },
+          "rank": 4
+        },
+        {
+          "id": "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 27,
+          "text": "• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1467,
+            "language": "en",
+            "char_count": 245,
+            "start_char": 1222,
+            "printed_page": 23,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2338
+          },
+          "score": 0.029857397504456328,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 8,
+            "tfidf": 6
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 294.94590000103926
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 45
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 17
+    }
+  ],
+  "cost_usd": null
+}

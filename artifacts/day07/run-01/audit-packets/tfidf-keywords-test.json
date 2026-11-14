@@ -1,0 +1,511 @@
+[
+  {
+    "case": {
+      "id": "d7-test01",
+      "split": "test",
+      "question": "Trong Chương 1, loại kiểm soát nào được tích hợp vào hệ thống và bao gồm tường lửa, mã hóa và kiểm soát truy cập?",
+      "answerable": true,
+      "expected_answer": "Application control, tức kiểm soát ứng dụng.",
+      "gold": [
+        {
+          "source_id": "openstax-foundations-is-ch1-2",
+          "page": 21,
+          "evidence": "An application control is built into the system and includes features such as firewalls, encryption, and access control."
+        }
+      ],
+      "filter": {
+        "chapter": 1
+      },
+      "provenance": {
+        "authoring": "AI-assisted benchmark construction from local source; no retrieval/model evaluation used",
+        "source_pdf": "chapter1-2.pdf",
+        "page_numbering": "1-based physical page of the local 83-page PDF",
+        "independent_student_review": "pending",
+        "origin": "New Day07 held-out item; authored from source before evaluation",
+        "topic": "application_controls",
+        "held_out_from_tuning": true,
+        "topic_overlap_review": "Distinct target concept from Day06 q01-q20 and information-system-components smoke question"
+      }
+    },
+    "status": "answered",
+    "answer": "Đó là **kiểm soát ứng dụng** (application control), được tích hợp vào hệ thống và bao gồm các tính năng như tường lửa, mã hóa và kiểm soát truy cập. [66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756]",
+    "citations": [
+      "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756"
+    ],
+    "final_context": "[66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756 | chapter1-2.pdf | page 21]\n◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.\n\n[5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e | chapter1-2.pdf | page 21]\n• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.\n\n[69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671 | chapter1-2.pdf | page 11]\nFigure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+    "search_queries": [
+      "Chapter 1 controls embedded in systems firewalls encryption access controls integrated system type controls"
+    ],
+    "trace": "artifacts/day07/run-01/test/tfidf-keywords/d7-test01.json",
+    "terminal_event": {
+      "event": "answer"
+    }
+  },
+  {
+    "case": {
+      "id": "d7-test02",
+      "split": "test",
+      "question": "Sổ cái dùng chung ghi lại giao dịch và được duy trì bởi các máy tính liên kết trong mạng ngang hàng được gọi là gì?",
+      "answerable": true,
+      "expected_answer": "Blockchain, tức chuỗi khối.",
+      "gold": [
+        {
+          "source_id": "openstax-foundations-is-ch1-2",
+          "page": 35,
+          "evidence": "The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer network is called blockchain."
+        }
+      ],
+      "filter": {},
+      "provenance": {
+        "authoring": "AI-assisted benchmark construction from local source; no retrieval/model evaluation used",
+        "source_pdf": "chapter1-2.pdf",
+        "page_numbering": "1-based physical page of the local 83-page PDF",
+        "independent_student_review": "pending",
+        "origin": "New Day07 held-out item; authored from source before evaluation",
+        "topic": "blockchain",
+        "held_out_from_tuning": true,
+        "topic_overlap_review": "Distinct target concept from Day06 q01-q20 and information-system-components smoke question"
+      }
+    },
+    "status": "answered",
+    "answer": "Đó là blockchain (chuỗi khối). [0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c]",
+    "citations": [
+      "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c"
+    ],
+    "final_context": "[0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c | chapter1-2.pdf | page 35]\n• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.\n\n[559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34 | chapter1-2.pdf | page 63]\nA sharing economy model involves individuals sharing resources or services through a peer-to-peer network,\nenabling efficient utilization of underused assets. This fosters collaboration and convenience among users\nseeking specific services or goods. Uber , Airbnb, and TaskRabbit are examples of companies using this model.\nIn terms of IT strategy, those with a sharing economy model should build robust peer-to-peer communication\nsystems that implement secure payment processing, real-time tracking\n\n[f4e6b3d6d004ed4c85f4757459e39302625e3a4d09cbe6d5f4b6eb003a94ce6c | chapter1-2.pdf | page 16]\nInitially, computers were not linked by data networks and could not be used as communication tools. Rather ,\ntheir primary purpose was to calculate, process, and store information. For example, the U.S. government\nused early computers to compile and calculate statistical data gathered from census questionnaires.\nBusinesses first used computers for purposes such as tabulating and storing financial information, and\nacademic institutions relied on these basic computers to organize and analyze",
+    "search_queries": [
+      "shared ledger records transactions maintained by computers linked in a peer-to-peer network called what blockchain"
+    ],
+    "trace": "artifacts/day07/run-01/test/tfidf-keywords/d7-test02.json",
+    "terminal_event": {
+      "event": "answer"
+    }
+  },
+  {
+    "case": {
+      "id": "d7-test03",
+      "split": "test",
+      "question": "Trong Chương 2, hoạt động quản lý nào bảo đảm dữ liệu chính xác, đầy đủ và nhất quán, thông qua xác thực, làm sạch, đối sánh và giám sát?",
+      "answerable": true,
+      "expected_answer": "Data quality, tức quản lý chất lượng dữ liệu.",
+      "gold": [
+        {
+          "source_id": "openstax-foundations-is-ch1-2",
+          "page": 47,
+          "evidence": "Data quality ensures that data are accurate, complete, and consistent. This is achieved through activities such as validation, cleansing, matching, and monitoring via metrics and reporting."
+        }
+      ],
+      "filter": {
+        "chapter": 2
+      },
+      "provenance": {
+        "authoring": "AI-assisted benchmark construction from local source; no retrieval/model evaluation used",
+        "source_pdf": "chapter1-2.pdf",
+        "page_numbering": "1-based physical page of the local 83-page PDF",
+        "independent_student_review": "pending",
+        "origin": "New Day07 held-out item; authored from source before evaluation",
+        "topic": "data_quality",
+        "held_out_from_tuning": true,
+        "topic_overlap_review": "Distinct target concept from Day06 q01-q20 and information-system-components smoke question"
+      }
+    },
+    "status": "answered",
+    "answer": "Hoạt động đó là **quản lý chất lượng dữ liệu (data quality)**: bảo đảm dữ liệu chính xác, đầy đủ và nhất quán bằng xác thực, làm sạch, đối sánh và giám sát qua các chỉ số và báo cáo. [732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d]",
+    "citations": [
+      "732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d"
+    ],
+    "final_context": "[732293d2dfeb0089c51958f46646da6cee53666beee4dda78c2e4ddd94474f0d | chapter1-2.pdf | page 47]\n• Data quality ensures that data are accurate, complete, and consistent. This is achieved through\nactivities such as validation, cleansing, matching, and monitoring via metrics and reporting.\n• Data integration combines data from di fferent systems and applications. It includes tasks such as\nmapping data elements, transforming data, and ensuring seamless integration using tools and best\npractices.\n\n[ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f | chapter1-2.pdf | page 48]\nFigure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies\n\n[ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8 | chapter1-2.pdf | page 47]\nAppropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+    "search_queries": [
+      "Chapter 2 management activity ensures data accurate complete consistent validation cleansing matching monitoring data quality"
+    ],
+    "trace": "artifacts/day07/run-01/test/tfidf-keywords/d7-test03.json",
+    "terminal_event": {
+      "event": "answer"
+    }
+  },
+  {
+    "case": {
+      "id": "d7-test04",
+      "split": "test",
+      "question": "Chiến lược nào đặt mục tiêu trở thành nhà sản xuất có chi phí thấp nhất trong ngành, đồng thời bán với giá thấp nhất có thể nhưng vẫn duy trì chất lượng chấp nhận được?",
+      "answerable": true,
+      "expected_answer": "Cost leadership strategy, tức chiến lược dẫn đầu về chi phí.",
+      "gold": [
+        {
+          "source_id": "openstax-foundations-is-ch1-2",
+          "page": 61,
+          "evidence": "Cost leadership strategy is a business approach wherein a company aims to become the lowest-cost producer in its industry or market. The primary goal of this strategy is to offer products or services at the lowest possible price while maintaining acceptable quality levels."
+        }
+      ],
+      "filter": {},
+      "provenance": {
+        "authoring": "AI-assisted benchmark construction from local source; no retrieval/model evaluation used",
+        "source_pdf": "chapter1-2.pdf",
+        "page_numbering": "1-based physical page of the local 83-page PDF",
+        "independent_student_review": "pending",
+        "origin": "New Day07 held-out item; authored from source before evaluation",
+        "topic": "cost_leadership",
+        "held_out_from_tuning": true,
+        "topic_overlap_review": "Distinct target concept from Day06 q01-q20 and information-system-components smoke question"
+      }
+    },
+    "status": "answered",
+    "answer": "Đó là **chiến lược dẫn đầu về chi phí** (cost leadership): hướng tới trở thành nhà sản xuất có chi phí thấp nhất trong ngành, để bán với giá thấp nhất có thể mà vẫn duy trì chất lượng ở mức chấp nhận được. [a89feb6b493afabd13fa4a28ec4caf65c59919eff1978cf265db9104b1bb9545]",
+    "citations": [
+      "a89feb6b493afabd13fa4a28ec4caf65c59919eff1978cf265db9104b1bb9545"
+    ],
+    "final_context": "[a89feb6b493afabd13fa4a28ec4caf65c59919eff1978cf265db9104b1bb9545 | chapter1-2.pdf | page 61]\nCost leadership strategy is a business approach wherein a company aims to become the lowest-cost producer\nin its industry or market. The primary goal of this strategy is to offer products or services at the lowest possible\nprice while maintaining acceptable quality levels. Walmart’s focus on cost leadership has allowed it to maintain\na dominant position in the retail industry. It consistently outperforms competitors by offering lower prices and\nattracting a broad customer base, including\n\n[006ac6e1f4e03d72bad103bc928228702d4412278afb322594ad3df7d5533bc8 | chapter1-2.pdf | page 69]\n• Flexibility and adaptability: Agile and adaptable business processes enable organizations to respond\nquickly to changes in the market or industry, enhancing their ability to stay relevant and competitive.\n• Cost reduction: By optimizing operational procedures and supplier processes, organizations can achieve\ncost-cutting objectives, leading to improved financial efficiency.\n\n[c96ff280661b98880d73bd778a7255788ef71299c9a686b945406d88e40ae982 | chapter1-2.pdf | page 65]\nspecific geographic locations facilitates the easy transfer of use rights.\n• Use of IT: Online platforms enable easy and e fficient mediation and monitoring of contract terms.\n• Cost advantage: The cost of accessing shared resources through Cohealo is often signi ficantly lower than\nthe cost of ownership, promoting the adoption of the sharing economy model.",
+    "search_queries": [
+      "generic competitive strategy lowest-cost producer in industry lowest possible price acceptable quality cost leadership strategy"
+    ],
+    "trace": "artifacts/day07/run-01/test/tfidf-keywords/d7-test04.json",
+    "terminal_event": {
+      "event": "answer"
+    }
+  },
+  {
+    "case": {
+      "id": "d7-test05",
+      "split": "test",
+      "question": "Theo phần phê bình mô hình kinh doanh số, vì sao lao động có điểm uy tín thấp và ít kinh nghiệm bị bất lợi về cơ hội nhận việc trên nền tảng gig work?",
+      "answerable": true,
+      "expected_answer": "Người có điểm uy tín cao và nhiều kinh nghiệm thường nhận được nhiều việc hơn vì khách hàng ưu tiên những người được xem là đáng tin cậy hơn; điều đó tạo ra sự phân phối cơ hội không đồng đều.",
+      "gold": [
+        {
+          "source_id": "openstax-foundations-is-ch1-2",
+          "page": 65,
+          "evidence": "Workers with higher reputation scores and greater experience tend to receive more work, as clients prefer to engage with those perceived as more reliable. Consequently, this phenomenon results in an unequal distribution of opportunities, disadvantaging workers with lower scores and less experience."
+        }
+      ],
+      "filter": {},
+      "provenance": {
+        "authoring": "AI-assisted benchmark construction from local source; no retrieval/model evaluation used",
+        "source_pdf": "chapter1-2.pdf",
+        "page_numbering": "1-based physical page of the local 83-page PDF",
+        "independent_student_review": "pending",
+        "origin": "New Day07 held-out item; authored from source before evaluation",
+        "topic": "gig_work_opportunity_inequality",
+        "held_out_from_tuning": true,
+        "topic_overlap_review": "Distinct target concept from Day06 q01-q20 and information-system-components smoke question"
+      }
+    },
+    "status": "answered",
+    "answer": "Đó là hiệu ứng “người giàu càng giàu”: khách hàng thường chọn lao động được xem là đáng tin cậy hơn, nên người có điểm uy tín cao và nhiều kinh nghiệm nhận được nhiều việc hơn. Vì thế, lao động có điểm thấp và ít kinh nghiệm bị phân bổ ít cơ hội hơn và khó cạnh tranh để nhận việc trên nền tảng. [1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9]",
+    "citations": [
+      "1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9"
+    ],
+    "final_context": "[1f2d008bda3ca0cf3743e1708a917e15c9a23c2044d9d3136df83964c9d0d0d9 | chapter1-2.pdf | page 65]\n• Unequal distribution of opportunities: Research has shed light on a concerning phenomenon observed in\ngig work platforms—the “rich get richer” effect. Workers with higher reputation scores and greater\nexperience tend to receive more work, as clients prefer to engage with those perceived as more reliable.\nConsequently, this phenomenon results in an unequal distribution of opportunities, disadvantaging\nworkers with lower scores and less experience.\n\n[97ccf5f6c971fd10515367ed8ebe0326a04d85f88fbf5c14d1cc7206d6de32e2 | chapter1-2.pdf | page 65]\nThe emergence of digital business models has created the space for a workforce through online\nplatform–based work. While this has brought about innovative solutions for economic interactions between\npeople seeking jobs and employers, it has opened new challenges. With the sharing economy business model,\nalgorithmic reputation features play a central role in fostering trust and accountability. These reputation\nsystems, based on customer feedback and ratings, have been hailed as a valuable trust\n\n[ba742ffce1e141dcea07a955ba2488cf011ea3dbd2112cad2cfdde39907fcefc | chapter1-2.pdf | page 67]\nsuccess and reputation.",
+    "search_queries": [
+      "critique digital business models gig work platform low reputation score inexperienced workers disadvantage opportunity to get jobs ratings experience algorithm allocation"
+    ],
+    "trace": "artifacts/day07/run-01/test/tfidf-keywords/d7-test05.json",
+    "terminal_event": {
+      "event": "answer"
+    }
+  },
+  {
+    "case": {
+      "id": "d7-test06",
+      "split": "test",
+      "question": "Tài liệu quy định phải dùng khóa AES dài bao nhiêu bit để mã hóa dữ liệu?",
+      "answerable": false,
+      "gold": [],
+      "filter": {},
+      "absence_reason": "Tài liệu nhắc đến mã hóa và bảo mật dữ liệu nhưng không chỉ định thuật toán AES hoặc độ dài khóa bắt buộc.",
+      "absence_check": {
+        "method": "Full-corpus/source lexical scan plus AI-assisted reading of all matching source passages for the requested attribute; no top-k retrieval used. English terms reflect the source language.",
+        "scope": {
+          "source_id": "openstax-foundations-is-ch1-2",
+          "all_B_chunks_scanned": 505,
+          "all_included_source_pages_scanned": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+          ],
+          "all_physical_pdf_pages_scanned": 83
+        },
+        "term_checks": [
+          {
+            "term": "AES",
+            "full_pdf_pages_with_term": [],
+            "B505_chunk_match_count": 0,
+            "B505_chunk_ids_with_term": []
+          },
+          {
+            "term": "encryption",
+            "full_pdf_pages_with_term": [
+              21,
+              37,
+              47
+            ],
+            "B505_chunk_match_count": 2,
+            "B505_chunk_ids_with_term": [
+              "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+              "31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161"
+            ]
+          },
+          {
+            "term": "encrypt",
+            "full_pdf_pages_with_term": [],
+            "B505_chunk_match_count": 0,
+            "B505_chunk_ids_with_term": []
+          },
+          {
+            "term": "key length",
+            "full_pdf_pages_with_term": [],
+            "B505_chunk_match_count": 0,
+            "B505_chunk_ids_with_term": []
+          },
+          {
+            "term": "bits",
+            "full_pdf_pages_with_term": [],
+            "B505_chunk_match_count": 0,
+            "B505_chunk_ids_with_term": []
+          }
+        ],
+        "source_passage_pages_read": [
+          21,
+          37,
+          47
+        ],
+        "conclusion": "Requested numerical/configuration detail absent from the included corpus and full local source PDF. Nearby topic mentions do not supply the requested value.",
+        "reviewer": "AI-assisted source check",
+        "independent_student_review": "pending",
+        "limitation": "Keyword and passage review is evidence of absence within this snapshot, not an assertion about external sources."
+      },
+      "provenance": {
+        "authoring": "AI-assisted benchmark construction from local source; no retrieval/model evaluation used",
+        "source_pdf": "chapter1-2.pdf",
+        "page_numbering": "1-based physical page of the local 83-page PDF",
+        "independent_student_review": "pending",
+        "origin": "New Day07 near-topic unanswerable item; authored before evaluation",
+        "held_out_from_tuning": true
+      }
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "final_context": "[31d62d3b5b8e65a8e9bcefdf9c8cd367c8e58531c600e8800d1517083afe5161 | chapter1-2.pdf | page 47]\n• Data security protects data from unauthorized access, use, disclosure, disruption, modi fication, or\ndestruction. It is achieved through measures like encryption, access controls, and adherence to\nsecurity best practices.\n• Data privacy, like data security, safeguards personal data from unauthorized access, use, disclosure,\ndisruption, modification, or destruction. It relies on the use of encryption, access controls, and privacy\nbest practices.\n\n[db5f58d0bd544502fa234d234fc543743d3c12ef1a703a8fff3c0c0a3a64779b | chapter1-2.pdf | page 52]\nrequired for each level serves a distinct\npurpose; hence, the data required also differ . The data need to be in user-friendly formats, enabling managers\nand analysts to easily comprehend and utilize the information according to their specific requirements (Figure\n2.3). Managers, drawing on their expertise and experience while analyzing data, can effectively leverage these\ninsights to address complex business problems. This fosters a dynamic and adaptive approach of leveraging\ncollective data to\n\n[b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7 | chapter1-2.pdf | page 21]\nprocessing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+    "search_queries": [
+      "AES key length bits data encryption recommended required 128 192 256 bit textbook"
+    ],
+    "trace": "artifacts/day07/run-01/test/tfidf-keywords/d7-test06.json",
+    "terminal_event": {
+      "event": "search_limit"
+    }
+  },
+  {
+    "case": {
+      "id": "d7-test07",
+      "split": "test",
+      "question": "Theo tài liệu, blockchain đạt tốc độ tối đa chính xác bao nhiêu giao dịch mỗi giây?",
+      "answerable": false,
+      "gold": [],
+      "filter": {},
+      "absence_reason": "Tài liệu giới thiệu blockchain và lợi ích của nó nhưng không nêu thông lượng tối đa theo giao dịch mỗi giây.",
+      "absence_check": {
+        "method": "Full-corpus/source lexical scan plus AI-assisted reading of all matching source passages for the requested attribute; no top-k retrieval used. English terms reflect the source language.",
+        "scope": {
+          "source_id": "openstax-foundations-is-ch1-2",
+          "all_B_chunks_scanned": 505,
+          "all_included_source_pages_scanned": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+          ],
+          "all_physical_pdf_pages_scanned": 83
+        },
+        "term_checks": [
+          {
+            "term": "blockchain",
+            "full_pdf_pages_with_term": [
+              20,
+              35,
+              40,
+              42
+            ],
+            "B505_chunk_match_count": 3,
+            "B505_chunk_ids_with_term": [
+              "61519868a1724afcc12918153888d9f0df64588f51807cc0ea0fa880c8f53942",
+              "513ae714c35d6ca7f4541f895204809ad7bdbae23e204b411ee8147798093972",
+              "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c"
+            ]
+          },
+          {
+            "term": "transactions per second",
+            "full_pdf_pages_with_term": [],
+            "B505_chunk_match_count": 0,
+            "B505_chunk_ids_with_term": []
+          },
+          {
+            "term": "throughput",
+            "full_pdf_pages_with_term": [],
+            "B505_chunk_match_count": 0,
+            "B505_chunk_ids_with_term": []
+          },
+          {
+            "term": "TPS",
+            "full_pdf_pages_with_term": [
+              15,
+              38,
+              40
+            ],
+            "B505_chunk_match_count": 1,
+            "B505_chunk_ids_with_term": [
+              "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def"
+            ]
+          },
+          {
+            "term": "Bitcoin",
+            "full_pdf_pages_with_term": [
+              35
+            ],
+            "B505_chunk_match_count": 1,
+            "B505_chunk_ids_with_term": [
+              "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c"
+            ]
+          }
+        ],
+        "source_passage_pages_read": [
+          20,
+          35,
+          40,
+          42
+        ],
+        "conclusion": "Requested numerical/configuration detail absent from the included corpus and full local source PDF. Nearby topic mentions do not supply the requested value.",
+        "reviewer": "AI-assisted source check",
+        "independent_student_review": "pending",
+        "limitation": "Keyword and passage review is evidence of absence within this snapshot, not an assertion about external sources."
+      },
+      "provenance": {
+        "authoring": "AI-assisted benchmark construction from local source; no retrieval/model evaluation used",
+        "source_pdf": "chapter1-2.pdf",
+        "page_numbering": "1-based physical page of the local 83-page PDF",
+        "independent_student_review": "pending",
+        "origin": "New Day07 near-topic unanswerable item; authored before evaluation",
+        "held_out_from_tuning": true
+      }
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "final_context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d | chapter1-2.pdf | page 21]\n• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.\n\n[0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c | chapter1-2.pdf | page 35]\n• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+    "search_queries": [
+      "blockchain maximum speed transactions per second TPS maximum transaction rate"
+    ],
+    "trace": "artifacts/day07/run-01/test/tfidf-keywords/d7-test07.json",
+    "terminal_event": {
+      "event": "search_limit"
+    }
+  }
+]

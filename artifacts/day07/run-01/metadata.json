@@ -1,0 +1,14 @@
+{
+  "identity": {
+    "benchmark/cases.json": "33ed1503e1497fb784ee9e669efc3719d2fa767410b2ed438411419c6d3e3237",
+    "benchmark/configs.json": "88ac7e3208abac2f12927974e47b70319ed8c17d5b7a4b946c5a15d16172eee4",
+    "data/day06_reference.json": "a3a837e0bef6560b3203f3530864ee93a1723dd6c4dd159f0b7fd037ff2ce299",
+    "starter/benchmark.py": "95d5cd3e9c7318c66265fa6f7c540c064d12c50e53526db3d6cb0a4ae651c85b",
+    "starter/baseline.py": "cf51d4f4dd5412270d73b51cb117eef5329695fc8fd8eb637de050b3d6488c36",
+    "starter/agentic.py": "99172fb861aa0defe6b33dc6c581a4e84d16e71f4aa976e146992a0f7ac04486",
+    "starter/retrieval.py": "1d89e492d7319201fcd5507464018dee5b6c2a19756e6bc0e153b4a24876edea",
+    "starter/model_controller.py": "673a5c52900068653c350bed53e01357ba06686560fdee610f2ae7e9d64795fa"
+  },
+  "agent_model": "gpt-6-luna",
+  "embedding_model": "text-embedding-3-small"
+}

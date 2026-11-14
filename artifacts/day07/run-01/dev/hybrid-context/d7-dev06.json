@@ -1,0 +1,2363 @@
+{
+  "query_id": "d7-dev06",
+  "split": "dev",
+  "question": "Trong Chương 1, thành phần shared values của McKinsey 7-S được giải thích như thế nào?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:58.549649+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 1 McKinsey 7-S framework shared values explanation shared values",
+      "filter": {
+        "chapter": 1
+      },
+      "results": [
+        {
+          "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1767,
+            "language": "en",
+            "char_count": 451,
+            "start_char": 1316,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 874,
+            "language": "en",
+            "char_count": 480,
+            "start_char": 394,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 3
+          },
+          "rank": 2
+        },
+        {
+          "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2146,
+            "language": "en",
+            "char_count": 378,
+            "start_char": 1768,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 2
+          },
+          "rank": 3
+        },
+        {
+          "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2657,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 2159,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.02967032967032967,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 10
+          },
+          "rank": 4
+        },
+        {
+          "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2647,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 2147,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.02946912242686891,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 11,
+            "tfidf": 5
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450 | chapter1-2.pdf | page 25]\n• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:\n\n[34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30 | chapter1-2.pdf | page 25]\nThe McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs\n\n[744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791 | chapter1-2.pdf | page 25]\n1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.\n\n[78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00 | chapter1-2.pdf | page 26]\n• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn\n\n[7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035 | chapter1-2.pdf | page 25]\nThis framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+      "context_ids": [
+        "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+        "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+        "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+        "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+        "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 1, thành phần shared values của McKinsey 7-S được giải thích như thế nào?",
+    "filter": {
+      "chapter": 1
+    },
+    "results": [
+      {
+        "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 25,
+        "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1767,
+          "language": "en",
+          "char_count": 451,
+          "start_char": 1316,
+          "printed_page": 21,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3064
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        },
+        "rank": 1
+      },
+      {
+        "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 25,
+        "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 874,
+          "language": "en",
+          "char_count": 480,
+          "start_char": 394,
+          "printed_page": 21,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3064
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 2
+        },
+        "rank": 2
+      },
+      {
+        "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 25,
+        "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2146,
+          "language": "en",
+          "char_count": 378,
+          "start_char": 1768,
+          "printed_page": 21,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3064
+        },
+        "score": 0.031746031746031744,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 3,
+          "tfidf": 3
+        },
+        "rank": 3
+      },
+      {
+        "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 26,
+        "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2657,
+          "language": "en",
+          "char_count": 498,
+          "start_char": 2159,
+          "printed_page": 22,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2794
+        },
+        "score": 0.030330882352941176,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 4,
+          "tfidf": 8
+        },
+        "rank": 4
+      },
+      {
+        "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 26,
+        "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 496,
+          "language": "en",
+          "char_count": 496,
+          "start_char": 0,
+          "printed_page": 22,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2794
+        },
+        "score": 0.02964426877470356,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 9,
+          "tfidf": 6
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Trong McKinsey 7-S, “shared values” là sứ mệnh và các giá trị của tổ chức, những điều tạo động lực cho hoạt động của tổ chức. [e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450]",
+  "elapsed_ms": 3992.6333999974304,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 382,
+        "completion_tokens": 30,
+        "total_tokens": 412
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 1 McKinsey 7-S framework shared values explanation shared values"
+      },
+      "elapsed_ms": 1363.1686000007903
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 1 McKinsey 7-S framework shared values explanation shared values"
+          ],
+          "context": "[e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450 | chapter1-2.pdf | page 25]\n• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:\n\n[34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30 | chapter1-2.pdf | page 25]\nThe McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs\n\n[744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791 | chapter1-2.pdf | page 25]\n1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.\n\n[78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00 | chapter1-2.pdf | page 26]\n• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn\n\n[7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035 | chapter1-2.pdf | page 25]\nThis framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+          "context_ids": [
+            "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+            "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+            "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1378,
+        "completion_tokens": 93,
+        "total_tokens": 1471
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Trong McKinsey 7-S, “shared values” là sứ mệnh và các giá trị của tổ chức, những điều tạo động lực cho hoạt động của tổ chức. [e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450]",
+        "citations": [
+          "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450"
+        ]
+      },
+      "elapsed_ms": 1759.9473000009311
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 1, thành phần shared values của McKinsey 7-S được giải thích như thế nào?",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1767,
+              "language": "en",
+              "char_count": 451,
+              "start_char": 1316,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.6987532196773217,
+            "strategy": "dense"
+          },
+          {
+            "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 874,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 394,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.6125611014493721,
+            "strategy": "dense"
+          },
+          {
+            "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2146,
+              "language": "en",
+              "char_count": 378,
+              "start_char": 1768,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.37664913437169867,
+            "strategy": "dense"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.36488318439041834,
+            "strategy": "dense"
+          },
+          {
+            "id": "788774d962f68b20f9652f61b28b99fc5ce20f51cee0a83a7425c644ea4cbd8d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Structure: how an organization is designed, including its hierarchy and chain of command\n• Strategy: the organization’s goals/objectives and the plans to achieve these\n• Skills: the skills, knowledge, and competencies held by the organization’s sta ff\n• Systems: the work flow processes used to achieve the organization’s goals and objectives\n• Style: the tone at the executive level established by the organization’s leaders and managers",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1315,
+              "language": "en",
+              "char_count": 440,
+              "start_char": 875,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.3627508584119049,
+            "strategy": "dense"
+          },
+          {
+            "id": "198fd7286136e4b5bf097aaa0dafd883000a263c8f27b1ee8442fdae4a9bcbde",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "provides an essential structure for managing and aligning strategies with business goals.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3817,
+              "language": "en",
+              "char_count": 89,
+              "start_char": 3728,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.3431058682870922,
+            "strategy": "dense"
+          },
+          {
+            "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1949,
+              "language": "en",
+              "char_count": 481,
+              "start_char": 1468,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.3327746535763364,
+            "strategy": "dense"
+          },
+          {
+            "id": "60dadcb33e902fcb3dca5373676cd401065c087ee7e35849d46b43fe0273ed22",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "be managed with an ethical\nmindset, understanding its importance and recognizing that IS professionals have an obligation to do\neverything they can to help safeguard data.\n1.3 Connections between Information Systems and Information Technology\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain competencies in IS and IT\n• Describe the connections between IS and IT",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1455,
+              "language": "en",
+              "char_count": 392,
+              "start_char": 1063,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.3200968638898539,
+            "strategy": "dense"
+          },
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.3120649891282383,
+            "strategy": "dense"
+          },
+          {
+            "id": "d82dcf604f3b6cc4bfda225b9305460d792fe76fbe8f052aa55799ad16dff9b5",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "• Personal e ffectiveness: competencies such as interpersonal skills, integrity, professionalism, initiative,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3350,
+              "language": "en",
+              "char_count": 109,
+              "start_char": 3241,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.30730632717984807,
+            "strategy": "dense"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.297902219710217,
+            "strategy": "dense"
+          },
+          {
+            "id": "ffc4bf67f4e42c6544624a669f628718c9dbd2f53b495ed4c332c7c136aa164d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 34,
+            "text": "frameworks they need for strategic planning and\ndecision-making on a global scale.\nYou will learn more about globalization and the role of IS in promoting global operations in Chapter 11 Global\nInformation Systems which covers strategic and global information systems. This will include a look at the role\nof culture in IS, as well as IT, and the risks associated with the use of global data and systems sharing. For now,\nit is important to recognize IS as a vital tool for globalization.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2715,
+              "language": "en",
+              "char_count": 488,
+              "start_char": 2227,
+              "printed_page": 30,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3881
+            },
+            "score": 0.2954527489410571,
+            "strategy": "dense"
+          },
+          {
+            "id": "fe93058d73022698d51f430fcd5a1f698f645514279c6ec0caecc3c717d62832",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "taking advantage of\nlearning opportunities helps ensure that you obtain the appropriate continuing education to stay abreast of\nchanges and new requirements in the field of IS. In addition, members of such organizations gain access to\ncolleagues around the world who can become an important networking resource for information sharing and\ncollaboration.\nGLOBAL CONNECTIONS\nA Symbiotic Relationship: IS and Globalization",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1260,
+              "language": "en",
+              "char_count": 419,
+              "start_char": 841,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.2794648930494237,
+            "strategy": "dense"
+          },
+          {
+            "id": "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1467,
+              "language": "en",
+              "char_count": 245,
+              "start_char": 1222,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.27621733826145134,
+            "strategy": "dense"
+          },
+          {
+            "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1643,
+              "language": "en",
+              "char_count": 98,
+              "start_char": 1545,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.27322444618051955,
+            "strategy": "dense"
+          },
+          {
+            "id": "e30c267ffe4990d528adbaa432797636de8a9b6998f31fb863b0d959213a0213",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Consider a team of colleagues who are working together to develop a marketing plan for a new product. By",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4238,
+              "language": "en",
+              "char_count": 104,
+              "start_char": 4134,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.27161441819346477,
+            "strategy": "dense"
+          },
+          {
+            "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 857,
+              "language": "en",
+              "char_count": 477,
+              "start_char": 380,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.2649610263781752,
+            "strategy": "dense"
+          },
+          {
+            "id": "43e1c64c700fe19d88798eab64b56828653e0fe0ef5e7e55a893110b8c59542b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 23,
+            "text": "systems enable organizations to provide\nbetter customer service, which typically leads to more satisfied customers, increasing the likelihood that\ncustomers will rely on the organization again when they need its goods or services.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1388,
+              "language": "en",
+              "char_count": 247,
+              "start_char": 1141,
+              "printed_page": 19,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3719
+            },
+            "score": 0.26484820626859884,
+            "strategy": "dense"
+          },
+          {
+            "id": "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "Application of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 340,
+              "language": "en",
+              "char_count": 340,
+              "start_char": 0,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.2629189484349981,
+            "strategy": "dense"
+          },
+          {
+            "id": "8502175c9164bd9b194b015bed521417f85dbe9b85401391671462ae01bb4e94",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 23,
+            "text": "By now, you should understand that information systems are a vital tool for organizational success. To learn\nmore, explore how nineteen companies, including Lego and Sephora, are using information systems\n(https://openstax.org/r/109ISinWorkplce) in their operations. As you read their stories, consider how the\nfield of IS improved operations, whether these companies could have accomplished their goals without IS,\nand whether you would recommend these companies use IS in the future.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1874,
+              "language": "en",
+              "char_count": 485,
+              "start_char": 1389,
+              "printed_page": 19,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3719
+            },
+            "score": 0.2613071008768224,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1767,
+              "language": "en",
+              "char_count": 451,
+              "start_char": 1316,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.5635820182598309,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 874,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 394,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.2640630435098545,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2146,
+              "language": "en",
+              "char_count": 378,
+              "start_char": 1768,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.2328558905613181,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 500,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 0,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.18340502880572435,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.09916026695473851,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.09151577075678013,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d53e0e4eeca4c52fe3148f79f1b904a73247d38d7e724704a913b7e110e8d209",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 12,
+            "text": "thereby allowed for improved health care\nfor the community.1 This is information systems in action, using technology and information to help address\nconcerns from the COVID-19 pandemic.\n1.1 Introduction to Information Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• De fine the key concepts in information systems\n• Discuss the historical evolution of information systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 896,
+              "language": "en",
+              "char_count": 402,
+              "start_char": 494,
+              "printed_page": 8,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2754
+            },
+            "score": 0.09037808810770813,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.08302368699797064,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 35,
+            "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3187,
+              "language": "en",
+              "char_count": 282,
+              "start_char": 2905,
+              "printed_page": 31,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3973
+            },
+            "score": 0.07762120891794276,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1643,
+              "language": "en",
+              "char_count": 98,
+              "start_char": 1545,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.07127549158773543,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c8783db2dde733f52794b2ddf34a53e0e41e6e70165857081a367fcc1287b7dc",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 31,
+            "text": "• willingness to learn\n• professionalism\nAcademic Essential education\nGeneral:\n• reading\n• writing\n• mathematics\nIS-specific:\n• business\n• technology\nTable 1.1 Professional Competencies No matter what field you go into, certain personal, academic, and workplace skills are needed\nto be successful as you grow in your career .",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1958,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1633,
+              "printed_page": 27,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1958
+            },
+            "score": 0.06545996378667222,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.0608082442375173,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "719b8c20fc13dcc63ac2952031c3cf906ae297b8ec288c11790dc6c8201103c8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 31,
+            "text": "user and\ncustomer support, digital media and visualization, compliance, risk management, security, and information\nassurance. IS professionals also need competencies specific to the role they fill in IS. Table 1.1 outlines both\ngeneral and IS-specific professional competencies.\nCompetency Description Examples\nPersonal\neffectiveness\nPersonal characteristics or traits\nrelated to working\nGeneral:\n• interpersonal skills\n• initiative\n• dependability\n• reliability\nIS-specific:\n• integrity",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1632,
+              "language": "en",
+              "char_count": 487,
+              "start_char": 1145,
+              "printed_page": 27,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1958
+            },
+            "score": 0.056028164185007834,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "9c65a5cd8a7951c94321d5d3d270d2828d52338531546474a9dd6ee7d3d3af2f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 18,
+            "text": "rods in the steps needed to\nweave a specific pattern of cloth (Figure 1.5). The design of the loom helped early computer designers\nunderstand the concepts and importance of computer hardware and software by applying binary code.\nFigure 1.5 (a) Jacquard’s loom, which performed calculations using a punch card system, was an early development in computing, as\nwas (b) Herman Hollerith’s punch-card tabulating machine, for which he was awarded a patent in 1889. (c) Each hole in a punch card\nequals a",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1755,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 1257,
+              "printed_page": 14,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2947
+            },
+            "score": 0.05594164678376194,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0fbadfde772c4fb97f78331c76bb1ecccb6877ecfa51924ab01bd2134a60587b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 16,
+            "text": "The earliest forms of communication evolved from body language, hand signals, and drawings to spoken and\nwritten languages. As written language developed around the world, various societies invented ways to print\nwritten works that could be shared with others. These earlier means of communication provided essential\ninformation without technology components like those we think of today, such as database management\nsystems, data networks, hardware, and software.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1032,
+              "language": "en",
+              "char_count": 464,
+              "start_char": 568,
+              "printed_page": 12,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4312
+            },
+            "score": 0.05479566652837343,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1949,
+              "language": "en",
+              "char_count": 481,
+              "start_char": 1468,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.053292364896554874,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4945afef71c9ba83e7b20647baf24ec1a41249f33c2d451152af299d211e5f3c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 19,
+            "text": "As the internet developed, users were able to use computers to share information through resources such as\nemails and online access to news sites. By the late 1970s, online text-based games became popular , and many\norganizations began using computers to operate online public bulletin boards. Later , files could be uploaded\nand shared, and by the late 1990s, it was possible to post and share music and videos online. These\ntechnological advancements were important to support the evolution of",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1993,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 1498,
+              "printed_page": 15,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4005
+            },
+            "score": 0.05196732688429749,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7044f3838a3329af6f868a729f7ffab7d199707408ee05eabc984545a3e9b4b2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 32,
+            "text": "Management\nCompetencies regarding\nleadership, conflict resolution,\ndelegation, and team dynamics\nGeneral:\n• team management\n• con flict management\n• delegation\n• leadership\nIS-specific:\n• risk assessment\n• policy development\n• regulatory compliance\n• incident response planning\nTable 1.1 Professional Competencies No matter what field you go into, certain personal, academic, and workplace skills are needed\nto be successful as you grow in your career .",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1364,
+              "language": "en",
+              "char_count": 453,
+              "start_char": 911,
+              "printed_page": 28,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1364
+            },
+            "score": 0.051648488204001655,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a35ff1dabcc92bd1965cb9e04f82d227053f5c85be73943a3ae55befe4d2aef8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 34,
+            "text": "Management Professional\n(BDMP), Certified Business Intelligence Professional (CBIP), Certified Data Professional (CDP), and Information\nSystems Analyst (ISA). Typically, IS professionals earn the certification(s) related to the IS role(s) that they\nperform. To learn more, refer to 5.4 Career Focus: Key Certifications.\n1.4 The Global Importance of Information Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• Describe why information systems should be global",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 985,
+              "language": "en",
+              "char_count": 489,
+              "start_char": 496,
+              "printed_page": 30,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3881
+            },
+            "score": 0.048562746531886455,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f2ed543870db052ccb342fbae176f0800d9fec2174986dbd5191416814aa715c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 17,
+            "text": "Figure 1.4 In the 1970s, the Advanced Research Projects Agency’s network consisted of a series of nodes (connectors) and lines that\nstretched across the continental United States. (credit: modification of work “Arpanet 1974” by “Yngvar”/Wikimedia Commons, Public\nDomain)",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 622,
+              "language": "en",
+              "char_count": 270,
+              "start_char": 352,
+              "printed_page": 13,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1794
+            },
+            "score": 0.04829346232197289,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1767,
+            "language": "en",
+            "char_count": 451,
+            "start_char": 1316,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 874,
+            "language": "en",
+            "char_count": 480,
+            "start_char": 394,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2146,
+            "language": "en",
+            "char_count": 378,
+            "start_char": 1768,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.031746031746031744,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 3
+          },
+          "rank": 3
+        },
+        {
+          "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2657,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 2159,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.030330882352941176,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 8
+          },
+          "rank": 4
+        },
+        {
+          "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 496,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 0,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.02964426877470356,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 9,
+            "tfidf": 6
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 458.0114999989746
+    },
+    {
+      "query": "Chapter 1 McKinsey 7-S framework shared values explanation shared values",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1767,
+              "language": "en",
+              "char_count": 451,
+              "start_char": 1316,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.7855652875706858,
+            "strategy": "dense"
+          },
+          {
+            "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 874,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 394,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.6339320233125223,
+            "strategy": "dense"
+          },
+          {
+            "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2146,
+              "language": "en",
+              "char_count": 378,
+              "start_char": 1768,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.4494160906828055,
+            "strategy": "dense"
+          },
+          {
+            "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1949,
+              "language": "en",
+              "char_count": 481,
+              "start_char": 1468,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.441141679785393,
+            "strategy": "dense"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.42757798809018843,
+            "strategy": "dense"
+          },
+          {
+            "id": "788774d962f68b20f9652f61b28b99fc5ce20f51cee0a83a7425c644ea4cbd8d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Structure: how an organization is designed, including its hierarchy and chain of command\n• Strategy: the organization’s goals/objectives and the plans to achieve these\n• Skills: the skills, knowledge, and competencies held by the organization’s sta ff\n• Systems: the work flow processes used to achieve the organization’s goals and objectives\n• Style: the tone at the executive level established by the organization’s leaders and managers",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1315,
+              "language": "en",
+              "char_count": 440,
+              "start_char": 875,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.4070039586750651,
+            "strategy": "dense"
+          },
+          {
+            "id": "198fd7286136e4b5bf097aaa0dafd883000a263c8f27b1ee8442fdae4a9bcbde",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "provides an essential structure for managing and aligning strategies with business goals.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3817,
+              "language": "en",
+              "char_count": 89,
+              "start_char": 3728,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.3992052474420137,
+            "strategy": "dense"
+          },
+          {
+            "id": "2c1157f9b912443983ec45361e9f7674c7bb9e81f6a9cba4db8ecb4fe4448365",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "• Why? seeks to learn why the organization has selected certain systems and solutions for its enterprise risk\nmanagement and information systems. This question also seeks to determine what motivates the\norganization to perform certain functions.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1467,
+              "language": "en",
+              "char_count": 245,
+              "start_char": 1222,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.38524684998683234,
+            "strategy": "dense"
+          },
+          {
+            "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 857,
+              "language": "en",
+              "char_count": 477,
+              "start_char": 380,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.37920247652771044,
+            "strategy": "dense"
+          },
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.37593611689119144,
+            "strategy": "dense"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.3718187994525586,
+            "strategy": "dense"
+          },
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.3514241549878345,
+            "strategy": "dense"
+          },
+          {
+            "id": "60dadcb33e902fcb3dca5373676cd401065c087ee7e35849d46b43fe0273ed22",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "be managed with an ethical\nmindset, understanding its importance and recognizing that IS professionals have an obligation to do\neverything they can to help safeguard data.\n1.3 Connections between Information Systems and Information Technology\nLearning Objectives\nBy the end of this section, you will be able to:\n• Explain competencies in IS and IT\n• Describe the connections between IS and IT",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1455,
+              "language": "en",
+              "char_count": 392,
+              "start_char": 1063,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.34684521666245827,
+            "strategy": "dense"
+          },
+          {
+            "id": "e30c267ffe4990d528adbaa432797636de8a9b6998f31fb863b0d959213a0213",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Consider a team of colleagues who are working together to develop a marketing plan for a new product. By",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4238,
+              "language": "en",
+              "char_count": 104,
+              "start_char": 4134,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.341040007437324,
+            "strategy": "dense"
+          },
+          {
+            "id": "ffc4bf67f4e42c6544624a669f628718c9dbd2f53b495ed4c332c7c136aa164d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 34,
+            "text": "frameworks they need for strategic planning and\ndecision-making on a global scale.\nYou will learn more about globalization and the role of IS in promoting global operations in Chapter 11 Global\nInformation Systems which covers strategic and global information systems. This will include a look at the role\nof culture in IS, as well as IT, and the risks associated with the use of global data and systems sharing. For now,\nit is important to recognize IS as a vital tool for globalization.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2715,
+              "language": "en",
+              "char_count": 488,
+              "start_char": 2227,
+              "printed_page": 30,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3881
+            },
+            "score": 0.3315464018093668,
+            "strategy": "dense"
+          },
+          {
+            "id": "ef27a2dedd2e7455ca99817bcf67c619686abee0c996264a2d518da40d133cb9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "When developing an information system, frameworks provide guidance to help IS professionals apply critical\nthinking as they identify the goals of the system and problems that can be resolved by the system.\nFrameworks promote proactive communication and help IS professionals organize their ideas and provide a\nfoundation for strategic planning to develop and maintain a system that meets an organization’s specific\nneeds. As part of this process, frameworks also provide IS professionals with",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 556,
+              "language": "en",
+              "char_count": 492,
+              "start_char": 64,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.3299073254003252,
+            "strategy": "dense"
+          },
+          {
+            "id": "6731cd8e4300f8698350fef138aeca777175e3ae7afa6f1578b65e1f6c6be120",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 23,
+            "text": "using information systems, each member of the team can access and share data about the product to\nunderstand its purpose, target market, and options for marketing. By accessing data on the organization’s\nprevious marketing efforts, they can understand and share information about marketing techniques that have\nworked well for the organization in the past, as well as those that were not as effective. The information\nsystem provides the team with the data and tools they need to fully understand the",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 500,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 0,
+              "printed_page": 19,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3719
+            },
+            "score": 0.3283013019107175,
+            "strategy": "dense"
+          },
+          {
+            "id": "e0e88d9f612f222b919a1e72701b24a836b02d37890c7230fb337fc05461c1bf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 29,
+            "text": "Application of the Frameworks and Standards\nIS professionals should rely on the frameworks and standards applicable to their organization and specific role\nto guide their work. This helps ensure that the work meets the organization’s needs, while also following\nstandards important for maintaining IS compatibility with other organizations.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 340,
+              "language": "en",
+              "char_count": 340,
+              "start_char": 0,
+              "printed_page": 25,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3741
+            },
+            "score": 0.3281912480290867,
+            "strategy": "dense"
+          },
+          {
+            "id": "a0a4bd108954397d5c6da05ba42cad461be53ab0d675b07178a488571ec9d1ed",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Use of Frameworks and Industry Standards in Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 63,
+              "language": "en",
+              "char_count": 63,
+              "start_char": 0,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.3193427071209739,
+            "strategy": "dense"
+          },
+          {
+            "id": "8cf26b60e6fa76f3df835f2898bdb81a73bd61f15bd1a04e559368a47e0914e6",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "In addition to the benefit of working in a role aligned with an individual’s experience and interest, IS positions\ntend to pay competitive salaries, and the field’s outlook remains promising.\nETHICS IN IS\nEthics as Integral to IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 562,
+              "language": "en",
+              "char_count": 229,
+              "start_char": 333,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.3190512540990118,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1767,
+              "language": "en",
+              "char_count": 451,
+              "start_char": 1316,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.511920284624134,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2146,
+              "language": "en",
+              "char_count": 378,
+              "start_char": 1768,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.27617086143524683,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 874,
+              "language": "en",
+              "char_count": 480,
+              "start_char": 394,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.2723684658407775,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 500,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 0,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.1514610677611197,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2647,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 2147,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.11500934434193921,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 35,
+            "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3187,
+              "language": "en",
+              "char_count": 282,
+              "start_char": 2905,
+              "printed_page": 31,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3973
+            },
+            "score": 0.0984743334378536,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8fa1d71e01ab748c4e00afc90ac6f9adf6e0889113f552d1a4e07d4e27d2327f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Figure 1.8 The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise architecture. By\nasking what, how, where, who, when, and why, the Zachman Framework can help IS developers understand an organization’s needs\nfrom the perspective of an organization’s various stakeholders, including executives, managers, and technicians. (credit: modification",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2338,
+              "language": "en",
+              "char_count": 388,
+              "start_char": 1950,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.08002758496946363,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 496,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 0,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.07624420715034166,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7819f040661c2daea47b35f13590885bf9e50013aa2745fe7a0f46a4a907203c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 34,
+            "text": "Systems. In addition, Chapter 10 Emerging Technologies\nand Frontiers of Information Systems explores topics relevant to global innovation including emerging",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3881,
+              "language": "en",
+              "char_count": 156,
+              "start_char": 3725,
+              "printed_page": 30,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3881
+            },
+            "score": 0.07340514950704001,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2657,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2159,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.06992151423734683,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0fbadfde772c4fb97f78331c76bb1ecccb6877ecfa51924ab01bd2134a60587b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 16,
+            "text": "The earliest forms of communication evolved from body language, hand signals, and drawings to spoken and\nwritten languages. As written language developed around the world, various societies invented ways to print\nwritten works that could be shared with others. These earlier means of communication provided essential\ninformation without technology components like those we think of today, such as database management\nsystems, data networks, hardware, and software.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1032,
+              "language": "en",
+              "char_count": 464,
+              "start_char": 568,
+              "printed_page": 12,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4312
+            },
+            "score": 0.06951665417075406,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4945afef71c9ba83e7b20647baf24ec1a41249f33c2d451152af299d211e5f3c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 19,
+            "text": "As the internet developed, users were able to use computers to share information through resources such as\nemails and online access to news sites. By the late 1970s, online text-based games became popular , and many\norganizations began using computers to operate online public bulletin boards. Later , files could be uploaded\nand shared, and by the late 1990s, it was possible to post and share music and videos online. These\ntechnological advancements were important to support the evolution of",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1993,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 1498,
+              "printed_page": 15,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4005
+            },
+            "score": 0.06592847427676825,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d53e0e4eeca4c52fe3148f79f1b904a73247d38d7e724704a913b7e110e8d209",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 12,
+            "text": "thereby allowed for improved health care\nfor the community.1 This is information systems in action, using technology and information to help address\nconcerns from the COVID-19 pandemic.\n1.1 Introduction to Information Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• De fine the key concepts in information systems\n• Discuss the historical evolution of information systems",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 896,
+              "language": "en",
+              "char_count": 402,
+              "start_char": 494,
+              "printed_page": 8,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2754
+            },
+            "score": 0.057329189456471315,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c95f1c14cdde0ac101a025d2d043d85e80b10b2385ee58b927aaf28e67955898",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "As shown in Figure 1.8, these questions are posed across the top of Zachman’s 6 × 6 matrix. On the left side of\nthe matrix, the rows list the organization’s stakeholders. To understand the system needs, the stakeholders’\nperspectives are entered into the appropriate cells in the matrix. The Zachman Framework can be an\nimportant tool to understand what an organization’s information systems should entail and develop the\nappropriate enterprise architecture to support that system.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1949,
+              "language": "en",
+              "char_count": 481,
+              "start_char": 1468,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.04855786924084627,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1643,
+              "language": "en",
+              "char_count": 98,
+              "start_char": 1545,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.045211911940056984,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0447b8b32987425b64483ab8e6160667939b91664c07c75c568eab708b4e6bc2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 33,
+            "text": "• cybersecurity, which identi fies an organization’s cybersecurity risks and implements measures for risk\nmanagement\n• enterprise system, which is a software package that organizations use to automate and coordinate\noperations, solve an organization’s problems, and monitor organizational performance\n• information system design, which develops the framework and structure for IS that enables IS to meet an\norganization’s specific needs",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2466,
+              "language": "en",
+              "char_count": 436,
+              "start_char": 2030,
+              "printed_page": 29,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3132
+            },
+            "score": 0.044011648619690966,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "82770ff8aa5278ef129065b313688445c46d6c15679e5bea91b12cdf94de44a1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "The Zachman Framework provides a structure for developing and organizing the artifacts of enterprise\narchitecture, including data and documents, which are vital for a robust information system. Using a 6 × 6\nmatrix, the Zachman Framework asks the following six questions to identify the needs and perspectives of\nstakeholders in a particular system:\n• What? seeks to understand the data needed for the system by learning about the organization’s data,\nobjects, and information.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 857,
+              "language": "en",
+              "char_count": 477,
+              "start_char": 380,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.043294047385676084,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c8783db2dde733f52794b2ddf34a53e0e41e6e70165857081a367fcc1287b7dc",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 31,
+            "text": "• willingness to learn\n• professionalism\nAcademic Essential education\nGeneral:\n• reading\n• writing\n• mathematics\nIS-specific:\n• business\n• technology\nTable 1.1 Professional Competencies No matter what field you go into, certain personal, academic, and workplace skills are needed\nto be successful as you grow in your career .",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1958,
+              "language": "en",
+              "char_count": 325,
+              "start_char": 1633,
+              "printed_page": 27,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1958
+            },
+            "score": 0.041522970272036754,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "3309062ab25bfac627f54db9207f78095ecae325d96096c43c5759d066fc626f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "organization that provides training, research information, news updates, advocacy,\nand related support for IS professionals and others involved in information technology.\nFigure 1.6 COBIT’s framework provides IS professionals with five processes—Evaluate, Direct, and Monitor (EDM); Align, Plan, and\nOrganize (APO); Build, Acquire, and Implement (BAI); Deliver , Service, and Support (DSS); and Monitor , Evaluate, and Assess\n(MEA)—that can help develop and maintain an information system. (credit:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2897,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2399,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.04102545024601329,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "3d81a31d3e4ce06bed3c86146e5539d9c6e47178b5b4823080f3671f70b9efda",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 34,
+            "text": "change and gather the information\nneeded to make decisions, set policies, and take action to combat the impacts of climate change.\nOrganizations use processes such as business analysis, problem-solving, and decision-making for global\ninnovation, and these same processes are used for internal and local issues. With global innovation, these\norganizational processes have a broader scope as they are applied to the global marketplace and this is\ncovered in-depth in Chapter 11 Global Information",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3724,
+              "language": "en",
+              "char_count": 494,
+              "start_char": 3230,
+              "printed_page": 30,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3881
+            },
+            "score": 0.04002258596739912,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "e00c4a01656bc275b830f64989d28b515e582d1c03c16413e0a6c00e03299450",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "• Shared values: the organization’s mission and values that motivate its operations\nLINK TO LEARNING\nThe McKinsey 7-S Framework was introduced in the 1970s to emphasize the importance of coordination\nwithin an organization across its structure. Review this interactive presentation about the framework’s\napplicability today (https://openstax.org/r/109McKinsey) from McKinsey and Company.\nThe McKinsey 7-S Framework can be used by following four steps:",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1767,
+            "language": "en",
+            "char_count": 451,
+            "start_char": 1316,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "34591f24b3f84f546c79a147ca591d2dbdce320e13ab217ed2572c4af5ff9c30",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "The McKinsey 7-S Framework focuses on how an organization can be efficient and effective with interaction\nand coordination of its staff, structure, strategy, skills, systems, style, and shared values. The goal of the\nframework is to determine how an organization can be effective with interaction and coordination of the seven\nelements:\n• Sta ff: the people who lead and work in an organization, as well as the tools to support the staff, including\ntraining and incentive programs",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 874,
+            "language": "en",
+            "char_count": 480,
+            "start_char": 394,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 3
+          },
+          "rank": 2
+        },
+        {
+          "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2146,
+            "language": "en",
+            "char_count": 378,
+            "start_char": 1768,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 2
+          },
+          "rank": 3
+        },
+        {
+          "id": "78cfd0f43f8b26f337aa95d2f96a0078b85d3ddab6e799bda6fca81b91d6ab00",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "• Level 7, Set Strategy, Inspire, and Mobilize: The final and highest level is filled by an organization’s top\nleaders and managers. These individuals establish an organization’s policy objectives and have oversight\nand accountability for all decisions made and actions taken throughout the organization.\nSFIA is an important framework used globally to promote success in the digital world. Its common language\nhelps technology professionals across the globe integrate the processes they must learn",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2657,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 2159,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.02967032967032967,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 5,
+            "tfidf": 10
+          },
+          "rank": 4
+        },
+        {
+          "id": "7fcd2fa21b348bd938c17365f07c8026e0cfa51905f3dfc8bbdbd8b607e41035",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "This framework can help ensure organizations are in alignment and have an effective design, making it easier\nto develop and maintain the appropriate information systems to meet the organization’s needs.\nThe Skills Framework for the Information Age (SFIA) provides a comprehensive skills and competency\nframework in a common language for the IT industry. It includes the steps listed in Figure 1.7. It was\ndeveloped and is overseen by the SFIA Foundation, a global organization committed to helping IS",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2647,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 2147,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.02946912242686891,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 11,
+            "tfidf": 5
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 341.41470000031404
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 32
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 14
+    }
+  ],
+  "cost_usd": null
+}

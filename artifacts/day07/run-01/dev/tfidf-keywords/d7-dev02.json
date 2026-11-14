@@ -1,0 +1,402 @@
+{
+  "query_id": "d7-dev02",
+  "split": "dev",
+  "question": "Trong Chương 1, hệ thống nào xử lý các giao dịch hằng ngày như đơn hàng và tiền lương?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:39.416631+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 1 system processes routine daily transactions orders payroll transaction processing system TPS",
+      "filter": {
+        "chapter": 1
+      },
+      "results": [
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.42690654359915015,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 500,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 0,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.1546660521906879,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2399,
+            "language": "en",
+            "char_count": 155,
+            "start_char": 2244,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.14502997194683753,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671 | chapter1-2.pdf | page 11]\nFigure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems\n\n[b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7 | chapter1-2.pdf | page 21]\nprocessing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+      "context_ids": [
+        "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+        "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+        "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 1, hệ thống nào xử lý các giao dịch hằng ngày như đơn hàng và tiền lương?",
+    "filter": {
+      "chapter": 1
+    },
+    "results": [
+      {
+        "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 11,
+        "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 500,
+          "language": "en",
+          "char_count": 500,
+          "start_char": 0,
+          "printed_page": 7,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1643
+        },
+        "score": 0.6181322453497919,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "d53e0e4eeca4c52fe3148f79f1b904a73247d38d7e724704a913b7e110e8d209",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 12,
+        "text": "thereby allowed for improved health care\nfor the community.1 This is information systems in action, using technology and information to help address\nconcerns from the COVID-19 pandemic.\n1.1 Introduction to Information Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• De fine the key concepts in information systems\n• Discuss the historical evolution of information systems",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 896,
+          "language": "en",
+          "char_count": 402,
+          "start_char": 494,
+          "printed_page": 8,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2754
+        },
+        "score": 0.3046023922910848,
+        "strategy": "tfidf",
+        "rank": 2
+      },
+      {
+        "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 11,
+        "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1643,
+          "language": "en",
+          "char_count": 98,
+          "start_char": 1545,
+          "printed_page": 7,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1643
+        },
+        "score": 0.24022067410270487,
+        "strategy": "tfidf",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là hệ thống xử lý giao dịch (TPS), xử lý các giao dịch hằng ngày như xử lý đơn hàng và tiền lương.[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def]",
+  "elapsed_ms": 2926.9896000005247,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 383,
+        "completion_tokens": 29,
+        "total_tokens": 412
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 1 system processes routine daily transactions orders payroll transaction processing system TPS"
+      },
+      "elapsed_ms": 1105.2305000011984
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 1 system processes routine daily transactions orders payroll transaction processing system TPS"
+          ],
+          "context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671 | chapter1-2.pdf | page 11]\nFigure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems\n\n[b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7 | chapter1-2.pdf | page 21]\nprocessing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+          "context_ids": [
+            "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+            "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+            "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 933,
+        "completion_tokens": 127,
+        "total_tokens": 1060
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là hệ thống xử lý giao dịch (TPS), xử lý các giao dịch hằng ngày như xử lý đơn hàng và tiền lương.[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def]",
+        "citations": [
+          "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def"
+        ]
+      },
+      "elapsed_ms": 1770.3019000000495
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 1, hệ thống nào xử lý các giao dịch hằng ngày như đơn hàng và tiền lương?",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 500,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 0,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.6181322453497919,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "d53e0e4eeca4c52fe3148f79f1b904a73247d38d7e724704a913b7e110e8d209",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 12,
+          "text": "thereby allowed for improved health care\nfor the community.1 This is information systems in action, using technology and information to help address\nconcerns from the COVID-19 pandemic.\n1.1 Introduction to Information Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• De fine the key concepts in information systems\n• Discuss the historical evolution of information systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 896,
+            "language": "en",
+            "char_count": 402,
+            "start_char": 494,
+            "printed_page": 8,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2754
+          },
+          "score": 0.3046023922910848,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1643,
+            "language": "en",
+            "char_count": 98,
+            "start_char": 1545,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.24022067410270487,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 0.5960999988019466
+    },
+    {
+      "query": "Chapter 1 system processes routine daily transactions orders payroll transaction processing system TPS",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.42690654359915015,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 500,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 0,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.1546660521906879,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2399,
+            "language": "en",
+            "char_count": 155,
+            "start_char": 2244,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.14502997194683753,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 3.286299997853348
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

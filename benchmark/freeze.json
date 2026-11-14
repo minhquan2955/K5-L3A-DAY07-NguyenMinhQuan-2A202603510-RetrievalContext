@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-11-14T08:55:32.886430+00:00",
+  "freeze_stage": "before Day07 retrieval/context/agent evaluation",
+  "benchmark": {
+    "path": "benchmark/cases.json",
+    "sha256": "33ed1503e1497fb784ee9e669efc3719d2fa767410b2ed438411419c6d3e3237",
+    "size_bytes": 45898,
+    "count": 24
+  },
+  "source_snapshots": {
+    "pdf": {
+      "path": "D:\\K5-L3A-DAY06-NguyenMinhQuan-2A202603510-DataIngestion\\chapter1-2.pdf",
+      "sha256": "45ea2a3a7fe5aa5f9fdf4beb4ef48bbdf9622d146c55684bb3edbe4b549f96b9",
+      "size_bytes": 2093002
+    },
+    "B505_chunks": {
+      "path": "D:\\K5-L3A-DAY06-NguyenMinhQuan-2A202603510-DataIngestion\\starter\\src\\results\\run-02\\chunks.B.jsonl",
+      "sha256": "15da71df614cb57f4c641859eebde92811c6c2237608c8347783dae3cab3b0e0",
+      "size_bytes": 392818
+    },
+    "day6_questions": {
+      "path": "D:\\K5-L3A-DAY06-NguyenMinhQuan-2A202603510-DataIngestion\\benchmark\\questions.json",
+      "sha256": "4735ec4f5c52d4a601aeffd9f9152e704a84a64d4dbbaef24bfa2031c1813a38",
+      "size_bytes": 16441
+    },
+    "day6_manifest": {
+      "path": "D:\\K5-L3A-DAY06-NguyenMinhQuan-2A202603510-DataIngestion\\data\\manifest.json",
+      "sha256": "ff26398854e5fe6adacf12caf5ebf4d95e49988856bb4e9b772b72731fdb36ed",
+      "size_bytes": 40895
+    },
+    "day6_normalization_code": {
+      "path": "D:\\K5-L3A-DAY06-NguyenMinhQuan-2A202603510-DataIngestion\\starter\\src\\ingestion.py",
+      "sha256": "7f6e176b0cbceff0e32519595ab7819ee72eacb0f064e40ef01fd40b379a2ab8",
+      "size_bytes": 2573
+    }
+  },
+  "source_review": {
+    "path": "benchmark/source_review.json",
+    "sha256": "e9dc3dd02f0b408f2d9514d0f4a12943a5fe3d03decb8a3a4257f1400adc4d99",
+    "size_bytes": 9487
+  },
+  "splits": {
+    "dev": {
+      "ids": [
+        "d7-dev01",
+        "d7-dev02",
+        "d7-dev03",
+        "d7-dev04",
+        "d7-dev05",
+        "d7-dev06",
+        "d7-dev07",
+        "d7-dev08",
+        "d7-dev09",
+        "d7-dev10",
+        "d7-dev11",
+        "d7-dev12",
+        "d7-dev13",
+        "d7-dev14",
+        "d7-dev15",
+        "d7-dev16",
+        "d7-dev17"
+      ],
+      "answerable_ids": [
+        "d7-dev01",
+        "d7-dev02",
+        "d7-dev03",
+        "d7-dev04",
+        "d7-dev05",
+        "d7-dev06",
+        "d7-dev07",
+        "d7-dev08",
+        "d7-dev09",
+        "d7-dev10",
+        "d7-dev11",
+        "d7-dev12",
+        "d7-dev13",
+        "d7-dev14",
+        "d7-dev15"
+      ],
+      "unanswerable_ids": [
+        "d7-dev16",
+        "d7-dev17"
+      ]
+    },
+    "test": {
+      "ids": [
+        "d7-test01",
+        "d7-test02",
+        "d7-test03",
+        "d7-test04",
+        "d7-test05",
+        "d7-test06",
+        "d7-test07"
+      ],
+      "answerable_ids": [
+        "d7-test01",
+        "d7-test02",
+        "d7-test03",
+        "d7-test04",
+        "d7-test05"
+      ],
+      "unanswerable_ids": [
+        "d7-test06",
+        "d7-test07"
+      ]
+    }
+  },
+  "evaluation_rules": {
+    "gold_aggregation": "OR: each gold entry is an independently sufficient alternative; never require every alternative. Evidence must occur completely on correct source/page after NFC and whitespace collapse.",
+    "retrieval_denominator": "answerable cases only",
+    "q13_exception": "Preserve original evidence. Mark complete evidence absent when no individual chunk contains it; context may satisfy it after source-order merging.",
+    "leakage_control": "Do not send expected_answer, gold, absence_reason, absence_check, or provenance to the answer agent. Only id, question and explicit filter are model inputs. Test rows remain held out until configuration selection is locked.",
+    "change_control": "Changing any case after evaluation starts invalidates this freeze; publish a new version and rerun comparisons. Never tune on held-out test."
+  },
+  "review_status": "AI-assisted check completed; independent student review pending",
+  "cases_sha256": "33ed1503e1497fb784ee9e669efc3719d2fa767410b2ed438411419c6d3e3237",
+  "split_ids": {
+    "dev": [
+      "d7-dev01",
+      "d7-dev02",
+      "d7-dev03",
+      "d7-dev04",
+      "d7-dev05",
+      "d7-dev06",
+      "d7-dev07",
+      "d7-dev08",
+      "d7-dev09",
+      "d7-dev10",
+      "d7-dev11",
+      "d7-dev12",
+      "d7-dev13",
+      "d7-dev14",
+      "d7-dev15",
+      "d7-dev16",
+      "d7-dev17"
+    ],
+    "test": [
+      "d7-test01",
+      "d7-test02",
+      "d7-test03",
+      "d7-test04",
+      "d7-test05",
+      "d7-test06",
+      "d7-test07"
+    ]
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "query_id": "d7-test01",
+  "split": "test",
+  "question": "Trong Chương 1, loại kiểm soát nào được tích hợp vào hệ thống và bao gồm tường lửa, mã hóa và kiểm soát truy cập?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:05:09.610031+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 1 controls embedded in systems firewalls encryption access controls integrated system type controls",
+      "filter": {
+        "chapter": 1
+      },
+      "results": [
+        {
+          "id": "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3594,
+            "language": "en",
+            "char_count": 276,
+            "start_char": 3318,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.1841508761201433,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3317,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 2818,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.14667482616351762,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 500,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 0,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.14636685289593543,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756 | chapter1-2.pdf | page 21]\n◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.\n\n[5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e | chapter1-2.pdf | page 21]\n• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.\n\n[69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671 | chapter1-2.pdf | page 11]\nFigure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+      "context_ids": [
+        "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+        "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+        "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 1, loại kiểm soát nào được tích hợp vào hệ thống và bao gồm tường lửa, mã hóa và kiểm soát truy cập?",
+    "filter": {
+      "chapter": 1
+    },
+    "results": [
+      {
+        "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 11,
+        "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 500,
+          "language": "en",
+          "char_count": 500,
+          "start_char": 0,
+          "printed_page": 7,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1643
+        },
+        "score": 0.6181322453497919,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "d53e0e4eeca4c52fe3148f79f1b904a73247d38d7e724704a913b7e110e8d209",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 12,
+        "text": "thereby allowed for improved health care\nfor the community.1 This is information systems in action, using technology and information to help address\nconcerns from the COVID-19 pandemic.\n1.1 Introduction to Information Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• De fine the key concepts in information systems\n• Discuss the historical evolution of information systems",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 896,
+          "language": "en",
+          "char_count": 402,
+          "start_char": 494,
+          "printed_page": 8,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2754
+        },
+        "score": 0.3046023922910848,
+        "strategy": "tfidf",
+        "rank": 2
+      },
+      {
+        "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 11,
+        "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1643,
+          "language": "en",
+          "char_count": 98,
+          "start_char": 1545,
+          "printed_page": 7,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1643
+        },
+        "score": 0.24022067410270487,
+        "strategy": "tfidf",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là **kiểm soát ứng dụng** (application control), được tích hợp vào hệ thống và bao gồm các tính năng như tường lửa, mã hóa và kiểm soát truy cập. [66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756]",
+  "elapsed_ms": 3861.388299999817,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 392,
+        "completion_tokens": 31,
+        "total_tokens": 423
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 1 controls embedded in systems firewalls encryption access controls integrated system type controls"
+      },
+      "elapsed_ms": 1628.5222000005888
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 1 controls embedded in systems firewalls encryption access controls integrated system type controls"
+          ],
+          "context": "[66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756 | chapter1-2.pdf | page 21]\n◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.\n\n[5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e | chapter1-2.pdf | page 21]\n• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.\n\n[69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671 | chapter1-2.pdf | page 11]\nFigure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+          "context_ids": [
+            "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+            "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+            "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 994,
+        "completion_tokens": 138,
+        "total_tokens": 1132
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là **kiểm soát ứng dụng** (application control), được tích hợp vào hệ thống và bao gồm các tính năng như tường lửa, mã hóa và kiểm soát truy cập. [66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756]",
+        "citations": [
+          "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756"
+        ]
+      },
+      "elapsed_ms": 2195.726399997511
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 1, loại kiểm soát nào được tích hợp vào hệ thống và bao gồm tường lửa, mã hóa và kiểm soát truy cập?",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 500,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 0,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.6181322453497919,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "d53e0e4eeca4c52fe3148f79f1b904a73247d38d7e724704a913b7e110e8d209",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 12,
+          "text": "thereby allowed for improved health care\nfor the community.1 This is information systems in action, using technology and information to help address\nconcerns from the COVID-19 pandemic.\n1.1 Introduction to Information Systems\nLearning Objectives\nBy the end of this section, you will be able to:\n• De fine the key concepts in information systems\n• Discuss the historical evolution of information systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 896,
+            "language": "en",
+            "char_count": 402,
+            "start_char": 494,
+            "printed_page": 8,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2754
+          },
+          "score": 0.3046023922910848,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "8d77c9e2c9c6ab015626c2501d150797016966dbdb19615bb5eaca9e5374ca97",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "and participate in the marketplace, whether\nlocal or global.\nFundamentals of Information Systems\n1",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1643,
+            "language": "en",
+            "char_count": 98,
+            "start_char": 1545,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.24022067410270487,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 0.42190000021946616
+    },
+    {
+      "query": "Chapter 1 controls embedded in systems firewalls encryption access controls integrated system type controls",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3594,
+            "language": "en",
+            "char_count": 276,
+            "start_char": 3318,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.1841508761201433,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3317,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 2818,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.14667482616351762,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "69bcc247f4659353d3b838456c340a1f78c0ab2246a6cf263dd9b280b7987671",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 11,
+          "text": "Figure 1.1 Information systems are an integral part of our lives. Organizations rely on them to manage data, produce goods and\nservices, and compete successfully in marketplaces big and small. (credit: modification of work “Infoeko2” by “Deeply”/Wikimedia\nCommons, CC0 1.0)\nChapter Outline\n1.1 Introduction to Information Systems\n1.2 Frameworks of Knowledge and Industry Standards\n1.3 Connections between Information Systems and Information Technology\n1.4 The Global Importance of Information Systems",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 500,
+            "language": "en",
+            "char_count": 500,
+            "start_char": 0,
+            "printed_page": 7,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1643
+          },
+          "score": 0.14636685289593543,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 3.726800001459196
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

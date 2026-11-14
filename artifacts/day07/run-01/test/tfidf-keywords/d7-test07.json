@@ -1,0 +1,389 @@
+{
+  "query_id": "d7-test07",
+  "split": "test",
+  "question": "Theo tài liệu, blockchain đạt tốc độ tối đa chính xác bao nhiêu giao dịch mỗi giây?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:05:16.887147+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "blockchain maximum speed transactions per second TPS maximum transaction rate",
+      "filter": {},
+      "results": [
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.2489296879961187,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2817,
+            "language": "en",
+            "char_count": 417,
+            "start_char": 2400,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.12951058899428017,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.11704805006234956,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d | chapter1-2.pdf | page 21]\n• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.\n\n[0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c | chapter1-2.pdf | page 35]\n• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+      "context_ids": [
+        "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+        "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+        "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c"
+      ]
+    },
+    {
+      "event": "search_limit"
+    }
+  ],
+  "citations": [],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Theo tài liệu, blockchain đạt tốc độ tối đa chính xác bao nhiêu giao dịch mỗi giây?",
+    "filter": {},
+    "results": [
+      {
+        "id": "513ae714c35d6ca7f4541f895204809ad7bdbae23e204b411ee8147798093972",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 35,
+        "text": "As technology advances throughout the world, IS must continue to evolve. The key topics IS professionals are\nfollowing include artificial intelligence, machine learning, 5G and the Internet of Things, edge computing, and\nblockchain.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1207,
+          "language": "en",
+          "char_count": 232,
+          "start_char": 975,
+          "printed_page": 31,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3973
+        },
+        "score": 0.25063192944377594,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 35,
+        "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3187,
+          "language": "en",
+          "char_count": 282,
+          "start_char": 2905,
+          "printed_page": 31,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3973
+        },
+        "score": 0.2052457840013584,
+        "strategy": "tfidf",
+        "rank": 2
+      },
+      {
+        "id": "61519868a1724afcc12918153888d9f0df64588f51807cc0ea0fa880c8f53942",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 20,
+        "text": "To ensure that people can continue to communicate and manage the complexities of the world, information\nsystems, including processes to share information, continue to evolve. Emerging technologies, such as\nartificial intelligence (AI), machine learning (ML), and blockchain, have the potential to provide many benefits\nto much of the world’s population, but can also raise or expand ethical concerns. As these systems continue to\nadvance, we will need to balance these ethical concerns with the",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1503,
+          "language": "en",
+          "char_count": 494,
+          "start_char": 1009,
+          "printed_page": 16,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4240
+        },
+        "score": 0.14174950992616958,
+        "strategy": "tfidf",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "elapsed_ms": 3454.4573000021046,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 379,
+        "completion_tokens": 26,
+        "total_tokens": 405
+      },
+      "action": {
+        "action": "search",
+        "query": "blockchain maximum speed transactions per second TPS maximum transaction rate"
+      },
+      "elapsed_ms": 1714.4416999981331
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "blockchain maximum speed transactions per second TPS maximum transaction rate"
+          ],
+          "context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d | chapter1-2.pdf | page 21]\n• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.\n\n[0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c | chapter1-2.pdf | page 35]\n• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "context_ids": [
+            "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+            "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+            "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 934,
+        "completion_tokens": 29,
+        "total_tokens": 963
+      },
+      "action": {
+        "action": "search",
+        "query": "\"transactions per second\" blockchain speed maximum Bitcoin blockchain scalable TPS exact number"
+      },
+      "elapsed_ms": 1652.59110000261
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Theo tài liệu, blockchain đạt tốc độ tối đa chính xác bao nhiêu giao dịch mỗi giây?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "513ae714c35d6ca7f4541f895204809ad7bdbae23e204b411ee8147798093972",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "As technology advances throughout the world, IS must continue to evolve. The key topics IS professionals are\nfollowing include artificial intelligence, machine learning, 5G and the Internet of Things, edge computing, and\nblockchain.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1207,
+            "language": "en",
+            "char_count": 232,
+            "start_char": 975,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.25063192944377594,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.2052457840013584,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "61519868a1724afcc12918153888d9f0df64588f51807cc0ea0fa880c8f53942",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 20,
+          "text": "To ensure that people can continue to communicate and manage the complexities of the world, information\nsystems, including processes to share information, continue to evolve. Emerging technologies, such as\nartificial intelligence (AI), machine learning (ML), and blockchain, have the potential to provide many benefits\nto much of the world’s population, but can also raise or expand ethical concerns. As these systems continue to\nadvance, we will need to balance these ethical concerns with the",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1503,
+            "language": "en",
+            "char_count": 494,
+            "start_char": 1009,
+            "printed_page": 16,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4240
+          },
+          "score": 0.14174950992616958,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 0.5440999993879814
+    },
+    {
+      "query": "blockchain maximum speed transactions per second TPS maximum transaction rate",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.2489296879961187,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "de7c74b6192113d0c4cfd10c7f636723a03b4afe517f3f87c8bfd49124a2ea6d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The performance of tasks in order to make data useful in a system is known as processing. For example,\nonce financial data are entered into a spreadsheet, that data must be computed in order to yield useful\ninformation such as the costs to produce goods and services, the number of sales per month, and the\nprofits earned per quarter . The calculations to derive this data are tasks performed as part of processing.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2817,
+            "language": "en",
+            "char_count": 417,
+            "start_char": 2400,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.12951058899428017,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.11704805006234956,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 1.3693000000785105
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

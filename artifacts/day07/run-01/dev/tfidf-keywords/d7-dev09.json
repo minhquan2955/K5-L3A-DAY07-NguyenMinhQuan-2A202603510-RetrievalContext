@@ -1,0 +1,402 @@
+{
+  "query_id": "d7-dev09",
+  "split": "dev",
+  "question": "Trong Chương 2, lĩnh vực nào thiết lập chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như một tài sản?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:45.123966+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 2 field establishes policies procedures standards roles and responsibilities to manage data as an asset",
+      "filter": {
+        "chapter": 2
+      },
+      "results": [
+        {
+          "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 486,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 0,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.43765212318596447,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "preserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2741,
+            "language": "en",
+            "char_count": 476,
+            "start_char": 2265,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.17641613849731427,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 45,
+          "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 647,
+            "language": "en",
+            "char_count": 273,
+            "start_char": 374,
+            "printed_page": 41,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1853
+          },
+          "score": 0.16129880731002497,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8 | chapter1-2.pdf | page 47]\nAppropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.\n\n[6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a | chapter1-2.pdf | page 46]\npreserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management\n\n[a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac | chapter1-2.pdf | page 45]\n2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+      "context_ids": [
+        "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+        "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+        "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 2, lĩnh vực nào thiết lập chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như một tài sản?",
+    "filter": {
+      "chapter": 2
+    },
+    "results": [
+      {
+        "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 45,
+        "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 647,
+          "language": "en",
+          "char_count": 273,
+          "start_char": 374,
+          "printed_page": 41,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1853
+        },
+        "score": 0.6915366989886932,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 48,
+        "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 345,
+          "language": "en",
+          "char_count": 345,
+          "start_char": 0,
+          "printed_page": 44,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1634
+        },
+        "score": 0.23073187921449329,
+        "strategy": "tfidf",
+        "rank": 2
+      },
+      {
+        "id": "e2a686605bf919716620e86dc296668f9bbbad0fc71cfa1f42c0b29e65f6b752",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 59,
+        "text": "dashboards for\nreal-time\nperformance\ntracking\nData-driven decision-\nmaking, actionable\ninsights, and improved\nbusiness performance\nTable 2.2 FAIS Values These indicators serve as metrics for evaluating information technology investments and demonstrate how\ntechnology can create value for organizations.\nStrategies to Improve the Value of Information Technology for\nOrganizations",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1078,
+          "language": "en",
+          "char_count": 379,
+          "start_char": 699,
+          "printed_page": 55,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2630
+        },
+        "score": 0.22356543922003805,
+        "strategy": "tfidf",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là **quản trị dữ liệu (data governance)**: lĩnh vực này thiết lập chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như một tài sản có giá trị.[ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8]",
+  "elapsed_ms": 3409.315000000788,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 393,
+        "completion_tokens": 32,
+        "total_tokens": 425
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 2 field establishes policies procedures standards roles and responsibilities to manage data as an asset"
+      },
+      "elapsed_ms": 1428.922600000078
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 2 field establishes policies procedures standards roles and responsibilities to manage data as an asset"
+          ],
+          "context": "[ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8 | chapter1-2.pdf | page 47]\nAppropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.\n\n[6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a | chapter1-2.pdf | page 46]\npreserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management\n\n[a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac | chapter1-2.pdf | page 45]\n2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+          "context_ids": [
+            "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+            "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+            "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 970,
+        "completion_tokens": 133,
+        "total_tokens": 1103
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là **quản trị dữ liệu (data governance)**: lĩnh vực này thiết lập chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như một tài sản có giá trị.[ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8]",
+        "citations": [
+          "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8"
+        ]
+      },
+      "elapsed_ms": 1901.5918000004604
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 2, lĩnh vực nào thiết lập chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như một tài sản?",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 45,
+          "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 647,
+            "language": "en",
+            "char_count": 273,
+            "start_char": 374,
+            "printed_page": 41,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1853
+          },
+          "score": 0.6915366989886932,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "ad623d19b24c702eb14d76061caf858e721e0ee9f1a814e8b1a218a633368f8f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 48,
+          "text": "Figure 2.2 Data governance plays a role in all data management areas. It ensures an organization’s data are of high quality and are\nmanaged and protected effectively so that the data can be used to make informed decisions. (attribution: Copyright Rice University,\nOpenStax, under CC BY 4.0 license)\nFUTURE TECHNOLOGY\nData Management Technologies",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 345,
+            "language": "en",
+            "char_count": 345,
+            "start_char": 0,
+            "printed_page": 44,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1634
+          },
+          "score": 0.23073187921449329,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "e2a686605bf919716620e86dc296668f9bbbad0fc71cfa1f42c0b29e65f6b752",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 59,
+          "text": "dashboards for\nreal-time\nperformance\ntracking\nData-driven decision-\nmaking, actionable\ninsights, and improved\nbusiness performance\nTable 2.2 FAIS Values These indicators serve as metrics for evaluating information technology investments and demonstrate how\ntechnology can create value for organizations.\nStrategies to Improve the Value of Information Technology for\nOrganizations",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1078,
+            "language": "en",
+            "char_count": 379,
+            "start_char": 699,
+            "printed_page": 55,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2630
+          },
+          "score": 0.22356543922003805,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 0.7319999967876356
+    },
+    {
+      "query": "Chapter 2 field establishes policies procedures standards roles and responsibilities to manage data as an asset",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ea89743b011d6f102cc938dfbfd19607f6157174d625e015836eced3f034d6c8",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 47,
+          "text": "Appropriate data management is crucial to an organization’s reputation and success. Data management\nparameters establish practices that organizations can use to ensure that their data are managed, protected¸\nand of high quality so they can be utilized to make informed decisions. The essential areas for managing data\neffectively are as follows (Figure 2.2)3 :\n• Data governance establishes policies, processes, standards, roles, and responsibilities to manage data\nas a valuable asset.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 486,
+            "language": "en",
+            "char_count": 486,
+            "start_char": 0,
+            "printed_page": 43,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2143
+          },
+          "score": 0.43765212318596447,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "6584751145b72deae670ca2e4068190bbfc2506d87d505e1ea26c9d4f89ff77a",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "preserved, and the\ndata remain secure but also easily retrievable. Organizations need people to manage data and control data\naccessibility, and they need to define roles and responsibilities for all the people working with and extracting\ninformation from their data. Decisions about data management have long-lasting impacts, so it is important\nfor organizations to select suitable frameworks for managing data.\nIdentifying Practices and Frameworks That Assist Data Management",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2741,
+            "language": "en",
+            "char_count": 476,
+            "start_char": 2265,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.17641613849731427,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 45,
+          "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 647,
+            "language": "en",
+            "char_count": 273,
+            "start_char": 374,
+            "printed_page": 41,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1853
+          },
+          "score": 0.16129880731002497,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 3.8924000000406522
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

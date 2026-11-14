@@ -1,0 +1,184 @@
+[
+  {
+    "query_id": "d7-dev01",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đủ năm thành phần. Context trang 20 nêu trực tiếp con người, phần cứng, phần mềm, dữ liệu và quy trình; trang 13 còn có bằng chứng thay thế. Citation trang 20 thực sự hỗ trợ nội dung dù không phải gold chính trang 12.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev02",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án TPS đúng và đủ. Đoạn được trích ở trang 15 nói rõ TPS xử lý giao dịch hằng ngày, gồm đơn hàng và tiền lương; context có đầy đủ điều kiện và nguồn.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev03",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Trả lời đúng việc ERP quản lý các hệ thống thông tin và tích hợp quy trình, chức năng toàn tổ chức. Citation thứ nhất trang 15 hỗ trợ định nghĩa; citation thứ hai trang 72 hỗ trợ ví dụ liên thông tài chính, nhân sự và chuỗi cung ứng. Context đủ cho cả phần chính lẫn ví dụ.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev04",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án data retrieval chính xác. Citation trang 22 nêu nguyên nghĩa thao tác lấy dữ liệu từ nơi lưu trữ; context đủ nguồn và bằng chứng.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev05",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đủ hai hành động xem xét tiến độ và điều chỉnh trước sprint kế tiếp. Đoạn Agile được trích tại trang 24 nêu trực tiếp trình tự này; các đoạn trang 70 không làm thay đổi kết luận.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev06",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Định nghĩa shared values đúng: sứ mệnh và các giá trị tạo động lực cho hoạt động tổ chức. Citation trang 25 chứa đúng định nghĩa, và context xác định rõ McKinsey 7-S.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev07",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng kiến thức và chuyên môn cần cho từng vai trò. Citation trang 25 còn hỗ trợ phần bổ sung từ vị trí đầu vào đến nâng cao và các lĩnh vực phát triển công nghệ, chiến lược, kiến trúc, hỗ trợ. Context đủ, dù đoạn trang 26 về cấp độ trách nhiệm được xếp trước.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev08",
+    "answer_grade": 0,
+    "context_grade": 1,
+    "citation_support": [],
+    "reason": "Agent từ chối một câu có đáp án nên answer bằng 0. Context trang 27 chỉ có câu hỏi What và mô tả ma trận 6×6; không có How, Where, Who, When, Why nên mới đủ một phần để trả lời danh sách sáu câu hỏi. Không có citation để chấm; trace kết thúc bởi search_limit.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev09",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án data governance đúng. Citation trang 47 ghi đủ chính sách, quy trình, tiêu chuẩn, vai trò và trách nhiệm để quản lý dữ liệu như tài sản. Context trang 46 và 48 bổ sung ý nghĩa quản trị, không thay thế bằng chứng chính.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev10",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Đáp án Velocity và giải thích nhu cầu xử lý thời gian thực đều đúng. Citation trang 50 nêu trực tiếp tốc độ sinh, thu thập dữ liệu và điều kiện xử lý thời gian thực. Context đủ bằng chứng dù có thêm đoạn cuối bị cắt của nội dung khác.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev11",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đủ lập chỉ mục nội dung, tìm kiếm và quản lý metadata. Citation trang 51 gắn rõ các kỹ thuật với việc khám phá, truy xuất thông tin trong dữ liệu phi cấu trúc; context đủ điều kiện và nguồn.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev12",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Trả lời đủ nguồn chuẩn duy nhất, chính xác, kho tập trung loại bỏ thiếu nhất quán và trao đổi liên hệ thống. Citation đầu trang 51 hỗ trợ cơ chế MDM; citation sau trang 50 hỗ trợ phần bổ sung về tính chính xác, nhất quán và đồng bộ trên nhiều hệ thống. Context đủ cho cả hai phần.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev13",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Trả lời đúng ba miền tác nghiệp, quản lý và chiến lược; nhãn strategic ngắn hơn strategic planning nhưng bảng mô tả mục tiêu dài hạn và quyết định chiến lược nên nghĩa hoạch định vẫn được hỗ trợ. Citation đầu trang 53 nêu khung Anthony và hai miền đầu; citation sau cùng trang 53 liệt kê ba dòng Operational, Management, Strategic và công dụng tương ứng. Context đủ về nghĩa khi đọc kết hợp hai đoạn, dù không chứa trọn gold quote do ranh giới chunk.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev14",
+    "answer_grade": 2,
+    "context_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Trả lời đúng nonprogrammed decision, tính độc nhất/phức tạp, thiếu hướng dẫn/tiền lệ và ba năng lực phán đoán, phân tích, sáng tạo. Citation trang 53 hỗ trợ đầy đủ; đoạn đầu cùng trang xác định khung Simon nên context đủ nguồn và phạm vi.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev15",
+    "answer_grade": 1,
+    "context_grade": 2,
+    "citation_support": [
+      false
+    ],
+    "reason": "Phần cốt lõi về cản trở trao đổi hiểu biết và yêu cầu đúng, được đoạn Lack of communication trang 60 hỗ trợ. Tuy nhiên câu trả lời nối thêm hệ quả hiểu lầm và lệch hướng trực tiếp vào thiếu giao tiếp; trong đoạn trích, hệ quả đó thuộc mục Lack of expertise awareness riêng. Vì vậy toàn bộ phát biểu nhân quả gắn với citation chưa được chứng minh đầy đủ, dù context trang 60 đã có đủ bằng chứng để trả lời đúng câu hỏi.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev16",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối đúng và không bịa mức phí ERP. Context trang 62 nói mô hình thuê bao/freemium, trang 67 nói độ chính xác thông tin giá, trang 63 nói chuyển đổi premium; không đoạn nào nêu số USD mỗi người dùng mỗi tháng cho ERP. Kết luận thiếu thông tin còn được đối chiếu với kiểm tra toàn nguồn của benchmark, không chỉ từ top-k. Không có citation; trace kết thúc bởi search_limit nên đây là kết quả từ chối của pipeline.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  },
+  {
+    "query_id": "d7-dev17",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối đúng và không suy đoán số ngày sprint. Context trang 24 chỉ mô tả các pha, xem xét tiến độ và điều chỉnh; trang 70 chỉ nói chu kỳ phát triển ngắn và phản hồi liên tục, không có thời lượng bắt buộc chính xác. Kiểm tra toàn nguồn đã ghi nhận thiếu con số này. Không có citation; trace kết thúc bởi search_limit nên chưa chứng minh model tự quyết định từ chối.",
+    "reviewer": "Codex-assisted source audit",
+    "independent_student_review": false
+  }
+]

@@ -1,0 +1,398 @@
+{
+  "query_id": "d7-test07",
+  "split": "test",
+  "question": "Theo tài liệu, blockchain đạt tốc độ tối đa chính xác bao nhiêu giao dịch mỗi giây?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:05:09.330593+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "blockchain maximum speed transactions per second (TPS) exact number",
+      "filter": {},
+      "results": [
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.3810310825899519,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.32553241998965854,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Velocity: The rapid pace at which data are generated and collected, thereby necessitating real-time\nprocessing, is characterized by velocity. Particularly evident during high-traffic events, such as online flash\nsales, the constant influx of clickstream data necessitates swift analysis to enable the system to offer\ntailored recommendations and insights to users navigating a dynamic digital landscape.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1106,
+            "language": "en",
+            "char_count": 405,
+            "start_char": 701,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.2907260657723214,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c | chapter1-2.pdf | page 35]\n• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.\n\n[d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0 | chapter1-2.pdf | page 50]\n• Velocity: The rapid pace at which data are generated and collected, thereby necessitating real-time\nprocessing, is characterized by velocity. Particularly evident during high-traffic events, such as online flash\nsales, the constant influx of clickstream data necessitates swift analysis to enable the system to offer\ntailored recommendations and insights to users navigating a dynamic digital landscape.",
+      "context_ids": [
+        "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+        "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+        "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0"
+      ]
+    },
+    {
+      "event": "search_limit"
+    }
+  ],
+  "citations": [],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Theo tài liệu, blockchain đạt tốc độ tối đa chính xác bao nhiêu giao dịch mỗi giây?",
+    "filter": {},
+    "results": [
+      {
+        "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 35,
+        "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3187,
+          "language": "en",
+          "char_count": 282,
+          "start_char": 2905,
+          "printed_page": 31,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3973
+        },
+        "score": 0.38612674684449655,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "4468de0f550df982b68c80867d2bbdb1f880ec163c87a22326d47320e74f6e6c",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 46,
+        "text": "Analysts report that by 2025 the global volume of data is expected to reach 200 zettabytes.1 A zettabyte is a\nmeasure of digital storage capacity equal to a thousand exabytes, a billion terabytes, or a trillion gigabytes.\nNotably, most of these data are underutilized. For most enterprises, only about one-third of data is used for\ndecision-making, while the remaining two-thirds is simply stored.2 When analysts are unable to find the\nappropriate and available data for decision-making, it can cost",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3241,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 2742,
+          "printed_page": 42,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4911
+        },
+        "score": 0.3248152735726858,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "ad143a91ed1d9fc18dc763658283d90f3bf25508091d4b5c6ded029dfda9407d",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 46,
+        "text": "1 Steve Morgan, “The World Will Store 200 Zettabytes of Data by 2025,” Cybersecurity Magazine, February 1, 2024,\nhttps://cybersecurityventures.com/the-world-will-store-200-zettabytes-of-data-by-2025/\n2 “Wasted Data: Why So Much Enterprise Information Goes Unused,” MarketLogic, October 26, 2022,\nhttps://marketlogicsoftware.com/blog/wasted-info-why-so-much-enterprise-data-goes-\nunused/#:~:text=Unbelievably%2C%20only%20about%20one%20third,their%20data%20remains%20%E2%80%9Cdark%E2%80%9D",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 4911,
+          "language": "en",
+          "char_count": 487,
+          "start_char": 4424,
+          "printed_page": 42,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4911
+        },
+        "score": 0.3069597609019723,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "elapsed_ms": 3403.1257000024198,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 379,
+        "completion_tokens": 27,
+        "total_tokens": 406
+      },
+      "action": {
+        "action": "search",
+        "query": "blockchain maximum speed transactions per second (TPS) exact number"
+      },
+      "elapsed_ms": 1363.4538000005705
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "blockchain maximum speed transactions per second (TPS) exact number"
+          ],
+          "context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c | chapter1-2.pdf | page 35]\n• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.\n\n[d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0 | chapter1-2.pdf | page 50]\n• Velocity: The rapid pace at which data are generated and collected, thereby necessitating real-time\nprocessing, is characterized by velocity. Particularly evident during high-traffic events, such as online flash\nsales, the constant influx of clickstream data necessitates swift analysis to enable the system to offer\ntailored recommendations and insights to users navigating a dynamic digital landscape.",
+          "context_ids": [
+            "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+            "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+            "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 919,
+        "completion_tokens": 27,
+        "total_tokens": 946
+      },
+      "action": {
+        "action": "search",
+        "query": "blockchain throughput maximum transactions per second Bitcoin Ethereum scalability TPS number"
+      },
+      "elapsed_ms": 1393.2471000007354
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Theo tài liệu, blockchain đạt tốc độ tối đa chính xác bao nhiêu giao dịch mỗi giây?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.38612674684449655,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "4468de0f550df982b68c80867d2bbdb1f880ec163c87a22326d47320e74f6e6c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "Analysts report that by 2025 the global volume of data is expected to reach 200 zettabytes.1 A zettabyte is a\nmeasure of digital storage capacity equal to a thousand exabytes, a billion terabytes, or a trillion gigabytes.\nNotably, most of these data are underutilized. For most enterprises, only about one-third of data is used for\ndecision-making, while the remaining two-thirds is simply stored.2 When analysts are unable to find the\nappropriate and available data for decision-making, it can cost",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3241,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 2742,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.3248152735726858,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "ad143a91ed1d9fc18dc763658283d90f3bf25508091d4b5c6ded029dfda9407d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 46,
+          "text": "1 Steve Morgan, “The World Will Store 200 Zettabytes of Data by 2025,” Cybersecurity Magazine, February 1, 2024,\nhttps://cybersecurityventures.com/the-world-will-store-200-zettabytes-of-data-by-2025/\n2 “Wasted Data: Why So Much Enterprise Information Goes Unused,” MarketLogic, October 26, 2022,\nhttps://marketlogicsoftware.com/blog/wasted-info-why-so-much-enterprise-data-goes-\nunused/#:~:text=Unbelievably%2C%20only%20about%20one%20third,their%20data%20remains%20%E2%80%9Cdark%E2%80%9D",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4911,
+            "language": "en",
+            "char_count": 487,
+            "start_char": 4424,
+            "printed_page": 42,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4911
+          },
+          "score": 0.3069597609019723,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 318.6581000009028
+    },
+    {
+      "query": "blockchain maximum speed transactions per second (TPS) exact number",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.3810310825899519,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.32553241998965854,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "d557b4ce671d47ed58ce6f8341f1a08349949f9878b1fcad955dd38815bd31c0",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 50,
+          "text": "• Velocity: The rapid pace at which data are generated and collected, thereby necessitating real-time\nprocessing, is characterized by velocity. Particularly evident during high-traffic events, such as online flash\nsales, the constant influx of clickstream data necessitates swift analysis to enable the system to offer\ntailored recommendations and insights to users navigating a dynamic digital landscape.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1106,
+            "language": "en",
+            "char_count": 405,
+            "start_char": 701,
+            "printed_page": 46,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4269
+          },
+          "score": 0.2907260657723214,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 296.5946000003896
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 41
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 13
+    }
+  ],
+  "cost_usd": null
+}

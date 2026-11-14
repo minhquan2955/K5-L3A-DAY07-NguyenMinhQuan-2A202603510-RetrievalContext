@@ -1,0 +1,402 @@
+{
+  "query_id": "d7-dev12",
+  "split": "dev",
+  "question": "Trong Chương 2, MDM giải quyết sự thiếu nhất quán giữa các hệ thống bằng cách nào?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:48.262221+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 2 master data management MDM resolve inconsistency between systems how single source of truth",
+      "filter": {
+        "chapter": 2
+      },
+      "results": [
+        {
+          "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2767,
+            "language": "en",
+            "char_count": 393,
+            "start_char": 2374,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.4101856442521083,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 45,
+          "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 647,
+            "language": "en",
+            "char_count": 273,
+            "start_char": 374,
+            "printed_page": 41,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1853
+          },
+          "score": 0.17562862377170754,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3878,
+            "language": "en",
+            "char_count": 97,
+            "start_char": 3781,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.14964560103724694,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4 | chapter1-2.pdf | page 51]\nMaster data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.\n\n[a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac | chapter1-2.pdf | page 45]\n2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction\n\n[c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7 | chapter1-2.pdf | page 51]\nMDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+      "context_ids": [
+        "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+        "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+        "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 2, MDM giải quyết sự thiếu nhất quán giữa các hệ thống bằng cách nào?",
+    "filter": {
+      "chapter": 2
+    },
+    "results": [
+      {
+        "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 45,
+        "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 647,
+          "language": "en",
+          "char_count": 273,
+          "start_char": 374,
+          "printed_page": 41,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 1853
+        },
+        "score": 0.3562681721147214,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 51,
+        "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3878,
+          "language": "en",
+          "char_count": 97,
+          "start_char": 3781,
+          "printed_page": 47,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3878
+        },
+        "score": 0.32296290528774574,
+        "strategy": "tfidf",
+        "rank": 2
+      },
+      {
+        "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 51,
+        "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2767,
+          "language": "en",
+          "char_count": 393,
+          "start_char": 2374,
+          "printed_page": 47,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3878
+        },
+        "score": 0.2926301462156444,
+        "strategy": "tfidf",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "MDM khắc phục sự thiếu nhất quán bằng cách tạo và duy trì một nguồn dữ liệu chính xác duy nhất cho các dữ liệu quan trọng trong tổ chức. Kho dữ liệu tập trung này giúp loại bỏ sự không nhất quán và hỗ trợ trao đổi thông tin liền mạch giữa các hệ thống, ứng dụng khác nhau. [51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4]",
+  "elapsed_ms": 3643.819100001565,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 381,
+        "completion_tokens": 33,
+        "total_tokens": 414
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 2 master data management MDM resolve inconsistency between systems how single source of truth"
+      },
+      "elapsed_ms": 1586.2895000027493
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 2 master data management MDM resolve inconsistency between systems how single source of truth"
+          ],
+          "context": "[51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4 | chapter1-2.pdf | page 51]\nMaster data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.\n\n[a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac | chapter1-2.pdf | page 45]\n2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction\n\n[c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7 | chapter1-2.pdf | page 51]\nMDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+          "context_ids": [
+            "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+            "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+            "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 879,
+        "completion_tokens": 163,
+        "total_tokens": 1042
+      },
+      "action": {
+        "action": "answer",
+        "answer": "MDM khắc phục sự thiếu nhất quán bằng cách tạo và duy trì một nguồn dữ liệu chính xác duy nhất cho các dữ liệu quan trọng trong tổ chức. Kho dữ liệu tập trung này giúp loại bỏ sự không nhất quán và hỗ trợ trao đổi thông tin liền mạch giữa các hệ thống, ứng dụng khác nhau. [51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4]",
+        "citations": [
+          "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4"
+        ]
+      },
+      "elapsed_ms": 2009.920599997713
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 2, MDM giải quyết sự thiếu nhất quán giữa các hệ thống bằng cách nào?",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 45,
+          "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 647,
+            "language": "en",
+            "char_count": 273,
+            "start_char": 374,
+            "printed_page": 41,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1853
+          },
+          "score": 0.3562681721147214,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3878,
+            "language": "en",
+            "char_count": 97,
+            "start_char": 3781,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.32296290528774574,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2767,
+            "language": "en",
+            "char_count": 393,
+            "start_char": 2374,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.2926301462156444,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 0.5338000009942334
+    },
+    {
+      "query": "Chapter 2 master data management MDM resolve inconsistency between systems how single source of truth",
+      "filter": {
+        "chapter": 2
+      },
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "51694ad726bad7694417bc94ad985560f9d8fa0e3860e8efc5989ed17b2b98b4",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "Master data management (MDM) ensures the creation and maintenance of a single, accurate source of\ntruth for crucial data points within an organization. This centralized data repository eliminates\ninconsistencies and fosters seamless information exchange across different systems and applications. Let’s\nexplore the importance of MDM in two specific contexts: health care and e-commerce retail.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2767,
+            "language": "en",
+            "char_count": 393,
+            "start_char": 2374,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.4101856442521083,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "a8d165ca4e048c5d2c16ccff37c7f432172278cfcfeceeebaa18c69a79d9a7ac",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 45,
+          "text": "2.1 Practices and Frameworks for Data Management\n2.2 Strategies to Improve the Value of Information Technology Within Organizations\n2.3 Digital Business Models\n2.4 Business Process Management\n2.5 Digital Innovation Creation, Distribution, and Commercialization\nIntroduction",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 647,
+            "language": "en",
+            "char_count": 273,
+            "start_char": 374,
+            "printed_page": 41,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 1853
+          },
+          "score": 0.17562862377170754,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "c103c3969a76bdaab5116175e5d8d65e2be7cfae478299aeac211f6f9e7859f7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 51,
+          "text": "MDM facilitates efficient inventory management and product updates across various sales\nchannels.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3878,
+            "language": "en",
+            "char_count": 97,
+            "start_char": 3781,
+            "printed_page": 47,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3878
+          },
+          "score": 0.14964560103724694,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 4.20999999914784
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

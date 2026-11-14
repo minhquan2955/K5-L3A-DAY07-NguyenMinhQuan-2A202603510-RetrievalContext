@@ -1,0 +1,2061 @@
+{
+  "query_id": "d7-dev05",
+  "split": "dev",
+  "question": "Theo mô tả về Agile, sau mỗi sprint nhóm dự án cần làm gì trước khi chuyển sang sprint tiếp theo?",
+  "config": {
+    "id": "hybrid-context",
+    "method": "hybrid",
+    "top_k": 5,
+    "budget": 4000,
+    "max_searches": 3,
+    "candidate_k": 20,
+    "hypothesis": "RRF plus larger context and optional repeated search may recover evidence missed by dense or lexical alone."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:56.521963+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Agile after each sprint project team what do before moving to next sprint review retrospective deliverable evaluate",
+      "filter": {},
+      "results": [
+        {
+          "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1906,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1415,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4848,
+            "language": "en",
+            "char_count": 305,
+            "start_char": 4543,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 14,
+          "text": "as project management\nand employee training.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2152,
+            "language": "en",
+            "char_count": 44,
+            "start_char": 2108,
+            "printed_page": 10,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2738
+          },
+          "score": 0.03125,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 4
+          },
+          "rank": 3
+        },
+        {
+          "id": "4270a23665da855ee4bac168d782feb193b3f428333f1b7b49f41ea4ecef2885",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "including Kanban, Lean, and Scrum.\nControl Objectives for Information and Related Technologies (COBIT) is a framework that develops and\nmaintains an information system using five processes: Evaluate, Direct, and Monitor (EDM); Align, Plan, and\nOrganize (APO); Build, Acquire, and Implement (BAI); Deliver , Service, and Support (DSS); and Monitor , Evaluate,\nand Assess (MEA) (Figure 1.6). COBIT is promoted by the Information Systems Audit and Control Association\n(ISACA), which is a global",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2398,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1907,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.028577260665441927,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 11,
+            "tfidf": 9
+          },
+          "rank": 4
+        },
+        {
+          "id": "d1a212ba279f068ba53fa92020db1bd8caced5732249458eb36cd3611ff4c2ca",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 55,
+          "text": "By the end of this section, you will be able to:\n• Evaluate and compare di fferent methods to define the value of information technology\n• Analyze speci fic strategies to improve the value of information technology",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1423,
+            "language": "en",
+            "char_count": 214,
+            "start_char": 1209,
+            "printed_page": 51,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4016
+          },
+          "score": 0.02761904761904762,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 15,
+            "tfidf": 10
+          },
+          "rank": 5
+        }
+      ],
+      "context": "[ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9 | chapter1-2.pdf | page 24]\nAgile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,\n\n[a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804 | chapter1-2.pdf | page 70]\nexample, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product\n\n[29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da | chapter1-2.pdf | page 14]\nas project management\nand employee training.\n\n[4270a23665da855ee4bac168d782feb193b3f428333f1b7b49f41ea4ecef2885 | chapter1-2.pdf | page 24]\nincluding Kanban, Lean, and Scrum.\nControl Objectives for Information and Related Technologies (COBIT) is a framework that develops and\nmaintains an information system using five processes: Evaluate, Direct, and Monitor (EDM); Align, Plan, and\nOrganize (APO); Build, Acquire, and Implement (BAI); Deliver , Service, and Support (DSS); and Monitor , Evaluate,\nand Assess (MEA) (Figure 1.6). COBIT is promoted by the Information Systems Audit and Control Association\n(ISACA), which is a global\n\n[d1a212ba279f068ba53fa92020db1bd8caced5732249458eb36cd3611ff4c2ca | chapter1-2.pdf | page 55]\nBy the end of this section, you will be able to:\n• Evaluate and compare di fferent methods to define the value of information technology\n• Analyze speci fic strategies to improve the value of information technology",
+      "context_ids": [
+        "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+        "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+        "29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da",
+        "4270a23665da855ee4bac168d782feb193b3f428333f1b7b49f41ea4ecef2885",
+        "d1a212ba279f068ba53fa92020db1bd8caced5732249458eb36cd3611ff4c2ca"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Theo mô tả về Agile, sau mỗi sprint nhóm dự án cần làm gì trước khi chuyển sang sprint tiếp theo?",
+    "filter": {},
+    "results": [
+      {
+        "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 24,
+        "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1906,
+          "language": "en",
+          "char_count": 491,
+          "start_char": 1415,
+          "printed_page": 20,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3136
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 1,
+          "tfidf": 1
+        },
+        "rank": 1
+      },
+      {
+        "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 70,
+        "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 4848,
+          "language": "en",
+          "char_count": 305,
+          "start_char": 4543,
+          "printed_page": 66,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4848
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 2,
+          "tfidf": 3
+        },
+        "rank": 2
+      },
+      {
+        "id": "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 70,
+        "text": "enhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 4542,
+          "language": "en",
+          "char_count": 498,
+          "start_char": 4044,
+          "printed_page": 66,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4848
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 3,
+          "tfidf": 5
+        },
+        "rank": 3
+      },
+      {
+        "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 24,
+        "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1414,
+          "language": "en",
+          "char_count": 286,
+          "start_char": 1128,
+          "printed_page": 20,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3136
+        },
+        "score": 0.029827662395050816,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 13,
+          "tfidf": 2
+        },
+        "rank": 4
+      },
+      {
+        "id": "3bb7f65a4425cca36250537d405587e2c4b52c6fb1151827bd6e09ccd056bdaf",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 70,
+        "text": "• A/B testing: To gauge the e ffectiveness of the changes, the team conducted A/B testing with different\nversions of the ad, comparing their performances to determine which ones yield better results. An A/B test\ncompares the performance of two versions of content to see which one appeals more to viewers.\nIn addition to A/B testing, two popular methodologies used in BPI initiatives are design thinking and Agile. As\na methodology, design thinking, which is an approach to problem solving that uses",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3544,
+          "language": "en",
+          "char_count": 499,
+          "start_char": 3045,
+          "printed_page": 66,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4848
+        },
+        "score": 0.027651515151515153,
+        "strategy": "hybrid",
+        "ranks": {
+          "dense": 20,
+          "tfidf": 6
+        },
+        "rank": 5
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Sau mỗi sprint, nhóm dự án xem xét tiến độ của mình và điều chỉnh trước khi chuyển sang sprint tiếp theo. [ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9]",
+  "elapsed_ms": 3699.487300000328,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 382,
+        "completion_tokens": 34,
+        "total_tokens": 416
+      },
+      "action": {
+        "action": "search",
+        "query": "Agile after each sprint project team what do before moving to next sprint review retrospective deliverable evaluate"
+      },
+      "elapsed_ms": 1308.5370999979204
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Agile after each sprint project team what do before moving to next sprint review retrospective deliverable evaluate"
+          ],
+          "context": "[ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9 | chapter1-2.pdf | page 24]\nAgile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,\n\n[a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804 | chapter1-2.pdf | page 70]\nexample, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product\n\n[29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da | chapter1-2.pdf | page 14]\nas project management\nand employee training.\n\n[4270a23665da855ee4bac168d782feb193b3f428333f1b7b49f41ea4ecef2885 | chapter1-2.pdf | page 24]\nincluding Kanban, Lean, and Scrum.\nControl Objectives for Information and Related Technologies (COBIT) is a framework that develops and\nmaintains an information system using five processes: Evaluate, Direct, and Monitor (EDM); Align, Plan, and\nOrganize (APO); Build, Acquire, and Implement (BAI); Deliver , Service, and Support (DSS); and Monitor , Evaluate,\nand Assess (MEA) (Figure 1.6). COBIT is promoted by the Information Systems Audit and Control Association\n(ISACA), which is a global\n\n[d1a212ba279f068ba53fa92020db1bd8caced5732249458eb36cd3611ff4c2ca | chapter1-2.pdf | page 55]\nBy the end of this section, you will be able to:\n• Evaluate and compare di fferent methods to define the value of information technology\n• Analyze speci fic strategies to improve the value of information technology",
+          "context_ids": [
+            "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+            "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+            "29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da",
+            "4270a23665da855ee4bac168d782feb193b3f428333f1b7b49f41ea4ecef2885",
+            "d1a212ba279f068ba53fa92020db1bd8caced5732249458eb36cd3611ff4c2ca"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 1234,
+        "completion_tokens": 83,
+        "total_tokens": 1317
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Sau mỗi sprint, nhóm dự án xem xét tiến độ của mình và điều chỉnh trước khi chuyển sang sprint tiếp theo. [ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9]",
+        "citations": [
+          "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9"
+        ]
+      },
+      "elapsed_ms": 1677.7187000006961
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Theo mô tả về Agile, sau mỗi sprint nhóm dự án cần làm gì trước khi chuyển sang sprint tiếp theo?",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1906,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1415,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.5271032711359088,
+            "strategy": "dense"
+          },
+          {
+            "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4848,
+              "language": "en",
+              "char_count": 305,
+              "start_char": 4543,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.4795524862045393,
+            "strategy": "dense"
+          },
+          {
+            "id": "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "enhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4542,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 4044,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.3886624489545971,
+            "strategy": "dense"
+          },
+          {
+            "id": "4134a311157852bf67c5208673f5361bc814d50d9339871b8a324464f81f46ff",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 26,
+            "text": "to successfully\nmanage technology.\nWaterfall is a structured, linear framework used to guide project management. Generally, the steps of",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2794,
+              "language": "en",
+              "char_count": 136,
+              "start_char": 2658,
+              "printed_page": 22,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2794
+            },
+            "score": 0.31861904973993305,
+            "strategy": "dense"
+          },
+          {
+            "id": "4270a23665da855ee4bac168d782feb193b3f428333f1b7b49f41ea4ecef2885",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "including Kanban, Lean, and Scrum.\nControl Objectives for Information and Related Technologies (COBIT) is a framework that develops and\nmaintains an information system using five processes: Evaluate, Direct, and Monitor (EDM); Align, Plan, and\nOrganize (APO); Build, Acquire, and Implement (BAI); Deliver , Service, and Support (DSS); and Monitor , Evaluate,\nand Assess (MEA) (Figure 1.6). COBIT is promoted by the Information Systems Audit and Control Association\n(ISACA), which is a global",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2398,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1907,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.3072336849864983,
+            "strategy": "dense"
+          },
+          {
+            "id": "ab5acec8d207c779f0c77608ac8fd8d581bafc1cd82898788725343640674903",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Waterfall include compiling documentation of the project requirements, using logical design to brainstorm\nhow to approach the project, developing the physical design, implementing the design plan, verifying and\ntesting the design, and maintaining the design once it is in use. While Waterfall tends to focus on computer\nprogramming and coding, the framework can be applied to IS.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 379,
+              "language": "en",
+              "char_count": 379,
+              "start_char": 0,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.30138737042024544,
+            "strategy": "dense"
+          },
+          {
+            "id": "0a4bb583809192b5cae699aa5b337b1b6f59314675d621e7cf5821397614a615",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 75,
+            "text": "contribute to the organization’s overall success.\nIt is essential to note that not all of these components are mandatory in every digital innovation effort, and\nthey need not follow a prescribed order . In practice, these activities may intertwine to such an extent that it\nwould be challenging to distinguish them.\nDeploying Information Technologies to Innovate",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2081,
+              "language": "en",
+              "char_count": 362,
+              "start_char": 1719,
+              "printed_page": 71,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4660
+            },
+            "score": 0.29801972394448306,
+            "strategy": "dense"
+          },
+          {
+            "id": "04c3f4a581deda0d2eaea0f048d16175d03fe852cf7981768df1e153a860b04d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "alignment with\nbusiness objectives.\n• Align scope and IT architecture: Evaluating IT solutions for their e ffectiveness and customizing them to\nsuit specific scope and business needs can lead to better outcomes.\n• Emphasize the development of human skills: Cultivating readiness to embrace technological changes,\nadapting management styles to support successful IT implementation, and learning from previous\nexperiences contribute to continuous improvement.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3122,
+              "language": "en",
+              "char_count": 457,
+              "start_char": 2665,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.29344695746719485,
+            "strategy": "dense"
+          },
+          {
+            "id": "29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "as project management\nand employee training.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2152,
+              "language": "en",
+              "char_count": 44,
+              "start_char": 2108,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.2829991479791687,
+            "strategy": "dense"
+          },
+          {
+            "id": "2cb2d2a193e5ba697b7d40b7a1d52b17196ef3a8d9206c6e729bb1621fef39b1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 67,
+            "text": "specific steps in a well-coordinated and collaborative\nmanner .",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2135,
+              "language": "en",
+              "char_count": 63,
+              "start_char": 2072,
+              "printed_page": 63,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2135
+            },
+            "score": 0.27380870104402355,
+            "strategy": "dense"
+          },
+          {
+            "id": "fe57d8a8f2dd07cd0e2957768af8c4865342aab9c4630b97e649a3bdaec92281",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "drive continuous improvement and growth.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1723,
+              "language": "en",
+              "char_count": 40,
+              "start_char": 1683,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.2697974096700102,
+            "strategy": "dense"
+          },
+          {
+            "id": "e30c267ffe4990d528adbaa432797636de8a9b6998f31fb863b0d959213a0213",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Consider a team of colleagues who are working together to develop a marketing plan for a new product. By",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4238,
+              "language": "en",
+              "char_count": 104,
+              "start_char": 4134,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.2695650962598395,
+            "strategy": "dense"
+          },
+          {
+            "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1414,
+              "language": "en",
+              "char_count": 286,
+              "start_char": 1128,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.2678103999561643,
+            "strategy": "dense"
+          },
+          {
+            "id": "8ec1504f5c37a9d8ad018369f7e1bb840c73139172a214e6b21ff9377de82445",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "The Open Group Architecture Framework (TOGAF) contains vision, requirements, business architecture,\ninformation systems architecture, technology, and architecture realization. TOGAF can be an important\nstandard to support organizations as they develop and manage the requirements for enterprise\narchitecture. As their Architecture Development Method (https://openstax.org/r/109ArchDevMethd) shows,\nTOGAF covers all aspects of enterprise architecture, including information systems. This framework",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3727,
+              "language": "en",
+              "char_count": 496,
+              "start_char": 3231,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.2645269594880806,
+            "strategy": "dense"
+          },
+          {
+            "id": "41fb621f91fef19a66635b7905921a19c165725e29dd3ed9dd2873bbf3660d7b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "implementation governance, and\narchitecture change management.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3230,
+              "language": "en",
+              "char_count": 79,
+              "start_char": 3151,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.26434368235138717,
+            "strategy": "dense"
+          },
+          {
+            "id": "5b3d4e8e5a2ae380ab9e3d19df7ac55d1d47a81ecaadc735ccb02b7ef5b6a07c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 58,
+            "text": "development\nRate of collaborative\ninnovation and new\nidea generation\nProject resource\nallocation and\ninnovation\ntracking\nIdea evaluation\nand research\nand\ndevelopment\nprocess\noptimization\nAccelerated innovation,\nstreamlined research\nand development\nprocesses, and\nsuccessful product\ndevelopment\nTable 2.2 FAIS Values These indicators serve as metrics for evaluating information technology investments and demonstrate how\ntechnology can create value for organizations.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2239,
+              "language": "en",
+              "char_count": 466,
+              "start_char": 1773,
+              "printed_page": 54,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2239
+            },
+            "score": 0.2638158507520547,
+            "strategy": "dense"
+          },
+          {
+            "id": "9f8e4039b0391d05044cf7a6df5a87e200d6b16ac84e7d8051d0bef2c1170b74",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "various roles and expertise. It typically includes the process owner ,\nprocess experts, subject matter experts, data analysts, and cross-functional representatives from different\ndepartments. Continuous improvement specialists may also be part of the team, and a project manager or\nfacilitator leads the efforts. Stakeholders, including customers or end users, may also be involved or consulted\nfor their valuable input.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1995,
+              "language": "en",
+              "char_count": 420,
+              "start_char": 1575,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.2634896524670426,
+            "strategy": "dense"
+          },
+          {
+            "id": "744086602143e518630a7e5ce41c88d0e490cc8c9f199748bf38d228896c2791",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 25,
+            "text": "1. Identify the parts of the organization that are not aligned with shared values, including a shared mission,\ngoals, and objectives.\n2. Determine the design and structure that will enable the organization to achieve alignment and reach its\ngoals and objectives.\n3. Identify areas where changes are needed to update the organizational design.\n4. Implement the necessary changes.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2146,
+              "language": "en",
+              "char_count": 378,
+              "start_char": 1768,
+              "printed_page": 21,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3064
+            },
+            "score": 0.26171256998515646,
+            "strategy": "dense"
+          },
+          {
+            "id": "a97a43e1d30ba1098870f00e2511ad0d3180caf926f1275ae17b03a036bf39c4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "capture\npractices faithfully reflect what’s happening in the organization. Additionally, the CIO should consider how\nthese data can be processed and transformed into actionable information that supports the identified decision\nneeds. Finally, the CIO must assess how the different levels of planning and the different types of information\nfit together .\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3088,
+              "language": "en",
+              "char_count": 370,
+              "start_char": 2718,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.2602432035862171,
+            "strategy": "dense"
+          },
+          {
+            "id": "3bb7f65a4425cca36250537d405587e2c4b52c6fb1151827bd6e09ccd056bdaf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "• A/B testing: To gauge the e ffectiveness of the changes, the team conducted A/B testing with different\nversions of the ad, comparing their performances to determine which ones yield better results. An A/B test\ncompares the performance of two versions of content to see which one appeals more to viewers.\nIn addition to A/B testing, two popular methodologies used in BPI initiatives are design thinking and Agile. As\na methodology, design thinking, which is an approach to problem solving that uses",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3544,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 3045,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.2580763230791854,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1906,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1415,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.42619276843999776,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1414,
+              "language": "en",
+              "char_count": 286,
+              "start_char": 1128,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.07801732418443627,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4848,
+              "language": "en",
+              "char_count": 305,
+              "start_char": 4543,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.06682403149554733,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "006ac6e1f4e03d72bad103bc928228702d4412278afb322594ad3df7d5533bc8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 69,
+            "text": "• Flexibility and adaptability: Agile and adaptable business processes enable organizations to respond\nquickly to changes in the market or industry, enhancing their ability to stay relevant and competitive.\n• Cost reduction: By optimizing operational procedures and supplier processes, organizations can achieve\ncost-cutting objectives, leading to improved financial efficiency.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2442,
+              "language": "en",
+              "char_count": 378,
+              "start_char": 2064,
+              "printed_page": 65,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3598
+            },
+            "score": 0.06447271818793841,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "enhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4542,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 4044,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.05662998005098791,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "3bb7f65a4425cca36250537d405587e2c4b52c6fb1151827bd6e09ccd056bdaf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "• A/B testing: To gauge the e ffectiveness of the changes, the team conducted A/B testing with different\nversions of the ad, comparing their performances to determine which ones yield better results. An A/B test\ncompares the performance of two versions of content to see which one appeals more to viewers.\nIn addition to A/B testing, two popular methodologies used in BPI initiatives are design thinking and Agile. As\na methodology, design thinking, which is an approach to problem solving that uses",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3544,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 3045,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.03940368512288426,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1906,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1415,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4848,
+            "language": "en",
+            "char_count": 305,
+            "start_char": 4543,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.03200204813108039,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 3
+          },
+          "rank": 2
+        },
+        {
+          "id": "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "enhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4542,
+            "language": "en",
+            "char_count": 498,
+            "start_char": 4044,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.03125763125763126,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 3,
+            "tfidf": 5
+          },
+          "rank": 3
+        },
+        {
+          "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1414,
+            "language": "en",
+            "char_count": 286,
+            "start_char": 1128,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.029827662395050816,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 13,
+            "tfidf": 2
+          },
+          "rank": 4
+        },
+        {
+          "id": "3bb7f65a4425cca36250537d405587e2c4b52c6fb1151827bd6e09ccd056bdaf",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "• A/B testing: To gauge the e ffectiveness of the changes, the team conducted A/B testing with different\nversions of the ad, comparing their performances to determine which ones yield better results. An A/B test\ncompares the performance of two versions of content to see which one appeals more to viewers.\nIn addition to A/B testing, two popular methodologies used in BPI initiatives are design thinking and Agile. As\na methodology, design thinking, which is an approach to problem solving that uses",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3544,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 3045,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.027651515151515153,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 20,
+            "tfidf": 6
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 371.06869999843184
+    },
+    {
+      "query": "Agile after each sprint project team what do before moving to next sprint review retrospective deliverable evaluate",
+      "filter": {},
+      "method": "hybrid",
+      "top_k": 5,
+      "rankings": {
+        "dense": [
+          {
+            "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1906,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1415,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.5688870862575789,
+            "strategy": "dense"
+          },
+          {
+            "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4848,
+              "language": "en",
+              "char_count": 305,
+              "start_char": 4543,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.5496428446543723,
+            "strategy": "dense"
+          },
+          {
+            "id": "b138a7dff6524419887b1200eb77ae2a806c97c4b4ac60fdc7c6f27d4039d646",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "enhance its customer onboarding process. By integrating the\nhuman-centered approach of design thinking, organizations can create processes that resonate with their\ncustomers, improve user experience, and drive better business outcomes. The Agile methodology, as you’ve\nlearned, is used in software development and other fields, particularly for projects with rapidly changing\nrequirements and a need for frequent iterations, that emphasize flexibility, iterative development, and\ncollaboration. For",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4542,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 4044,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.44170691534869966,
+            "strategy": "dense"
+          },
+          {
+            "id": "29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "as project management\nand employee training.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2152,
+              "language": "en",
+              "char_count": 44,
+              "start_char": 2108,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.37082518430774536,
+            "strategy": "dense"
+          },
+          {
+            "id": "60c8854150bac13a41d5a105f2de7ee6f8b256ab55141c4a1b658a562d1ef108",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 54,
+            "text": "When applying the Gorry and Scott Morton framework to review existing systems or to propose new systems\nthat cater to user needs, an information systems designer or reviewer often investigates how available\ntechnology can support decision-making. This framework emphasizes both applications and decisions,\nnecessitating input from a diverse range of users to understand the benefits of existing systems or\nexpectations for new ones. It is important to gather user feedback through structured",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1921,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1430,
+              "printed_page": 50,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4179
+            },
+            "score": 0.3617732761703426,
+            "strategy": "dense"
+          },
+          {
+            "id": "fe57d8a8f2dd07cd0e2957768af8c4865342aab9c4630b97e649a3bdaec92281",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "drive continuous improvement and growth.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1723,
+              "language": "en",
+              "char_count": 40,
+              "start_char": 1683,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.35966879987712486,
+            "strategy": "dense"
+          },
+          {
+            "id": "5b3d4e8e5a2ae380ab9e3d19df7ac55d1d47a81ecaadc735ccb02b7ef5b6a07c",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 58,
+            "text": "development\nRate of collaborative\ninnovation and new\nidea generation\nProject resource\nallocation and\ninnovation\ntracking\nIdea evaluation\nand research\nand\ndevelopment\nprocess\noptimization\nAccelerated innovation,\nstreamlined research\nand development\nprocesses, and\nsuccessful product\ndevelopment\nTable 2.2 FAIS Values These indicators serve as metrics for evaluating information technology investments and demonstrate how\ntechnology can create value for organizations.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2239,
+              "language": "en",
+              "char_count": 466,
+              "start_char": 1773,
+              "printed_page": 54,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2239
+            },
+            "score": 0.3573388424219882,
+            "strategy": "dense"
+          },
+          {
+            "id": "27e46cd5ef18d0e891ddf16cbb27538f3cf07884b7bbea36044e9e1083e70175",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "whether the existing data align with the intended\npurpose of the information systems and if any modifications or enhancements are needed. This process may\ninvolve reviving outdated systems or proposing new systems.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 728,
+              "language": "en",
+              "char_count": 231,
+              "start_char": 497,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.3500519185145088,
+            "strategy": "dense"
+          },
+          {
+            "id": "9f8e4039b0391d05044cf7a6df5a87e200d6b16ac84e7d8051d0bef2c1170b74",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "various roles and expertise. It typically includes the process owner ,\nprocess experts, subject matter experts, data analysts, and cross-functional representatives from different\ndepartments. Continuous improvement specialists may also be part of the team, and a project manager or\nfacilitator leads the efforts. Stakeholders, including customers or end users, may also be involved or consulted\nfor their valuable input.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1995,
+              "language": "en",
+              "char_count": 420,
+              "start_char": 1575,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.34029104844813407,
+            "strategy": "dense"
+          },
+          {
+            "id": "04c3f4a581deda0d2eaea0f048d16175d03fe852cf7981768df1e153a860b04d",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 60,
+            "text": "alignment with\nbusiness objectives.\n• Align scope and IT architecture: Evaluating IT solutions for their e ffectiveness and customizing them to\nsuit specific scope and business needs can lead to better outcomes.\n• Emphasize the development of human skills: Cultivating readiness to embrace technological changes,\nadapting management styles to support successful IT implementation, and learning from previous\nexperiences contribute to continuous improvement.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3122,
+              "language": "en",
+              "char_count": 457,
+              "start_char": 2665,
+              "printed_page": 56,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4634
+            },
+            "score": 0.33827541457157384,
+            "strategy": "dense"
+          },
+          {
+            "id": "4270a23665da855ee4bac168d782feb193b3f428333f1b7b49f41ea4ecef2885",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "including Kanban, Lean, and Scrum.\nControl Objectives for Information and Related Technologies (COBIT) is a framework that develops and\nmaintains an information system using five processes: Evaluate, Direct, and Monitor (EDM); Align, Plan, and\nOrganize (APO); Build, Acquire, and Implement (BAI); Deliver , Service, and Support (DSS); and Monitor , Evaluate,\nand Assess (MEA) (Figure 1.6). COBIT is promoted by the Information Systems Audit and Control Association\n(ISACA), which is a global",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2398,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1907,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.3232410318980159,
+            "strategy": "dense"
+          },
+          {
+            "id": "41fb621f91fef19a66635b7905921a19c165725e29dd3ed9dd2873bbf3660d7b",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 28,
+            "text": "implementation governance, and\narchitecture change management.\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3230,
+              "language": "en",
+              "char_count": 79,
+              "start_char": 3151,
+              "printed_page": 24,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3817
+            },
+            "score": 0.32237467500045613,
+            "strategy": "dense"
+          },
+          {
+            "id": "ab5acec8d207c779f0c77608ac8fd8d581bafc1cd82898788725343640674903",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 27,
+            "text": "Waterfall include compiling documentation of the project requirements, using logical design to brainstorm\nhow to approach the project, developing the physical design, implementing the design plan, verifying and\ntesting the design, and maintaining the design once it is in use. While Waterfall tends to focus on computer\nprogramming and coding, the framework can be applied to IS.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 379,
+              "language": "en",
+              "char_count": 379,
+              "start_char": 0,
+              "printed_page": 23,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2338
+            },
+            "score": 0.3200404778050363,
+            "strategy": "dense"
+          },
+          {
+            "id": "3bb7f65a4425cca36250537d405587e2c4b52c6fb1151827bd6e09ccd056bdaf",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "• A/B testing: To gauge the e ffectiveness of the changes, the team conducted A/B testing with different\nversions of the ad, comparing their performances to determine which ones yield better results. An A/B test\ncompares the performance of two versions of content to see which one appeals more to viewers.\nIn addition to A/B testing, two popular methodologies used in BPI initiatives are design thinking and Agile. As\na methodology, design thinking, which is an approach to problem solving that uses",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3544,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 3045,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.31408861769149055,
+            "strategy": "dense"
+          },
+          {
+            "id": "d1a212ba279f068ba53fa92020db1bd8caced5732249458eb36cd3611ff4c2ca",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "By the end of this section, you will be able to:\n• Evaluate and compare di fferent methods to define the value of information technology\n• Analyze speci fic strategies to improve the value of information technology",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1423,
+              "language": "en",
+              "char_count": 214,
+              "start_char": 1209,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.31339696883421475,
+            "strategy": "dense"
+          },
+          {
+            "id": "5d857af0ef3b9bc9a5c106cfa3d0cdb17173bad1ca9b2d4a0a4637aa63a23a27",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 71,
+            "text": "To sustain BPI efforts over time, organizations can adopt business process management (BPM), which is the\nongoing review and analysis of processes across an organization to identify opportunities for improvements or\nreengineering that will optimize core business processes. BPM relies heavily on process modeling to show\nstakeholders the dependencies between the people, systems, and information that interact to perform tasks\nsuccessfully. Along with business activity monitoring, this approach",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 523,
+              "language": "en",
+              "char_count": 495,
+              "start_char": 28,
+              "printed_page": 67,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3865
+            },
+            "score": 0.31335500270655436,
+            "strategy": "dense"
+          },
+          {
+            "id": "e30c267ffe4990d528adbaa432797636de8a9b6998f31fb863b0d959213a0213",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Consider a team of colleagues who are working together to develop a marketing plan for a new product. By",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4238,
+              "language": "en",
+              "char_count": 104,
+              "start_char": 4134,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.31266119447332574,
+            "strategy": "dense"
+          },
+          {
+            "id": "006ac6e1f4e03d72bad103bc928228702d4412278afb322594ad3df7d5533bc8",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 69,
+            "text": "• Flexibility and adaptability: Agile and adaptable business processes enable organizations to respond\nquickly to changes in the market or industry, enhancing their ability to stay relevant and competitive.\n• Cost reduction: By optimizing operational procedures and supplier processes, organizations can achieve\ncost-cutting objectives, leading to improved financial efficiency.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2442,
+              "language": "en",
+              "char_count": 378,
+              "start_char": 2064,
+              "printed_page": 65,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3598
+            },
+            "score": 0.3107561986903502,
+            "strategy": "dense"
+          },
+          {
+            "id": "0a4bb583809192b5cae699aa5b337b1b6f59314675d621e7cf5821397614a615",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 75,
+            "text": "contribute to the organization’s overall success.\nIt is essential to note that not all of these components are mandatory in every digital innovation effort, and\nthey need not follow a prescribed order . In practice, these activities may intertwine to such an extent that it\nwould be challenging to distinguish them.\nDeploying Information Technologies to Innovate",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2081,
+              "language": "en",
+              "char_count": 362,
+              "start_char": 1719,
+              "printed_page": 71,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4660
+            },
+            "score": 0.31048870494417824,
+            "strategy": "dense"
+          },
+          {
+            "id": "a97a43e1d30ba1098870f00e2511ad0d3180caf926f1275ae17b03a036bf39c4",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 52,
+            "text": "capture\npractices faithfully reflect what’s happening in the organization. Additionally, the CIO should consider how\nthese data can be processed and transformed into actionable information that supports the identified decision\nneeds. Finally, the CIO must assess how the different levels of planning and the different types of information\nfit together .\nLINK TO LEARNING",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3088,
+              "language": "en",
+              "char_count": 370,
+              "start_char": 2718,
+              "printed_page": 48,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3271
+            },
+            "score": 0.3091970729704674,
+            "strategy": "dense"
+          }
+        ],
+        "tfidf": [
+          {
+            "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1906,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1415,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.5090880724606148,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4848,
+              "language": "en",
+              "char_count": 305,
+              "start_char": 4543,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.10984362509914611,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 13,
+            "text": "Figure 1.2 Typically, an information system includes people, as well as hardware, software, data, and procedures. (credit:\nmodification of work from Introduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0\nlicense)\nBefore looking closely at each component to understand what it entails and why it is important in IS, let’s start\nwith a brief overview of the five components.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 417,
+              "language": "en",
+              "char_count": 417,
+              "start_char": 0,
+              "printed_page": 9,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2399
+            },
+            "score": 0.09547072115536938,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 14,
+            "text": "as project management\nand employee training.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2152,
+              "language": "en",
+              "char_count": 44,
+              "start_char": 2108,
+              "printed_page": 10,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 2738
+            },
+            "score": 0.08773102767452708,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a378a47141fd31a755c622af0a85425f701147f2554741785850a46b42f0f1b9",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 11,
+            "text": "Introduction\nWhat comes to mind when you think about information systems? In what ways do you think they affect your\nlife? You might be surprised to find out that information systems have an impact on your life and career\nwhether you realize it or not.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 753,
+              "language": "en",
+              "char_count": 252,
+              "start_char": 501,
+              "printed_page": 7,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1643
+            },
+            "score": 0.08511852290982244,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d1ed27b9c41883c6914aca25f88bd2460557f332a838cbe72080d57b6fb94dd1",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 74,
+            "text": "Exploitation refers to maximizing the value derived from the existing information system. After\nimplementation, organizations leverage these systems to their fullest potential. This may involve reusing\nexisting systems and technologies for different purposes, finding innovative ways to utilize the data collected\nby these systems, and continuously extracting value from the digital innovations to drive growth and\nefficiency. For instance, after digital innovation has been implemented, a company’s",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3014,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 2515,
+              "printed_page": 70,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3213
+            },
+            "score": 0.07847689572689019,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "3309062ab25bfac627f54db9207f78095ecae325d96096c43c5759d066fc626f",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "organization that provides training, research information, news updates, advocacy,\nand related support for IS professionals and others involved in information technology.\nFigure 1.6 COBIT’s framework provides IS professionals with five processes—Evaluate, Direct, and Monitor (EDM); Align, Plan, and\nOrganize (APO); Build, Acquire, and Implement (BAI); Deliver , Service, and Support (DSS); and Monitor , Evaluate, and Assess\n(MEA)—that can help develop and maintain an information system. (credit:",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2897,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 2399,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.07645124847555336,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0d60180a7ea1288b7e7092ac2501d7276e3c053e5c6191f893692dc8f9bdcc27",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "refinement, as the ads were reaching\nan audience that was not very likely to be interested in the product. Based on these insights, the marketing\nteam implemented the following improvements:\n• Ad creative enhancement: The BPI team collaborated with a creative team to design visually captivating\nand compelling ad content that better communicated the product’s features and benefits.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2873,
+              "language": "en",
+              "char_count": 383,
+              "start_char": 2490,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.07606210795780452,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4270a23665da855ee4bac168d782feb193b3f428333f1b7b49f41ea4ecef2885",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 24,
+            "text": "including Kanban, Lean, and Scrum.\nControl Objectives for Information and Related Technologies (COBIT) is a framework that develops and\nmaintains an information system using five processes: Evaluate, Direct, and Monitor (EDM); Align, Plan, and\nOrganize (APO); Build, Acquire, and Implement (BAI); Deliver , Service, and Support (DSS); and Monitor , Evaluate,\nand Assess (MEA) (Figure 1.6). COBIT is promoted by the Information Systems Audit and Control Association\n(ISACA), which is a global",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2398,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 1907,
+              "printed_page": 20,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3136
+            },
+            "score": 0.07201953083444435,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d1a212ba279f068ba53fa92020db1bd8caced5732249458eb36cd3611ff4c2ca",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "By the end of this section, you will be able to:\n• Evaluate and compare di fferent methods to define the value of information technology\n• Analyze speci fic strategies to improve the value of information technology",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1423,
+              "language": "en",
+              "char_count": 214,
+              "start_char": 1209,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.0707661918144295,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "7044f3838a3329af6f868a729f7ffab7d199707408ee05eabc984545a3e9b4b2",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 32,
+            "text": "Management\nCompetencies regarding\nleadership, conflict resolution,\ndelegation, and team dynamics\nGeneral:\n• team management\n• con flict management\n• delegation\n• leadership\nIS-specific:\n• risk assessment\n• policy development\n• regulatory compliance\n• incident response planning\nTable 1.1 Professional Competencies No matter what field you go into, certain personal, academic, and workplace skills are needed\nto be successful as you grow in your career .",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1364,
+              "language": "en",
+              "char_count": 453,
+              "start_char": 911,
+              "printed_page": 28,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 1364
+            },
+            "score": 0.0701431767039307,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2903052a90c97ba9fb3c8258a697963a0a8b1fd0743e81e0dd957475977213e3",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "processes to identify areas\nfor improvement. For instance, if a social media marketing platform were to experience a decline in click-\nthrough rate (CTR), a metric that measures the effectiveness of an online ad or link, the organization’s BPI\nteam would investigate the root cause behind this issue. Likewise, if there was a broken machine on an\nassembly line leading to output variations, the BPI team would analyze the process to rectify the problem. The\nBPI team is composed of individuals with",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 1574,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 1076,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.06744001365435907,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6731cd8e4300f8698350fef138aeca777175e3ae7afa6f1578b65e1f6c6be120",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 23,
+            "text": "using information systems, each member of the team can access and share data about the product to\nunderstand its purpose, target market, and options for marketing. By accessing data on the organization’s\nprevious marketing efforts, they can understand and share information about marketing techniques that have\nworked well for the organization in the past, as well as those that were not as effective. The information\nsystem provides the team with the data and tools they need to fully understand the",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 500,
+              "language": "en",
+              "char_count": 500,
+              "start_char": 0,
+              "printed_page": 19,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3719
+            },
+            "score": 0.06716289025570435,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "dee5a13ea4da6753a18b49891e148308903b41c3a00f722bb3fd9dcd12444159",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 70,
+            "text": "For example, consider a social media marketing platform that developed a campaign promoting a new\nproduct launch. The initial CTR was 3.5 percent, and the marketing team aspired to improve this metric. By\nusing the BPI methodology, the team investigated the possible reasons for the low CTR. On analysis, it found\nthat the ads lacked visual appeal and failed to communicate the product’s unique selling points effectively.\nAdditionally, the team discovered that the targeting parameters needed",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2489,
+              "language": "en",
+              "char_count": 493,
+              "start_char": 1996,
+              "printed_page": 66,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4848
+            },
+            "score": 0.06636598570336885,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e4d0f8a6a9d5d7c047d544b4de776fb1b9e03c7cd2667321be968bb69db6db90",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 62,
+            "text": "business models, each of which has\nspecific information technology strategies.",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2475,
+              "language": "en",
+              "char_count": 78,
+              "start_char": 2397,
+              "printed_page": 58,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3849
+            },
+            "score": 0.0642761858618534,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "86ff3dc51fa6e5ac93a1675c475bd8d290774097ec7176f4d6763d5abc823981",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 55,
+            "text": "• crowdsourcing platforms: online marketplaces where businesses or individuals can outsource tasks or\nproblems to a large, dispersed group of people\nhttps://quickbooks.intuit.com/r/supply-chain/zara-supply-chain-its-secret-to-retail-success/\n7 Rashik Parmar , Marc Peters, and Llewellyn D.W. Thomas, “What Is Responsible Computing?” Harvard Business Review, July 7, 2023,\nhttps://hbr .org/2023/07/what-is-responsible-computing\n8 “Domino’s: Taking the Guesswork Out of Pizza Delivery with Google Maps",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3704,
+              "language": "en",
+              "char_count": 499,
+              "start_char": 3205,
+              "printed_page": 51,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4016
+            },
+            "score": 0.06181800430513679,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2dec02cea9681679df8d365e75de82c8b0203400ffa420bf8e0b91a6aea76f4a",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 19,
+            "text": "Web 2.0 and Social Media Platforms\nThe initial version of the internet is known as Web 1.0, and it featured websites that were static, which means\nthat users could read website content but could not interact with it. Shortly before the beginning of the\ntwenty-first century came the next generation of the internet. Known as Web 2.0, the basic functioning of the\ninternet changed to enable, and even encourage, users to be active participants on the internet by\ncontributing content, such as",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 2575,
+              "language": "en",
+              "char_count": 491,
+              "start_char": 2084,
+              "printed_page": 15,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4005
+            },
+            "score": 0.061375624549696806,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e30c267ffe4990d528adbaa432797636de8a9b6998f31fb863b0d959213a0213",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 22,
+            "text": "Consider a team of colleagues who are working together to develop a marketing plan for a new product. By",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 4238,
+              "language": "en",
+              "char_count": 104,
+              "start_char": 4134,
+              "printed_page": 18,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4238
+            },
+            "score": 0.06042750036646956,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "92f783883ea6a3e75a763e5d6d5926365478f0fb0d4a3cc8895096ad8364d808",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 30,
+            "text": "• Data analytics and modeling transforms raw data into useful information and analyzes that data to\nprovide information useful in organizational decision-making and other operations.\n• IS project management uses the project management steps of initiation, planning, execution, monitoring,\ncontrol, and closure to handle IS projects.",
+            "metadata": {
+              "chapter": 1,
+              "chunking": "paragraph-v2:500",
+              "end_char": 332,
+              "language": "en",
+              "char_count": 332,
+              "start_char": 0,
+              "printed_page": 26,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 3350
+            },
+            "score": 0.060049375751450335,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ae52e18c95ac85176d3df98ff2d3333a581e2bd56ed84cf45f4b46ea0d58b228",
+            "source_id": "openstax-foundations-is-ch1-2",
+            "source": "chapter1-2.pdf",
+            "page": 65,
+            "text": "diverse datasets, and\nadvocating for AI transparency and explainability to address societal concerns regarding algorithmic\nfairness and discrimination.16\n13 Vijaya Sunder M and Sowmya Shashidhara, “Next Step in Healthcare: Sharing Economy to Overcome Resource Crisis,” Forbes\nIndia, October 8, 2021, https://www.forbesindia.com/article/isbinsight/next-step-in-healthcare-sharing-economy-to-overcome-\nresource-crisis/70893/1\n14 Zhi Ming Tan, Nikita Aggarwal, Josh Cowls, Jessica Morley, Mariarosaria",
+            "metadata": {
+              "chapter": 2,
+              "chunking": "paragraph-v2:500",
+              "end_char": 3599,
+              "language": "en",
+              "char_count": 498,
+              "start_char": 3101,
+              "printed_page": 61,
+              "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+              "extraction_status": "ok",
+              "normalized_char_count": 4129
+            },
+            "score": 0.05810036250366735,
+            "strategy": "tfidf"
+          }
+        ]
+      },
+      "results": [
+        {
+          "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1906,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1415,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 1,
+            "tfidf": 1
+          },
+          "rank": 1
+        },
+        {
+          "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4848,
+            "language": "en",
+            "char_count": 305,
+            "start_char": 4543,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 2,
+            "tfidf": 2
+          },
+          "rank": 2
+        },
+        {
+          "id": "29c1fd5a99ced3b6ad9ccc8dc2706e0a8c2d5950eb3922f938119ec49e67d7da",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 14,
+          "text": "as project management\nand employee training.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2152,
+            "language": "en",
+            "char_count": 44,
+            "start_char": 2108,
+            "printed_page": 10,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2738
+          },
+          "score": 0.03125,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 4,
+            "tfidf": 4
+          },
+          "rank": 3
+        },
+        {
+          "id": "4270a23665da855ee4bac168d782feb193b3f428333f1b7b49f41ea4ecef2885",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "including Kanban, Lean, and Scrum.\nControl Objectives for Information and Related Technologies (COBIT) is a framework that develops and\nmaintains an information system using five processes: Evaluate, Direct, and Monitor (EDM); Align, Plan, and\nOrganize (APO); Build, Acquire, and Implement (BAI); Deliver , Service, and Support (DSS); and Monitor , Evaluate,\nand Assess (MEA) (Figure 1.6). COBIT is promoted by the Information Systems Audit and Control Association\n(ISACA), which is a global",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2398,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1907,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.028577260665441927,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 11,
+            "tfidf": 9
+          },
+          "rank": 4
+        },
+        {
+          "id": "d1a212ba279f068ba53fa92020db1bd8caced5732249458eb36cd3611ff4c2ca",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 55,
+          "text": "By the end of this section, you will be able to:\n• Evaluate and compare di fferent methods to define the value of information technology\n• Analyze speci fic strategies to improve the value of information technology",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1423,
+            "language": "en",
+            "char_count": 214,
+            "start_char": 1209,
+            "printed_page": 51,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4016
+          },
+          "score": 0.02761904761904762,
+          "strategy": "hybrid",
+          "ranks": {
+            "dense": 15,
+            "tfidf": 10
+          },
+          "rank": 5
+        }
+      ],
+      "elapsed_ms": 290.6284000018786
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 41
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 19
+    }
+  ],
+  "cost_usd": null
+}

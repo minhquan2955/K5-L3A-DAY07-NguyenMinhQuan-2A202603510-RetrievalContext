@@ -1,0 +1,403 @@
+{
+  "query_id": "d7-test02",
+  "split": "test",
+  "question": "Sổ cái dùng chung ghi lại giao dịch và được duy trì bởi các máy tính liên kết trong mạng ngang hàng được gọi là gì?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:05:03.633680+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "shared ledger records transactions maintained by computers linked in a peer-to-peer network called what blockchain",
+      "filter": {},
+      "results": [
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.8048406089260568,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 63,
+          "text": "A sharing economy model involves individuals sharing resources or services through a peer-to-peer network,\nenabling efficient utilization of underused assets. This fosters collaboration and convenience among users\nseeking specific services or goods. Uber , Airbnb, and TaskRabbit are examples of companies using this model.\nIn terms of IT strategy, those with a sharing economy model should build robust peer-to-peer communication\nsystems that implement secure payment processing, real-time tracking",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4260,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 3761,
+            "printed_page": 59,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4773
+          },
+          "score": 0.31341074177832473,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "c96ff280661b98880d73bd778a7255788ef71299c9a686b945406d88e40ae982",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 65,
+          "text": "specific geographic locations facilitates the easy transfer of use rights.\n• Use of IT: Online platforms enable easy and e fficient mediation and monitoring of contract terms.\n• Cost advantage: The cost of accessing shared resources through Cohealo is often signi ficantly lower than\nthe cost of ownership, promoting the adoption of the sharing economy model.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 359,
+            "language": "en",
+            "char_count": 359,
+            "start_char": 0,
+            "printed_page": 61,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4129
+          },
+          "score": 0.3122866561362103,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c | chapter1-2.pdf | page 35]\n• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.\n\n[559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34 | chapter1-2.pdf | page 63]\nA sharing economy model involves individuals sharing resources or services through a peer-to-peer network,\nenabling efficient utilization of underused assets. This fosters collaboration and convenience among users\nseeking specific services or goods. Uber , Airbnb, and TaskRabbit are examples of companies using this model.\nIn terms of IT strategy, those with a sharing economy model should build robust peer-to-peer communication\nsystems that implement secure payment processing, real-time tracking\n\n[c96ff280661b98880d73bd778a7255788ef71299c9a686b945406d88e40ae982 | chapter1-2.pdf | page 65]\nspecific geographic locations facilitates the easy transfer of use rights.\n• Use of IT: Online platforms enable easy and e fficient mediation and monitoring of contract terms.\n• Cost advantage: The cost of accessing shared resources through Cohealo is often signi ficantly lower than\nthe cost of ownership, promoting the adoption of the sharing economy model.",
+      "context_ids": [
+        "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+        "559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34",
+        "c96ff280661b98880d73bd778a7255788ef71299c9a686b945406d88e40ae982"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Sổ cái dùng chung ghi lại giao dịch và được duy trì bởi các máy tính liên kết trong mạng ngang hàng được gọi là gì?",
+    "filter": {},
+    "results": [
+      {
+        "id": "cee366ab8dfd41a4d761d587e74bcc3d34a6a35fc1bad468b2b69d6c47697788",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 14,
+        "text": "chain\nmanagement is an example of how an EIS can be used as an interorganizational information system,\nwhich occurs when two or more organizations use IS to conduct business electronically.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1606,
+          "language": "en",
+          "char_count": 189,
+          "start_char": 1417,
+          "printed_page": 10,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2738
+        },
+        "score": 0.31973941738837985,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "1f0f35eff19bd3abdabeb74c5836f5d627b83f63b8bb7680bb46ef4a7bf12866",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 16,
+        "text": "computing resources. Using satellite links and\npacket-switching technology, which transfers data in small pieces as they are routed through a system,\ncomputers in the network could communicate with each other . As technology progressed, the ARPANET\n2 “Mobile Fact Sheet,” Pew Research Center , November 13, 2024, https://www.pewresearch.org/internet/fact-sheet/mobile/",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 4312,
+          "language": "en",
+          "char_count": 368,
+          "start_char": 3944,
+          "printed_page": 12,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4312
+        },
+        "score": 0.29097496306846116,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 35,
+        "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3187,
+          "language": "en",
+          "char_count": 282,
+          "start_char": 2905,
+          "printed_page": 31,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3973
+        },
+        "score": 0.2882527136385974,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là blockchain (chuỗi khối). [0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c]",
+  "elapsed_ms": 4946.546499999386,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 386,
+        "completion_tokens": 32,
+        "total_tokens": 418
+      },
+      "action": {
+        "action": "search",
+        "query": "shared ledger records transactions maintained by computers linked in a peer-to-peer network called what blockchain"
+      },
+      "elapsed_ms": 1710.2254999990691
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "shared ledger records transactions maintained by computers linked in a peer-to-peer network called what blockchain"
+          ],
+          "context": "[0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c | chapter1-2.pdf | page 35]\n• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.\n\n[559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34 | chapter1-2.pdf | page 63]\nA sharing economy model involves individuals sharing resources or services through a peer-to-peer network,\nenabling efficient utilization of underused assets. This fosters collaboration and convenience among users\nseeking specific services or goods. Uber , Airbnb, and TaskRabbit are examples of companies using this model.\nIn terms of IT strategy, those with a sharing economy model should build robust peer-to-peer communication\nsystems that implement secure payment processing, real-time tracking\n\n[c96ff280661b98880d73bd778a7255788ef71299c9a686b945406d88e40ae982 | chapter1-2.pdf | page 65]\nspecific geographic locations facilitates the easy transfer of use rights.\n• Use of IT: Online platforms enable easy and e fficient mediation and monitoring of contract terms.\n• Cost advantage: The cost of accessing shared resources through Cohealo is often signi ficantly lower than\nthe cost of ownership, promoting the adoption of the sharing economy model.",
+          "context_ids": [
+            "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+            "559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34",
+            "c96ff280661b98880d73bd778a7255788ef71299c9a686b945406d88e40ae982"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 945,
+        "completion_tokens": 73,
+        "total_tokens": 1018
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là blockchain (chuỗi khối). [0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c]",
+        "citations": [
+          "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c"
+        ]
+      },
+      "elapsed_ms": 1663.1401999984519
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Sổ cái dùng chung ghi lại giao dịch và được duy trì bởi các máy tính liên kết trong mạng ngang hàng được gọi là gì?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "cee366ab8dfd41a4d761d587e74bcc3d34a6a35fc1bad468b2b69d6c47697788",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 14,
+          "text": "chain\nmanagement is an example of how an EIS can be used as an interorganizational information system,\nwhich occurs when two or more organizations use IS to conduct business electronically.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1606,
+            "language": "en",
+            "char_count": 189,
+            "start_char": 1417,
+            "printed_page": 10,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2738
+          },
+          "score": 0.31973941738837985,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "1f0f35eff19bd3abdabeb74c5836f5d627b83f63b8bb7680bb46ef4a7bf12866",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 16,
+          "text": "computing resources. Using satellite links and\npacket-switching technology, which transfers data in small pieces as they are routed through a system,\ncomputers in the network could communicate with each other . As technology progressed, the ARPANET\n2 “Mobile Fact Sheet,” Pew Research Center , November 13, 2024, https://www.pewresearch.org/internet/fact-sheet/mobile/",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4312,
+            "language": "en",
+            "char_count": 368,
+            "start_char": 3944,
+            "printed_page": 12,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4312
+          },
+          "score": 0.29097496306846116,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.2882527136385974,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 867.8428000021086
+    },
+    {
+      "query": "shared ledger records transactions maintained by computers linked in a peer-to-peer network called what blockchain",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "0dcf709b6e29d6ace9f2f6c11ec0b3bcf2fc29c11ddcca68f23e2561e3fcf24c",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 35,
+          "text": "• The shared ledger that records transactions and is maintained through linked computers in a peer-to-peer\nnetwork is called blockchain. Originally developed in 2008 for Bitcoin, it allows information systems more\nways to store and share data with increased efficiency and security.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3187,
+            "language": "en",
+            "char_count": 282,
+            "start_char": 2905,
+            "printed_page": 31,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3973
+          },
+          "score": 0.8048406089260568,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "559656c3f5c40247e4a8a1684cb957835fc862e68edff3330c98fced33f1dc34",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 63,
+          "text": "A sharing economy model involves individuals sharing resources or services through a peer-to-peer network,\nenabling efficient utilization of underused assets. This fosters collaboration and convenience among users\nseeking specific services or goods. Uber , Airbnb, and TaskRabbit are examples of companies using this model.\nIn terms of IT strategy, those with a sharing economy model should build robust peer-to-peer communication\nsystems that implement secure payment processing, real-time tracking",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4260,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 3761,
+            "printed_page": 59,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4773
+          },
+          "score": 0.31341074177832473,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "c96ff280661b98880d73bd778a7255788ef71299c9a686b945406d88e40ae982",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 65,
+          "text": "specific geographic locations facilitates the easy transfer of use rights.\n• Use of IT: Online platforms enable easy and e fficient mediation and monitoring of contract terms.\n• Cost advantage: The cost of accessing shared resources through Cohealo is often signi ficantly lower than\nthe cost of ownership, promoting the adoption of the sharing economy model.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 359,
+            "language": "en",
+            "char_count": 359,
+            "start_char": 0,
+            "printed_page": 61,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4129
+          },
+          "score": 0.3122866561362103,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 263.9670999997179
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 49
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 17
+    }
+  ],
+  "cost_usd": null
+}

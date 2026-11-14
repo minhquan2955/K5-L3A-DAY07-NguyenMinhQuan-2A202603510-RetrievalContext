@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-14T10:18:12.787942+00:00",
+  "reports_follow_both_templates": true,
+  "report_tables_have_consistent_columns": true,
+  "report_links_resolve": true,
+  "reports_have_no_codex_authorship_comments": true,
+  "benchmark_split": {
+    "dev_answerable": 15,
+    "dev_unanswerable": 2,
+    "test_answerable": 5,
+    "test_unanswerable": 2
+  },
+  "trace_and_review_count": 65,
+  "measured_tokens": 109899,
+  "summaries_recomputed": true,
+  "frozen_pipeline_matches": true,
+  "all_test_traces_after_selection": true,
+  "day06_hashes_unchanged": true,
+  "offline_tests_passed": 31,
+  "secret_scan": "actual API key absent from candidate text artifacts",
+  "required_files_not_git_ignored": true,
+  "day07_github_visibility": "public (connector checked)",
+  "remote_benchmark_file": "not found on default branch (GitHub 404)",
+  "pending": [
+    "Commit/push local implementation and artifacts; submit repository link",
+    "Student personally verify source and labels",
+    "USD reconciliation if monetary cost is required; current report discloses measured tokens and unknown USD"
+  ],
+  "optional_bonus": "not attempted; does not block basic submission",
+  "citation_coverage_denominator_explicit": true
+}

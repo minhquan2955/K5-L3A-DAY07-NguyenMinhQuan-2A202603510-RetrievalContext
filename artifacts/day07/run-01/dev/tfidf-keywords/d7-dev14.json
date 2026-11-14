@@ -1,0 +1,306 @@
+{
+  "query_id": "d7-dev14",
+  "split": "dev",
+  "question": "Theo khung ra quyết định của Simon, một quyết định độc nhất, phức tạp, không có hướng dẫn hay tiền lệ sẵn có thuộc loại nào và đòi hỏi những năng lực gì?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:48.911119+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Simon decision-making framework unique complex decision no established procedures guidelines precedents unstructured decisions capabilities skills",
+      "filter": {},
+      "results": [
+        {
+          "id": "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "decision-making.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1870,
+            "language": "en",
+            "char_count": 16,
+            "start_char": 1854,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.376900125754281,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "preestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3132,
+            "language": "en",
+            "char_count": 459,
+            "start_char": 2673,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.2611216832423648,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2672,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 2181,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.2545561771318891,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86 | chapter1-2.pdf | page 72]\ndecision-making.\n\n[dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b | chapter1-2.pdf | page 53]\npreestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):\n\n[2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331 | chapter1-2.pdf | page 53]\nframework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+      "context_ids": [
+        "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+        "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+        "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Theo khung ra quyết định của Simon, một quyết định độc nhất, phức tạp, không có hướng dẫn hay tiền lệ sẵn có thuộc loại nào và đòi hỏi những năng lực gì?",
+    "filter": {},
+    "results": [
+      {
+        "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 53,
+        "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2672,
+          "language": "en",
+          "char_count": 491,
+          "start_char": 2181,
+          "printed_page": 49,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3777
+        },
+        "score": 0.1583486081239471,
+        "strategy": "tfidf",
+        "rank": 1
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là **quyết định phi cấu trúc (nonprogrammed decision)**. Vì quyết định độc nhất, phức tạp và không có hướng dẫn hay tiền lệ định sẵn, nó đòi hỏi **khả năng phán đoán, phân tích và sáng tạo**. [dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b]",
+  "elapsed_ms": 3282.043799998064,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 401,
+        "completion_tokens": 33,
+        "total_tokens": 434
+      },
+      "action": {
+        "action": "search",
+        "query": "Simon decision-making framework unique complex decision no established procedures guidelines precedents unstructured decisions capabilities skills"
+      },
+      "elapsed_ms": 1370.311300001049
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Simon decision-making framework unique complex decision no established procedures guidelines precedents unstructured decisions capabilities skills"
+          ],
+          "context": "[b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86 | chapter1-2.pdf | page 72]\ndecision-making.\n\n[dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b | chapter1-2.pdf | page 53]\npreestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):\n\n[2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331 | chapter1-2.pdf | page 53]\nframework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+          "context_ids": [
+            "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+            "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+            "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 940,
+        "completion_tokens": 117,
+        "total_tokens": 1057
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là **quyết định phi cấu trúc (nonprogrammed decision)**. Vì quyết định độc nhất, phức tạp và không có hướng dẫn hay tiền lệ định sẵn, nó đòi hỏi **khả năng phán đoán, phân tích và sáng tạo**. [dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b]",
+        "citations": [
+          "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b"
+        ]
+      },
+      "elapsed_ms": 1825.289000000339
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Theo khung ra quyết định của Simon, một quyết định độc nhất, phức tạp, không có hướng dẫn hay tiền lệ sẵn có thuộc loại nào và đòi hỏi những năng lực gì?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2672,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 2181,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.1583486081239471,
+          "strategy": "tfidf",
+          "rank": 1
+        }
+      ],
+      "elapsed_ms": 0.5911000007472467
+    },
+    {
+      "query": "Simon decision-making framework unique complex decision no established procedures guidelines precedents unstructured decisions capabilities skills",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "b449b6004672b0e14bc260d3bf5b1e4293ea77fbd64008971bf74798a018fa86",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 72,
+          "text": "decision-making.",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1870,
+            "language": "en",
+            "char_count": 16,
+            "start_char": 1854,
+            "printed_page": 68,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4031
+          },
+          "score": 0.376900125754281,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "dd6351861356babe90da6eb73f4efdcd5a5b2c3379ad419956c92ed391f68c6b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "preestablished rules and procedures. They often\ninvolve repetitive tasks that can be automated within the information system. Nonprogrammed decisions, on\nthe other hand, are not structured as they are unique and complex, requiring judgment, analysis, and\ncreativity. These decisions often arise when there are no predefined guidelines or precedents available. A\nthree-step process determines which activities are programmable and nonprogrammable (Figure 2.4):",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3132,
+            "language": "en",
+            "char_count": 459,
+            "start_char": 2673,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.2611216832423648,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "2c68d27783abd705835d3a2d7fb7ee07e1a77a6e22f18d130f0526e5814ba331",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 53,
+          "text": "framework—operational\ncontrol, management control, and strategic planning—each work with different types of data for different purposes.\nAnother data management framework developed by data scientist Herbert A. Simon in 1977, the decision-\nmaking framework breaks down decisions into two types: programmed decisions with clear procedures or\nnonprogrammed decisions requiring more judgment. Programmed decisions are also called structured\ndecisions as they are routine and can be made based on",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2672,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 2181,
+            "printed_page": 49,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3777
+          },
+          "score": 0.2545561771318891,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 4.5515000019804575
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

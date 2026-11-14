@@ -1,5 +1,7 @@
 # Starter Day 7
 
+**Triển khai cá nhân:** ba phương pháp retrieval và model thật đã được nối qua `run.py`, `retrieval.py`, `model_controller.py`. Benchmark thật qua `benchmark.py` đã chạy dev/test; xem [hướng dẫn agent](../docs/RUN_AGENT.md), [lệnh benchmark](../docs/EXPERIMENTS.md) và [báo cáo](../report/individual/2A202603510_NguyenMinhQuan.md). Phần dưới mô tả các khung starter gốc.
+
 | File | Công dụng |
 |---|---|
 | `agentic.py` | Khung agent ví dụ với số lượt search, top-k và context budget có thể cấu hình |

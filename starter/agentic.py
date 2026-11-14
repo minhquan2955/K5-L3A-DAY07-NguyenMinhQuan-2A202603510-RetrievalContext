@@ -1,8 +1,9 @@
 """Example agent loop; connect a real model and the Day 6 retriever via adapters.
 
-Adapters are intentionally not provided: Day 6 has no fixed database schema and
-model providers differ. Never use fake adapters to report benchmark quality.
+The connected adapters live in retrieval.py and model_controller.py; run them
+with run.py. Never use fake adapters to report benchmark quality.
 """
+import re
 from typing import Any, Protocol
 from baseline import pack_context
 
@@ -14,6 +15,7 @@ class Controller(Protocol):
         Search: {'action': 'search', 'query': '...'}.
         Final: {'action': 'answer', 'answer': '...', 'citations': ['chunk-id']}.
         Citations must also appear as [chunk-id] in the answer text.
+        Abstain: {'action': 'abstain', 'answer': 'reason for insufficient evidence'}.
         """
         ...
 
@@ -30,7 +32,8 @@ class Retriever(Protocol):
 
 def run_agent(question: str, controller: Controller, retriever: Retriever, *,
               filters: dict[str, Any] | None = None, max_searches: int = 4,
-              top_k: int = 3, budget: int = 800) -> dict[str, Any]:
+              top_k: int = 3, budget: int = 800,
+              events: list[dict[str, Any]] | None = None) -> dict[str, Any]:
     """Return answer, citation IDs and trace; no benchmark gold enters this loop.
 
     A final answer without valid citations, an empty context, and a search limit
@@ -42,7 +45,7 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
     history: list[dict[str, Any]] = []
     chunks: dict[str, dict[str, Any]] = {}
     candidates: list[dict[str, Any]] = []
-    events: list[dict[str, Any]] = []
+    events = [] if events is None else events
     for _ in range(max_searches + 1):
         action = controller.decide(question, history)
         if action.get('action') == 'search':
@@ -66,10 +69,16 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             answer, citations = action.get('answer'), action.get('citations')
             if not isinstance(answer, str) or not isinstance(citations, list) or any(not isinstance(i, str) for i in citations):
                 raise ValueError('answer/citations không hợp lệ')
-            valid = bool(answer.strip() and citations and all(i in chunks and f'[{i}]' in answer for i in citations))
+            cited_in_text = set(re.findall(r'\[([^\[\]\n]+)\]', answer))
+            valid = bool(answer.strip() and citations and cited_in_text == set(citations)
+                         and all(i in chunks for i in citations))
             if valid:
                 return {'status': 'answered', 'answer': answer, 'citations': citations, 'events': events + [{'event': 'answer'}]}
             return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events + [{'event': 'invalid_or_missing_citations'}]}
+        elif action.get('action') == 'abstain':
+            # Keep a fixed user message; preserve the model's reason for inspection.
+            return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.',
+                    'citations': [], 'events': events + [{'event': 'abstain', 'reason': action.get('answer')}]}
         else:
-            raise ValueError('action phải là search hoặc answer')
+            raise ValueError('action phải là search, answer hoặc abstain')
     return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events}

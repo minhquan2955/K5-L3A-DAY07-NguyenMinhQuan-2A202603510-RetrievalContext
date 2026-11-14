@@ -1,0 +1,26 @@
+{
+  "repository_url": "https://github.com/minhquan2955/K5-L3A-DAY06-NguyenMinhQuan-2A202603510-DataIngestion",
+  "commit": "e81e2efa357db48ea263deb7efe27086b60a85dc",
+  "artifact_directory": "starter/src/results/run-02",
+  "source_id": "openstax-foundations-is-ch1-2",
+  "source_file": "chapter1-2.pdf",
+  "input_sha256": {
+    "chapter1-2.pdf": "45ea2a3a7fe5aa5f9fdf4beb4ef48bbdf9622d146c55684bb3edbe4b549f96b9",
+    "benchmark/questions.json": "4735ec4f5c52d4a601aeffd9f9152e704a84a64d4dbbaef24bfa2031c1813a38",
+    "data/manifest.json": "ff26398854e5fe6adacf12caf5ebf4d95e49988856bb4e9b772b72731fdb36ed"
+  },
+  "physical_pdf_pages": 83,
+  "included_content_pages": 58,
+  "strategy": "B",
+  "chunk_count": 505,
+  "paragraph_size_chars": 500,
+  "overlap_chars": 0,
+  "chunk_snapshot_sha256": "061cbe8ade9e8ff4b1574ce17d00f5c4bebccc400e6875564648d1008986ddbb",
+  "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+  "embedding": {"model": "text-embedding-3-small", "dimensions": 1536},
+  "store": {"database": "day6_lab", "table": "public.day6_chunks", "postgres_major": 16, "pgvector": "0.8.7", "distance": "cosine", "search": "exact", "local_port": 55433},
+  "original_environment": {"python": "3.14.2", "openai": "3.50.0", "psycopg": "3.3.8", "pypdf": "6.21.4", "python-dotenv": "1.2.4"},
+  "vectors_in_git": false,
+  "rebuild_method": "Run pinned Day06 prepare and ingest; ingest regenerates A/B/C, with C reusing B embeddings. Day07 selects B only.",
+  "reproduction_limits": "Chunk/config identity is checked. Model alias does not pin provider weights; rebuilt vector floats and agent responses are not guaranteed byte-identical. No database dump is bundled."
+}

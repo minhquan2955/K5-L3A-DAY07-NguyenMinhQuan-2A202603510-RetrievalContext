@@ -1,0 +1,411 @@
+{
+  "query_id": "d7-test01",
+  "split": "test",
+  "question": "Trong Chương 1, loại kiểm soát nào được tích hợp vào hệ thống và bao gồm tường lửa, mã hóa và kiểm soát truy cập?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T09:05:03.633179+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 1 controls built into system firewalls encryption access controls type of control information systems textbook",
+      "filter": {
+        "chapter": 1
+      },
+      "results": [
+        {
+          "id": "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3594,
+            "language": "en",
+            "char_count": 276,
+            "start_char": 3318,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.6291000509282211,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3317,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 2818,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.46846896385098746,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "contains sensitive information\nthat must be protected from unauthorized users, the physical location of the system must be in a secure\nbuilding, and the system itself must include cybersecurity features that guard against hacking and other\nunauthorized use.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1752,
+            "language": "en",
+            "char_count": 257,
+            "start_char": 1495,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.4423636696089579,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756 | chapter1-2.pdf | page 21]\n◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.\n\n[5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e | chapter1-2.pdf | page 21]\n• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.\n\n[0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d | chapter1-2.pdf | page 21]\ncontains sensitive information\nthat must be protected from unauthorized users, the physical location of the system must be in a secure\nbuilding, and the system itself must include cybersecurity features that guard against hacking and other\nunauthorized use.",
+      "context_ids": [
+        "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+        "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+        "0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 1, loại kiểm soát nào được tích hợp vào hệ thống và bao gồm tường lửa, mã hóa và kiểm soát truy cập?",
+    "filter": {
+      "chapter": 1
+    },
+    "results": [
+      {
+        "id": "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 21,
+        "text": "• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2243,
+          "language": "en",
+          "char_count": 490,
+          "start_char": 1753,
+          "printed_page": 17,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4152
+        },
+        "score": 0.31590610531878516,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 21,
+        "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2399,
+          "language": "en",
+          "char_count": 155,
+          "start_char": 2244,
+          "printed_page": 17,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4152
+        },
+        "score": 0.295286365558457,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 21,
+        "text": "contains sensitive information\nthat must be protected from unauthorized users, the physical location of the system must be in a secure\nbuilding, and the system itself must include cybersecurity features that guard against hacking and other\nunauthorized use.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1752,
+          "language": "en",
+          "char_count": 257,
+          "start_char": 1495,
+          "printed_page": 17,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4152
+        },
+        "score": 0.29448844522926887,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là **kiểm soát ứng dụng** (application control), được tích hợp vào hệ thống và bao gồm các tính năng như tường lửa, mã hóa và kiểm soát truy cập. [66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756]",
+  "elapsed_ms": 5366.20259999836,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 392,
+        "completion_tokens": 33,
+        "total_tokens": 425
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 1 controls built into system firewalls encryption access controls type of control information systems textbook"
+      },
+      "elapsed_ms": 1441.3892999982636
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 1 controls built into system firewalls encryption access controls type of control information systems textbook"
+          ],
+          "context": "[66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756 | chapter1-2.pdf | page 21]\n◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.\n\n[5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e | chapter1-2.pdf | page 21]\n• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.\n\n[0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d | chapter1-2.pdf | page 21]\ncontains sensitive information\nthat must be protected from unauthorized users, the physical location of the system must be in a secure\nbuilding, and the system itself must include cybersecurity features that guard against hacking and other\nunauthorized use.",
+          "context_ids": [
+            "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+            "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+            "0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 937,
+        "completion_tokens": 138,
+        "total_tokens": 1075
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là **kiểm soát ứng dụng** (application control), được tích hợp vào hệ thống và bao gồm các tính năng như tường lửa, mã hóa và kiểm soát truy cập. [66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756]",
+        "citations": [
+          "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756"
+        ]
+      },
+      "elapsed_ms": 2334.618099997897
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 1, loại kiểm soát nào được tích hợp vào hệ thống và bao gồm tường lửa, mã hóa và kiểm soát truy cập?",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2243,
+            "language": "en",
+            "char_count": 490,
+            "start_char": 1753,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.31590610531878516,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "b9ee8d98b55e3a6c1f8446ddf048fa8e4ec177d6623ed0004381d470b2785bc7",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "processing\ncapabilities. Typically, an information system needs multiple software applications to handle the diverse\ntypes of data required for the system.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2399,
+            "language": "en",
+            "char_count": 155,
+            "start_char": 2244,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.295286365558457,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "contains sensitive information\nthat must be protected from unauthorized users, the physical location of the system must be in a secure\nbuilding, and the system itself must include cybersecurity features that guard against hacking and other\nunauthorized use.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1752,
+            "language": "en",
+            "char_count": 257,
+            "start_char": 1495,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.29448844522926887,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 806.9828000006964
+    },
+    {
+      "query": "Chapter 1 controls built into system firewalls encryption access controls type of control information systems textbook",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "66c37c22ae5ae2807410ce2b6a847ecf6fadad814f5f66da20ff4be261b3e756",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "◦ An application control is built into the system and includes features such as firewalls, encryption, and\naccess control.\n◦ A general control refers to a process that outlines how an information system is to be used and\nincludes requirements such as routine password updates.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3594,
+            "language": "en",
+            "char_count": 276,
+            "start_char": 3318,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.6291000509282211,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "5127dc298a33f6a086e11aa03b82942088655d8df5805be0f576ae88e505974e",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The data and information that a system generates and provides to users is called the output. Data about a\nbusiness’s costs, sales, and profits are examples of information system outputs. Information system users\nmust be able to retrieve this output in a secure and user-friendly manner whenever data are needed.\n• A policy or procedure that ensures a system functions e ffectively, efficiently, and securely is called a\ncontrol. Controls typically fall into two categories—application and general.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3317,
+            "language": "en",
+            "char_count": 499,
+            "start_char": 2818,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.46846896385098746,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "0748e6dca67ed4b45a84d8998bbf4496eb0171ee41ecf6b4c84abadceb22f01d",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "contains sensitive information\nthat must be protected from unauthorized users, the physical location of the system must be in a secure\nbuilding, and the system itself must include cybersecurity features that guard against hacking and other\nunauthorized use.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1752,
+            "language": "en",
+            "char_count": 257,
+            "start_char": 1495,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.4423636696089579,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 304.36030000055325
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 51
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 18
+    }
+  ],
+  "cost_usd": null
+}

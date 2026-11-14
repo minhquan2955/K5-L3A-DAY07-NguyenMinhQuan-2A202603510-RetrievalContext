@@ -1,0 +1,411 @@
+{
+  "query_id": "d7-dev02",
+  "split": "dev",
+  "question": "Trong Chương 1, hệ thống nào xử lý các giao dịch hằng ngày như đơn hàng và tiền lương?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:19.424056+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Chapter 1 system processes routine daily transactions orders payroll transaction processing system TPS",
+      "filter": {
+        "chapter": 1
+      },
+      "results": [
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.5969775382750139,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 957,
+            "language": "en",
+            "char_count": 117,
+            "start_char": 840,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.4753559164088961,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "Think about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1451,
+            "language": "en",
+            "char_count": 493,
+            "start_char": 958,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.45138836803085947,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce | chapter1-2.pdf | page 15]\nfinancial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business\n\n[d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984 | chapter1-2.pdf | page 15]\nThink about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a",
+      "context_ids": [
+        "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+        "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+        "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Trong Chương 1, hệ thống nào xử lý các giao dịch hằng ngày như đơn hàng và tiền lương?",
+    "filter": {
+      "chapter": 1
+    },
+    "results": [
+      {
+        "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 15,
+        "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 957,
+          "language": "en",
+          "char_count": 117,
+          "start_char": 840,
+          "printed_page": 11,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3778
+        },
+        "score": 0.356149001545053,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 15,
+        "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 339,
+          "language": "en",
+          "char_count": 339,
+          "start_char": 0,
+          "printed_page": 11,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3778
+        },
+        "score": 0.333706600083007,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 21,
+        "text": "• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 2243,
+          "language": "en",
+          "char_count": 490,
+          "start_char": 1753,
+          "printed_page": 17,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4152
+        },
+        "score": 0.3268079944776514,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Đó là hệ thống xử lý giao dịch (TPS), chuyên xử lý các giao dịch hằng ngày như xử lý đơn hàng và tiền lương. [99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def]",
+  "elapsed_ms": 7280.471400001261,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 383,
+        "completion_tokens": 29,
+        "total_tokens": 412
+      },
+      "action": {
+        "action": "search",
+        "query": "Chapter 1 system processes routine daily transactions orders payroll transaction processing system TPS"
+      },
+      "elapsed_ms": 2713.7632999983907
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Chapter 1 system processes routine daily transactions orders payroll transaction processing system TPS"
+          ],
+          "context": "[99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def | chapter1-2.pdf | page 15]\nthe BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.\n\n[511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce | chapter1-2.pdf | page 15]\nfinancial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business\n\n[d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984 | chapter1-2.pdf | page 15]\nThink about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a",
+          "context_ids": [
+            "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+            "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+            "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 903,
+        "completion_tokens": 88,
+        "total_tokens": 991
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Đó là hệ thống xử lý giao dịch (TPS), chuyên xử lý các giao dịch hằng ngày như xử lý đơn hàng và tiền lương. [99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def]",
+        "citations": [
+          "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def"
+        ]
+      },
+      "elapsed_ms": 1948.173400000087
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Trong Chương 1, hệ thống nào xử lý các giao dịch hằng ngày như đơn hàng và tiền lương?",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 957,
+            "language": "en",
+            "char_count": 117,
+            "start_char": 840,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.356149001545053,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.333706600083007,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "aef50b03215ba6b964595bfdca48acee25cecdad524a9bac642c2ebc8daa9428",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 21,
+          "text": "• The input is the data that are collected and entered into the system by users or automatically when\ntransactions occur , such as when you make a purchase with a debit card and your checking account is\nautomatically charged for the purchase. An information system must include the software needed to\nhandle the types of data required for the system. For example, a system that handles financial data needs\nspreadsheets, and a system that handles qualitative data such as reports needs word",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 2243,
+            "language": "en",
+            "char_count": 490,
+            "start_char": 1753,
+            "printed_page": 17,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4152
+          },
+          "score": 0.3268079944776514,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 1799.4290000024193
+    },
+    {
+      "query": "Chapter 1 system processes routine daily transactions orders payroll transaction processing system TPS",
+      "filter": {
+        "chapter": 1
+      },
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "99ed15a91863e2a567083a110f5c4eea6517af81e7d782f55784c8dd9cfa7def",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "the BSC, an organization’s MIS function provides invaluable support.\n• A transaction processing system (TPS) handles day-to-day transactions, such as order processing and\npayroll. For frontline staff, a TPS provides information necessary to handle an organization’s daily\noperations, such as inventory reports and customer service records.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 339,
+            "language": "en",
+            "char_count": 339,
+            "start_char": 0,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.5969775382750139,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "511082a96b1dd0d417ab5150c212b61fd47ab4e8779cd75855bfadf8b10672ce",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "financial\nmanagement including payroll, and tracking customer service.\nApplication of Information Systems in Business",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 957,
+            "language": "en",
+            "char_count": 117,
+            "start_char": 840,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.4753559164088961,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "d80474f54ce3c3c1cc105cf470bc6d16835cacd151b7320d15529a0771a01984",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 15,
+          "text": "Think about a visit to a coffee shop, from ordering to receiving the order , through the lens of IS. First, think\nabout how a barista takes an order at the register . That’s the point-of-sale (POS) system at work. The POS\nsystem is an information system that streamlines transactions, helping businesses track sales, manage\ninventory, and even understand customer preferences when tracked with tools such as customer loyalty cards.\nWhen a customer switches from their regular black coffee to a",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1451,
+            "language": "en",
+            "char_count": 493,
+            "start_char": 958,
+            "printed_page": 11,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3778
+          },
+          "score": 0.45138836803085947,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 360.17229999924893
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 41
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 15
+    }
+  ],
+  "cost_usd": null
+}

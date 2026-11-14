@@ -1,0 +1,403 @@
+{
+  "query_id": "d7-dev07",
+  "split": "dev",
+  "question": "Các tổ chức sử dụng SFIA để xác định điều gì cho từng vai trò công việc?",
+  "config": {
+    "id": "dense-baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Baseline dense retrieval and one search with a compact context."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:26.804971+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "SFIA organizations determine for each job role skills levels responsibilities role profile",
+      "filter": {},
+      "results": [
+        {
+          "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 886,
+            "language": "en",
+            "char_count": 389,
+            "start_char": 497,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.6578208558979849,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3064,
+            "language": "en",
+            "char_count": 416,
+            "start_char": 2648,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.6182502815109855,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 496,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 0,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.6087221926629474,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "context": "[ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae | chapter1-2.pdf | page 26]\nadvance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.\n\n[cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b | chapter1-2.pdf | page 25]\nand other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.\n\n[73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f | chapter1-2.pdf | page 26]\nFigure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+      "context_ids": [
+        "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+        "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+        "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Các tổ chức sử dụng SFIA để xác định điều gì cho từng vai trò công việc?",
+    "filter": {},
+    "results": [
+      {
+        "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 26,
+        "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 886,
+          "language": "en",
+          "char_count": 389,
+          "start_char": 497,
+          "printed_page": 22,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2794
+        },
+        "score": 0.5581997235101237,
+        "strategy": "dense",
+        "rank": 1
+      },
+      {
+        "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 26,
+        "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 496,
+          "language": "en",
+          "char_count": 496,
+          "start_char": 0,
+          "printed_page": 22,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 2794
+        },
+        "score": 0.534654278809767,
+        "strategy": "dense",
+        "rank": 2
+      },
+      {
+        "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 25,
+        "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 3064,
+          "language": "en",
+          "char_count": 416,
+          "start_char": 2648,
+          "printed_page": 21,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3064
+        },
+        "score": 0.49541068166923197,
+        "strategy": "dense",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Các tổ chức sử dụng SFIA để xác định kiến thức và chuyên môn cần có cho từng vai trò trong tổ chức, từ vị trí đầu vào đến nâng cao trong các lĩnh vực như phát triển công nghệ, chiến lược, kiến trúc và hỗ trợ. [cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b]",
+  "elapsed_ms": 4142.7514999995765,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 377,
+        "completion_tokens": 28,
+        "total_tokens": 405
+      },
+      "action": {
+        "action": "search",
+        "query": "SFIA organizations determine for each job role skills levels responsibilities role profile"
+      },
+      "elapsed_ms": 1284.8492000011902
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "SFIA organizations determine for each job role skills levels responsibilities role profile"
+          ],
+          "context": "[ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae | chapter1-2.pdf | page 26]\nadvance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.\n\n[cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b | chapter1-2.pdf | page 25]\nand other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.\n\n[73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f | chapter1-2.pdf | page 26]\nFigure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+          "context_ids": [
+            "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+            "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+            "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 954,
+        "completion_tokens": 140,
+        "total_tokens": 1094
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Các tổ chức sử dụng SFIA để xác định kiến thức và chuyên môn cần có cho từng vai trò trong tổ chức, từ vị trí đầu vào đến nâng cao trong các lĩnh vực như phát triển công nghệ, chiến lược, kiến trúc và hỗ trợ. [cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b]",
+        "citations": [
+          "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b"
+        ]
+      },
+      "elapsed_ms": 2074.6196000000054
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Các tổ chức sử dụng SFIA để xác định điều gì cho từng vai trò công việc?",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 886,
+            "language": "en",
+            "char_count": 389,
+            "start_char": 497,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.5581997235101237,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 496,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 0,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.534654278809767,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3064,
+            "language": "en",
+            "char_count": 416,
+            "start_char": 2648,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.49541068166923197,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 414.47920000064187
+    },
+    {
+      "query": "SFIA organizations determine for each job role skills levels responsibilities role profile",
+      "filter": {},
+      "method": "dense",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ec2fdf875f8a8279e6c0707f9df64967f257e1ac076bb21390b5e7927aadabae",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "advance their careers. SFIA is structured to help organizations and individuals achieve success in the\nfollowing seven levels of responsibility:\n• Level 1, Follow: This level applies to entry-level positions that are closely supervised, perform routine tasks,\nrely on basic tools, and have minimal influence on the work environment, essentially following others as\nthey perform their jobs.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 886,
+            "language": "en",
+            "char_count": 389,
+            "start_char": 497,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.6578208558979849,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "id": "cd0383af035026b2039aedf931e68483b0fe2ae334b5796b646728201458f30b",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 25,
+          "text": "and other\ntechnology professionals acquire the skills and competencies needed to successfully develop and manage\ntechnology. Organizations around the world in both the public and private sectors use SFIA to map out the\nknowledge and expertise needed to fill each role in their organizations. This includes entry-level to advanced\npositions in the areas of technology development, strategy, architecture, and support.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 3064,
+            "language": "en",
+            "char_count": 416,
+            "start_char": 2648,
+            "printed_page": 21,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3064
+          },
+          "score": 0.6182502815109855,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "id": "73b8b884665bb75f6540103f9333a75f57f0078b451764809b7efc83eb2d359f",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 26,
+          "text": "Figure 1.7 SFIA can be an important framework as organizations develop the skills needed to manage technology. This includes\nplanning and organizing, acquisition, deployment, assessment, analysis, and development. It is also important that organizations\nreward employees and recognize their success. (attribution: Copyright Rice University, OpenStax, under CC BY 4.0 license)\nIndividually, IS professionals use SFIA to identify the skills they personally need to develop to perform their\njobs and",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 496,
+            "language": "en",
+            "char_count": 496,
+            "start_char": 0,
+            "printed_page": 22,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2794
+          },
+          "score": 0.6087221926629474,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 306.9193000010273
+    }
+  ],
+  "embedding_usage": [
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 35
+    },
+    {
+      "model": "text-embedding-3-small",
+      "total_tokens": 13
+    }
+  ],
+  "cost_usd": null
+}

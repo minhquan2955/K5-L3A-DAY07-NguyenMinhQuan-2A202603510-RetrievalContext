@@ -1,0 +1,394 @@
+{
+  "query_id": "d7-dev05",
+  "split": "dev",
+  "question": "Theo mô tả về Agile, sau mỗi sprint nhóm dự án cần làm gì trước khi chuyển sang sprint tiếp theo?",
+  "config": {
+    "id": "tfidf-keywords",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget": 1600,
+    "max_searches": 1,
+    "candidate_k": 20,
+    "hypothesis": "Lexical exact terms from agent-transformed query may improve specific terminology; vocabulary mismatch may reduce recall."
+  },
+  "agent_model": "gpt-6-luna",
+  "created_at": "2026-11-14T08:59:42.123398+00:00",
+  "events": [
+    {
+      "event": "search",
+      "query": "Agile after each sprint project team what do before moving to next sprint review retrospective",
+      "filter": {},
+      "results": [
+        {
+          "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1906,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1415,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.5269021065674453,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4848,
+            "language": "en",
+            "char_count": 305,
+            "start_char": 4543,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.11368727846638439,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 13,
+          "text": "Figure 1.2 Typically, an information system includes people, as well as hardware, software, data, and procedures. (credit:\nmodification of work from Introduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0\nlicense)\nBefore looking closely at each component to understand what it entails and why it is important in IS, let’s start\nwith a brief overview of the five components.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 417,
+            "language": "en",
+            "char_count": 417,
+            "start_char": 0,
+            "printed_page": 9,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2399
+          },
+          "score": 0.09881143718245138,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "context": "[ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9 | chapter1-2.pdf | page 24]\nAgile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,\n\n[a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804 | chapter1-2.pdf | page 70]\nexample, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product\n\n[d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9 | chapter1-2.pdf | page 13]\nFigure 1.2 Typically, an information system includes people, as well as hardware, software, data, and procedures. (credit:\nmodification of work from Introduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0\nlicense)\nBefore looking closely at each component to understand what it entails and why it is important in IS, let’s start\nwith a brief overview of the five components.",
+      "context_ids": [
+        "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+        "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+        "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9"
+      ]
+    },
+    {
+      "event": "answer"
+    }
+  ],
+  "citations": [
+    "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9"
+  ],
+  "corpus": {
+    "strategy": "B",
+    "chunks": 505,
+    "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536
+  },
+  "original_retrieval": {
+    "status": "ok",
+    "query": "Theo mô tả về Agile, sau mỗi sprint nhóm dự án cần làm gì trước khi chuyển sang sprint tiếp theo?",
+    "filter": {},
+    "results": [
+      {
+        "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 24,
+        "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1906,
+          "language": "en",
+          "char_count": 491,
+          "start_char": 1415,
+          "printed_page": 20,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3136
+        },
+        "score": 0.42619276843999776,
+        "strategy": "tfidf",
+        "rank": 1
+      },
+      {
+        "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 24,
+        "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+        "metadata": {
+          "chapter": 1,
+          "chunking": "paragraph-v2:500",
+          "end_char": 1414,
+          "language": "en",
+          "char_count": 286,
+          "start_char": 1128,
+          "printed_page": 20,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 3136
+        },
+        "score": 0.07801732418443627,
+        "strategy": "tfidf",
+        "rank": 2
+      },
+      {
+        "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+        "source_id": "openstax-foundations-is-ch1-2",
+        "source": "chapter1-2.pdf",
+        "page": 70,
+        "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+        "metadata": {
+          "chapter": 2,
+          "chunking": "paragraph-v2:500",
+          "end_char": 4848,
+          "language": "en",
+          "char_count": 305,
+          "start_char": 4543,
+          "printed_page": 66,
+          "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+          "extraction_status": "ok",
+          "normalized_char_count": 4848
+        },
+        "score": 0.06682403149554733,
+        "strategy": "tfidf",
+        "rank": 3
+      }
+    ]
+  },
+  "status": "answered",
+  "answer": "Sau mỗi sprint, nhóm dự án xem xét tiến độ và điều chỉnh trước khi bắt đầu sprint tiếp theo. [ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9]",
+  "elapsed_ms": 2997.544600002584,
+  "model_calls": [
+    {
+      "model": "gpt-6-luna",
+      "context": [],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 382,
+        "completion_tokens": 31,
+        "total_tokens": 413
+      },
+      "action": {
+        "action": "search",
+        "query": "Agile after each sprint project team what do before moving to next sprint review retrospective"
+      },
+      "elapsed_ms": 1388.650900000357
+    },
+    {
+      "model": "gpt-6-luna",
+      "context": [
+        {
+          "tool": "search",
+          "queries": [
+            "Agile after each sprint project team what do before moving to next sprint review retrospective"
+          ],
+          "context": "[ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9 | chapter1-2.pdf | page 24]\nAgile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,\n\n[a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804 | chapter1-2.pdf | page 70]\nexample, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product\n\n[d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9 | chapter1-2.pdf | page 13]\nFigure 1.2 Typically, an information system includes people, as well as hardware, software, data, and procedures. (credit:\nmodification of work from Introduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0\nlicense)\nBefore looking closely at each component to understand what it entails and why it is important in IS, let’s start\nwith a brief overview of the five components.",
+          "context_ids": [
+            "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+            "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+            "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9"
+          ]
+        }
+      ],
+      "request_options": {
+        "reasoning_effort": "none"
+      },
+      "response_model": "gpt-6-luna",
+      "usage": {
+        "prompt_tokens": 981,
+        "completion_tokens": 81,
+        "total_tokens": 1062
+      },
+      "action": {
+        "action": "answer",
+        "answer": "Sau mỗi sprint, nhóm dự án xem xét tiến độ và điều chỉnh trước khi bắt đầu sprint tiếp theo. [ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9]",
+        "citations": [
+          "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9"
+        ]
+      },
+      "elapsed_ms": 1546.3184000000183
+    }
+  ],
+  "retrieval_calls": [
+    {
+      "query": "Theo mô tả về Agile, sau mỗi sprint nhóm dự án cần làm gì trước khi chuyển sang sprint tiếp theo?",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1906,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1415,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.42619276843999776,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "a21082114efea189a3a457af0ceedebd6db71cd98d06cd81ccbd358bf3e64b68",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Starting with the most commonly used frameworks, those applicable to IS include Agile, Control Objectives for\nInformation and Related Technologies (COBIT), Information Technology Infrastructure Library (ITIL), the Skills\nFramework for the Information Age (SFIA), Waterfall, and Zachman.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1414,
+            "language": "en",
+            "char_count": 286,
+            "start_char": 1128,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.07801732418443627,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4848,
+            "language": "en",
+            "char_count": 305,
+            "start_char": 4543,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.06682403149554733,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 0.812700000096811
+    },
+    {
+      "query": "Agile after each sprint project team what do before moving to next sprint review retrospective",
+      "filter": {},
+      "method": "tfidf",
+      "top_k": 3,
+      "results": [
+        {
+          "id": "ed62f38bd3c6ca8eb0750663e9b5a40e3a7b81e65615bb27853a270d64e4eee9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 24,
+          "text": "Agile methodology is a framework used to guide project management, primarily by dividing projects into\nphases, or sprints. Typically, these sprints include planning, designing, developing, testing, deploying, and\nreviewing. After each sprint, the project team examines their progress and adjusts before moving to the next\nsprint. Agile can be a useful framework as IS professionals plan and develop an information system. Several\nversions of Agile frameworks are used for project management,",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 1906,
+            "language": "en",
+            "char_count": 491,
+            "start_char": 1415,
+            "printed_page": 20,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 3136
+          },
+          "score": 0.5269021065674453,
+          "strategy": "tfidf",
+          "rank": 1
+        },
+        {
+          "id": "a4747ec0b855ea84539a82f3578d3c44b1b2d3fd79e52089b3a8440e3f403804",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 70,
+          "text": "example, a software development team working on a mobile application might employ Agile\nto deliver incremental updates and new features in short development cycles (sprints). This iterative approach\nallows the team to gather continuous feedback from users and stakeholders, ensuring that the final product",
+          "metadata": {
+            "chapter": 2,
+            "chunking": "paragraph-v2:500",
+            "end_char": 4848,
+            "language": "en",
+            "char_count": 305,
+            "start_char": 4543,
+            "printed_page": 66,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 4848
+          },
+          "score": 0.11368727846638439,
+          "strategy": "tfidf",
+          "rank": 2
+        },
+        {
+          "id": "d5849efdb76218d6dc547a463e5b4b3ba3e33581ac83172212b544e2c420a9f9",
+          "source_id": "openstax-foundations-is-ch1-2",
+          "source": "chapter1-2.pdf",
+          "page": 13,
+          "text": "Figure 1.2 Typically, an information system includes people, as well as hardware, software, data, and procedures. (credit:\nmodification of work from Introduction to Computer Science. attribution: Copyright Rice University, OpenStax, under CC BY 4.0\nlicense)\nBefore looking closely at each component to understand what it entails and why it is important in IS, let’s start\nwith a brief overview of the five components.",
+          "metadata": {
+            "chapter": 1,
+            "chunking": "paragraph-v2:500",
+            "end_char": 417,
+            "language": "en",
+            "char_count": 417,
+            "start_char": 0,
+            "printed_page": 9,
+            "run_fingerprint": "e3d97a351de5a9a1b21aa4f7067d58515fcd6c5397aab0150987e9bd6a376b5f",
+            "extraction_status": "ok",
+            "normalized_char_count": 2399
+          },
+          "score": 0.09881143718245138,
+          "strategy": "tfidf",
+          "rank": 3
+        }
+      ],
+      "elapsed_ms": 4.320500000176253
+    }
+  ],
+  "embedding_usage": [],
+  "cost_usd": null
+}

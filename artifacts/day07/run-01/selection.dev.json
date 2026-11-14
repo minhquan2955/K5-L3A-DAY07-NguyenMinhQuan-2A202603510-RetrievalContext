@@ -1,0 +1,124 @@
+{
+  "selected_at": "2026-11-14T09:01:32.231063+00:00",
+  "selected_config": "tfidf-keywords",
+  "identity": {
+    "benchmark/cases.json": "33ed1503e1497fb784ee9e669efc3719d2fa767410b2ed438411419c6d3e3237",
+    "benchmark/configs.json": "88ac7e3208abac2f12927974e47b70319ed8c17d5b7a4b946c5a15d16172eee4",
+    "data/day06_reference.json": "a3a837e0bef6560b3203f3530864ee93a1723dd6c4dd159f0b7fd037ff2ce299",
+    "starter/benchmark.py": "95d5cd3e9c7318c66265fa6f7c540c064d12c50e53526db3d6cb0a4ae651c85b",
+    "starter/baseline.py": "cf51d4f4dd5412270d73b51cb117eef5329695fc8fd8eb637de050b3d6488c36",
+    "starter/agentic.py": "99172fb861aa0defe6b33dc6c581a4e84d16e71f4aa976e146992a0f7ac04486",
+    "starter/retrieval.py": "1d89e492d7319201fcd5507464018dee5b6c2a19756e6bc0e153b4a24876edea",
+    "starter/model_controller.py": "673a5c52900068653c350bed53e01357ba06686560fdee610f2ae7e9d64795fa"
+  },
+  "agent_model": "gpt-6-luna",
+  "summaries": [
+    {
+      "config_id": "dense-baseline",
+      "original_hit1": {
+        "n": 3,
+        "N": 15
+      },
+      "original_hit3": {
+        "n": 11,
+        "N": 15
+      },
+      "first_tool_hit1": {
+        "n": 9,
+        "N": 15
+      },
+      "first_tool_hit3": {
+        "n": 14,
+        "N": 15
+      },
+      "context_evidence": {
+        "n": 13,
+        "N": 15
+      },
+      "provider_errors": 0,
+      "original_retrieval_errors": 0,
+      "model_prompt_tokens": 21782,
+      "model_completion_tokens": 2598,
+      "embedding_tokens": 951,
+      "total_tokens": 25331,
+      "median_ms": 4218.373600000632,
+      "search_count_distribution": {
+        "1": 17
+      },
+      "cost_usd": null,
+      "cost_note": "Unpriced; measured token usage is reported, not an invented USD estimate."
+    },
+    {
+      "config_id": "tfidf-keywords",
+      "original_hit1": {
+        "n": 4,
+        "N": 15
+      },
+      "original_hit3": {
+        "n": 5,
+        "N": 15
+      },
+      "first_tool_hit1": {
+        "n": 12,
+        "N": 15
+      },
+      "first_tool_hit3": {
+        "n": 14,
+        "N": 15
+      },
+      "context_evidence": {
+        "n": 14,
+        "N": 15
+      },
+      "provider_errors": 0,
+      "original_retrieval_errors": 0,
+      "model_prompt_tokens": 22151,
+      "model_completion_tokens": 2621,
+      "embedding_tokens": 0,
+      "total_tokens": 24772,
+      "median_ms": 3385.9609000028286,
+      "search_count_distribution": {
+        "1": 17
+      },
+      "cost_usd": null,
+      "cost_note": "Unpriced; measured token usage is reported, not an invented USD estimate."
+    },
+    {
+      "config_id": "hybrid-context",
+      "original_hit1": {
+        "n": 4,
+        "N": 15
+      },
+      "original_hit3": {
+        "n": 9,
+        "N": 15
+      },
+      "first_tool_hit1": {
+        "n": 11,
+        "N": 15
+      },
+      "first_tool_hit3": {
+        "n": 14,
+        "N": 15
+      },
+      "context_evidence": {
+        "n": 14,
+        "N": 15
+      },
+      "provider_errors": 0,
+      "original_retrieval_errors": 0,
+      "model_prompt_tokens": 34864,
+      "model_completion_tokens": 2960,
+      "embedding_tokens": 1030,
+      "total_tokens": 38854,
+      "median_ms": 4174.551100000826,
+      "search_count_distribution": {
+        "1": 15,
+        "3": 2
+      },
+      "cost_usd": null,
+      "cost_note": "Unpriced; measured token usage is reported, not an invented USD estimate."
+    }
+  ],
+  "rule": "context evidence count, first-tool Hit@3, fewer provider/retrieval errors, fewer tokens, config ID"
+}
